@@ -1,46 +1,58 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ShipinHao Open Source Nav | GitHub Project Navigation</title>
-  <meta name="description" content="A clean navigation site for useful GitHub and open-source projects. Discover AI agents, web frameworks, backend tools, automation, analytics, deployment and monitoring resources.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <title>拾品号导航 - GitHub 开源项目导航</title>
+  <meta name="description" content="拾品号导航：精选 GitHub 开源项目、AI 工具、建站框架、自动化、数据分析、部署运维和 CMS 资源，一站式快速访问。">
+  <meta name="keywords" content="GitHub导航,开源项目导航,AI工具导航,开发者工具,建站工具,自动化工具">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://shipinhao.de5.net/">
-  <meta property="og:title" content="ShipinHao Open Source Nav">
-  <meta property="og:description" content="Curated navigation for useful GitHub and open-source projects.">
+  <meta property="og:title" content="拾品号导航 - GitHub 开源项目导航">
+  <meta property="og:description" content="精选 GitHub 开源项目和开发者工具，一站式快速访问。">
   <meta property="og:image" content="/assets/hero-github-directory.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="/assets/style.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"ShipinHao Open Source Nav","url":"https://shipinhao.de5.net/","description":"Curated navigation site for useful GitHub and open-source projects.","potentialAction":{"@type":"SearchAction","target":"https://shipinhao.de5.net/projects/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <link rel="stylesheet" href="/assets/nav-style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"拾品号导航","url":"https://shipinhao.de5.net/","description":"GitHub 开源项目导航站","potentialAction":{"@type":"SearchAction","target":"https://shipinhao.de5.net/projects/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 </head>
 <body>
-<header class="site-header compact">
-  <a class="brand" href="/">ShipinHao Nav</a>
-  <nav><a href="#categories">Categories</a><a href="/projects/">All Tools</a><a href="/submit.html">Submit</a></nav>
-</header>
-<main>
-<section class="nav-hero">
-  <div>
-    <span class="eyebrow">GitHub · Open Source · Tools</span>
-    <h1>Useful open-source projects, organized like a navigation site.</h1>
-    <p class="lead">Browse practical GitHub projects by category: AI agents, web frameworks, backend, automation, data analytics, deployment, monitoring and CMS tools.</p>
-    <div class="nav-search"><input id="homeSearch" type="search" placeholder="Search tools: agents, CMS, deployment, analytics..."><a class="button primary" href="/projects/">Browse All</a></div>
-  </div>
-</section>
-<section class="section nav-layout" id="categories">
-  <aside class="side-panel"><h3>Categories</h3><div id="categoryList" class="category-list"></div></aside>
-  <div>
-    <div class="section-heading"><div><span class="eyebrow">Featured</span><h2>Recommended projects</h2></div><a class="button ghost" href="/projects/">View all</a></div>
-    <div class="nav-grid" id="featuredGrid"></div>
-  </div>
-</section>
-<section class="section">
-  <div class="section-heading"><div><span class="eyebrow">Why this nav exists</span><h2>Less article, more direct access.</h2></div></div>
-  <div class="cards categories"><a href="/projects/?category=AI%20Agents"><b>AI builders</b><span>Agent frameworks and workflow tools</span></a><a href="/projects/?category=Backend%20%26%20Database"><b>MVP builders</b><span>Backend, auth and database stacks</span></a><a href="/projects/?category=Deployment"><b>Operators</b><span>Deploy, monitor and run services</span></a></div>
-</section>
-</main>
-<footer><p>© 2026 ShipinHao Open Source Nav. Independent curated navigation, not affiliated with GitHub.</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">sitemap</a></p></footer>
-<script src="/assets/app.js" defer></script>
+  <main class="home-shell">
+    <div class="bg-mask"></div>
+    <header class="top-menu">
+      <a class="logo" href="/">拾品号导航</a>
+      <nav id="topCategories"></nav>
+      <a class="admin-link" href="/submit.html">提交收录</a>
+    </header>
+
+    <section class="search-section">
+      <h1>GitHub 开源项目导航</h1>
+      <p>精选 AI、建站、后端、自动化、数据分析和部署运维工具</p>
+      <div class="engine-tabs">
+        <button class="active" data-engine="github">GitHub</button>
+        <button data-engine="google">Google</button>
+        <button data-engine="bing">Bing</button>
+      </div>
+      <div class="search-box">
+        <input id="searchInput" type="search" placeholder="搜索项目、分类或直接回车跳转搜索...">
+        <button id="searchBtn" title="搜索">⌕</button>
+      </div>
+    </section>
+
+    <section class="content-wrap">
+      <aside class="ad-space left"><div>开源<br>工具</div></aside>
+      <section class="main-content">
+        <div class="category-title"><span id="activeTitle">推荐项目</span><small id="resultCount"></small></div>
+        <div class="link-grid" id="linkGrid"></div>
+      </section>
+      <aside class="ad-space right"><div>快速<br>访问</div></aside>
+    </section>
+
+    <footer class="footer">
+      <button id="friendBtn">友情链接</button>
+      <a href="/projects/">全部项目</a>
+      <a href="/llms.txt">AI 说明</a>
+      <a href="/sitemap.xml">站点地图</a>
+    </footer>
+  </main>
+  <script src="/assets/nav-app.js" defer></script>
 </body>
 </html>
