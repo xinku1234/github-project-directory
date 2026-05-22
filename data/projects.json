@@ -1,104 +1,314 @@
 [
   {
-    "name": "awesome-ai-agents",
-    "tagline": "Curated AI agent frameworks, templates and eval tools for builders.",
+    "name": "OpenAI Agents SDK",
     "category": "AI Agents",
-    "language": "Python / TypeScript",
-    "license": "MIT / Apache-2.0",
-    "stars": "12k+",
-    "updated": "2026-05",
-    "url": "https://github.com/topics/ai-agents",
-    "bestFor": "Teams comparing open-source agent stacks before building workflows.",
-    "signals": [
-      "Agent framework comparison",
-      "Prompt / tool calling examples",
-      "Evaluation resources"
+    "url": "https://github.com/openai/openai-agents-python",
+    "desc": "Official Python SDK for building agentic apps with tools, handoffs and guardrails.",
+    "tags": [
+      "agents",
+      "python",
+      "tools"
     ],
-    "related": "/guides/how-to-evaluate-ai-agent-frameworks.html"
+    "badge": "Official",
+    "featured": true
   },
   {
-    "name": "open-source-saas-starter",
-    "tagline": "Production-ready SaaS starters for authentication, billing and dashboards.",
-    "category": "SaaS Starter",
-    "language": "TypeScript",
-    "license": "MIT",
-    "stars": "8k+",
-    "updated": "2026-05",
-    "url": "https://github.com/topics/saas-starter",
-    "bestFor": "Founders who need a quick MVP base with auth, Stripe and admin panels.",
-    "signals": [
-      "Auth patterns",
-      "Billing examples",
-      "Deployment docs"
+    "name": "LangGraph",
+    "category": "AI Agents",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "desc": "Build stateful, multi-agent workflows with graph-based orchestration.",
+    "tags": [
+      "workflow",
+      "agents",
+      "python"
     ],
-    "related": "/guides/github-project-selection-checklist.html"
+    "badge": "Popular",
+    "featured": true
   },
   {
-    "name": "data-dashboard-templates",
-    "tagline": "Open dashboards and BI templates for analytics, finance and operations.",
-    "category": "Data Tools",
-    "language": "Python / SQL",
-    "license": "Apache-2.0",
-    "stars": "5k+",
-    "updated": "2026-05",
-    "url": "https://github.com/topics/dashboard",
-    "bestFor": "Operators turning spreadsheets or APIs into usable reporting tools.",
-    "signals": [
-      "CSV/API connectors",
-      "Chart examples",
-      "Deployment notes"
+    "name": "AutoGen",
+    "category": "AI Agents",
+    "url": "https://github.com/microsoft/autogen",
+    "desc": "Microsoft's framework for multi-agent AI applications and conversations.",
+    "tags": [
+      "multi-agent",
+      "microsoft",
+      "framework"
     ],
-    "related": "/guides/what-makes-a-github-project-worth-using.html"
+    "badge": "Popular",
+    "featured": false
   },
   {
-    "name": "developer-automation-scripts",
-    "tagline": "Reusable scripts for GitHub Actions, repo maintenance and release workflows.",
-    "category": "DevOps",
-    "language": "Shell / YAML",
-    "license": "MIT",
-    "stars": "3k+",
-    "updated": "2026-05",
-    "url": "https://github.com/topics/github-actions",
-    "bestFor": "Small teams automating CI, releases, changelogs and dependency checks.",
-    "signals": [
-      "Workflow examples",
-      "Security notes",
-      "Maintenance cadence"
+    "name": "CrewAI",
+    "category": "AI Agents",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "desc": "Role-based agent framework for automating collaborative AI workflows.",
+    "tags": [
+      "roles",
+      "automation",
+      "agents"
     ],
-    "related": "/guides/github-project-selection-checklist.html"
+    "badge": "Popular",
+    "featured": false
   },
   {
-    "name": "lightweight-web-app-kits",
-    "tagline": "Static and serverless app kits for landing pages, directories and micro tools.",
-    "category": "Web Apps",
-    "language": "HTML / JS",
-    "license": "MIT",
-    "stars": "4k+",
-    "updated": "2026-05",
-    "url": "https://github.com/topics/static-site",
-    "bestFor": "Makers building fast directory sites, calculators, generators and SEO tools.",
-    "signals": [
-      "No-backend patterns",
-      "Static deployment",
-      "SEO structure"
+    "name": "Next.js",
+    "category": "Web Frameworks",
+    "url": "https://github.com/vercel/next.js",
+    "desc": "React framework for production apps, static sites and full-stack web products.",
+    "tags": [
+      "react",
+      "web",
+      "full-stack"
     ],
-    "related": "/guides/how-to-build-ai-search-friendly-directory.html"
+    "badge": "Essential",
+    "featured": true
   },
   {
-    "name": "opensource-monetization-examples",
-    "tagline": "Examples of sponsor pages, paid plugins, hosted services and consulting funnels.",
-    "category": "Monetization",
-    "language": "Mixed",
-    "license": "Mixed",
-    "stars": "2k+",
-    "updated": "2026-05",
-    "url": "https://github.com/topics/open-source",
-    "bestFor": "Builders looking for practical ways to turn GitHub traffic into leads.",
-    "signals": [
-      "Sponsor links",
-      "Service CTA",
-      "Docs-to-leads flow"
+    "name": "Astro",
+    "category": "Web Frameworks",
+    "url": "https://github.com/withastro/astro",
+    "desc": "Content-focused web framework for fast static sites, docs and directories.",
+    "tags": [
+      "static-site",
+      "docs",
+      "performance"
     ],
-    "related": "/guides/open-source-project-monetization.html"
+    "badge": "Fast",
+    "featured": true
+  },
+  {
+    "name": "Hugo",
+    "category": "Web Frameworks",
+    "url": "https://github.com/gohugoio/hugo",
+    "desc": "Fast static site generator suitable for blogs, docs and navigation sites.",
+    "tags": [
+      "static",
+      "go",
+      "content"
+    ],
+    "badge": "Fast",
+    "featured": false
+  },
+  {
+    "name": "Docusaurus",
+    "category": "Docs & Knowledge",
+    "url": "https://github.com/facebook/docusaurus",
+    "desc": "Documentation website generator with docs, blog, search and versioning.",
+    "tags": [
+      "docs",
+      "knowledge-base",
+      "react"
+    ],
+    "badge": "Docs",
+    "featured": false
+  },
+  {
+    "name": "NocoDB",
+    "category": "No-Code & Admin",
+    "url": "https://github.com/nocodb/nocodb",
+    "desc": "Open-source Airtable alternative for managing structured data quickly.",
+    "tags": [
+      "database",
+      "no-code",
+      "admin"
+    ],
+    "badge": "No-code",
+    "featured": true
+  },
+  {
+    "name": "Appsmith",
+    "category": "No-Code & Admin",
+    "url": "https://github.com/appsmithorg/appsmith",
+    "desc": "Build internal tools, dashboards and admin panels from APIs and databases.",
+    "tags": [
+      "internal-tools",
+      "dashboard",
+      "low-code"
+    ],
+    "badge": "Internal Tools",
+    "featured": false
+  },
+  {
+    "name": "Supabase",
+    "category": "Backend & Database",
+    "url": "https://github.com/supabase/supabase",
+    "desc": "Open-source Firebase alternative with Postgres, auth, storage and edge functions.",
+    "tags": [
+      "postgres",
+      "auth",
+      "backend"
+    ],
+    "badge": "Backend",
+    "featured": true
+  },
+  {
+    "name": "PocketBase",
+    "category": "Backend & Database",
+    "url": "https://github.com/pocketbase/pocketbase",
+    "desc": "Single-file backend with database, auth, realtime and admin UI.",
+    "tags": [
+      "backend",
+      "sqlite",
+      "mvp"
+    ],
+    "badge": "MVP",
+    "featured": false
+  },
+  {
+    "name": "Directus",
+    "category": "Backend & Database",
+    "url": "https://github.com/directus/directus",
+    "desc": "Headless CMS and data platform for SQL databases.",
+    "tags": [
+      "cms",
+      "database",
+      "api"
+    ],
+    "badge": "CMS",
+    "featured": false
+  },
+  {
+    "name": "n8n",
+    "category": "Automation",
+    "url": "https://github.com/n8n-io/n8n",
+    "desc": "Workflow automation tool for connecting APIs, apps and AI tasks.",
+    "tags": [
+      "automation",
+      "workflow",
+      "integration"
+    ],
+    "badge": "Automation",
+    "featured": true
+  },
+  {
+    "name": "Windmill",
+    "category": "Automation",
+    "url": "https://github.com/windmill-labs/windmill",
+    "desc": "Open-source platform to turn scripts into workflows, apps and scheduled jobs.",
+    "tags": [
+      "scripts",
+      "workflows",
+      "jobs"
+    ],
+    "badge": "DevOps",
+    "featured": false
+  },
+  {
+    "name": "Metabase",
+    "category": "Data & Analytics",
+    "url": "https://github.com/metabase/metabase",
+    "desc": "Business intelligence dashboard tool for teams and data exploration.",
+    "tags": [
+      "bi",
+      "dashboard",
+      "analytics"
+    ],
+    "badge": "BI",
+    "featured": true
+  },
+  {
+    "name": "Apache Superset",
+    "category": "Data & Analytics",
+    "url": "https://github.com/apache/superset",
+    "desc": "Enterprise-ready data visualization and exploration platform.",
+    "tags": [
+      "analytics",
+      "charts",
+      "sql"
+    ],
+    "badge": "Apache",
+    "featured": false
+  },
+  {
+    "name": "PostHog",
+    "category": "Data & Analytics",
+    "url": "https://github.com/PostHog/posthog",
+    "desc": "Product analytics, session replay, feature flags and experiments.",
+    "tags": [
+      "product-analytics",
+      "events",
+      "growth"
+    ],
+    "badge": "Growth",
+    "featured": false
+  },
+  {
+    "name": "Coolify",
+    "category": "Deployment",
+    "url": "https://github.com/coollabsio/coolify",
+    "desc": "Self-hosted platform for deploying apps, databases and services.",
+    "tags": [
+      "deploy",
+      "self-host",
+      "paas"
+    ],
+    "badge": "Deploy",
+    "featured": true
+  },
+  {
+    "name": "Dokploy",
+    "category": "Deployment",
+    "url": "https://github.com/Dokploy/dokploy",
+    "desc": "Open-source deployment platform for Docker-based apps and services.",
+    "tags": [
+      "docker",
+      "deploy",
+      "server"
+    ],
+    "badge": "Deploy",
+    "featured": false
+  },
+  {
+    "name": "Uptime Kuma",
+    "category": "Ops & Monitoring",
+    "url": "https://github.com/louislam/uptime-kuma",
+    "desc": "Self-hosted uptime monitoring with beautiful status pages.",
+    "tags": [
+      "monitoring",
+      "status-page",
+      "ops"
+    ],
+    "badge": "Monitoring",
+    "featured": true
+  },
+  {
+    "name": "Grafana",
+    "category": "Ops & Monitoring",
+    "url": "https://github.com/grafana/grafana",
+    "desc": "Open observability platform for metrics, logs, traces and dashboards.",
+    "tags": [
+      "observability",
+      "dashboard",
+      "metrics"
+    ],
+    "badge": "Ops",
+    "featured": false
+  },
+  {
+    "name": "Payload CMS",
+    "category": "Content & CMS",
+    "url": "https://github.com/payloadcms/payload",
+    "desc": "TypeScript headless CMS for websites, apps and content platforms.",
+    "tags": [
+      "cms",
+      "typescript",
+      "content"
+    ],
+    "badge": "CMS",
+    "featured": false
+  },
+  {
+    "name": "Strapi",
+    "category": "Content & CMS",
+    "url": "https://github.com/strapi/strapi",
+    "desc": "Open-source headless CMS for content APIs and editorial workflows.",
+    "tags": [
+      "cms",
+      "api",
+      "content"
+    ],
+    "badge": "CMS",
+    "featured": false
   }
 ]

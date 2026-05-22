@@ -3,54 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GitHub Project Directory | Find useful open-source projects faster</title>
-  <meta name="description" content="A curated GitHub project directory for builders, founders and teams. Compare open-source tools by use case, language, license, maintenance signals and monetization potential.">
+  <title>ShipinHao Open Source Nav | GitHub Project Navigation</title>
+  <meta name="description" content="A clean navigation site for useful GitHub and open-source projects. Discover AI agents, web frameworks, backend tools, automation, analytics, deployment and monitoring resources.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://shipinhao.de5.net/">
-  <meta property="og:title" content="GitHub Project Directory">
-  <meta property="og:description" content="Find useful open-source GitHub projects with clear comparison tables, selection guides and AI-search-friendly summaries.">
+  <meta property="og:title" content="ShipinHao Open Source Nav">
+  <meta property="og:description" content="Curated navigation for useful GitHub and open-source projects.">
   <meta property="og:image" content="/assets/hero-github-directory.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/style.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"GitHub Project Directory","description":"Curated directory of useful open-source GitHub projects, selection guides and technical resources.","potentialAction":{"@type":"SearchAction","target":"https://shipinhao.de5.net/projects/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"ShipinHao Open Source Nav","url":"https://shipinhao.de5.net/","description":"Curated navigation site for useful GitHub and open-source projects.","potentialAction":{"@type":"SearchAction","target":"https://shipinhao.de5.net/projects/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="/">GitHub Project Directory</a>
-  <nav><a href="/projects/">Projects</a><a href="/guides/">Guides</a><a href="/resources.html">Resources</a><a class="pill" href="/submit.html">Submit Project</a></nav>
+<header class="site-header compact">
+  <a class="brand" href="/">ShipinHao Nav</a>
+  <nav><a href="#categories">Categories</a><a href="/projects/">All Tools</a><a href="/submit.html">Submit</a></nav>
 </header>
 <main>
-<section class="hero">
-  <div class="hero-copy">
-    <span class="eyebrow">AI-search-friendly open-source discovery</span>
-    <h1>Find useful GitHub projects by problem, not by hype.</h1>
-    <p class="lead">A structured directory for builders who need practical open-source tools. Compare repositories by use case, language, license, maintenance signals, documentation quality and monetization potential.</p>
-    <div class="hero-actions"><a class="button primary" href="/projects/">Browse Projects</a><a class="button ghost" href="/guides/how-to-build-ai-search-friendly-directory.html">Read GEO Guide</a></div>
-    <dl class="metrics"><div><dt>6</dt><dd>starter categories</dd></div><div><dt>4</dt><dd>selection guides</dd></div><div><dt>AI</dt><dd>answer-ready pages</dd></div></dl>
-  </div>
-  <img src="/assets/hero-github-directory.png" alt="Abstract interface showing a curated GitHub and open-source project directory" loading="eager">
-</section>
-<section class="section grid-two">
+<section class="nav-hero">
   <div>
-    <span class="eyebrow">Inspired by GEO growth</span>
-    <h2>Turn a directory into an answer engine.</h2>
-    <p>Instead of only listing links, each page answers a real builder question: what the project does, when to use it, what to compare, what risks to check, and how it connects to a practical workflow.</p>
+    <span class="eyebrow">GitHub · Open Source · Tools</span>
+    <h1>Useful open-source projects, organized like a navigation site.</h1>
+    <p class="lead">Browse practical GitHub projects by category: AI agents, web frameworks, backend, automation, data analytics, deployment, monitoring and CMS tools.</p>
+    <div class="nav-search"><input id="homeSearch" type="search" placeholder="Search tools: agents, CMS, deployment, analytics..."><a class="button primary" href="/projects/">Browse All</a></div>
   </div>
-  <div class="answer-card">
-    <h3>What makes this AI-search friendly?</h3>
-    <ul class="check-list"><li>One search intent per page</li><li>Clear definitions, comparison tables and FAQ</li><li>Structured project data in JSON</li><li>Internal links between guides and projects</li><li>Plain-language summaries engineers can cite</li></ul>
+</section>
+<section class="section nav-layout" id="categories">
+  <aside class="side-panel"><h3>Categories</h3><div id="categoryList" class="category-list"></div></aside>
+  <div>
+    <div class="section-heading"><div><span class="eyebrow">Featured</span><h2>Recommended projects</h2></div><a class="button ghost" href="/projects/">View all</a></div>
+    <div class="nav-grid" id="featuredGrid"></div>
   </div>
 </section>
 <section class="section">
-  <div class="section-heading"><span class="eyebrow">Categories</span><h2>Start with high-value open-source use cases</h2></div>
-  <div class="cards categories"><a href="/projects/?category=AI%20Agents"><b>AI Agents</b><span>Frameworks, tools and evals</span></a><a href="/projects/?category=SaaS%20Starter"><b>SaaS Starters</b><span>Auth, billing and dashboards</span></a><a href="/projects/?category=Data%20Tools"><b>Data Tools</b><span>Dashboards and analytics kits</span></a><a href="/projects/?category=DevOps"><b>DevOps</b><span>GitHub Actions and automation</span></a><a href="/projects/?category=Web%20Apps"><b>Web Apps</b><span>Static and serverless kits</span></a><a href="/projects/?category=Monetization"><b>Monetization</b><span>Open-source business examples</span></a></div>
-</section>
-<section class="section split-cta">
-  <div><span class="eyebrow">Selection workflow</span><h2>Use the checklist before you clone.</h2><p>Good directories reduce decision risk. The first guides cover maintenance, license, documentation, issue quality, deployability and commercial potential.</p></div>
-  <a class="button primary" href="/guides/github-project-selection-checklist.html">Open Checklist</a>
+  <div class="section-heading"><div><span class="eyebrow">Why this nav exists</span><h2>Less article, more direct access.</h2></div></div>
+  <div class="cards categories"><a href="/projects/?category=AI%20Agents"><b>AI builders</b><span>Agent frameworks and workflow tools</span></a><a href="/projects/?category=Backend%20%26%20Database"><b>MVP builders</b><span>Backend, auth and database stacks</span></a><a href="/projects/?category=Deployment"><b>Operators</b><span>Deploy, monitor and run services</span></a></div>
 </section>
 </main>
-<footer><p>© 2026 GitHub Project Directory. Independent curated resource, not affiliated with GitHub.</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">sitemap</a></p></footer>
+<footer><p>© 2026 ShipinHao Open Source Nav. Independent curated navigation, not affiliated with GitHub.</p><p><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">sitemap</a></p></footer>
 <script src="/assets/app.js" defer></script>
 </body>
 </html>
