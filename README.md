@@ -22,7 +22,7 @@ python3 -m http.server 4173
 
 ## Next steps before public launch
 
-1. Replace `https://example.com` in `index.html`, `robots.txt`, and `sitemap.xml` with the real domain.
+1. Use `https://daohang.bot.cd/` as the canonical public domain for SEO, sitemap, robots, and sharing links.
 2. Replace placeholder GitHub topic links with hand-reviewed real repositories.
 3. Connect `submit.html` to Airtable, Notion, Formspree, or a serverless function.
 4. Add category landing pages for long-tail SEO/GEO traffic.
