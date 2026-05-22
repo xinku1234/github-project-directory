@@ -12,7 +12,8 @@
     "badge": "Official",
     "featured": true,
     "category_cn": "AI 智能体",
-    "icon": "OA"
+    "icon": "OA",
+    "desc_cn": "OpenAI 官方 Python 智能体 SDK，支持工具调用、任务交接和安全护栏。"
   },
   {
     "name": "LangGraph",
@@ -27,7 +28,8 @@
     "badge": "Popular",
     "featured": true,
     "category_cn": "AI 智能体",
-    "icon": "L"
+    "icon": "L",
+    "desc_cn": "基于图结构编排有状态、多智能体工作流，适合复杂 AI 应用。"
   },
   {
     "name": "AutoGen",
@@ -42,7 +44,8 @@
     "badge": "Popular",
     "featured": false,
     "category_cn": "AI 智能体",
-    "icon": "A"
+    "icon": "A",
+    "desc_cn": "微软开源的多智能体应用框架，用于自动化 AI 对话和协作。"
   },
   {
     "name": "CrewAI",
@@ -57,7 +60,8 @@
     "badge": "Popular",
     "featured": false,
     "category_cn": "AI 智能体",
-    "icon": "C"
+    "icon": "C",
+    "desc_cn": "基于角色分工的智能体协作框架，适合自动化团队式任务流程。"
   },
   {
     "name": "Next.js",
@@ -72,7 +76,8 @@
     "badge": "Essential",
     "featured": true,
     "category_cn": "建站框架",
-    "icon": "N"
+    "icon": "N",
+    "desc_cn": "用于构建生产级 React 应用、静态网站和全栈产品的主流框架。"
   },
   {
     "name": "Astro",
@@ -87,7 +92,8 @@
     "badge": "Fast",
     "featured": true,
     "category_cn": "建站框架",
-    "icon": "A"
+    "icon": "A",
+    "desc_cn": "面向内容站、文档站和目录站的高速静态网站框架。"
   },
   {
     "name": "Hugo",
@@ -102,7 +108,8 @@
     "badge": "Fast",
     "featured": false,
     "category_cn": "建站框架",
-    "icon": "H"
+    "icon": "H",
+    "desc_cn": "高性能静态网站生成器，适合博客、文档和内容型网站。"
   },
   {
     "name": "Docusaurus",
@@ -117,7 +124,8 @@
     "badge": "Docs",
     "featured": false,
     "category_cn": "文档知识库",
-    "icon": "D"
+    "icon": "D",
+    "desc_cn": "快速搭建开源项目文档站、知识库和技术内容网站。"
   },
   {
     "name": "NocoDB",
@@ -132,7 +140,8 @@
     "badge": "No-code",
     "featured": true,
     "category_cn": "低代码后台",
-    "icon": "N"
+    "icon": "N",
+    "desc_cn": "开源 Airtable 替代方案，可快速管理结构化数据和后台表格。"
   },
   {
     "name": "Appsmith",
@@ -147,7 +156,8 @@
     "badge": "Internal Tools",
     "featured": false,
     "category_cn": "低代码后台",
-    "icon": "A"
+    "icon": "A",
+    "desc_cn": "开源低代码内部工具平台，可快速搭建后台、面板和管理系统。"
   },
   {
     "name": "Supabase",
@@ -162,7 +172,8 @@
     "badge": "Backend",
     "featured": true,
     "category_cn": "后端数据库",
-    "icon": "S"
+    "icon": "S",
+    "desc_cn": "开源 Firebase 替代方案，提供 Postgres、认证、存储和边缘函数。"
   },
   {
     "name": "PocketBase",
@@ -177,7 +188,8 @@
     "badge": "MVP",
     "featured": false,
     "category_cn": "后端数据库",
-    "icon": "P"
+    "icon": "P",
+    "desc_cn": "轻量级后端服务，内置数据库、认证、文件存储和管理后台。"
   },
   {
     "name": "Directus",
@@ -192,7 +204,8 @@
     "badge": "CMS",
     "featured": false,
     "category_cn": "后端数据库",
-    "icon": "D"
+    "icon": "D",
+    "desc_cn": "基于数据库的 Headless CMS，可把 SQL 数据库变成内容和 API 平台。"
   },
   {
     "name": "n8n",
@@ -207,7 +220,8 @@
     "badge": "Automation",
     "featured": true,
     "category_cn": "自动化",
-    "icon": "N"
+    "icon": "N",
+    "desc_cn": "可视化工作流自动化工具，用于连接 API、应用和 AI 任务。"
   },
   {
     "name": "Windmill",
@@ -222,7 +236,8 @@
     "badge": "DevOps",
     "featured": false,
     "category_cn": "自动化",
-    "icon": "W"
+    "icon": "W",
+    "desc_cn": "面向脚本、工作流和内部应用的开源自动化平台。"
   },
   {
     "name": "Metabase",
@@ -237,7 +252,8 @@
     "badge": "BI",
     "featured": true,
     "category_cn": "数据分析",
-    "icon": "M"
+    "icon": "M",
+    "desc_cn": "商业智能与数据看板工具，适合团队探索和展示数据。"
   },
   {
     "name": "Apache Superset",
@@ -252,7 +268,8 @@
     "badge": "Apache",
     "featured": false,
     "category_cn": "数据分析",
-    "icon": "AS"
+    "icon": "AS",
+    "desc_cn": "开源数据可视化与商业智能平台，适合构建图表和分析看板。"
   },
   {
     "name": "PostHog",
@@ -267,7 +284,8 @@
     "badge": "Growth",
     "featured": false,
     "category_cn": "数据分析",
-    "icon": "P"
+    "icon": "P",
+    "desc_cn": "开源产品分析平台，支持事件分析、实验、录屏和用户洞察。"
   },
   {
     "name": "Coolify",
@@ -282,7 +300,8 @@
     "badge": "Deploy",
     "featured": true,
     "category_cn": "部署托管",
-    "icon": "C"
+    "icon": "C",
+    "desc_cn": "自托管部署平台，可管理应用、数据库和服务部署。"
   },
   {
     "name": "Dokploy",
@@ -297,7 +316,8 @@
     "badge": "Deploy",
     "featured": false,
     "category_cn": "部署托管",
-    "icon": "D"
+    "icon": "D",
+    "desc_cn": "开源部署平台，提供类似 PaaS 的应用部署和服务器管理体验。"
   },
   {
     "name": "Uptime Kuma",
@@ -312,7 +332,8 @@
     "badge": "Monitoring",
     "featured": true,
     "category_cn": "运维监控",
-    "icon": "UK"
+    "icon": "UK",
+    "desc_cn": "自托管网站/服务监控工具，可生成漂亮的状态页。"
   },
   {
     "name": "Grafana",
@@ -327,7 +348,8 @@
     "badge": "Ops",
     "featured": false,
     "category_cn": "运维监控",
-    "icon": "G"
+    "icon": "G",
+    "desc_cn": "开源可观测性平台，用于指标、日志和监控看板展示。"
   },
   {
     "name": "Payload CMS",
@@ -342,7 +364,8 @@
     "badge": "CMS",
     "featured": false,
     "category_cn": "内容 CMS",
-    "icon": "PC"
+    "icon": "PC",
+    "desc_cn": "面向开发者的 TypeScript CMS，适合 Next.js 项目和定制内容系统。"
   },
   {
     "name": "Strapi",
@@ -357,6 +380,7 @@
     "badge": "CMS",
     "featured": false,
     "category_cn": "内容 CMS",
-    "icon": "S"
+    "icon": "S",
+    "desc_cn": "开源 Headless CMS，适合构建内容 API 和管理后台。"
   }
 ]

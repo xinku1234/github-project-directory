@@ -9,3 +9,9 @@
 @media(max-width:460px){.mini-grid{grid-template-columns:1fr}.directory-intro{padding:.85rem}.tag-row b{margin-left:0}}
 
 .friend-link{font-weight:800;color:#fff!important}.friend-link:before{content:"↗";margin-right:.35rem;color:#74c2ff}
+
+/* Keep the footer link bar at the visual bottom of each page */
+.home-shell{display:flex;flex-direction:column}
+.content-wrap{flex:1;width:100%}
+.footer{margin-top:auto;min-height:76px;align-items:center;background:linear-gradient(180deg,transparent,#06101f96);border-top:1px solid #ffffff0b}
+@media(max-width:768px){.footer{min-height:66px;padding:1rem .8rem 1.2rem;gap:1.15rem}}
