@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
+
+# AI/search discovery helpers
+Allow: /llms.txt
+Allow: /data/projects.json
+Allow: /data/github-rising.json
+Allow: /trending/
+
 Sitemap: https://daohang.bot.cd/sitemap.xml

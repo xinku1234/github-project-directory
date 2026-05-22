@@ -1,0 +1,37 @@
+name: Sync fast-rising GitHub projects
+
+on:
+  schedule:
+    - cron: '16 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-rising:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Sync GitHub rising repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RISING_WINDOW_DAYS: '45'
+          RISING_MIN_STARS: '50'
+          RISING_LIMIT: '36'
+        run: |
+          python3 scripts/sync_github_rising.py
+          python3 scripts/build_seo_geo.py
+      - name: Commit updated project data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add data/projects.json data/github-rising.json trending/index.html sitemap.xml llms.txt robots.txt
+            git commit -m "Sync fast-rising GitHub projects"
+            git push
+          else
+            echo "No rising project changes."
+          fi
