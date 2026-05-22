@@ -26,6 +26,7 @@
     <section class="search-section">
       <h1 data-i18n="homeTitle">GitHub 开源项目导航</h1>
       <p data-i18n="homeSubtitle">精选 AI、建站、后端、自动化、数据分析和部署运维工具</p>
+      <p class="daily-line" id="dailyLine">上网，从拾品号导航开始。少一点广告，多一点直达。</p>
       <div class="engine-tabs">
         <button class="active" data-engine="github">GitHub</button>
         <button data-engine="google">Google</button>
@@ -37,13 +38,22 @@
       </div>
     </section>
 
-    <section class="content-wrap">
-      <aside class="ad-space left"><div data-i18n-html="sideLeft">开源<br>工具</div></aside>
+    <section class="content-wrap webstack-layout">
+      <aside class="category-sidebar" id="categorySidebar" aria-label="分类目录"></aside>
       <section class="main-content">
+        <div class="directory-intro">
+          <div><span class="eyebrow" data-i18n="curatedLabel">精选导航</span><strong data-i18n="directoryIntro">按 WebStack 式分区浏览，快速找到值得收藏的开源项目。</strong></div>
+          <div class="stats-row" id="statsRow"></div>
+        </div>
         <div class="category-title"><span id="activeTitle">推荐项目</span><small id="resultCount"></small></div>
         <div class="link-grid" id="linkGrid"></div>
+        <div class="section-list" id="sectionList"></div>
       </section>
-      <aside class="ad-space right"><div data-i18n-html="sideRight">快速<br>访问</div></aside>
+      <aside class="quick-panel" aria-label="快速入口">
+        <a href="/projects/" data-i18n="allProjects">全部项目</a>
+        <a href="/guides/" data-i18n="guides">使用指南</a>
+        <a href="/submit.html" data-i18n="submit">提交收录</a>
+      </aside>
     </section>
 
     <footer class="footer">
@@ -53,6 +63,7 @@
       <a href="/sitemap.xml" data-i18n="sitemap">站点地图</a>
     </footer>
   </main>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
   <script src="/assets/nav-app.js" defer></script>
 </body>
 </html>
