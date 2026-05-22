@@ -11,11 +11,38 @@ function t(k){return (I18N[lang]&&I18N[lang][k])||I18N.zh[k]||k}
 function catLabel(c){return (lang==='zh'?CAT_CN:CAT_EN)[c]||c}
 function cats(){return [...new Set(projects.map(p=>p.category))]}
 function applyI18n(){document.documentElement.lang=lang==='zh'?'zh-CN':'en'; document.title=lang==='zh'?'拾品号导航 - GitHub 开源项目导航':'ShipinHao Nav - GitHub Open Source Navigation'; document.querySelectorAll('[data-i18n]').forEach(el=>el.textContent=t(el.dataset.i18n)); document.querySelectorAll('[data-i18n-html]').forEach(el=>el.innerHTML=t(el.dataset.i18nHtml)); document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>el.placeholder=t(el.dataset.i18nPlaceholder)); const b=$('#langToggle'); if(b)b.textContent=lang==='zh'?'EN':'中文'; window.__lang=lang;}
-function card(p){return `<a class="link-item" href="${p.url}" target="_blank" rel="noopener" title="${p.name} - ${p.desc}"><span class="site-icon">${p.icon||p.name.slice(0,2).toUpperCase()}</span><strong>${p.name}</strong><em>${catLabel(p.category)}</em></a>`}
+function card(p){return `<a class="link-item" href="${p.url}" target="_blank" rel="noopener" title="${p.name} - ${p.desc}"><div class="card-head"><span class="site-icon">${p.icon||p.name.slice(0,2).toUpperCase()}</span><div class="title-wrap"><strong>${p.name}</strong><em>${catLabel(p.category)}</em></div></div><p class="link-desc">${p.desc}</p></a>`}
 function renderTop(){const nav=$('#topCategories'); if(!nav)return; const list=['__featured',...cats()]; nav.innerHTML=list.map(c=>`<button class="${c===active?'active':''}" data-cat="${c}">${c==='__featured'?t('recommended'):catLabel(c)}</button>`).join(''); nav.querySelectorAll('button').forEach(b=>b.onclick=()=>{active=b.dataset.cat; const inp=$('#searchInput'); if(inp)inp.value=''; render(); renderTop();});}
 function currentTitle(){if(location.pathname.startsWith('/projects/') && active==='__featured') return t('all'); return active==='__featured'?t('recommended'):catLabel(active)}
 function render(){const grid=$('#linkGrid'); if(!grid)return; const q=($('#searchInput')?.value||new URLSearchParams(location.search).get('q')||'').toLowerCase(); const urlCat=new URLSearchParams(location.search).get('category'); if(urlCat && active==='__featured') active=urlCat; let list=projects.filter(p=>{const byCat=active==='__featured'?p.featured:(active==='__all'||!active?true:p.category===active); const hay=[p.name,p.desc,p.category,catLabel(p.category),p.category_cn,...(p.tags||[])].join(' ').toLowerCase(); return byCat && hay.includes(q)}); if(location.pathname.startsWith('/projects/') && active==='__featured') list=projects.filter(p=>[p.name,p.desc,p.category,catLabel(p.category),p.category_cn,...(p.tags||[])].join(' ').toLowerCase().includes(q)); grid.innerHTML=list.map(card).join('')||`<p style="grid-column:1/-1;text-align:center;color:#fff">${t('noMatch')}</p>`; $('#activeTitle') && ($('#activeTitle').textContent=currentTitle()); $('#resultCount') && ($('#resultCount').textContent=lang==='zh'?`${list.length} ${t('count')}`:`${list.length} ${t('count')}`);}
 function doSearch(){const q=$('#searchInput')?.value.trim(); if(!q)return; const suffix=lang==='zh'?' GitHub 开源':' GitHub open source'; const urls={github:`https://github.com/search?q=${encodeURIComponent(q)}&type=repositories`,google:`https://www.google.com/search?q=${encodeURIComponent(q+suffix)}`,bing:`https://www.bing.com/search?q=${encodeURIComponent(q+suffix)}`}; window.open(urls[engine], '_blank','noopener');}
 function switchLang(){lang=lang==='zh'?'en':'zh'; localStorage.setItem('lang',lang); applyI18n(); renderTop(); render();}
-async function init(){projects=await (await fetch('/data/projects.json')).json(); if(location.pathname.startsWith('/projects/')) active='__featured'; applyI18n(); renderTop(); render(); $('#langToggle')?.addEventListener('click',switchLang); $('#searchInput')?.addEventListener('input',()=>{render();}); $('#searchInput')?.addEventListener('keydown',e=>{if(e.key==='Enter')doSearch();}); $('#searchBtn')?.addEventListener('click',doSearch); document.querySelectorAll('.engine-tabs button').forEach(b=>b.onclick=()=>{engine=b.dataset.engine; document.querySelectorAll('.engine-tabs button').forEach(x=>x.classList.toggle('active',x===b));}); $('#friendBtn')?.addEventListener('click',()=>alert(t('friendMsg')));}
+
+function initEffects(){
+  const fine=matchMedia('(pointer:fine)').matches;
+  document.addEventListener('pointermove',e=>{
+    document.documentElement.style.setProperty('--mx',`${e.clientX}px`);
+    document.documentElement.style.setProperty('--my',`${e.clientY}px`);
+    if(!fine)return;
+    const dot=document.createElement('span');
+    dot.className='cursor-trail';
+    dot.style.left=e.clientX+'px'; dot.style.top=e.clientY+'px';
+    document.body.appendChild(dot); setTimeout(()=>dot.remove(),780);
+    if(Math.random()<0.23){
+      const s=document.createElement('span'); s.className='sparkle';
+      s.style.left=e.clientX+'px'; s.style.top=e.clientY+'px';
+      s.style.setProperty('--dx',`${(Math.random()-.5)*70}px`);
+      s.style.setProperty('--dy',`${(Math.random()-.5)*70}px`);
+      document.body.appendChild(s); setTimeout(()=>s.remove(),1000);
+    }
+  },{passive:true});
+  document.addEventListener('pointermove',e=>{
+    const card=e.target.closest?.('.link-item'); if(!card)return;
+    const r=card.getBoundingClientRect();
+    card.style.setProperty('--card-x',`${e.clientX-r.left}px`);
+    card.style.setProperty('--card-y',`${e.clientY-r.top}px`);
+  },{passive:true});
+}
+
+async function init(){initEffects(); projects=await (await fetch('/data/projects.json')).json(); if(location.pathname.startsWith('/projects/')) active='__featured'; applyI18n(); renderTop(); render(); $('#langToggle')?.addEventListener('click',switchLang); $('#searchInput')?.addEventListener('input',()=>{render();}); $('#searchInput')?.addEventListener('keydown',e=>{if(e.key==='Enter')doSearch();}); $('#searchBtn')?.addEventListener('click',doSearch); document.querySelectorAll('.engine-tabs button').forEach(b=>b.onclick=()=>{engine=b.dataset.engine; document.querySelectorAll('.engine-tabs button').forEach(x=>x.classList.toggle('active',x===b));}); $('#friendBtn')?.addEventListener('click',()=>alert(t('friendMsg')));}
 init();
