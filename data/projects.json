@@ -1,0 +1,104 @@
+[
+  {
+    "name": "awesome-ai-agents",
+    "tagline": "Curated AI agent frameworks, templates and eval tools for builders.",
+    "category": "AI Agents",
+    "language": "Python / TypeScript",
+    "license": "MIT / Apache-2.0",
+    "stars": "12k+",
+    "updated": "2026-05",
+    "url": "https://github.com/topics/ai-agents",
+    "bestFor": "Teams comparing open-source agent stacks before building workflows.",
+    "signals": [
+      "Agent framework comparison",
+      "Prompt / tool calling examples",
+      "Evaluation resources"
+    ],
+    "related": "/guides/how-to-evaluate-ai-agent-frameworks.html"
+  },
+  {
+    "name": "open-source-saas-starter",
+    "tagline": "Production-ready SaaS starters for authentication, billing and dashboards.",
+    "category": "SaaS Starter",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": "8k+",
+    "updated": "2026-05",
+    "url": "https://github.com/topics/saas-starter",
+    "bestFor": "Founders who need a quick MVP base with auth, Stripe and admin panels.",
+    "signals": [
+      "Auth patterns",
+      "Billing examples",
+      "Deployment docs"
+    ],
+    "related": "/guides/github-project-selection-checklist.html"
+  },
+  {
+    "name": "data-dashboard-templates",
+    "tagline": "Open dashboards and BI templates for analytics, finance and operations.",
+    "category": "Data Tools",
+    "language": "Python / SQL",
+    "license": "Apache-2.0",
+    "stars": "5k+",
+    "updated": "2026-05",
+    "url": "https://github.com/topics/dashboard",
+    "bestFor": "Operators turning spreadsheets or APIs into usable reporting tools.",
+    "signals": [
+      "CSV/API connectors",
+      "Chart examples",
+      "Deployment notes"
+    ],
+    "related": "/guides/what-makes-a-github-project-worth-using.html"
+  },
+  {
+    "name": "developer-automation-scripts",
+    "tagline": "Reusable scripts for GitHub Actions, repo maintenance and release workflows.",
+    "category": "DevOps",
+    "language": "Shell / YAML",
+    "license": "MIT",
+    "stars": "3k+",
+    "updated": "2026-05",
+    "url": "https://github.com/topics/github-actions",
+    "bestFor": "Small teams automating CI, releases, changelogs and dependency checks.",
+    "signals": [
+      "Workflow examples",
+      "Security notes",
+      "Maintenance cadence"
+    ],
+    "related": "/guides/github-project-selection-checklist.html"
+  },
+  {
+    "name": "lightweight-web-app-kits",
+    "tagline": "Static and serverless app kits for landing pages, directories and micro tools.",
+    "category": "Web Apps",
+    "language": "HTML / JS",
+    "license": "MIT",
+    "stars": "4k+",
+    "updated": "2026-05",
+    "url": "https://github.com/topics/static-site",
+    "bestFor": "Makers building fast directory sites, calculators, generators and SEO tools.",
+    "signals": [
+      "No-backend patterns",
+      "Static deployment",
+      "SEO structure"
+    ],
+    "related": "/guides/how-to-build-ai-search-friendly-directory.html"
+  },
+  {
+    "name": "opensource-monetization-examples",
+    "tagline": "Examples of sponsor pages, paid plugins, hosted services and consulting funnels.",
+    "category": "Monetization",
+    "language": "Mixed",
+    "license": "Mixed",
+    "stars": "2k+",
+    "updated": "2026-05",
+    "url": "https://github.com/topics/open-source",
+    "bestFor": "Builders looking for practical ways to turn GitHub traffic into leads.",
+    "signals": [
+      "Sponsor links",
+      "Service CTA",
+      "Docs-to-leads flow"
+    ],
+    "related": "/guides/open-source-project-monetization.html"
+  }
+]
