@@ -12,45 +12,45 @@
   <meta property="og:description" content="精选 GitHub 开源项目和开发者工具，一站式快速访问。">
   <meta property="og:image" content="/assets/hero-github-directory.png">
   <link rel="stylesheet" href="/assets/nav-style.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"拾品号导航","url":"https://shipinhao.de5.net/","description":"GitHub 开源项目导航站","potentialAction":{"@type":"SearchAction","target":"https://shipinhao.de5.net/projects/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"ShipinHao Nav","url":"https://shipinhao.de5.net/","description":"Bilingual GitHub open-source project navigation site.","potentialAction":{"@type":"SearchAction","target":"https://shipinhao.de5.net/projects/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 </head>
 <body>
   <main class="home-shell">
     <div class="bg-mask"></div>
     <header class="top-menu">
-      <a class="logo" href="/">拾品号导航</a>
+      <a class="logo" href="/" data-i18n="brand">拾品号导航</a>
       <nav id="topCategories"></nav>
-      <a class="admin-link" href="/submit.html">提交收录</a>
+      <div class="header-actions"><button id="langToggle" class="lang-toggle">EN</button><a class="admin-link" href="/submit.html" data-i18n="submit">提交收录</a></div>
     </header>
 
     <section class="search-section">
-      <h1>GitHub 开源项目导航</h1>
-      <p>精选 AI、建站、后端、自动化、数据分析和部署运维工具</p>
+      <h1 data-i18n="homeTitle">GitHub 开源项目导航</h1>
+      <p data-i18n="homeSubtitle">精选 AI、建站、后端、自动化、数据分析和部署运维工具</p>
       <div class="engine-tabs">
         <button class="active" data-engine="github">GitHub</button>
         <button data-engine="google">Google</button>
         <button data-engine="bing">Bing</button>
       </div>
       <div class="search-box">
-        <input id="searchInput" type="search" placeholder="搜索项目、分类或直接回车跳转搜索...">
+        <input id="searchInput" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="搜索项目、分类或直接回车跳转搜索...">
         <button id="searchBtn" title="搜索">⌕</button>
       </div>
     </section>
 
     <section class="content-wrap">
-      <aside class="ad-space left"><div>开源<br>工具</div></aside>
+      <aside class="ad-space left"><div data-i18n-html="sideLeft">开源<br>工具</div></aside>
       <section class="main-content">
         <div class="category-title"><span id="activeTitle">推荐项目</span><small id="resultCount"></small></div>
         <div class="link-grid" id="linkGrid"></div>
       </section>
-      <aside class="ad-space right"><div>快速<br>访问</div></aside>
+      <aside class="ad-space right"><div data-i18n-html="sideRight">快速<br>访问</div></aside>
     </section>
 
     <footer class="footer">
-      <button id="friendBtn">友情链接</button>
-      <a href="/projects/">全部项目</a>
-      <a href="/llms.txt">AI 说明</a>
-      <a href="/sitemap.xml">站点地图</a>
+      <button id="friendBtn" data-i18n="friends">友情链接</button>
+      <a href="/projects/" data-i18n="allProjects">全部项目</a>
+      <a href="/llms.txt" data-i18n="aiNote">AI 说明</a>
+      <a href="/sitemap.xml" data-i18n="sitemap">站点地图</a>
     </footer>
   </main>
   <script src="/assets/nav-app.js" defer></script>
