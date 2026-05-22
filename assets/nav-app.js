@@ -8,6 +8,7 @@ const SEARCH_ENGINES=[
  {id:'github',label:'GitHub',url:q=>`https://github.com/search?q=${encodeURIComponent(q)}&type=repositories`},
  {id:'google',label:'Google',url:q=>`https://www.google.com/search?q=${encodeURIComponent(q+(lang==='zh'?' GitHub 开源':' GitHub open source'))}`},
  {id:'bing',label:'Bing',url:q=>`https://www.bing.com/search?q=${encodeURIComponent(q+(lang==='zh'?' GitHub 开源':' GitHub open source'))}`},
+ {id:'baidu',label:'百度',url:q=>`https://www.baidu.com/s?wd=${encodeURIComponent(q+(lang==='zh'?' GitHub 开源':' GitHub open source'))}`},
  {id:'metaso',label:'秘塔 AI',url:q=>`https://metaso.cn/?q=${encodeURIComponent(q)}`},
  {id:'npm',label:'npm',url:q=>`https://www.npmjs.com/search?q=${encodeURIComponent(q)}`},
  {id:'docker',label:'Docker',url:q=>`https://hub.docker.com/search?q=${encodeURIComponent(q)}`}
