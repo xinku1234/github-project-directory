@@ -219,6 +219,7 @@ def write_sitemap() -> None:
         ("/guides/what-makes-a-github-project-worth-using.html", "weekly", "0.8"),
         ("/guides/open-source-project-monetization.html", "weekly", "0.8"),
         ("/guides/how-to-evaluate-ai-agent-frameworks.html", "weekly", "0.8"),
+        ("/guides/free-ai-coding-agents-freebuff-codebuff.html", "weekly", "0.8"),
     ]
     for path in category_paths:
         if path != "/categories/":
@@ -244,6 +245,7 @@ A navigation-style directory of useful GitHub and open-source projects, with a d
 - All tools: {BASE}/projects/
 - Categories: {BASE}/categories/
 - Guides: {BASE}/guides/
+- Free AI coding agents guide: {BASE}/guides/free-ai-coding-agents-freebuff-codebuff.html
 - Submit: {BASE}/submit.html
 - Project data: {BASE}/data/projects.json
 - Rising project data: {BASE}/data/github-rising.json

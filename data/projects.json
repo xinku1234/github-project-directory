@@ -280,6 +280,24 @@
     "language": "Python"
   },
   {
+    "name": "Freebuff",
+    "category": "AI Agents",
+    "url": "https://github.com/CodebuffAI/codebuff",
+    "desc": "A free/ad-supported command-line AI coding agent distributed via npm, related to Codebuff and positioned for code editing and project assistance.",
+    "tags": [
+      "coding-agent",
+      "cli",
+      "npm"
+    ],
+    "badge": "Free tier",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "FB",
+    "desc_cn": "一个通过 npm 分发的免费/广告补贴型命令行 AI 编程助手，关联 Codebuff 项目，适合代码阅读、修改和项目辅助开发。",
+    "stars": 5721,
+    "language": "TypeScript"
+  },
+  {
     "name": "Next.js",
     "category": "Web Frameworks",
     "url": "https://github.com/vercel/next.js",
