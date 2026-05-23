@@ -25,5 +25,5 @@ python3 -m http.server 4173
 1. Use `https://daohang.bot.cd/` as the canonical public domain for SEO, sitemap, robots, and sharing links.
 2. Replace placeholder GitHub topic links with hand-reviewed real repositories.
 3. Connect `submit.html` to Airtable, Notion, Formspree, or a serverless function.
-4. Add category landing pages for long-tail SEO/GEO traffic.
+4. Keep category landing pages under `categories/` regenerated via `python3 scripts/build_seo_geo.py` after data updates.
 5. Deploy to Cloudflare Pages, GitHub Pages, or Netlify.

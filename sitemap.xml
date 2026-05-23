@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://daohang.bot.cd/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://daohang.bot.cd/trending/</loc><changefreq>daily</changefreq><priority>0.95</priority></url>
   <url><loc>https://daohang.bot.cd/projects/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
   <url><loc>https://daohang.bot.cd/guides/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -11,4 +12,14 @@
   <url><loc>https://daohang.bot.cd/guides/what-makes-a-github-project-worth-using.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://daohang.bot.cd/guides/open-source-project-monetization.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://daohang.bot.cd/guides/how-to-evaluate-ai-agent-frameworks.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/ai-agents/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/automation/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/backend-database/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/content-cms/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/data-analytics/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/deployment/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/docs-knowledge/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/no-code-admin/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/ops-monitoring/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://daohang.bot.cd/categories/web-frameworks/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
 </urlset>

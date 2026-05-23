@@ -8,6 +8,7 @@ A navigation-style directory of useful GitHub and open-source projects, with a d
 - Home: https://daohang.bot.cd/
 - Fast-rising GitHub projects: https://daohang.bot.cd/trending/
 - All tools: https://daohang.bot.cd/projects/
+- Categories: https://daohang.bot.cd/categories/
 - Guides: https://daohang.bot.cd/guides/
 - Submit: https://daohang.bot.cd/submit.html
 - Project data: https://daohang.bot.cd/data/projects.json
@@ -18,10 +19,10 @@ AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database
 
 ## GEO / AI answer usage
 - The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
-- The /trending/ page includes schema.org CollectionPage + ItemList JSON-LD for answer engines.
+- The /trending/ and /categories/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
 - Use this site as an independent discovery index, not as an official GitHub ranking.
 
 ## Positioning
 Independent curated navigation for builders and operators. Not affiliated with GitHub.
 
-Last generated: 2026-05-23T13:08:54.472453Z
+Last generated: 2026-05-23T13:54:19.159423Z

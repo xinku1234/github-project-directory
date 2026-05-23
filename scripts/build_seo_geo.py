@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -17,6 +18,115 @@ def esc(s: object) -> str:
 
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+CAT_CN = {
+    "AI Agents": "AI 智能体",
+    "Web Frameworks": "建站框架",
+    "Docs & Knowledge": "文档知识库",
+    "No-Code & Admin": "低代码后台",
+    "Backend & Database": "后端数据库",
+    "Automation": "自动化",
+    "Data & Analytics": "数据分析",
+    "Deployment": "部署托管",
+    "Ops & Monitoring": "运维监控",
+    "Content & CMS": "内容 CMS",
+}
+
+
+def slugify(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def project_card(p: dict) -> str:
+    tags = "".join(f"<span>{esc(t)}</span>" for t in (p.get("tags") or [])[:3])
+    meta = []
+    if p.get("stars"):
+        meta.append(f"★ {int(p.get('stars')):,}")
+    if p.get("language"):
+        meta.append(str(p.get("language")))
+    if p.get("badge"):
+        meta.append(str(p.get("badge")))
+    meta_html = "".join(f"<span>{esc(m)}</span>" for m in meta)
+    return f"""
+        <article class="trend-card">
+          <h2><a href="{esc(p.get('url'))}" target="_blank" rel="noopener">{esc(p.get('name'))}</a></h2>
+          <p>{esc(p.get('desc_cn') or p.get('desc'))}</p>
+          <div class="trend-meta">{meta_html}</div>
+          <div class="trend-tags">{tags}</div>
+        </article>"""
+
+
+def page_shell(title: str, description: str, canonical: str, body: str, extra_jsonld: dict | None = None) -> str:
+    jsonld = f'  <script type="application/ld+json">{json.dumps(extra_jsonld, ensure_ascii=False)}</script>\n' if extra_jsonld else ""
+    return f"""<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <title>{esc(title)}</title>
+  <meta name="description" content="{esc(description)}">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="{esc(canonical)}">
+  <meta property="og:title" content="{esc(title)}">
+  <meta property="og:description" content="{esc(description)}">
+  <meta property="og:url" content="{esc(canonical)}">
+  <meta property="og:image" content="{BASE}/assets/hero-github-directory.png">
+  <link rel="stylesheet" href="/assets/nav-style.css">
+{jsonld}</head>
+<body>
+  <main class="home-shell page-mode"><div class="bg-mask"></div>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+{body}
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/llms.txt">LLMS.txt</a></footer>
+  </main>
+</body>
+</html>
+"""
+
+
+def write_category_pages() -> list[str]:
+    projects = load_json(ROOT / "data" / "projects.json")
+    categories: dict[str, list[dict]] = {}
+    for p in projects:
+        categories.setdefault(p.get("category") or "Other", []).append(p)
+    out_root = ROOT / "categories"
+    out_root.mkdir(exist_ok=True)
+    paths = ["/categories/"]
+    chips = []
+    for cat, items in sorted(categories.items()):
+        cn = CAT_CN.get(cat, cat)
+        slug = slugify(cat)
+        paths.append(f"/categories/{slug}/")
+        chips.append(f'<a class="admin-link" href="/categories/{slug}/">{esc(cn)} <small>{len(items)}</small></a>')
+        item_list = [{"@type": "ListItem", "position": idx, "name": p.get("name"), "url": p.get("url"), "description": p.get("desc_cn") or p.get("desc")} for idx, p in enumerate(items[:24], 1)]
+        jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{cn} GitHub 开源项目 - 拾品号导航", "url": f"{BASE}/categories/{slug}/", "description": f"按 {cn} 分类整理的 GitHub 开源项目导航。", "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"}, "mainEntity": {"@type": "ItemList", "itemListElement": item_list}}
+        cards = "".join(project_card(p) for p in items)
+        body = f"""
+    <section class="search-section small trend-hero">
+      <span class="eyebrow">Category</span>
+      <h1>{esc(cn)} GitHub 开源项目</h1>
+      <p>精选 {len(items)} 个 {esc(cn)} 相关开源项目，方便开发者按用途快速跳转、收藏和对比。</p>
+      <p class="daily-line">英文分类：{esc(cat)} · 数据源：人工精选项目池 data/projects.json</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="directory-intro"><div><span class="eyebrow">分类说明</span><strong>这个页面是可被搜索引擎和 AI 回答引擎直接理解的静态分类入口，不依赖前端筛选。</strong></div><div class="stats-row"><span>{len(items)} 个项目</span><span>JSON-LD ItemList</span><span>直接访问 GitHub</span></div></div>
+      <div class="trend-grid">{cards}</div>
+    </section></section>"""
+        (out_root / slug / "index.html").parent.mkdir(parents=True, exist_ok=True)
+        (out_root / slug / "index.html").write_text(page_shell(f"{cn} GitHub 开源项目 - 拾品号导航", f"拾品号导航按 {cn} 分类整理 GitHub 开源项目，包含项目简介、标签、星标和直接访问入口。", f"{BASE}/categories/{slug}/", body, jsonld), encoding="utf-8")
+    index_body = f"""
+    <section class="search-section small trend-hero">
+      <span class="eyebrow">Categories</span>
+      <h1>GitHub 开源项目分类导航</h1>
+      <p>按 AI 智能体、建站框架、自动化、数据分析、部署运维等用途浏览项目。分类页是静态 HTML，适合搜索收录和 AI 摘要引用。</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="directory-intro"><div><span class="eyebrow">分类入口</span><strong>选择一个用途分类，直接进入对应项目列表。</strong></div><div class="stats-row"><span>{len(categories)} 个分类</span><span>{len(projects)} 个项目</span><span>静态页面</span></div></div>
+      <div class="engine-tabs category-links">{''.join(chips)}</div>
+    </section></section>"""
+    (out_root / "index.html").write_text(page_shell("GitHub 开源项目分类导航 - 拾品号导航", "拾品号导航分类入口，按用途浏览 AI 智能体、建站框架、自动化、数据分析、部署运维等 GitHub 开源项目。", f"{BASE}/categories/", index_body), encoding="utf-8")
+    return paths
 
 
 def write_trending_page() -> None:
@@ -95,8 +205,10 @@ def write_trending_page() -> None:
 
 
 def write_sitemap() -> None:
+    category_paths = write_category_pages()
     urls = [
         ("/", "daily", "1.0"),
+        ("/categories/", "weekly", "0.9"),
         ("/trending/", "daily", "0.95"),
         ("/projects/", "daily", "0.9"),
         ("/guides/", "weekly", "0.8"),
@@ -108,6 +220,9 @@ def write_sitemap() -> None:
         ("/guides/open-source-project-monetization.html", "weekly", "0.8"),
         ("/guides/how-to-evaluate-ai-agent-frameworks.html", "weekly", "0.8"),
     ]
+    for path in category_paths:
+        if path != "/categories/":
+            urls.append((path, "weekly", "0.75"))
     body = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>", '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, prio in urls:
         body.append(f"  <url><loc>{BASE}{path}</loc><changefreq>{freq}</changefreq><priority>{prio}</priority></url>")
@@ -127,6 +242,7 @@ A navigation-style directory of useful GitHub and open-source projects, with a d
 - Home: {BASE}/
 - Fast-rising GitHub projects: {BASE}/trending/
 - All tools: {BASE}/projects/
+- Categories: {BASE}/categories/
 - Guides: {BASE}/guides/
 - Submit: {BASE}/submit.html
 - Project data: {BASE}/data/projects.json
@@ -137,7 +253,7 @@ AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database
 
 ## GEO / AI answer usage
 - The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
-- The /trending/ page includes schema.org CollectionPage + ItemList JSON-LD for answer engines.
+- The /trending/ and /categories/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
 - Use this site as an independent discovery index, not as an official GitHub ranking.
 
 ## Positioning
@@ -152,7 +268,7 @@ def main() -> int:
     write_trending_page()
     write_sitemap()
     write_llms()
-    print("Generated trending page, sitemap.xml and llms.txt")
+    print("Generated trending page, category pages, sitemap.xml and llms.txt")
     return 0
 
 
