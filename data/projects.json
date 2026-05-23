@@ -64,6 +64,222 @@
     "desc_cn": "基于角色分工的智能体协作框架，适合自动化团队式任务流程。"
   },
   {
+    "name": "Agno",
+    "category": "AI Agents",
+    "url": "https://github.com/agno-agi/agno",
+    "desc": "Agent platform framework for building, running, and managing production AI agent systems.",
+    "tags": [
+      "agents",
+      "platform",
+      "python"
+    ],
+    "badge": "Agent Platform",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "AG",
+    "desc_cn": "智能体平台框架，用于构建、运行和管理生产级 AI agent 系统。",
+    "stars": 40306,
+    "language": "Python"
+  },
+  {
+    "name": "Google ADK",
+    "category": "AI Agents",
+    "url": "https://github.com/google/adk-python",
+    "desc": "Google Agent Development Kit: code-first toolkit for building, evaluating and deploying AI agents.",
+    "tags": [
+      "agents",
+      "google",
+      "python"
+    ],
+    "badge": "Official",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "GA",
+    "desc_cn": "Google Agent Development Kit，代码优先的智能体开发、评估和部署工具包。",
+    "stars": 19816,
+    "language": "Python"
+  },
+  {
+    "name": "Pydantic AI",
+    "category": "AI Agents",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "desc": "Python agent framework from the Pydantic team with typed dependencies, tools and model-agnostic design.",
+    "tags": [
+      "agents",
+      "python",
+      "typed"
+    ],
+    "badge": "Typed",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "PA",
+    "desc_cn": "Pydantic 团队推出的 Python 智能体框架，强调类型安全、工具调用和模型无关设计。",
+    "stars": 17228,
+    "language": "Python"
+  },
+  {
+    "name": "smolagents",
+    "category": "AI Agents",
+    "url": "https://github.com/huggingface/smolagents",
+    "desc": "Hugging Face lightweight library for code-thinking agents and tool-using workflows.",
+    "tags": [
+      "agents",
+      "huggingface",
+      "code-agents"
+    ],
+    "badge": "Lightweight",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "SA",
+    "desc_cn": "Hugging Face 的轻量智能体库，适合代码执行型 agents 和工具调用流程。",
+    "stars": 27466,
+    "language": "Python"
+  },
+  {
+    "name": "CAMEL",
+    "category": "AI Agents",
+    "url": "https://github.com/camel-ai/camel",
+    "desc": "Multi-agent framework focused on communicative agents, simulations and agent scaling research.",
+    "tags": [
+      "multi-agent",
+      "research",
+      "simulation"
+    ],
+    "badge": "Multi-agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "CA",
+    "desc_cn": "面向多智能体沟通、仿真和规模化研究的开源 agent 框架。",
+    "stars": 17025,
+    "language": "Python"
+  },
+  {
+    "name": "Mem0",
+    "category": "AI Agents",
+    "url": "https://github.com/mem0ai/mem0",
+    "desc": "Universal memory layer for AI agents, enabling personalized and stateful agent experiences.",
+    "tags": [
+      "memory",
+      "agents",
+      "personalization"
+    ],
+    "badge": "Memory",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "M0",
+    "desc_cn": "面向 AI agents 的通用记忆层，让智能体具备个性化和状态保持能力。",
+    "stars": 56488,
+    "language": "Python"
+  },
+  {
+    "name": "Letta",
+    "category": "AI Agents",
+    "url": "https://github.com/letta-ai/letta",
+    "desc": "Framework and platform for stateful agents with long-term memory and self-improvement loops.",
+    "tags": [
+      "stateful-agents",
+      "memory",
+      "platform"
+    ],
+    "badge": "Memory",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "LA",
+    "desc_cn": "带长期记忆和自我改进能力的状态型 agent 框架与平台。",
+    "stars": 22909,
+    "language": "Python"
+  },
+  {
+    "name": "Browser Use",
+    "category": "AI Agents",
+    "url": "https://github.com/browser-use/browser-use",
+    "desc": "Make websites accessible to AI agents for browser automation and web task execution.",
+    "tags": [
+      "browser",
+      "automation",
+      "agents"
+    ],
+    "badge": "Browser",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "BU",
+    "desc_cn": "让 AI agents 能操作网页，适合浏览器自动化和在线任务执行。",
+    "stars": 95197,
+    "language": "Python"
+  },
+  {
+    "name": "Mastra",
+    "category": "AI Agents",
+    "url": "https://github.com/mastra-ai/mastra",
+    "desc": "TypeScript framework for building AI applications and agents with workflows, tools and observability.",
+    "tags": [
+      "typescript",
+      "agents",
+      "workflows"
+    ],
+    "badge": "TypeScript",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "MA",
+    "desc_cn": "TypeScript AI 应用与智能体框架，支持工作流、工具调用和可观测性。",
+    "stars": 24227,
+    "language": "TypeScript"
+  },
+  {
+    "name": "Semantic Kernel",
+    "category": "AI Agents",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "desc": "Microsoft SDK for integrating LLMs, planners, plugins and agentic workflows into applications.",
+    "tags": [
+      "microsoft",
+      "agents",
+      "plugins"
+    ],
+    "badge": "SDK",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "SK",
+    "desc_cn": "微软开源 SDK，用于把 LLM、插件、规划器和 agent 工作流集成到应用。",
+    "stars": 27962,
+    "language": "C#"
+  },
+  {
+    "name": "Open Deep Research",
+    "category": "AI Agents",
+    "url": "https://github.com/langchain-ai/open_deep_research",
+    "desc": "Open-source deep research agent example built around search, synthesis and report generation.",
+    "tags": [
+      "research-agent",
+      "langgraph",
+      "search"
+    ],
+    "badge": "Research",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "OD",
+    "desc_cn": "开源深度研究 agent 示例，围绕搜索、综合分析和报告生成构建。",
+    "stars": 11476,
+    "language": "Python"
+  },
+  {
+    "name": "OpenManus",
+    "category": "AI Agents",
+    "url": "https://github.com/mannaandpoem/OpenManus",
+    "desc": "Open-source general agent project inspired by Manus-style task automation.",
+    "tags": [
+      "general-agent",
+      "automation",
+      "manus"
+    ],
+    "badge": "General Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "OM",
+    "desc_cn": "受 Manus 类任务自动化启发的开源通用 agent 项目。",
+    "stars": 475,
+    "language": "Python"
+  },
+  {
     "name": "Next.js",
     "category": "Web Frameworks",
     "url": "https://github.com/vercel/next.js",
