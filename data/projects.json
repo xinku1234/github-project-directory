@@ -298,6 +298,150 @@
     "language": "TypeScript"
   },
   {
+    "name": "LangChain",
+    "category": "AI Agents",
+    "url": "https://github.com/langchain-ai/langchain",
+    "desc": "Agent engineering framework and ecosystem for building LLM applications.",
+    "tags": [
+      "agents",
+      "llm",
+      "orchestration"
+    ],
+    "badge": "Popular",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "LC",
+    "desc_cn": "面向 LLM 应用与智能体工程的核心框架生态，适合编排工具调用、RAG 和复杂 AI 工作流。",
+    "stars": 137505,
+    "language": "Python"
+  },
+  {
+    "name": "LlamaIndex",
+    "category": "AI Agents",
+    "url": "https://github.com/run-llama/llama_index",
+    "desc": "Data framework for connecting private or domain data to LLM apps and agents.",
+    "tags": [
+      "agents",
+      "rag",
+      "data"
+    ],
+    "badge": "Data Agents",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "LI",
+    "desc_cn": "面向私有数据、知识库和文档智能体的数据框架，适合构建 RAG、检索和企业知识助手。",
+    "stars": 49620,
+    "language": "Python"
+  },
+  {
+    "name": "Chrome DevTools MCP",
+    "category": "AI Agents",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Official Chrome DevTools MCP server that gives coding agents browser debugging capabilities.",
+    "tags": [
+      "mcp",
+      "browser",
+      "devtools"
+    ],
+    "badge": "Official",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "CD",
+    "desc_cn": "Chrome DevTools 官方 MCP 服务，让 AI 编程智能体能够连接浏览器调试、检查页面和分析前端问题。",
+    "stars": 41408,
+    "language": "TypeScript"
+  },
+  {
+    "name": "Playwright MCP",
+    "category": "AI Agents",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "desc": "Microsoft Playwright MCP server for browser automation and testing through AI agents.",
+    "tags": [
+      "mcp",
+      "browser",
+      "automation"
+    ],
+    "badge": "Official",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "PM",
+    "desc_cn": "微软 Playwright MCP 服务，把浏览器自动化、测试和页面操作能力开放给 AI 智能体使用。",
+    "stars": 32935,
+    "language": "TypeScript"
+  },
+  {
+    "name": "GitHub MCP Server",
+    "category": "AI Agents",
+    "url": "https://github.com/github/github-mcp-server",
+    "desc": "GitHub official MCP server for repository, issue, pull request and code workflows.",
+    "tags": [
+      "mcp",
+      "github",
+      "official"
+    ],
+    "badge": "Official",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "GM",
+    "desc_cn": "GitHub 官方 MCP 服务，让 Claude、Cursor 等智能体安全访问仓库、Issue、PR 和代码工作流。",
+    "stars": 30118,
+    "language": "Go"
+  },
+  {
+    "name": "FastMCP",
+    "category": "AI Agents",
+    "url": "https://github.com/PrefectHQ/fastmcp",
+    "desc": "Pythonic framework for building MCP servers and clients quickly.",
+    "tags": [
+      "mcp",
+      "python",
+      "server"
+    ],
+    "badge": "MCP Framework",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "FM",
+    "desc_cn": "Python 风格的 MCP 服务端/客户端开发框架，适合快速把内部工具封装成智能体可调用能力。",
+    "stars": 25285,
+    "language": "Python"
+  },
+  {
+    "name": "Stagehand",
+    "category": "AI Agents",
+    "url": "https://github.com/browserbase/stagehand",
+    "desc": "Browserbase SDK for building browser agents with AI-assisted web automation.",
+    "tags": [
+      "browser",
+      "agents",
+      "typescript"
+    ],
+    "badge": "Browser Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "SH",
+    "desc_cn": "Browserbase 出品的浏览器智能体 SDK，用自然语言和代码结合的方式完成网页自动化操作。",
+    "stars": 22778,
+    "language": "TypeScript"
+  },
+  {
+    "name": "GPT Researcher",
+    "category": "AI Agents",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "desc": "Autonomous research agent that gathers sources and produces long-form research reports.",
+    "tags": [
+      "research",
+      "agents",
+      "reports"
+    ],
+    "badge": "Research Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "GR",
+    "desc_cn": "自主研究智能体，可围绕主题检索资料、汇总来源并生成结构化深度研究报告。",
+    "stars": 27252,
+    "language": "Python"
+  },
+  {
     "name": "Next.js",
     "category": "Web Frameworks",
     "url": "https://github.com/vercel/next.js",
