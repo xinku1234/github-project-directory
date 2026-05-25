@@ -43,6 +43,9 @@ def project_card(p: dict) -> str:
     meta = []
     if p.get("stars"):
         meta.append(f"★ {int(p.get('stars')):,}")
+    growth = p.get("growth") or {}
+    if growth.get("stars_per_day"):
+        meta.append(f"↗ {growth.get('stars_per_day')}/天")
     if p.get("language"):
         meta.append(str(p.get("language")))
     if p.get("badge"):

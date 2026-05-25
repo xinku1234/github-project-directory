@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Sync GitHub rising repositories
+      - name: Sync GitHub rising repositories and project stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RISING_WINDOW_DAYS: '45'
@@ -23,14 +23,15 @@ jobs:
           RISING_LIMIT: '36'
         run: |
           python3 scripts/sync_github_rising.py
+          python3 scripts/sync_project_stats.py
           python3 scripts/build_seo_geo.py
       - name: Commit updated project data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
-            git add data/projects.json data/github-rising.json trending/index.html sitemap.xml llms.txt robots.txt
-            git commit -m "Sync fast-rising GitHub projects"
+            git add data/projects.json data/github-rising.json trending/index.html categories sitemap.xml llms.txt robots.txt
+            git commit -m "Sync GitHub project growth stats"
             git push
           else
             echo "No rising project changes."
