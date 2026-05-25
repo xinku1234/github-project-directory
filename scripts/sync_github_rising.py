@@ -91,9 +91,17 @@ def classify(repo: dict) -> str:
     return "Automation"
 
 def zh_desc(repo: dict, category: str, stars_per_day: float) -> str:
+    """Write a user-facing description focused on what the project does.
+
+    Growth is still available in the meta row, but the paragraph should explain
+    the repository's purpose instead of repeating that it is fast-rising.
+    """
     lang = repo.get("language") or "开源"
     desc = clean_desc(repo.get("description"))
-    return f"近期 GitHub 涨星较快的 {lang} 项目，约 {stars_per_day:.1f} 星/天。简介：{desc}"
+    category_cn = CAT_CN.get(category, category)
+    if desc.startswith("Fast-rising open-source project"):
+        return f"这是一个 {category_cn} 方向的 {lang} 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。"
+    return f"这是一个 {category_cn} 方向的 {lang} 开源项目，主要用于：{desc}"
 
 def icon(name: str) -> str:
     letters = re.findall(r"[A-Za-z0-9]", name.upper())
