@@ -1,7 +1,7 @@
 {
   "source": "GitHub Search API",
-  "signal": "created:>=2026-04-09 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-05-24T05:13:07.906645Z",
+  "signal": "created:>=2026-04-10 stars:>=50 fork:false archived:false sorted by stars_per_day",
+  "synced_at": "2026-05-25T05:50:18.266938Z",
   "count": 36,
   "projects": [
     {
@@ -20,16 +20,16 @@
       "featured": true,
       "category_cn": "建站框架",
       "icon": "OP",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 1948.9 星/天。简介：🎨 Local-first, open-source Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperF…",
-      "stars": 50736,
-      "forks": 5786,
+      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 1902.3 星/天。简介：🎨 Local-first, open-source Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperF…",
+      "stars": 51473,
+      "forks": 5883,
       "language": "TypeScript",
       "growth": {
         "rank": 1,
-        "stars_per_day": 1948.9,
+        "stars_per_day": 1902.25,
         "created_at": "2026-04-28T04:25:20Z",
-        "pushed_at": "2026-05-24T05:02:25Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-25T05:48:44Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -45,41 +45,44 @@
       "featured": true,
       "category_cn": "自动化",
       "icon": "DS",
-      "desc_cn": "近期 GitHub 涨星较快的 C 项目，约 661.6 星/天。简介：DeepSeek 4 Flash local inference engine for Metal and CUDA.",
-      "stars": 11576,
-      "forks": 976,
+      "desc_cn": "近期 GitHub 涨星较快的 C 项目，约 632.6 星/天。简介：DeepSeek 4 Flash local inference engine for Metal and CUDA.",
+      "stars": 11717,
+      "forks": 995,
       "language": "C",
       "growth": {
         "rank": 2,
-        "stars_per_day": 661.59,
+        "stars_per_day": 632.56,
         "created_at": "2026-05-06T17:17:05Z",
-        "pushed_at": "2026-05-23T22:14:43Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-24T17:34:20Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
-      "name": "vercel-labs/zerolang",
-      "category": "AI Agents",
-      "url": "https://github.com/vercel-labs/zerolang",
-      "desc": "The programming language for agents.",
+      "name": "perplexityai/bumblebee",
+      "category": "Web Frameworks",
+      "url": "https://github.com/perplexityai/bumblebee",
+      "desc": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
       "tags": [
-        "c",
+        "go",
+        "golang",
+        "package-inventory",
+        "supply-chain-security",
         "rising"
       ],
       "badge": "Rising #3",
       "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "ZE",
-      "desc_cn": "近期 GitHub 涨星较快的 C 项目，约 519.0 星/天。简介：The programming language for agents.",
-      "stars": 4418,
-      "forks": 274,
-      "language": "C",
+      "category_cn": "建站框架",
+      "icon": "BU",
+      "desc_cn": "近期 GitHub 涨星较快的 Go 项目，约 500.8 星/天。简介：Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
+      "stars": 2246,
+      "forks": 175,
+      "language": "Go",
       "growth": {
         "rank": 3,
-        "stars_per_day": 519.01,
-        "created_at": "2026-05-15T16:55:16Z",
-        "pushed_at": "2026-05-24T04:09:30Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 500.76,
+        "created_at": "2026-05-20T18:11:37Z",
+        "pushed_at": "2026-05-24T18:13:49Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -95,66 +98,41 @@
       "featured": true,
       "category_cn": "自动化",
       "icon": "OR",
-      "desc_cn": "近期 GitHub 涨星较快的 C++ 项目，约 515.0 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
-      "stars": 6426,
-      "forks": 4987,
+      "desc_cn": "近期 GitHub 涨星较快的 C++ 项目，约 479.4 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
+      "stars": 6474,
+      "forks": 5020,
       "language": "C++",
       "growth": {
         "rank": 4,
-        "stars_per_day": 514.99,
+        "stars_per_day": 479.42,
         "created_at": "2026-05-11T17:44:55Z",
         "pushed_at": "2026-05-12T18:58:00Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
-      "name": "thananon/9arm-skills",
-      "category": "Automation",
-      "url": "https://github.com/thananon/9arm-skills",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "name": "vercel-labs/zerolang",
+      "category": "AI Agents",
+      "url": "https://github.com/vercel-labs/zerolang",
+      "desc": "The programming language for agents.",
       "tags": [
-        "shell",
+        "c",
         "rising"
       ],
       "badge": "Rising #5",
       "featured": true,
-      "category_cn": "自动化",
-      "icon": "9A",
-      "desc_cn": "近期 GitHub 涨星较快的 Shell 项目，约 452.3 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
-      "stars": 1892,
-      "forks": 250,
-      "language": "Shell",
+      "category_cn": "AI 智能体",
+      "icon": "ZE",
+      "desc_cn": "近期 GitHub 涨星较快的 C 项目，约 469.2 星/天。简介：The programming language for agents.",
+      "stars": 4475,
+      "forks": 280,
+      "language": "C",
       "growth": {
         "rank": 5,
-        "stars_per_day": 452.31,
-        "created_at": "2026-05-20T00:49:37Z",
-        "pushed_at": "2026-05-20T00:52:56Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "FoundZiGu/GuJumpgate",
-      "category": "Automation",
-      "url": "https://github.com/FoundZiGu/GuJumpgate",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
-      "tags": [
-        "javascript",
-        "rising"
-      ],
-      "badge": "Rising #6",
-      "featured": true,
-      "category_cn": "自动化",
-      "icon": "GU",
-      "desc_cn": "近期 GitHub 涨星较快的 JavaScript 项目，约 447.2 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
-      "stars": 2112,
-      "forks": 604,
-      "language": "JavaScript",
-      "growth": {
-        "rank": 6,
-        "stars_per_day": 447.23,
-        "created_at": "2026-05-19T11:52:52Z",
-        "pushed_at": "2026-05-23T12:21:28Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 469.17,
+        "created_at": "2026-05-15T16:55:16Z",
+        "pushed_at": "2026-05-25T05:32:39Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -169,20 +147,20 @@
         "awesome-list",
         "rising"
       ],
-      "badge": "Rising #7",
+      "badge": "Rising #6",
       "featured": true,
       "category_cn": "AI 智能体",
       "icon": "AW",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 431.1 星/天。简介：GPT-Image-2 API and Prompts.",
-      "stars": 15410,
-      "forks": 1564,
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 420.6 星/天。简介：GPT-Image-2 API and Prompts.",
+      "stars": 15464,
+      "forks": 1565,
       "language": "Python",
       "growth": {
-        "rank": 7,
-        "stars_per_day": 431.13,
+        "rank": 6,
+        "stars_per_day": 420.57,
         "created_at": "2026-04-18T11:22:14Z",
         "pushed_at": "2026-05-22T09:06:04Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -194,20 +172,70 @@
         "html",
         "rising"
       ],
-      "badge": "Rising #8",
+      "badge": "Rising #7",
       "featured": true,
       "category_cn": "AI 智能体",
       "icon": "HU",
-      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 426.8 星/天。简介：Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.",
-      "stars": 14769,
-      "forks": 1993,
+      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 418.8 星/天。简介：Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.",
+      "stars": 14923,
+      "forks": 2004,
       "language": "HTML",
       "growth": {
-        "rank": 8,
-        "stars_per_day": 426.79,
+        "rank": 7,
+        "stars_per_day": 418.82,
         "created_at": "2026-04-19T14:42:06Z",
         "pushed_at": "2026-05-21T17:04:02Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "FoundZiGu/GuJumpgate",
+      "category": "Automation",
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "javascript",
+        "rising"
+      ],
+      "badge": "Rising #8",
+      "featured": true,
+      "category_cn": "自动化",
+      "icon": "GU",
+      "desc_cn": "近期 GitHub 涨星较快的 JavaScript 项目，约 416.0 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
+      "stars": 2391,
+      "forks": 661,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 8,
+        "stars_per_day": 415.95,
+        "created_at": "2026-05-19T11:52:52Z",
+        "pushed_at": "2026-05-24T21:53:25Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "thananon/9arm-skills",
+      "category": "Automation",
+      "url": "https://github.com/thananon/9arm-skills",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "shell",
+        "rising"
+      ],
+      "badge": "Rising #9",
+      "featured": true,
+      "category_cn": "自动化",
+      "icon": "9A",
+      "desc_cn": "近期 GitHub 涨星较快的 Shell 项目，约 387.4 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
+      "stars": 2018,
+      "forks": 271,
+      "language": "Shell",
+      "growth": {
+        "rank": 9,
+        "stars_per_day": 387.42,
+        "created_at": "2026-05-20T00:49:37Z",
+        "pushed_at": "2026-05-20T00:52:56Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -222,104 +250,20 @@
         "codex",
         "rising"
       ],
-      "badge": "Rising #9",
+      "badge": "Rising #10",
       "featured": true,
       "category_cn": "建站框架",
       "icon": "GU",
-      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 377.6 星/天。简介：AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-      "stars": 11578,
-      "forks": 900,
+      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 373.6 星/天。简介：AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "stars": 11837,
+      "forks": 917,
       "language": "HTML",
-      "growth": {
-        "rank": 9,
-        "stars_per_day": 377.63,
-        "created_at": "2026-04-23T13:23:07Z",
-        "pushed_at": "2026-05-19T15:29:10Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "kyegomez/OpenMythos",
-      "category": "AI Agents",
-      "url": "https://github.com/kyegomez/OpenMythos",
-      "desc": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
-      "tags": [
-        "python",
-        "ai",
-        "anthropic",
-        "attention",
-        "rising"
-      ],
-      "badge": "Rising #10",
-      "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "OP",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 373.8 星/天。简介：A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
-      "stars": 13335,
-      "forks": 3036,
-      "language": "Python",
       "growth": {
         "rank": 10,
-        "stars_per_day": 373.77,
-        "created_at": "2026-04-18T12:57:52Z",
-        "pushed_at": "2026-05-23T11:58:48Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "nexu-io/html-anything",
-      "category": "Backend & Database",
-      "url": "https://github.com/nexu-io/html-anything",
-      "desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperfram…",
-      "tags": [
-        "html",
-        "agent-skills",
-        "agentic",
-        "ai-agents",
-        "rising"
-      ],
-      "badge": "Rising #11",
-      "featured": true,
-      "category_cn": "后端数据库",
-      "icon": "HT",
-      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 367.6 星/天。简介：✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperfram…",
-      "stars": 4710,
-      "forks": 486,
-      "language": "HTML",
-      "growth": {
-        "rank": 11,
-        "stars_per_day": 367.56,
-        "created_at": "2026-05-11T09:40:38Z",
-        "pushed_at": "2026-05-22T06:04:05Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "browser-use/browser-harness",
-      "category": "AI Agents",
-      "url": "https://github.com/browser-use/browser-harness",
-      "desc": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
-      "tags": [
-        "python",
-        "ai-agent",
-        "browser-agent",
-        "browser-automation",
-        "rising"
-      ],
-      "badge": "Rising #12",
-      "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "BR",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 365.9 星/天。简介：Browser Harness | Self-healing harness that enables LLMs to complete any task.",
-      "stars": 13588,
-      "forks": 1257,
-      "language": "Python",
-      "growth": {
-        "rank": 12,
-        "stars_per_day": 365.89,
-        "created_at": "2026-04-17T01:56:15Z",
-        "pushed_at": "2026-05-20T19:28:42Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 373.58,
+        "created_at": "2026-04-23T13:23:07Z",
+        "pushed_at": "2026-05-19T15:29:10Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -334,20 +278,104 @@
         "nature-skills",
         "rising"
       ],
-      "badge": "Rising #13",
-      "featured": false,
+      "badge": "Rising #11",
+      "featured": true,
       "category_cn": "自动化",
       "icon": "NA",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 365.4 星/天。简介：符合nature论文学术表达和科研绘图的Skill.",
-      "stars": 10993,
-      "forks": 694,
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 369.5 星/天。简介：符合nature论文学术表达和科研绘图的Skill.",
+      "stars": 11494,
+      "forks": 724,
+      "language": "Python",
+      "growth": {
+        "rank": 11,
+        "stars_per_day": 369.46,
+        "created_at": "2026-04-24T03:11:46Z",
+        "pushed_at": "2026-05-25T04:54:03Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "kyegomez/OpenMythos",
+      "category": "AI Agents",
+      "url": "https://github.com/kyegomez/OpenMythos",
+      "desc": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+      "tags": [
+        "python",
+        "ai",
+        "anthropic",
+        "attention",
+        "rising"
+      ],
+      "badge": "Rising #12",
+      "featured": true,
+      "category_cn": "AI 智能体",
+      "icon": "OP",
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 364.2 星/天。简介：A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+      "stars": 13366,
+      "forks": 3045,
+      "language": "Python",
+      "growth": {
+        "rank": 12,
+        "stars_per_day": 364.17,
+        "created_at": "2026-04-18T12:57:52Z",
+        "pushed_at": "2026-05-23T11:58:48Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "browser-use/browser-harness",
+      "category": "AI Agents",
+      "url": "https://github.com/browser-use/browser-harness",
+      "desc": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+      "tags": [
+        "python",
+        "ai-agent",
+        "browser-agent",
+        "browser-automation",
+        "rising"
+      ],
+      "badge": "Rising #13",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "BR",
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 358.2 星/天。简介：Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+      "stars": 13671,
+      "forks": 1264,
       "language": "Python",
       "growth": {
         "rank": 13,
-        "stars_per_day": 365.41,
-        "created_at": "2026-04-24T03:11:46Z",
-        "pushed_at": "2026-05-24T04:39:08Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 358.23,
+        "created_at": "2026-04-17T01:56:15Z",
+        "pushed_at": "2026-05-20T19:28:42Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "nexu-io/html-anything",
+      "category": "Backend & Database",
+      "url": "https://github.com/nexu-io/html-anything",
+      "desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperfram…",
+      "tags": [
+        "html",
+        "agent-skills",
+        "agentic",
+        "ai-agents",
+        "rising"
+      ],
+      "badge": "Rising #14",
+      "featured": false,
+      "category_cn": "后端数据库",
+      "icon": "HT",
+      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 349.6 星/天。简介：✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperfram…",
+      "stars": 4838,
+      "forks": 497,
+      "language": "HTML",
+      "growth": {
+        "rank": 14,
+        "stars_per_day": 349.57,
+        "created_at": "2026-05-11T09:40:38Z",
+        "pushed_at": "2026-05-22T06:04:05Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -359,20 +387,20 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #14",
+      "badge": "Rising #15",
       "featured": false,
       "category_cn": "数据分析",
       "icon": "DE",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 337.1 星/天。简介：A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "stars": 14653,
-      "forks": 1381,
+      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 331.2 星/天。简介：A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "stars": 14738,
+      "forks": 1394,
       "language": "TypeScript",
       "growth": {
-        "rank": 14,
-        "stars_per_day": 337.08,
+        "rank": 15,
+        "stars_per_day": 331.22,
         "created_at": "2026-04-10T17:54:59Z",
         "pushed_at": "2026-05-08T19:35:10Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -384,45 +412,20 @@
         "rust",
         "rising"
       ],
-      "badge": "Rising #15",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "OB",
-      "desc_cn": "近期 GitHub 涨星较快的 Rust 项目，约 334.7 星/天。简介：The headless browser for AI agents and web scraping.",
-      "stars": 13647,
-      "forks": 883,
-      "language": "Rust",
-      "growth": {
-        "rank": 15,
-        "stars_per_day": 334.66,
-        "created_at": "2026-04-13T10:31:41Z",
-        "pushed_at": "2026-05-18T10:41:16Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "V4bel/dirtyfrag",
-      "category": "AI Agents",
-      "url": "https://github.com/V4bel/dirtyfrag",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
-      "tags": [
-        "c",
-        "rising"
-      ],
       "badge": "Rising #16",
       "featured": false,
       "category_cn": "AI 智能体",
-      "icon": "DI",
-      "desc_cn": "近期 GitHub 涨星较快的 C 项目，约 288.8 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
-      "stars": 4752,
-      "forks": 754,
-      "language": "C",
+      "icon": "OB",
+      "desc_cn": "近期 GitHub 涨星较快的 Rust 项目，约 327.9 星/天。简介：The headless browser for AI agents and web scraping.",
+      "stars": 13706,
+      "forks": 888,
+      "language": "Rust",
       "growth": {
         "rank": 16,
-        "stars_per_day": 288.79,
-        "created_at": "2026-05-07T18:18:28Z",
-        "pushed_at": "2026-05-10T17:29:21Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 327.86,
+        "created_at": "2026-04-13T10:31:41Z",
+        "pushed_at": "2026-05-24T20:15:10Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -438,16 +441,41 @@
       "featured": false,
       "category_cn": "自动化",
       "icon": "CO",
-      "desc_cn": "近期 GitHub 涨星较快的 Rust 项目，约 269.1 星/天。简介：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服.",
-      "stars": 4795,
-      "forks": 303,
+      "desc_cn": "近期 GitHub 涨星较快的 Rust 项目，约 281.7 星/天。简介：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服.",
+      "stars": 5309,
+      "forks": 345,
       "language": "Rust",
       "growth": {
         "rank": 17,
-        "stars_per_day": 269.08,
+        "stars_per_day": 281.71,
         "created_at": "2026-05-06T09:32:49Z",
-        "pushed_at": "2026-05-23T11:45:25Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-25T01:55:43Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "V4bel/dirtyfrag",
+      "category": "AI Agents",
+      "url": "https://github.com/V4bel/dirtyfrag",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "c",
+        "rising"
+      ],
+      "badge": "Rising #18",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "DI",
+      "desc_cn": "近期 GitHub 涨星较快的 C 项目，约 272.0 星/天。简介：Fast-rising open-source project discovered from recent GitHub activity.",
+      "stars": 4754,
+      "forks": 758,
+      "language": "C",
+      "growth": {
+        "rank": 18,
+        "stars_per_day": 271.96,
+        "created_at": "2026-05-07T18:18:28Z",
+        "pushed_at": "2026-05-10T17:29:21Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -459,20 +487,20 @@
         "zig",
         "rising"
       ],
-      "badge": "Rising #18",
+      "badge": "Rising #19",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "ZE",
-      "desc_cn": "近期 GitHub 涨星较快的 Zig 项目，约 258.2 星/天。简介：Build desktop + mobile apps with Zig and web UI.",
-      "stars": 3973,
-      "forks": 155,
+      "desc_cn": "近期 GitHub 涨星较快的 Zig 项目，约 242.9 星/天。简介：Build desktop + mobile apps with Zig and web UI.",
+      "stars": 3987,
+      "forks": 157,
       "language": "Zig",
       "growth": {
-        "rank": 18,
-        "stars_per_day": 258.18,
+        "rank": 19,
+        "stars_per_day": 242.9,
         "created_at": "2026-05-08T19:53:41Z",
         "pushed_at": "2026-05-13T16:47:35Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -484,20 +512,20 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #19",
+      "badge": "Rising #20",
       "featured": false,
       "category_cn": "低代码后台",
       "icon": "OS",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 232.8 星/天。简介：Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative.",
-      "stars": 2649,
-      "forks": 543,
+      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 239.9 星/天。简介：Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative.",
+      "stars": 2976,
+      "forks": 588,
       "language": "TypeScript",
       "growth": {
-        "rank": 19,
-        "stars_per_day": 232.83,
+        "rank": 20,
+        "stars_per_day": 239.93,
         "created_at": "2026-05-12T20:09:25Z",
-        "pushed_at": "2026-05-24T01:55:45Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-24T15:06:02Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -509,20 +537,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #20",
+      "badge": "Rising #21",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "CL",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 231.7 星/天。简介：A suite of plugins for legal workflows.",
-      "stars": 7545,
-      "forks": 1215,
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 226.5 星/天。简介：A suite of plugins for legal workflows.",
+      "stars": 7607,
+      "forks": 1237,
       "language": "Python",
       "growth": {
-        "rank": 20,
-        "stars_per_day": 231.71,
+        "rank": 21,
+        "stars_per_day": 226.48,
         "created_at": "2026-04-21T15:43:42Z",
-        "pushed_at": "2026-05-22T15:55:53Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-24T07:06:57Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -537,45 +565,20 @@
         "chatgpt",
         "rising"
       ],
-      "badge": "Rising #21",
+      "badge": "Rising #22",
       "featured": false,
       "category_cn": "自动化",
       "icon": "AW",
-      "desc_cn": "近期 GitHub 涨星较快的 JavaScript 项目，约 213.8 星/天。简介：Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，370+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中.",
-      "stars": 6164,
-      "forks": 831,
+      "desc_cn": "近期 GitHub 涨星较快的 JavaScript 项目，约 214.9 星/天。简介：Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，370+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中.",
+      "stars": 6416,
+      "forks": 861,
       "language": "JavaScript",
       "growth": {
-        "rank": 21,
-        "stars_per_day": 213.81,
-        "created_at": "2026-04-25T09:19:13Z",
-        "pushed_at": "2026-05-22T09:50:42Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "browser-use/video-use",
-      "category": "AI Agents",
-      "url": "https://github.com/browser-use/video-use",
-      "desc": "Edit videos with coding agents.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #22",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "VI",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 196.7 星/天。简介：Edit videos with coding agents.",
-      "stars": 8290,
-      "forks": 1210,
-      "language": "Python",
-      "growth": {
         "rank": 22,
-        "stars_per_day": 196.67,
-        "created_at": "2026-04-12T01:34:42Z",
-        "pushed_at": "2026-05-15T06:39:02Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 214.91,
+        "created_at": "2026-04-25T09:19:13Z",
+        "pushed_at": "2026-05-25T04:23:05Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -594,16 +597,41 @@
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "DE",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 180.8 星/天。简介：DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 5941,
-      "forks": 339,
+      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 207.9 星/天。简介：DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "stars": 7046,
+      "forks": 392,
       "language": "TypeScript",
       "growth": {
         "rank": 23,
-        "stars_per_day": 180.77,
+        "stars_per_day": 207.9,
         "created_at": "2026-04-21T08:27:02Z",
-        "pushed_at": "2026-05-24T05:07:51Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-25T03:58:49Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "browser-use/video-use",
+      "category": "AI Agents",
+      "url": "https://github.com/browser-use/video-use",
+      "desc": "Edit videos with coding agents.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #24",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "VI",
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 193.3 星/天。简介：Edit videos with coding agents.",
+      "stars": 8347,
+      "forks": 1221,
+      "language": "Python",
+      "growth": {
+        "rank": 24,
+        "stars_per_day": 193.32,
+        "created_at": "2026-04-12T01:34:42Z",
+        "pushed_at": "2026-05-15T06:39:02Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -618,20 +646,20 @@
         "gpt-image-2",
         "rising"
       ],
-      "badge": "Rising #24",
+      "badge": "Rising #25",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "GA",
-      "desc_cn": "近期 GitHub 涨星较快的 CSS 项目，约 176.6 星/天。简介：ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "stars": 5778,
-      "forks": 832,
+      "desc_cn": "近期 GitHub 涨星较快的 CSS 项目，约 176.2 星/天。简介：ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "stars": 5945,
+      "forks": 848,
       "language": "CSS",
       "growth": {
-        "rank": 24,
-        "stars_per_day": 176.59,
+        "rank": 25,
+        "stars_per_day": 176.17,
         "created_at": "2026-04-21T11:56:17Z",
         "pushed_at": "2026-05-23T14:38:58Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -646,20 +674,20 @@
         "byok",
         "rising"
       ],
-      "badge": "Rising #25",
+      "badge": "Rising #26",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "OP",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 176.0 星/天。简介：Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). B…",
-      "stars": 6349,
+      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 171.8 星/天。简介：Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). B…",
+      "stars": 6374,
       "forks": 684,
       "language": "TypeScript",
       "growth": {
-        "rank": 25,
-        "stars_per_day": 175.96,
+        "rank": 26,
+        "stars_per_day": 171.77,
         "created_at": "2026-04-18T03:14:33Z",
-        "pushed_at": "2026-05-23T18:12:19Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-24T22:09:50Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -674,20 +702,20 @@
         "awesome",
         "rising"
       ],
-      "badge": "Rising #26",
+      "badge": "Rising #27",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "AW",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 174.4 星/天。简介：🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text renderi…",
-      "stars": 6565,
-      "forks": 601,
+      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 171.3 星/天。简介：🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text renderi…",
+      "stars": 6621,
+      "forks": 605,
       "language": "TypeScript",
       "growth": {
-        "rank": 26,
-        "stars_per_day": 174.44,
+        "rank": 27,
+        "stars_per_day": 171.26,
         "created_at": "2026-04-16T13:57:42Z",
-        "pushed_at": "2026-05-24T02:06:46Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-25T02:15:29Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -699,48 +727,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #27",
+      "badge": "Rising #28",
       "featured": false,
       "category_cn": "数据分析",
       "icon": "LI",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 174.0 星/天。简介：A feed-forward 3D foundation model for reconstructing scenes from streaming data.",
-      "stars": 6694,
-      "forks": 662,
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 170.8 星/天。简介：A feed-forward 3D foundation model for reconstructing scenes from streaming data.",
+      "stars": 6746,
+      "forks": 668,
       "language": "Python",
       "growth": {
-        "rank": 27,
-        "stars_per_day": 174.02,
-        "created_at": "2026-04-15T17:59:48Z",
-        "pushed_at": "2026-05-08T01:58:42Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "darrylmorley/whatcable",
-      "category": "Web Frameworks",
-      "url": "https://github.com/darrylmorley/whatcable",
-      "desc": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do.",
-      "tags": [
-        "swift",
-        "apple-silicon",
-        "hardware-info",
-        "iokit",
-        "rising"
-      ],
-      "badge": "Rising #28",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "WH",
-      "desc_cn": "近期 GitHub 涨星较快的 Swift 项目，约 173.8 星/天。简介：macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do.",
-      "stars": 3980,
-      "forks": 106,
-      "language": "Swift",
-      "growth": {
         "rank": 28,
-        "stars_per_day": 173.84,
-        "created_at": "2026-05-01T07:45:10Z",
-        "pushed_at": "2026-05-23T19:25:39Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 170.81,
+        "created_at": "2026-04-15T17:59:48Z",
+        "pushed_at": "2026-05-25T03:22:48Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -759,41 +759,44 @@
       "featured": false,
       "category_cn": "建站框架",
       "icon": "CO",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 173.0 星/天。简介：See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability.",
-      "stars": 6969,
-      "forks": 527,
+      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 169.8 星/天。简介：See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability.",
+      "stars": 7015,
+      "forks": 531,
       "language": "TypeScript",
       "growth": {
         "rank": 29,
-        "stars_per_day": 172.96,
+        "stars_per_day": 169.78,
         "created_at": "2026-04-13T22:11:53Z",
-        "pushed_at": "2026-05-23T12:20:53Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-25T01:05:17Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
-      "name": "huangserva/3DCellForge",
-      "category": "AI Agents",
-      "url": "https://github.com/huangserva/3DCellForge",
-      "desc": "AI-powered interactive 3D model generation, inspection, and presentation studio.",
+      "name": "darrylmorley/whatcable",
+      "category": "Web Frameworks",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "desc": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do.",
       "tags": [
-        "javascript",
+        "swift",
+        "apple-silicon",
+        "hardware-info",
+        "iokit",
         "rising"
       ],
       "badge": "Rising #30",
       "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "3D",
-      "desc_cn": "近期 GitHub 涨星较快的 JavaScript 项目，约 167.7 星/天。简介：AI-powered interactive 3D model generation, inspection, and presentation studio.",
-      "stars": 2311,
-      "forks": 386,
-      "language": "JavaScript",
+      "category_cn": "建站框架",
+      "icon": "WH",
+      "desc_cn": "近期 GitHub 涨星较快的 Swift 项目，约 168.0 星/天。简介：macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do.",
+      "stars": 4018,
+      "forks": 107,
+      "language": "Swift",
       "growth": {
         "rank": 30,
-        "stars_per_day": 167.75,
-        "created_at": "2026-05-10T10:34:50Z",
-        "pushed_at": "2026-05-22T01:55:40Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 167.97,
+        "created_at": "2026-05-01T07:45:10Z",
+        "pushed_at": "2026-05-24T22:00:54Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -809,16 +812,16 @@
       "featured": false,
       "category_cn": "内容 CMS",
       "icon": "KA",
-      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 166.9 星/天。简介：👩‍🚒 Good content deserves good paper.",
-      "stars": 5594,
-      "forks": 278,
+      "desc_cn": "近期 GitHub 涨星较快的 HTML 项目，约 162.9 星/天。简介：👩‍🚒 Good content deserves good paper.",
+      "stars": 5627,
+      "forks": 282,
       "language": "HTML",
       "growth": {
         "rank": 31,
-        "stars_per_day": 166.85,
+        "stars_per_day": 162.86,
         "created_at": "2026-04-20T16:35:19Z",
-        "pushed_at": "2026-05-22T14:43:03Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-25T01:04:32Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -837,16 +840,41 @@
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "FI",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 161.4 星/天。简介：Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
-      "stars": 7037,
-      "forks": 619,
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 158.5 星/天。简介：Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+      "stars": 7072,
+      "forks": 622,
       "language": "Python",
       "growth": {
         "rank": 32,
-        "stars_per_day": 161.45,
+        "stars_per_day": 158.52,
         "created_at": "2026-04-10T15:07:10Z",
-        "pushed_at": "2026-05-13T13:12:38Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "pushed_at": "2026-05-25T01:50:28Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
+      }
+    },
+    {
+      "name": "huangserva/3DCellForge",
+      "category": "AI Agents",
+      "url": "https://github.com/huangserva/3DCellForge",
+      "desc": "AI-powered interactive 3D model generation, inspection, and presentation studio.",
+      "tags": [
+        "javascript",
+        "rising"
+      ],
+      "badge": "Rising #33",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "3D",
+      "desc_cn": "近期 GitHub 涨星较快的 JavaScript 项目，约 157.1 星/天。简介：AI-powered interactive 3D model generation, inspection, and presentation studio.",
+      "stars": 2325,
+      "forks": 389,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 33,
+        "stars_per_day": 157.07,
+        "created_at": "2026-05-10T10:34:50Z",
+        "pushed_at": "2026-05-22T01:55:40Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -861,44 +889,20 @@
         "exploit",
         "rising"
       ],
-      "badge": "Rising #33",
+      "badge": "Rising #34",
       "featured": false,
       "category_cn": "运维监控",
       "icon": "CO",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 157.4 星/天。简介：Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code.",
-      "stars": 3890,
-      "forks": 860,
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 151.3 星/天。简介：Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code.",
+      "stars": 3894,
+      "forks": 862,
       "language": "Python",
       "growth": {
-        "rank": 33,
-        "stars_per_day": 157.45,
+        "rank": 34,
+        "stars_per_day": 151.33,
         "created_at": "2026-04-29T12:15:28Z",
         "pushed_at": "2026-04-29T21:21:46Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
-      }
-    },
-    {
-      "name": "simonlin1212/a-stock-data",
-      "category": "Data & Analytics",
-      "url": "https://github.com/simonlin1212/a-stock-data",
-      "desc": "A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
-      "tags": [
-        "rising"
-      ],
-      "badge": "Rising #34",
-      "featured": false,
-      "category_cn": "数据分析",
-      "icon": "AS",
-      "desc_cn": "近期 GitHub 涨星较快的 开源 项目，约 151.6 星/天。简介：A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
-      "stars": 1997,
-      "forks": 443,
-      "language": null,
-      "growth": {
-        "rank": 34,
-        "stars_per_day": 151.63,
-        "created_at": "2026-05-11T01:08:15Z",
-        "pushed_at": "2026-05-21T04:53:16Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
@@ -917,44 +921,40 @@
       "featured": false,
       "category_cn": "部署托管",
       "icon": "MH",
-      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 150.7 星/天。简介：A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
-      "stars": 3960,
-      "forks": 392,
+      "desc_cn": "近期 GitHub 涨星较快的 Python 项目，约 147.9 星/天。简介：A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
+      "stars": 4039,
+      "forks": 399,
       "language": "Python",
       "growth": {
         "rank": 35,
-        "stars_per_day": 150.67,
+        "stars_per_day": 147.9,
         "created_at": "2026-04-27T22:26:16Z",
         "pushed_at": "2026-05-10T20:40:46Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     },
     {
-      "name": "strukto-ai/mirage",
-      "category": "AI Agents",
-      "url": "https://github.com/strukto-ai/mirage",
-      "desc": "A Unified Virtual Filesystem For AI Agents.",
+      "name": "simonlin1212/a-stock-data",
+      "category": "Data & Analytics",
+      "url": "https://github.com/simonlin1212/a-stock-data",
+      "desc": "A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
       "tags": [
-        "typescript",
-        "agent-sandbox",
-        "agent-tools",
-        "ai-agents",
         "rising"
       ],
       "badge": "Rising #36",
       "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "MI",
-      "desc_cn": "近期 GitHub 涨星较快的 TypeScript 项目，约 147.8 星/天。简介：A Unified Virtual Filesystem For AI Agents.",
-      "stars": 2587,
-      "forks": 179,
-      "language": "TypeScript",
+      "category_cn": "数据分析",
+      "icon": "AS",
+      "desc_cn": "近期 GitHub 涨星较快的 开源 项目，约 147.9 星/天。简介：A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
+      "stars": 2099,
+      "forks": 468,
+      "language": null,
       "growth": {
         "rank": 36,
-        "stars_per_day": 147.76,
-        "created_at": "2026-05-06T17:00:48Z",
-        "pushed_at": "2026-05-24T05:08:16Z",
-        "synced_at": "2026-05-24T05:13:07.906645Z"
+        "stars_per_day": 147.86,
+        "created_at": "2026-05-11T01:08:15Z",
+        "pushed_at": "2026-05-21T04:53:16Z",
+        "synced_at": "2026-05-25T05:50:18.266938Z"
       }
     }
   ]
