@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://daohang.bot.cd"
+CF_ANALYTICS_SNIPPET = """<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "854a8fd4ba1446328c1bf73bc010e2c3"}'></script><!-- End Cloudflare Web Analytics -->"""
 
 
 def esc(s: object) -> str:
@@ -83,6 +84,7 @@ def page_shell(title: str, description: str, canonical: str, body: str, extra_js
 {body}
     <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/llms.txt">LLMS.txt</a></footer>
   </main>
+  {CF_ANALYTICS_SNIPPET}
 </body>
 </html>
 """
@@ -199,6 +201,7 @@ def write_trending_page() -> None:
     </section></section>
     <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/data/github-rising.json">JSON 数据</a></footer>
   </main>
+  {CF_ANALYTICS_SNIPPET}
 </body>
 </html>
 """
