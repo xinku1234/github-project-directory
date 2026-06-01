@@ -1,5 +1,194 @@
 [
   {
+    "name": "TanStack/ai",
+    "category": "AI Agents",
+    "url": "https://github.com/TanStack/ai",
+    "desc": "Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
+    "tags": [
+      "ai-sdk",
+      "tool-calling",
+      "agents",
+      "typescript",
+      "multimodal"
+    ],
+    "badge": "AI SDK",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "TA",
+    "desc_cn": "TanStack 生态的类型安全 AI SDK，支持流式聊天、工具调用、智能体和多模态应用，适合前端/全栈团队构建跨模型 AI 功能。",
+    "stars": 2707,
+    "forks": 221,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 11.49,
+      "created_at": "2025-10-08T17:52:48Z",
+      "pushed_at": "2026-06-01T06:20:55Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
+    }
+  },
+  {
+    "name": "stablyai/orca",
+    "category": "AI Agents",
+    "url": "https://github.com/stablyai/orca",
+    "desc": "Orca is the next-gen IDE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+    "tags": [
+      "parallel-agents",
+      "coding-agents",
+      "ide",
+      "orchestration",
+      "typescript"
+    ],
+    "badge": "Parallel Agents",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "OR",
+    "desc_cn": "面向并行编码智能体的新一代 IDE，可把多个 coding agent 作为协作队列管理，适合探索多 Agent 开发、任务分派和移动端查看流程。",
+    "stars": 3826,
+    "forks": 258,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 50.26,
+      "created_at": "2026-03-17T03:28:57Z",
+      "pushed_at": "2026-06-01T06:20:32Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
+    }
+  },
+  {
+    "name": "langchain-ai/langgraphjs",
+    "category": "AI Agents",
+    "url": "https://github.com/langchain-ai/langgraphjs",
+    "desc": "Framework to build resilient language agents as graphs.",
+    "tags": [
+      "langgraph",
+      "agent-framework",
+      "typescript",
+      "llm",
+      "workflow"
+    ],
+    "badge": "Graph Agents",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "LG",
+    "desc_cn": "LangChain 官方的 TypeScript 图式智能体框架，用有状态图建模多步骤 LLM 应用，适合需要可恢复、可观测工作流的 Agent 项目。",
+    "stars": 2972,
+    "forks": 498,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 3.4,
+      "created_at": "2024-01-09T17:40:12Z",
+      "pushed_at": "2026-06-01T06:19:04Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
+    }
+  },
+  {
+    "name": "gastownhall/gascity",
+    "category": "AI Agents",
+    "url": "https://github.com/gastownhall/gascity",
+    "desc": "Orchestration-builder SDK for multi-agent coding workflows",
+    "tags": [
+      "multi-agent",
+      "coding-workflow",
+      "orchestration",
+      "sdk",
+      "go"
+    ],
+    "badge": "Agent Orchestration",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "GA",
+    "desc_cn": "用于多智能体编码工作流的编排构建 SDK，关注 agent team、任务流和开发自动化，适合观察 coding agent 协作层设计。",
+    "stars": 859,
+    "forks": 283,
+    "language": "Go",
+    "growth": {
+      "stars_per_day": 8.66,
+      "created_at": "2026-02-22T01:40:16Z",
+      "pushed_at": "2026-06-01T06:20:39Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
+    }
+  },
+  {
+    "name": "paperclipinc/openclaw-operator",
+    "category": "AI Agents",
+    "url": "https://github.com/paperclipinc/openclaw-operator",
+    "desc": "Kubernetes operator for deploying and managing OpenClaw AI agent instances with production-grade security, observability, and lifecycle management.",
+    "tags": [
+      "kubernetes",
+      "operator",
+      "openclaw",
+      "agent-deploy",
+      "go"
+    ],
+    "badge": "Agent Ops",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "OO",
+    "desc_cn": "用于部署和管理 OpenClaw AI agent 实例的 Kubernetes Operator，覆盖安全、可观测和生命周期管理，适合生产化 Agent 运维参考。",
+    "stars": 364,
+    "forks": 66,
+    "language": "Go",
+    "growth": {
+      "stars_per_day": 3.17,
+      "created_at": "2026-02-06T07:56:06Z",
+      "pushed_at": "2026-06-01T06:15:23Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
+    }
+  },
+  {
+    "name": "openkursar/hello-halo",
+    "category": "AI Agents",
+    "url": "https://github.com/openkursar/hello-halo",
+    "desc": "7×24 Desktop AI Agent for Everyone. Visual AI assistant with remote access, file management, and built-in AI browser.",
+    "tags": [
+      "desktop-agent",
+      "browser-agent",
+      "remote-access",
+      "typescript",
+      "assistant"
+    ],
+    "badge": "Desktop Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "HH",
+    "desc_cn": "7×24 桌面 AI Agent，提供可视化助手、远程访问、文件管理和内置 AI 浏览器，适合桌面端个人智能体产品参考。",
+    "stars": 1578,
+    "forks": 171,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 11.34,
+      "created_at": "2026-01-13T01:12:25Z",
+      "pushed_at": "2026-06-01T06:14:36Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
+    }
+  },
+  {
+    "name": "GCWing/BitFun",
+    "category": "AI Agents",
+    "url": "https://github.com/GCWing/BitFun",
+    "desc": "BitFun is a desktop-grade Agent runtime and a ready-to-use suite of desktop Agent applications with built-in Code Agent, Cowork Agent and Computer Use.",
+    "tags": [
+      "agent-runtime",
+      "computer-use",
+      "desktop-agent",
+      "rust",
+      "cowork"
+    ],
+    "badge": "Agent Runtime",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "BF",
+    "desc_cn": "桌面级 Agent runtime 与应用套件，内置 Code Agent、Cowork Agent 和 Computer Use 能力，适合研究本地桌面 Agent 运行时。",
+    "stars": 797,
+    "forks": 99,
+    "language": "Rust",
+    "growth": {
+      "stars_per_day": 6.71,
+      "created_at": "2026-02-02T09:52:10Z",
+      "pushed_at": "2026-06-01T06:14:18Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
+    }
+  },
+  {
     "name": "apache/flink-agents",
     "category": "AI Agents",
     "url": "https://github.com/apache/flink-agents",
@@ -23,7 +212,7 @@
       "stars_per_day": 1.05,
       "created_at": "2025-06-08T11:45:47Z",
       "pushed_at": "2026-05-31T08:16:27Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -50,7 +239,7 @@
       "stars_per_day": 33.82,
       "created_at": "2026-02-07T22:27:04Z",
       "pushed_at": "2026-06-01T05:33:59Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -77,7 +266,7 @@
       "stars_per_day": 6.08,
       "created_at": "2026-04-19T04:30:45Z",
       "pushed_at": "2026-05-31T06:11:41Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -104,7 +293,7 @@
       "stars_per_day": 0.32,
       "created_at": "2025-03-20T05:07:04Z",
       "pushed_at": "2026-05-31T11:08:02Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -131,7 +320,7 @@
       "stars_per_day": 1.73,
       "created_at": "2025-01-10T11:45:03Z",
       "pushed_at": "2026-06-01T02:46:24Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -158,7 +347,7 @@
       "stars_per_day": 4.96,
       "created_at": "2025-03-31T07:39:22Z",
       "pushed_at": "2026-06-01T05:51:21Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -185,7 +374,7 @@
       "stars_per_day": 1.83,
       "created_at": "2025-05-29T18:23:37Z",
       "pushed_at": "2026-06-01T03:11:18Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -212,7 +401,7 @@
       "stars_per_day": 5.29,
       "created_at": "2025-05-23T15:56:00Z",
       "pushed_at": "2026-06-01T06:13:54Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -239,7 +428,7 @@
       "stars_per_day": 29.56,
       "created_at": "2025-05-18T16:23:54Z",
       "pushed_at": "2026-05-31T23:16:09Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -266,7 +455,7 @@
       "stars_per_day": 6.11,
       "created_at": "2025-12-26T16:26:14Z",
       "pushed_at": "2026-05-30T03:20:18Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -293,7 +482,7 @@
       "stars_per_day": 1.13,
       "created_at": "2024-01-12T08:23:40Z",
       "pushed_at": "2026-06-01T05:45:29Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -320,7 +509,7 @@
       "stars_per_day": 4.07,
       "created_at": "2025-09-16T13:07:11Z",
       "pushed_at": "2026-06-01T06:19:26Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -344,10 +533,10 @@
     "forks": 845,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 133.95,
+      "stars_per_day": 133.94,
       "created_at": "2026-04-11T07:38:18Z",
       "pushed_at": "2026-06-01T05:58:00Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -374,7 +563,7 @@
       "stars_per_day": 125.09,
       "created_at": "2023-04-12T07:40:24Z",
       "pushed_at": "2026-06-01T06:14:01Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -394,14 +583,14 @@
     "category_cn": "AI 智能体",
     "icon": "AR",
     "desc_cn": "为 AI Agent 提供跨 Twitter、Reddit、YouTube、GitHub、B 站、小红书等平台的读取与搜索能力，适合研究和信息收集场景。",
-    "stars": 20720,
+    "stars": 20721,
     "forks": 1827,
     "language": "Python",
     "growth": {
-      "stars_per_day": 213.23,
+      "stars_per_day": 213.24,
       "created_at": "2026-02-24T02:10:24Z",
       "pushed_at": "2026-05-18T12:39:22Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -428,7 +617,7 @@
       "stars_per_day": 31.09,
       "created_at": "2025-01-02T01:29:44Z",
       "pushed_at": "2026-05-15T07:26:24Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -455,7 +644,7 @@
       "stars_per_day": 35.83,
       "created_at": "2025-01-31T15:02:49Z",
       "pushed_at": "2026-06-01T01:48:06Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -482,7 +671,7 @@
       "stars_per_day": 32.28,
       "created_at": "2022-08-07T08:33:41Z",
       "pushed_at": "2026-06-01T03:10:39Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -502,14 +691,14 @@
     "category_cn": "AI 智能体",
     "icon": "CS",
     "desc_cn": "面向多模型对话、智能助手和自主 Agent 的桌面生产力工作台，适合本地管理常用模型、助手和工具流。",
-    "stars": 46680,
+    "stars": 46681,
     "forks": 4428,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 63.24,
       "created_at": "2024-05-24T01:56:26Z",
       "pushed_at": "2026-06-01T06:18:25Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -527,14 +716,14 @@
     "category_cn": "AI 智能体",
     "icon": "OA",
     "desc_cn": "OpenAI 官方 Python 智能体 SDK，支持工具调用、任务交接和安全护栏。",
-    "stars": 26813,
+    "stars": 26814,
     "forks": 4134,
     "language": "Python",
     "growth": {
       "stars_per_day": 59.97,
       "created_at": "2025-03-11T03:42:36Z",
       "pushed_at": "2026-05-31T05:07:49Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -559,7 +748,7 @@
       "stars_per_day": 32.65,
       "created_at": "2023-08-09T18:33:12Z",
       "pushed_at": "2026-05-31T01:16:04Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -584,7 +773,7 @@
       "stars_per_day": 57.56,
       "created_at": "2023-08-18T11:43:45Z",
       "pushed_at": "2026-04-15T11:59:09Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -609,7 +798,7 @@
       "stars_per_day": 55.44,
       "created_at": "2023-10-27T03:26:59Z",
       "pushed_at": "2026-06-01T06:14:12Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -634,7 +823,7 @@
       "stars_per_day": 27.17,
       "created_at": "2022-05-04T15:23:02Z",
       "pushed_at": "2026-05-31T17:16:51Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -659,7 +848,7 @@
       "stars_per_day": 46.88,
       "created_at": "2025-04-01T20:44:40Z",
       "pushed_at": "2026-05-30T00:12:00Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -684,7 +873,7 @@
       "stars_per_day": 24.56,
       "created_at": "2024-06-21T15:55:04Z",
       "pushed_at": "2026-06-01T06:17:06Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -709,7 +898,7 @@
       "stars_per_day": 50.9,
       "created_at": "2024-12-05T11:28:04Z",
       "pushed_at": "2026-05-29T05:14:10Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -727,14 +916,14 @@
     "category_cn": "AI 智能体",
     "icon": "CA",
     "desc_cn": "面向多智能体沟通、仿真和规模化研究的开源 agent 框架。",
-    "stars": 17090,
+    "stars": 17091,
     "language": "Python",
     "forks": 1924,
     "growth": {
       "stars_per_day": 14.59,
       "created_at": "2023-03-17T21:41:54Z",
       "pushed_at": "2026-05-30T21:10:25Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -759,7 +948,7 @@
       "stars_per_day": 53.15,
       "created_at": "2023-06-20T08:58:36Z",
       "pushed_at": "2026-05-31T19:27:41Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -784,7 +973,7 @@
       "stars_per_day": 23.93,
       "created_at": "2023-10-11T07:38:37Z",
       "pushed_at": "2026-05-14T17:14:23Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -809,7 +998,7 @@
       "stars_per_day": 167.02,
       "created_at": "2024-10-31T16:00:56Z",
       "pushed_at": "2026-05-31T20:16:57Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -834,7 +1023,7 @@
       "stars_per_day": 37.1,
       "created_at": "2024-08-06T20:44:31Z",
       "pushed_at": "2026-06-01T04:11:03Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -859,7 +1048,7 @@
       "stars_per_day": 23.56,
       "created_at": "2023-02-27T17:39:42Z",
       "pushed_at": "2026-05-29T22:01:52Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -884,7 +1073,7 @@
       "stars_per_day": 20.7,
       "created_at": "2024-11-20T17:37:22Z",
       "pushed_at": "2026-05-26T07:49:04Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -909,7 +1098,7 @@
       "stars_per_day": 1.4,
       "created_at": "2025-06-21T07:39:30Z",
       "pushed_at": "2025-06-21T07:39:51Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -934,7 +1123,7 @@
       "stars_per_day": 8.91,
       "created_at": "2024-07-09T21:21:56Z",
       "pushed_at": "2026-05-27T05:20:36Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -959,7 +1148,7 @@
       "stars_per_day": 104.42,
       "created_at": "2022-10-17T02:58:36Z",
       "pushed_at": "2026-05-31T09:03:37Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -979,12 +1168,12 @@
     "desc_cn": "面向私有数据、知识库和文档智能体的数据框架，适合构建 RAG、检索和企业知识助手。",
     "stars": 49816,
     "language": "Python",
-    "forks": 7495,
+    "forks": 7496,
     "growth": {
       "stars_per_day": 38.11,
       "created_at": "2022-11-02T04:24:54Z",
       "pushed_at": "2026-05-29T21:52:59Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1009,7 +1198,7 @@
       "stars_per_day": 161.55,
       "created_at": "2025-09-11T10:39:55Z",
       "pushed_at": "2026-05-31T00:05:24Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1034,7 +1223,7 @@
       "stars_per_day": 76.25,
       "created_at": "2025-03-21T17:48:36Z",
       "pushed_at": "2026-05-28T01:32:25Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1059,7 +1248,7 @@
       "stars_per_day": 66.86,
       "created_at": "2025-03-04T16:42:04Z",
       "pushed_at": "2026-05-31T10:15:07Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1084,7 +1273,7 @@
       "stars_per_day": 46.36,
       "created_at": "2024-11-30T01:47:40Z",
       "pushed_at": "2026-06-01T02:46:02Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1109,7 +1298,7 @@
       "stars_per_day": 28.64,
       "created_at": "2024-03-24T19:19:44Z",
       "pushed_at": "2026-05-29T01:05:35Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1134,7 +1323,7 @@
       "stars_per_day": 24.58,
       "created_at": "2023-05-12T10:33:54Z",
       "pushed_at": "2026-05-28T07:41:25Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1153,14 +1342,14 @@
     "category_cn": "AI 智能体",
     "icon": "HA",
     "desc_cn": "NousResearch 开源的长期运行 AI agent，可执行本地工具、定时任务和持续自动化维护流程。",
-    "stars": 175043,
+    "stars": 175047,
     "language": "Python",
-    "forks": 29785,
+    "forks": 29786,
     "growth": {
-      "stars_per_day": 558.65,
+      "stars_per_day": 558.66,
       "created_at": "2025-07-22T22:22:28Z",
       "pushed_at": "2026-06-01T06:06:44Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1186,7 +1375,7 @@
       "stars_per_day": 17.63,
       "created_at": "2022-12-03T02:52:46Z",
       "pushed_at": "2026-06-01T06:07:21Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1212,7 +1401,7 @@
       "stars_per_day": 65.73,
       "created_at": "2025-12-17T08:41:09Z",
       "pushed_at": "2026-05-31T01:38:46Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1238,7 +1427,7 @@
       "stars_per_day": 5.29,
       "created_at": "2025-05-23T15:56:00Z",
       "pushed_at": "2026-06-01T06:13:54Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1264,7 +1453,7 @@
       "stars_per_day": 3.64,
       "created_at": "2024-12-08T02:06:30Z",
       "pushed_at": "2026-05-29T18:17:24Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1290,7 +1479,7 @@
       "stars_per_day": 22.62,
       "created_at": "2025-04-16T15:41:18Z",
       "pushed_at": "2026-05-31T18:06:16Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1316,7 +1505,7 @@
       "stars_per_day": 179.77,
       "created_at": "2025-05-07T02:50:19Z",
       "pushed_at": "2026-06-01T01:25:58Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1342,7 +1531,7 @@
       "stars_per_day": 0.45,
       "created_at": "2021-09-30T03:39:20Z",
       "pushed_at": "2026-06-01T05:22:56Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1366,7 +1555,7 @@
     "language": "Rust",
     "growth": {
       "pushed_at": "2026-05-31T15:29:03Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z",
       "stars_per_day": 247.3,
       "created_at": "2026-01-11T05:38:15Z"
     },
@@ -1393,7 +1582,7 @@
     "language": "Python",
     "growth": {
       "pushed_at": "2026-06-01T00:40:39Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z",
       "stars_per_day": 24.8,
       "created_at": "2024-06-10T09:10:45Z"
     },
@@ -1420,7 +1609,7 @@
     "language": "TypeScript",
     "growth": {
       "pushed_at": "2026-05-27T22:18:23Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z",
       "stars_per_day": 31.56,
       "created_at": "2025-02-13T02:55:06Z"
     },
@@ -1447,7 +1636,7 @@
     "language": "TypeScript",
     "growth": {
       "pushed_at": "2026-05-31T13:21:47Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z",
       "stars_per_day": 11.2,
       "created_at": "2024-12-04T08:26:08Z"
     },
@@ -1474,7 +1663,7 @@
     "language": "Python",
     "growth": {
       "pushed_at": "2026-05-29T04:45:25Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z",
       "stars_per_day": 16.31,
       "created_at": "2025-08-06T14:51:05Z"
     },
@@ -1501,7 +1690,7 @@
     "language": "Python",
     "growth": {
       "pushed_at": "2026-05-31T16:01:08Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z",
       "stars_per_day": 14.75,
       "created_at": "2023-02-02T11:03:23Z"
     },
@@ -1528,7 +1717,7 @@
     "language": "Python",
     "growth": {
       "pushed_at": "2026-06-01T02:13:49Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z",
       "stars_per_day": 9.98,
       "created_at": "2024-03-19T16:45:25Z"
     },
@@ -1556,7 +1745,7 @@
       "stars_per_day": 39.61,
       "created_at": "2016-10-05T23:32:51Z",
       "pushed_at": "2026-06-01T01:16:51Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1581,7 +1770,7 @@
       "stars_per_day": 31.37,
       "created_at": "2021-03-15T17:19:47Z",
       "pushed_at": "2026-05-31T21:51:07Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1606,7 +1795,7 @@
       "stars_per_day": 18.74,
       "created_at": "2013-07-04T15:26:26Z",
       "pushed_at": "2026-05-29T15:54:15Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1631,7 +1820,7 @@
       "stars_per_day": 19.91,
       "created_at": "2017-06-20T16:13:53Z",
       "pushed_at": "2026-05-29T15:39:10Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1655,8 +1844,8 @@
     "growth": {
       "stars_per_day": 20.14,
       "created_at": "2017-10-29T18:51:48Z",
-      "pushed_at": "2026-06-01T06:19:46Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "pushed_at": "2026-06-01T06:20:24Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1681,7 +1870,7 @@
       "stars_per_day": 18.48,
       "created_at": "2020-06-30T04:07:36Z",
       "pushed_at": "2026-05-29T16:25:33Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1706,7 +1895,7 @@
       "stars_per_day": 42.61,
       "created_at": "2019-10-12T05:56:49Z",
       "pushed_at": "2026-06-01T05:17:40Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1731,7 +1920,7 @@
       "stars_per_day": 41.19,
       "created_at": "2022-07-05T06:06:21Z",
       "pushed_at": "2026-05-31T07:34:35Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1756,7 +1945,7 @@
       "stars_per_day": 7.32,
       "created_at": "2012-12-12T01:35:36Z",
       "pushed_at": "2026-05-29T22:00:29Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1781,7 +1970,7 @@
       "stars_per_day": 75.14,
       "created_at": "2019-06-22T09:24:21Z",
       "pushed_at": "2026-06-01T06:11:14Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1806,7 +1995,7 @@
       "stars_per_day": 11.17,
       "created_at": "2022-05-05T02:21:17Z",
       "pushed_at": "2026-06-01T01:32:21Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1831,7 +2020,7 @@
       "stars_per_day": 11.49,
       "created_at": "2015-02-02T19:25:47Z",
       "pushed_at": "2026-06-01T06:02:23Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1856,7 +2045,7 @@
       "stars_per_day": 18.43,
       "created_at": "2015-07-21T18:55:34Z",
       "pushed_at": "2026-06-01T04:43:55Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1880,8 +2069,8 @@
     "growth": {
       "stars_per_day": 14.99,
       "created_at": "2020-01-23T22:46:58Z",
-      "pushed_at": "2026-06-01T06:18:06Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "pushed_at": "2026-06-01T06:20:32Z",
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1906,7 +2095,7 @@
       "stars_per_day": 28.83,
       "created_at": "2021-01-25T20:54:01Z",
       "pushed_at": "2026-06-01T04:58:10Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1931,7 +2120,7 @@
       "stars_per_day": 44.48,
       "created_at": "2024-04-19T07:49:30Z",
       "pushed_at": "2026-05-31T22:13:47Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1956,7 +2145,7 @@
       "stars_per_day": 48.77,
       "created_at": "2021-07-03T01:02:42Z",
       "pushed_at": "2026-06-01T00:25:00Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -1981,7 +2170,7 @@
       "stars_per_day": 16.26,
       "created_at": "2013-12-11T15:59:56Z",
       "pushed_at": "2026-06-01T04:23:58Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2006,7 +2195,7 @@
       "stars_per_day": 21.66,
       "created_at": "2021-01-05T18:49:45Z",
       "pushed_at": "2026-06-01T03:56:06Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2031,7 +2220,7 @@
       "stars_per_day": 18.55,
       "created_at": "2015-09-30T15:34:48Z",
       "pushed_at": "2026-05-31T22:22:56Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2058,7 +2247,7 @@
       "stars_per_day": 29.57,
       "created_at": "2023-06-19T04:08:31Z",
       "pushed_at": "2026-06-01T05:27:27Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2085,7 +2274,7 @@
       "stars_per_day": 26.73,
       "created_at": "2024-07-09T07:55:40Z",
       "pushed_at": "2026-06-01T04:42:56Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2112,7 +2301,7 @@
       "stars_per_day": 10.64,
       "created_at": "2019-11-14T09:05:28Z",
       "pushed_at": "2026-06-01T05:59:38Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2139,7 +2328,7 @@
       "stars_per_day": 23.31,
       "created_at": "2025-03-28T10:06:31Z",
       "pushed_at": "2026-05-31T12:19:14Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2166,7 +2355,7 @@
       "stars_per_day": 21.31,
       "created_at": "2024-06-07T20:52:54Z",
       "pushed_at": "2026-06-01T04:26:36Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2193,7 +2382,7 @@
       "stars_per_day": 71.96,
       "created_at": "2025-01-19T09:04:43Z",
       "pushed_at": "2026-05-18T02:55:49Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2220,7 +2409,7 @@
       "stars_per_day": 131.03,
       "created_at": "2025-03-26T23:40:39Z",
       "pushed_at": "2026-05-26T08:53:21Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2247,7 +2436,7 @@
       "stars_per_day": 26.42,
       "created_at": "2022-12-08T13:27:46Z",
       "pushed_at": "2026-06-01T02:03:24Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2266,14 +2455,14 @@
     "category_cn": "AI 智能体",
     "icon": "MI",
     "desc_cn": "微软推出的智能体框架，用于构建、编排和部署 Python/.NET 智能体与多智能体工作流。",
-    "stars": 10925,
+    "stars": 10926,
     "forks": 1811,
     "language": "Python",
     "growth": {
       "stars_per_day": 27.42,
       "created_at": "2025-04-28T19:40:42Z",
       "pushed_at": "2026-05-29T22:00:41Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2299,7 +2488,7 @@
       "stars_per_day": 85.7,
       "created_at": "2026-04-08T01:48:09Z",
       "pushed_at": "2026-05-29T23:41:31Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2325,7 +2514,7 @@
       "stars_per_day": 11.72,
       "created_at": "2025-07-15T12:07:55Z",
       "pushed_at": "2026-06-01T03:28:22Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2351,7 +2540,7 @@
       "stars_per_day": 4.96,
       "created_at": "2025-03-31T07:39:22Z",
       "pushed_at": "2026-06-01T05:51:21Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2377,7 +2566,7 @@
       "stars_per_day": 3.71,
       "created_at": "2023-03-24T16:25:01Z",
       "pushed_at": "2026-06-01T06:13:45Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2403,7 +2592,7 @@
       "stars_per_day": 3.53,
       "created_at": "2023-04-16T20:47:28Z",
       "pushed_at": "2026-05-28T21:01:33Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:21:34.684911Z"
     }
   },
   {
@@ -2420,15 +2609,15 @@
     "category_cn": "AI 智能体",
     "icon": "OD",
     "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Self-hosted AI workspace.",
-    "stars": 10189,
-    "forks": 1383,
+    "stars": 10206,
+    "forks": 1386,
     "language": "JavaScript",
     "growth": {
       "rank": 1,
-      "stars_per_day": 10189.0,
+      "stars_per_day": 10206.0,
       "created_at": "2026-05-31T14:05:51Z",
-      "pushed_at": "2026-06-01T06:18:32Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "pushed_at": "2026-06-01T06:20:30Z",
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2448,15 +2637,15 @@
     "category_cn": "建站框架",
     "icon": "OP",
     "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos ·…",
-    "stars": 56623,
-    "forks": 6392,
+    "stars": 56624,
+    "forks": 6394,
     "language": "TypeScript",
     "growth": {
       "rank": 2,
-      "stars_per_day": 1661.51,
+      "stars_per_day": 1661.45,
       "created_at": "2026-04-28T04:25:20Z",
-      "pushed_at": "2026-06-01T06:15:12Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "pushed_at": "2026-06-01T06:20:52Z",
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2478,10 +2667,10 @@
     "language": "C",
     "growth": {
       "rank": 3,
-      "stars_per_day": 494.92,
+      "stars_per_day": 494.89,
       "created_at": "2026-05-06T17:17:05Z",
       "pushed_at": "2026-05-30T15:53:31Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2501,15 +2690,15 @@
     "category_cn": "AI 智能体",
     "icon": "GU",
     "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 +…",
-    "stars": 2179,
+    "stars": 2180,
     "forks": 218,
     "language": "HTML",
     "growth": {
       "rank": 4,
-      "stars_per_day": 457.77,
+      "stars_per_day": 457.8,
       "created_at": "2026-05-27T12:05:05Z",
       "pushed_at": "2026-05-27T16:58:08Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2529,15 +2718,15 @@
     "category_cn": "自动化",
     "icon": "NA",
     "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：符合nature论文学术表达和科研绘图的Skill.",
-    "stars": 14606,
+    "stars": 14608,
     "forks": 889,
     "language": "Python",
     "growth": {
       "rank": 5,
-      "stars_per_day": 383.05,
+      "stars_per_day": 383.09,
       "created_at": "2026-04-24T03:11:46Z",
       "pushed_at": "2026-06-01T05:57:20Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2554,15 +2743,15 @@
     "category_cn": "自动化",
     "icon": "CO",
     "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服.",
-    "stars": 9894,
+    "stars": 9897,
     "forks": 660,
     "language": "Rust",
     "growth": {
       "rank": 6,
-      "stars_per_day": 382.51,
+      "stars_per_day": 382.6,
       "created_at": "2026-05-06T09:32:49Z",
       "pushed_at": "2026-06-01T04:24:01Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2582,15 +2771,15 @@
     "category_cn": "AI 智能体",
     "icon": "DE",
     "desc_cn": "这是一个 AI 智能体 方向的 Go 开源项目，主要用于：DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-    "stars": 15504,
+    "stars": 15509,
     "forks": 912,
     "language": "Go",
     "growth": {
       "rank": 7,
-      "stars_per_day": 378.97,
+      "stars_per_day": 379.07,
       "created_at": "2026-04-21T08:27:02Z",
       "pushed_at": "2026-06-01T05:46:04Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2612,10 +2801,10 @@
     "language": "HTML",
     "growth": {
       "rank": 8,
-      "stars_per_day": 372.32,
+      "stars_per_day": 372.31,
       "created_at": "2026-04-19T14:42:06Z",
       "pushed_at": "2026-05-28T16:06:34Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2640,10 +2829,10 @@
     "language": "Python",
     "growth": {
       "rank": 9,
-      "stars_per_day": 361.25,
+      "stars_per_day": 361.23,
       "created_at": "2026-04-18T11:22:14Z",
       "pushed_at": "2026-05-31T08:16:55Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2663,7 +2852,7 @@
     "category_cn": "建站框架",
     "icon": "GU",
     "desc_cn": "这是一个 建站框架 方向的 HTML 开源项目，主要用于：AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-    "stars": 13901,
+    "stars": 13902,
     "forks": 1058,
     "language": "HTML",
     "growth": {
@@ -2671,7 +2860,7 @@
       "stars_per_day": 359.15,
       "created_at": "2026-04-23T13:23:07Z",
       "pushed_at": "2026-05-28T04:03:56Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2696,10 +2885,10 @@
     "language": "Go",
     "growth": {
       "rank": 11,
-      "stars_per_day": 352.88,
+      "stars_per_day": 352.82,
       "created_at": "2026-05-20T18:11:37Z",
       "pushed_at": "2026-05-29T20:06:55Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2721,10 +2910,10 @@
     "language": "C++",
     "growth": {
       "rank": 12,
-      "stars_per_day": 326.4,
+      "stars_per_day": 326.37,
       "created_at": "2026-05-11T17:44:55Z",
       "pushed_at": "2026-05-12T18:58:00Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2749,10 +2938,10 @@
     "language": "Python",
     "growth": {
       "rank": 13,
-      "stars_per_day": 312.8,
+      "stars_per_day": 312.78,
       "created_at": "2026-04-17T01:56:15Z",
       "pushed_at": "2026-05-20T19:28:42Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2777,10 +2966,10 @@
     "language": "Python",
     "growth": {
       "rank": 14,
-      "stars_per_day": 308.55,
+      "stars_per_day": 308.54,
       "created_at": "2026-04-18T12:57:52Z",
       "pushed_at": "2026-05-23T11:58:48Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2802,10 +2991,10 @@
     "language": "C",
     "growth": {
       "rank": 15,
-      "stars_per_day": 287.89,
+      "stars_per_day": 287.86,
       "created_at": "2026-05-15T16:55:16Z",
       "pushed_at": "2026-06-01T04:33:42Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2830,10 +3019,10 @@
     "language": "HTML",
     "growth": {
       "rank": 16,
-      "stars_per_day": 269.99,
+      "stars_per_day": 269.96,
       "created_at": "2026-05-11T09:40:38Z",
       "pushed_at": "2026-05-29T03:01:48Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2855,10 +3044,10 @@
     "language": "TypeScript",
     "growth": {
       "rank": 17,
-      "stars_per_day": 261.16,
+      "stars_per_day": 261.11,
       "created_at": "2026-05-22T06:50:28Z",
       "pushed_at": "2026-06-01T03:49:08Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2883,10 +3072,10 @@
     "language": "Rust",
     "growth": {
       "rank": 18,
-      "stars_per_day": 253.33,
+      "stars_per_day": 253.27,
       "created_at": "2026-05-24T10:10:36Z",
       "pushed_at": "2026-06-01T04:29:58Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2908,10 +3097,10 @@
     "language": "JavaScript",
     "growth": {
       "rank": 19,
-      "stars_per_day": 250.54,
+      "stars_per_day": 250.5,
       "created_at": "2026-05-19T11:52:52Z",
       "pushed_at": "2026-05-30T16:01:42Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2933,10 +3122,10 @@
     "language": "Shell",
     "growth": {
       "rank": 20,
-      "stars_per_day": 210.48,
+      "stars_per_day": 210.45,
       "created_at": "2026-05-20T00:49:37Z",
       "pushed_at": "2026-05-26T11:47:15Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2961,10 +3150,10 @@
     "language": "JavaScript",
     "growth": {
       "rank": 21,
-      "stars_per_day": 206.24,
+      "stars_per_day": 206.2,
       "created_at": "2026-05-22T11:36:21Z",
       "pushed_at": "2026-06-01T04:50:30Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -2986,10 +3175,10 @@
     "language": "TypeScript",
     "growth": {
       "rank": 22,
-      "stars_per_day": 203.26,
+      "stars_per_day": 203.24,
       "created_at": "2026-05-12T20:09:25Z",
       "pushed_at": "2026-05-30T18:39:58Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3011,10 +3200,10 @@
     "language": "C",
     "growth": {
       "rank": 23,
-      "stars_per_day": 195.71,
+      "stars_per_day": 195.69,
       "created_at": "2026-05-07T18:18:28Z",
       "pushed_at": "2026-05-10T17:29:21Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3031,15 +3220,15 @@
     "category_cn": "建站框架",
     "icon": "CL",
     "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：A suite of plugins for legal workflows.",
-    "stars": 7912,
+    "stars": 7914,
     "forks": 1392,
     "language": "Python",
     "growth": {
       "rank": 24,
-      "stars_per_day": 194.84,
+      "stars_per_day": 194.88,
       "created_at": "2026-04-21T15:43:42Z",
       "pushed_at": "2026-05-30T20:38:02Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3064,10 +3253,10 @@
     "language": "JavaScript",
     "growth": {
       "rank": 25,
-      "stars_per_day": 185.22,
+      "stars_per_day": 185.21,
       "created_at": "2026-04-25T09:19:13Z",
       "pushed_at": "2026-06-01T05:37:36Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3089,10 +3278,10 @@
     "language": "Python",
     "growth": {
       "rank": 26,
-      "stars_per_day": 183.56,
+      "stars_per_day": 183.53,
       "created_at": "2026-05-21T07:31:35Z",
       "pushed_at": "2026-05-30T18:53:49Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3114,10 +3303,10 @@
     "language": "Zig",
     "growth": {
       "rank": 27,
-      "stars_per_day": 173.25,
+      "stars_per_day": 173.23,
       "created_at": "2026-05-08T19:53:41Z",
       "pushed_at": "2026-05-13T16:47:35Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3139,10 +3328,10 @@
     "language": "TypeScript",
     "growth": {
       "rank": 28,
-      "stars_per_day": 168.6,
+      "stars_per_day": 168.59,
       "created_at": "2026-04-21T13:38:59Z",
       "pushed_at": "2026-05-31T20:46:20Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3167,10 +3356,10 @@
     "language": "CSS",
     "growth": {
       "rank": 29,
-      "stars_per_day": 168.13,
+      "stars_per_day": 168.12,
       "created_at": "2026-04-21T11:56:17Z",
       "pushed_at": "2026-05-27T08:01:37Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3195,10 +3384,10 @@
     "language": "Swift",
     "growth": {
       "rank": 30,
-      "stars_per_day": 162.28,
+      "stars_per_day": 162.27,
       "created_at": "2026-05-01T07:45:10Z",
       "pushed_at": "2026-05-31T23:54:44Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3223,7 +3412,7 @@
       "stars_per_day": 160.97,
       "created_at": "2026-04-20T16:35:19Z",
       "pushed_at": "2026-05-30T00:32:06Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3247,10 +3436,10 @@
     "language": "Python",
     "growth": {
       "rank": 32,
-      "stars_per_day": 159.77,
+      "stars_per_day": 159.75,
       "created_at": "2026-05-08T06:41:01Z",
       "pushed_at": "2026-05-31T10:20:00Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3275,10 +3464,10 @@
     "language": "TypeScript",
     "growth": {
       "rank": 33,
-      "stars_per_day": 152.04,
+      "stars_per_day": 152.03,
       "created_at": "2026-04-21T18:33:12Z",
       "pushed_at": "2026-06-01T02:05:37Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3303,10 +3492,10 @@
     "language": "TypeScript",
     "growth": {
       "rank": 34,
-      "stars_per_day": 149.02,
+      "stars_per_day": 149.01,
       "created_at": "2026-04-18T03:14:33Z",
       "pushed_at": "2026-05-31T22:09:09Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3322,15 +3511,15 @@
     "category_cn": "数据分析",
     "icon": "AS",
     "desc_cn": "这是一个 数据分析 方向的 开源 开源项目，主要用于：A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
-    "stars": 3103,
-    "forks": 656,
+    "stars": 3104,
+    "forks": 657,
     "language": null,
     "growth": {
       "rank": 35,
-      "stars_per_day": 146.26,
+      "stars_per_day": 146.29,
       "created_at": "2026-05-11T01:08:15Z",
       "pushed_at": "2026-05-30T12:40:53Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   },
   {
@@ -3352,10 +3541,10 @@
     "language": "HTML",
     "growth": {
       "rank": 36,
-      "stars_per_day": 140.61,
+      "stars_per_day": 140.59,
       "created_at": "2026-05-17T06:41:12Z",
       "pushed_at": "2026-05-25T05:51:16Z",
-      "synced_at": "2026-06-01T06:19:27.544707Z"
+      "synced_at": "2026-06-01T06:22:10.955654Z"
     }
   }
 ]

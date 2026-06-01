@@ -1,7 +1,7 @@
 {
   "source": "GitHub Search API",
   "signal": "created:>=2026-04-17 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-06-01T06:19:24.580287Z",
+  "synced_at": "2026-06-01T06:22:10.955654Z",
   "count": 36,
   "projects": [
     {
@@ -18,15 +18,15 @@
       "category_cn": "AI 智能体",
       "icon": "OD",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Self-hosted AI workspace.",
-      "stars": 10185,
-      "forks": 1383,
+      "stars": 10206,
+      "forks": 1386,
       "language": "JavaScript",
       "growth": {
         "rank": 1,
-        "stars_per_day": 10185.0,
+        "stars_per_day": 10206.0,
         "created_at": "2026-05-31T14:05:51Z",
-        "pushed_at": "2026-06-01T06:18:32Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "pushed_at": "2026-06-01T06:20:30Z",
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -46,15 +46,15 @@
       "category_cn": "建站框架",
       "icon": "OP",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos ·…",
-      "stars": 56623,
-      "forks": 6392,
+      "stars": 56624,
+      "forks": 6394,
       "language": "TypeScript",
       "growth": {
         "rank": 2,
-        "stars_per_day": 1661.51,
+        "stars_per_day": 1661.45,
         "created_at": "2026-04-28T04:25:20Z",
-        "pushed_at": "2026-06-01T06:15:12Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "pushed_at": "2026-06-01T06:20:52Z",
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -76,10 +76,10 @@
       "language": "C",
       "growth": {
         "rank": 3,
-        "stars_per_day": 494.92,
+        "stars_per_day": 494.89,
         "created_at": "2026-05-06T17:17:05Z",
         "pushed_at": "2026-05-30T15:53:31Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -99,15 +99,15 @@
       "category_cn": "AI 智能体",
       "icon": "GU",
       "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 +…",
-      "stars": 2179,
+      "stars": 2180,
       "forks": 218,
       "language": "HTML",
       "growth": {
         "rank": 4,
-        "stars_per_day": 457.78,
+        "stars_per_day": 457.8,
         "created_at": "2026-05-27T12:05:05Z",
         "pushed_at": "2026-05-27T16:58:08Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -127,15 +127,15 @@
       "category_cn": "自动化",
       "icon": "NA",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：符合nature论文学术表达和科研绘图的Skill.",
-      "stars": 14606,
+      "stars": 14608,
       "forks": 889,
       "language": "Python",
       "growth": {
         "rank": 5,
-        "stars_per_day": 383.05,
+        "stars_per_day": 383.09,
         "created_at": "2026-04-24T03:11:46Z",
         "pushed_at": "2026-06-01T05:57:20Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -152,15 +152,15 @@
       "category_cn": "自动化",
       "icon": "CO",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服.",
-      "stars": 9894,
-      "forks": 659,
+      "stars": 9897,
+      "forks": 660,
       "language": "Rust",
       "growth": {
         "rank": 6,
-        "stars_per_day": 382.51,
+        "stars_per_day": 382.6,
         "created_at": "2026-05-06T09:32:49Z",
         "pushed_at": "2026-06-01T04:24:01Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -180,15 +180,15 @@
       "category_cn": "AI 智能体",
       "icon": "DE",
       "desc_cn": "这是一个 AI 智能体 方向的 Go 开源项目，主要用于：DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 15504,
-      "forks": 911,
+      "stars": 15509,
+      "forks": 912,
       "language": "Go",
       "growth": {
         "rank": 7,
-        "stars_per_day": 378.97,
+        "stars_per_day": 379.07,
         "created_at": "2026-04-21T08:27:02Z",
         "pushed_at": "2026-06-01T05:46:04Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -210,10 +210,10 @@
       "language": "HTML",
       "growth": {
         "rank": 8,
-        "stars_per_day": 372.33,
+        "stars_per_day": 372.31,
         "created_at": "2026-04-19T14:42:06Z",
         "pushed_at": "2026-05-28T16:06:34Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -238,10 +238,10 @@
       "language": "Python",
       "growth": {
         "rank": 9,
-        "stars_per_day": 361.25,
+        "stars_per_day": 361.23,
         "created_at": "2026-04-18T11:22:14Z",
         "pushed_at": "2026-05-31T08:16:55Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -261,15 +261,15 @@
       "category_cn": "建站框架",
       "icon": "GU",
       "desc_cn": "这是一个 建站框架 方向的 HTML 开源项目，主要用于：AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-      "stars": 13900,
+      "stars": 13902,
       "forks": 1058,
       "language": "HTML",
       "growth": {
         "rank": 10,
-        "stars_per_day": 359.12,
+        "stars_per_day": 359.15,
         "created_at": "2026-04-23T13:23:07Z",
         "pushed_at": "2026-05-28T04:03:56Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -294,10 +294,10 @@
       "language": "Go",
       "growth": {
         "rank": 11,
-        "stars_per_day": 352.88,
+        "stars_per_day": 352.82,
         "created_at": "2026-05-20T18:11:37Z",
         "pushed_at": "2026-05-29T20:06:55Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -319,10 +319,10 @@
       "language": "C++",
       "growth": {
         "rank": 12,
-        "stars_per_day": 326.4,
+        "stars_per_day": 326.37,
         "created_at": "2026-05-11T17:44:55Z",
         "pushed_at": "2026-05-12T18:58:00Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -347,10 +347,10 @@
       "language": "Python",
       "growth": {
         "rank": 13,
-        "stars_per_day": 312.8,
+        "stars_per_day": 312.78,
         "created_at": "2026-04-17T01:56:15Z",
         "pushed_at": "2026-05-20T19:28:42Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -375,10 +375,10 @@
       "language": "Python",
       "growth": {
         "rank": 14,
-        "stars_per_day": 308.55,
+        "stars_per_day": 308.54,
         "created_at": "2026-04-18T12:57:52Z",
         "pushed_at": "2026-05-23T11:58:48Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -400,10 +400,10 @@
       "language": "C",
       "growth": {
         "rank": 15,
-        "stars_per_day": 287.89,
+        "stars_per_day": 287.86,
         "created_at": "2026-05-15T16:55:16Z",
         "pushed_at": "2026-06-01T04:33:42Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -428,10 +428,10 @@
       "language": "HTML",
       "growth": {
         "rank": 16,
-        "stars_per_day": 269.99,
+        "stars_per_day": 269.96,
         "created_at": "2026-05-11T09:40:38Z",
         "pushed_at": "2026-05-29T03:01:48Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -453,10 +453,10 @@
       "language": "TypeScript",
       "growth": {
         "rank": 17,
-        "stars_per_day": 261.16,
+        "stars_per_day": 261.11,
         "created_at": "2026-05-22T06:50:28Z",
         "pushed_at": "2026-06-01T03:49:08Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -476,15 +476,15 @@
       "category_cn": "建站框架",
       "icon": "OP",
       "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "stars": 1985,
+      "stars": 1986,
       "forks": 32,
       "language": "Rust",
       "growth": {
         "rank": 18,
-        "stars_per_day": 253.21,
+        "stars_per_day": 253.27,
         "created_at": "2026-05-24T10:10:36Z",
         "pushed_at": "2026-06-01T04:29:58Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -506,10 +506,10 @@
       "language": "JavaScript",
       "growth": {
         "rank": 19,
-        "stars_per_day": 250.54,
+        "stars_per_day": 250.5,
         "created_at": "2026-05-19T11:52:52Z",
         "pushed_at": "2026-05-30T16:01:42Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -531,10 +531,10 @@
       "language": "Shell",
       "growth": {
         "rank": 20,
-        "stars_per_day": 210.48,
+        "stars_per_day": 210.45,
         "created_at": "2026-05-20T00:49:37Z",
         "pushed_at": "2026-05-26T11:47:15Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -559,10 +559,10 @@
       "language": "JavaScript",
       "growth": {
         "rank": 21,
-        "stars_per_day": 206.24,
+        "stars_per_day": 206.2,
         "created_at": "2026-05-22T11:36:21Z",
         "pushed_at": "2026-06-01T04:50:30Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -584,10 +584,10 @@
       "language": "TypeScript",
       "growth": {
         "rank": 22,
-        "stars_per_day": 203.26,
+        "stars_per_day": 203.24,
         "created_at": "2026-05-12T20:09:25Z",
         "pushed_at": "2026-05-30T18:39:58Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -609,10 +609,10 @@
       "language": "C",
       "growth": {
         "rank": 23,
-        "stars_per_day": 195.71,
+        "stars_per_day": 195.69,
         "created_at": "2026-05-07T18:18:28Z",
         "pushed_at": "2026-05-10T17:29:21Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -629,15 +629,15 @@
       "category_cn": "建站框架",
       "icon": "CL",
       "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：A suite of plugins for legal workflows.",
-      "stars": 7912,
+      "stars": 7914,
       "forks": 1392,
       "language": "Python",
       "growth": {
         "rank": 24,
-        "stars_per_day": 194.84,
+        "stars_per_day": 194.88,
         "created_at": "2026-04-21T15:43:42Z",
         "pushed_at": "2026-05-30T20:38:02Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -662,10 +662,10 @@
       "language": "JavaScript",
       "growth": {
         "rank": 25,
-        "stars_per_day": 185.22,
+        "stars_per_day": 185.21,
         "created_at": "2026-04-25T09:19:13Z",
         "pushed_at": "2026-06-01T05:37:36Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -687,10 +687,10 @@
       "language": "Python",
       "growth": {
         "rank": 26,
-        "stars_per_day": 183.56,
+        "stars_per_day": 183.53,
         "created_at": "2026-05-21T07:31:35Z",
         "pushed_at": "2026-05-30T18:53:49Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -712,10 +712,10 @@
       "language": "Zig",
       "growth": {
         "rank": 27,
-        "stars_per_day": 173.25,
+        "stars_per_day": 173.23,
         "created_at": "2026-05-08T19:53:41Z",
         "pushed_at": "2026-05-13T16:47:35Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -737,10 +737,10 @@
       "language": "TypeScript",
       "growth": {
         "rank": 28,
-        "stars_per_day": 168.6,
+        "stars_per_day": 168.59,
         "created_at": "2026-04-21T13:38:59Z",
         "pushed_at": "2026-05-31T20:46:20Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -765,10 +765,10 @@
       "language": "CSS",
       "growth": {
         "rank": 29,
-        "stars_per_day": 168.13,
+        "stars_per_day": 168.12,
         "created_at": "2026-04-21T11:56:17Z",
         "pushed_at": "2026-05-27T08:01:37Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -793,10 +793,10 @@
       "language": "Swift",
       "growth": {
         "rank": 30,
-        "stars_per_day": 162.28,
+        "stars_per_day": 162.27,
         "created_at": "2026-05-01T07:45:10Z",
         "pushed_at": "2026-05-31T23:54:44Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -821,7 +821,7 @@
         "stars_per_day": 160.97,
         "created_at": "2026-04-20T16:35:19Z",
         "pushed_at": "2026-05-30T00:32:06Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -840,15 +840,15 @@
       "category_cn": "AI 智能体",
       "icon": "SK",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best…",
-      "stars": 3831,
+      "stars": 3832,
       "forks": 389,
       "language": "Python",
       "growth": {
         "rank": 32,
-        "stars_per_day": 159.72,
+        "stars_per_day": 159.75,
         "created_at": "2026-05-08T06:41:01Z",
         "pushed_at": "2026-05-31T10:20:00Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -873,10 +873,10 @@
       "language": "TypeScript",
       "growth": {
         "rank": 33,
-        "stars_per_day": 152.04,
+        "stars_per_day": 152.03,
         "created_at": "2026-04-21T18:33:12Z",
         "pushed_at": "2026-06-01T02:05:37Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -901,10 +901,10 @@
       "language": "TypeScript",
       "growth": {
         "rank": 34,
-        "stars_per_day": 149.02,
+        "stars_per_day": 149.01,
         "created_at": "2026-04-18T03:14:33Z",
         "pushed_at": "2026-05-31T22:09:09Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -920,15 +920,15 @@
       "category_cn": "数据分析",
       "icon": "AS",
       "desc_cn": "这是一个 数据分析 方向的 开源 开源项目，主要用于：A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
-      "stars": 3103,
-      "forks": 656,
+      "stars": 3104,
+      "forks": 657,
       "language": null,
       "growth": {
         "rank": 35,
-        "stars_per_day": 146.26,
+        "stars_per_day": 146.29,
         "created_at": "2026-05-11T01:08:15Z",
         "pushed_at": "2026-05-30T12:40:53Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     },
     {
@@ -950,10 +950,10 @@
       "language": "HTML",
       "growth": {
         "rank": 36,
-        "stars_per_day": 140.61,
+        "stars_per_day": 140.59,
         "created_at": "2026-05-17T06:41:12Z",
         "pushed_at": "2026-05-25T05:51:16Z",
-        "synced_at": "2026-06-01T06:19:24.580287Z"
+        "synced_at": "2026-06-01T06:22:10.955654Z"
       }
     }
   ]
