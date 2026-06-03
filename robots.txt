@@ -7,5 +7,6 @@ Allow: /data/projects.json
 Allow: /data/github-rising.json
 Allow: /trending/
 Allow: /categories/
+Allow: /collections/
 
 Sitemap: https://daohang.bot.cd/sitemap.xml

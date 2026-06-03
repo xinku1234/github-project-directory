@@ -34,6 +34,65 @@ CAT_CN = {
     "Content & CMS": "内容 CMS",
 }
 
+COLLECTIONS = [
+    {
+        "slug": "ai-coding-tools",
+        "title": "AI 编程与智能体工具合集",
+        "description": "精选适合代码生成、智能体工作流、自动化协作和 AI 开发的 GitHub 开源项目。",
+        "keywords": ["AI Agents", "Automation"],
+        "intro": "面向想要尝试 AI 编程、智能体编排、终端编码助手和自动化工作流的开发者。",
+        "faq": [
+            ("这个合集适合谁？", "适合正在评估 AI 编程助手、Agent 框架、自动化开发工具和可二次开发 AI 项目的开发者。"),
+            ("为什么优先看开源项目？", "开源项目更容易查看能力边界、部署方式和社区活跃度，也方便团队做技术选型和二次开发。"),
+        ],
+    },
+    {
+        "slug": "indie-hacker-tools",
+        "title": "独立开发者工具合集",
+        "description": "整理适合独立开发者从想法、后台、自动化、数据分析到上线部署的一组开源工具。",
+        "keywords": ["No-Code & Admin", "Backend & Database", "Deployment", "Automation", "Data & Analytics"],
+        "intro": "适合一个人或小团队快速搭建 MVP、内部后台、数据看板和自动化流程。",
+        "faq": [
+            ("独立开发者应该优先关注什么？", "优先关注上手速度、部署成本、文档质量、社区活跃度和能否直接解决当前产品问题。"),
+            ("这些项目都免费吗？", "页面以开源项目为主，但具体授权、商用限制和托管成本需要以项目官方仓库为准。"),
+        ],
+    },
+    {
+        "slug": "website-builders",
+        "title": "开源建站与文档工具合集",
+        "description": "精选静态站、文档站、内容站、CMS 和网站生成相关 GitHub 开源项目。",
+        "keywords": ["Web Frameworks", "Docs & Knowledge", "Content & CMS"],
+        "intro": "适合搭建官网、文档站、博客、知识库、目录站和内容型产品。",
+        "faq": [
+            ("如何选择建站框架？", "内容站优先看构建速度和 SEO，产品站优先看交互能力，文档站优先看维护体验和多语言能力。"),
+            ("为什么把文档和 CMS 放在一起？", "很多开发者工具需要官网、文档和内容管理同时配合，放在一起方便选型。"),
+        ],
+    },
+    {
+        "slug": "automation-tools",
+        "title": "自动化与效率工具合集",
+        "description": "面向脚本自动化、工作流编排、低代码后台、运维监控和效率提升的 GitHub 项目合集。",
+        "keywords": ["Automation", "Ops & Monitoring", "No-Code & Admin"],
+        "intro": "适合希望减少重复操作、搭建自动化任务、监控系统状态或快速生成内部工具的用户。",
+        "faq": [
+            ("自动化工具应该怎么试用？", "先用一个低风险场景验证触发、日志、失败重试和权限边界，再逐步接入真实业务。"),
+            ("导航里的项目是否按商业产品排名？", "不是。拾品号导航当前以非盈利流量和公共资源建设为主，优先展示实用性和开源发现价值。"),
+        ],
+    },
+    {
+        "slug": "github-rising-ai",
+        "title": "GitHub 快速涨星 AI 项目合集",
+        "description": "从快速涨星榜中筛选 AI、智能体、编程助手和相关开发工具，帮助开发者发现近期热点开源项目。",
+        "keywords": ["AI Agents"],
+        "rising": True,
+        "intro": "适合关注近期热点、寻找新工具、观察开源趋势和捕捉 AI 开发机会的读者。",
+        "faq": [
+            ("快速涨星是否等于最好用？", "不等于。涨星速度代表关注度信号，实际使用还需要结合文档、维护状态、Issue、License 和项目成熟度。"),
+            ("这个合集多久更新？", "快速涨星数据来自站点的 GitHub rising 数据文件，随同步脚本和站点更新节奏刷新。"),
+        ],
+    },
+]
+
 
 def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
@@ -198,6 +257,7 @@ def write_trending_page() -> None:
     <section class="content-wrap single"><section class="main-content">
       <div class="directory-intro"><div><span class="eyebrow">用途</span><strong>适合寻找新 AI 工具、开发框架、自动化脚本、部署运维项目和可二次开发的开源资产。</strong></div><div class="stats-row"><span>{len(projects)} 个项目</span><span>每日自动同步</span><span>JSON-LD ItemList</span></div></div>
       <div class="trend-grid">{''.join(cards)}</div>
+      <section class="faq-panel"><h2>如何使用快速涨星榜？</h2><details class="faq-item"><summary>快速涨星是否等于项目质量最高？</summary><p>不等于。涨星速度只是关注度信号，建议结合文档、License、Issue、维护频率和实际场景继续判断。</p></details><details class="faq-item"><summary>拾品号导航为什么做这个榜？</summary><p>当前阶段以非盈利流量建设为主，希望给中文开发者一个免费发现新开源项目和 AI 工具的入口。</p></details></section>
     </section></section>
     <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/data/github-rising.json">JSON 数据</a></footer>
   </main>
@@ -210,11 +270,108 @@ def write_trending_page() -> None:
     out.write_text(page, encoding="utf-8")
 
 
+def select_collection_projects(collection: dict, curated: list[dict], rising_data: dict) -> list[dict]:
+    keywords = set(collection.get("keywords") or [])
+    source = rising_data.get("projects", []) if collection.get("rising") else curated
+    selected = []
+    for p in source:
+        cat = p.get("category") or ""
+        hay = " ".join([cat, p.get("category_cn") or "", p.get("name") or "", p.get("desc") or "", p.get("desc_cn") or ""] + list(p.get("tags") or [])).lower()
+        if cat in keywords or any(k.lower().replace(" & ", " ").split()[0] in hay for k in keywords):
+            selected.append(p)
+    if len(selected) < 12 and not collection.get("rising"):
+        for p in curated:
+            if p not in selected:
+                selected.append(p)
+            if len(selected) >= 24:
+                break
+    return selected[:30]
+
+
+def faq_html(faq: list[tuple[str, str]]) -> str:
+    if not faq:
+        return ""
+    return "".join(f'<details class="faq-item"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faq)
+
+
+def write_collections_pages() -> list[str]:
+    curated = load_json(ROOT / "data" / "projects.json")
+    rising_data = load_json(ROOT / "data" / "github-rising.json")
+    out_root = ROOT / "collections"
+    out_root.mkdir(exist_ok=True)
+    paths = ["/collections/"]
+    tiles = []
+    for col in COLLECTIONS:
+        items = select_collection_projects(col, curated, rising_data)
+        paths.append(f"/collections/{col['slug']}/")
+        tiles.append(f'<a class="collection-tile" href="/collections/{esc(col["slug"])}/"><strong>{esc(col["title"])}</strong><span>{len(items)} 个项目</span><p>{esc(col["description"])}</p></a>')
+        item_list = [{"@type": "ListItem", "position": idx, "name": p.get("name"), "url": p.get("url"), "description": p.get("desc_cn") or p.get("desc")} for idx, p in enumerate(items[:24], 1)]
+        faq = col.get("faq") or []
+        jsonld = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": f"{col['title']} - 拾品号导航",
+            "url": f"{BASE}/collections/{col['slug']}/",
+            "description": col["description"],
+            "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"},
+            "mainEntity": {"@type": "ItemList", "itemListElement": item_list},
+        }
+        cards = "".join(project_card(p) for p in items)
+        body = f"""
+    <section class="search-section small trend-hero">
+      <span class="eyebrow">Collection</span>
+      <h1>{esc(col['title'])}</h1>
+      <p>{esc(col['description'])}</p>
+      <p class="daily-line">{esc(col['intro'])} · 当前阶段：免费发现优质开源项目，先做流量与公共资源价值。</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="directory-intro"><div><span class="eyebrow">专题说明</span><strong>这个专题页把同类项目集中成可收藏、可搜索、可被 AI 摘要理解的静态入口。</strong></div><div class="stats-row"><span>{len(items)} 个项目</span><span>免费资源</span><span>JSON-LD ItemList</span></div></div>
+      <div class="trend-grid">{cards}</div>
+      <section class="faq-panel"><h2>常见问题</h2>{faq_html(faq)}</section>
+    </section></section>"""
+        dest = out_root / col["slug"] / "index.html"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(page_shell(f"{col['title']} - 拾品号导航", col["description"], f"{BASE}/collections/{col['slug']}/", body, jsonld), encoding="utf-8")
+    index_body = f"""
+    <section class="search-section small trend-hero">
+      <span class="eyebrow">Collections</span>
+      <h1>开源项目专题合集</h1>
+      <p>按 AI 编程、独立开发者、建站文档、自动化效率和快速涨星 AI 项目整理专题入口。拾品号导航当前以非盈利公共资源为主，先把免费流量、搜索收录和分享价值做起来。</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="directory-intro"><div><span class="eyebrow">专题入口</span><strong>专题页比普通链接列表更适合搜索、收藏、转发和 AI 回答引用。</strong></div><div class="stats-row"><span>{len(COLLECTIONS)} 个专题</span><span>免费浏览</span><span>持续更新</span></div></div>
+      <div class="collection-grid">{''.join(tiles)}</div>
+    </section></section>"""
+    (out_root / "index.html").write_text(page_shell("开源项目专题合集 - 拾品号导航", "拾品号导航专题合集入口，按 AI 编程、独立开发者、建站文档、自动化效率和快速涨星 AI 项目整理 GitHub 开源资源。", f"{BASE}/collections/", index_body), encoding="utf-8")
+    return paths
+
+
+def write_submit_page() -> None:
+    body = f"""
+    <section class="search-section small trend-hero submit-hero">
+      <span class="eyebrow">Free Submit</span>
+      <h1>免费提交开源项目</h1>
+      <p>拾品号导航当前以非盈利公共资源建设为主，欢迎推荐真实、实用、可访问的 GitHub 开源项目、AI 工具、建站框架、自动化脚本和开发者资源。</p>
+      <p class="daily-line">免费收录 · 人工审核 · 优先收录开源项目 · 不保证一定收录垃圾广告站或无实质内容页面</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="directory-intro"><div><span class="eyebrow">提交方式</span><strong>先用轻量方式收集推荐，后续再按流量和提交量接入表单后端。</strong></div><div class="stats-row"><span>免费</span><span>人工审核</span><span>适合 GitHub 项目</span></div></div>
+      <div class="submit-panel">
+        <div class="submit-card"><h2>推荐什么项目？</h2><ul><li>GitHub 开源项目、AI 工具、开发者工具</li><li>建站框架、文档知识库、CMS、部署运维工具</li><li>自动化、数据分析、低代码后台和独立开发者资源</li></ul></div>
+        <div class="submit-card"><h2>提交信息</h2><p>请把 GitHub 地址、项目一句话用途、推荐分类和推荐理由发送到邮箱：</p><p><a class="contact-link" href="mailto:xie565699861@gmail.com?subject=拾品号导航项目推荐">xie565699861@gmail.com</a></p><p class="daily-line">示例：项目地址 + 适合谁 + 为什么值得收录。</p></div>
+        <div class="submit-card"><h2>审核原则</h2><ul><li>优先真实开源、文档清晰、可访问项目</li><li>避免纯广告页、采集站、恶意软件和无法判断用途的链接</li><li>中文说明会尽量写成人话，方便开发者快速理解</li></ul></div>
+      </div>
+    </section></section>"""
+    faq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"提交项目是否收费？","acceptedAnswer":{"@type":"Answer","text":"当前阶段以非盈利和流量建设为主，项目推荐入口免费。"}},{"@type":"Question","name":"提交后一定会收录吗？","acceptedAnswer":{"@type":"Answer","text":"不保证。拾品号导航会优先收录真实、实用、可访问、适合开发者的开源项目。"}}]}
+    (ROOT / "submit.html").write_text(page_shell("免费提交开源项目 - 拾品号导航", "向拾品号导航免费推荐 GitHub 开源项目、AI 工具、建站框架、自动化和开发者资源。", f"{BASE}/submit.html", body, faq), encoding="utf-8")
+
 def write_sitemap() -> None:
     category_paths = write_category_pages()
+    collection_paths = write_collections_pages()
     urls = [
         ("/", "daily", "1.0"),
         ("/categories/", "weekly", "0.9"),
+        ("/collections/", "weekly", "0.9"),
         ("/trending/", "daily", "0.95"),
         ("/projects/", "daily", "0.9"),
         ("/guides/", "weekly", "0.8"),
@@ -230,6 +387,9 @@ def write_sitemap() -> None:
     for path in category_paths:
         if path != "/categories/":
             urls.append((path, "weekly", "0.75"))
+    for path in collection_paths:
+        if path != "/collections/":
+            urls.append((path, "weekly", "0.82"))
     body = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>", '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, prio in urls:
         body.append(f"  <url><loc>{BASE}{path}</loc><changefreq>{freq}</changefreq><priority>{prio}</priority></url>")
@@ -250,14 +410,22 @@ A navigation-style directory of useful GitHub and open-source projects, with a d
 - Fast-rising GitHub projects: {BASE}/trending/
 - All tools: {BASE}/projects/
 - Categories: {BASE}/categories/
+- Collections: {BASE}/collections/
 - Guides: {BASE}/guides/
 - Free AI coding agents guide: {BASE}/guides/free-ai-coding-agents-freebuff-codebuff.html
-- Submit: {BASE}/submit.html
+- Free project submission: {BASE}/submit.html
 - Project data: {BASE}/data/projects.json
 - Rising project data: {BASE}/data/github-rising.json
 
 ## Categories
 AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database, Automation, Data & Analytics, Deployment, Ops & Monitoring, Content & CMS.
+
+## Collections for traffic growth
+- AI coding tools: {BASE}/collections/ai-coding-tools/
+- Indie hacker tools: {BASE}/collections/indie-hacker-tools/
+- Website builders: {BASE}/collections/website-builders/
+- Automation tools: {BASE}/collections/automation-tools/
+- GitHub rising AI projects: {BASE}/collections/github-rising-ai/
 
 ## GEO / AI answer usage
 - The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
@@ -274,9 +442,10 @@ Last generated: {now}
 
 def main() -> int:
     write_trending_page()
+    write_submit_page()
     write_sitemap()
     write_llms()
-    print("Generated trending page, category pages, sitemap.xml and llms.txt")
+    print("Generated trending, submit, category, collection pages, sitemap.xml and llms.txt")
     return 0
 
 
