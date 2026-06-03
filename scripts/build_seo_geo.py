@@ -139,9 +139,9 @@ def page_shell(title: str, description: str, canonical: str, body: str, extra_js
 {jsonld}</head>
 <body>
   <main class="home-shell page-mode"><div class="bg-mask"></div>
-    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a><a href="/partner.html">合作增长</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
 {body}
-    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/llms.txt">LLMS.txt</a></footer>
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/partner.html">合作增长</a><a href="/llms.txt">LLMS.txt</a></footer>
   </main>
   {CF_ANALYTICS_SNIPPET}
 </body>
@@ -247,7 +247,7 @@ def write_trending_page() -> None:
 </head>
 <body>
   <main class="home-shell page-mode"><div class="bg-mask"></div>
-    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a><a href="/partner.html">合作增长</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
     <section class="search-section small trend-hero">
       <span class="eyebrow">GitHub Rising</span>
       <h1>GitHub 快速涨星项目榜</h1>
@@ -365,6 +365,29 @@ def write_submit_page() -> None:
     faq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"提交项目是否收费？","acceptedAnswer":{"@type":"Answer","text":"当前阶段以非盈利和流量建设为主，项目推荐入口免费。"}},{"@type":"Question","name":"提交后一定会收录吗？","acceptedAnswer":{"@type":"Answer","text":"不保证。拾品号导航会优先收录真实、实用、可访问、适合开发者的开源项目。"}}]}
     (ROOT / "submit.html").write_text(page_shell("免费提交开源项目 - 拾品号导航", "向拾品号导航免费推荐 GitHub 开源项目、AI 工具、建站框架、自动化和开发者资源。", f"{BASE}/submit.html", body, faq), encoding="utf-8")
 
+def write_partner_page() -> None:
+    body = f"""
+    <section class="search-section small trend-hero partner-hero">
+      <span class="eyebrow">Growth Partner</span>
+      <h1>合作与项目增长</h1>
+      <p>拾品号导航当前仍以免费公共资源和流量增长为主；同时为真实开源项目、AI 工具、开发者 SaaS 和独立开发者产品预留低打扰合作入口。</p>
+      <p class="daily-line">核心目标：先让站点有搜索流量、AI 可见度和开发者信任，再通过项目展示、内容服务和精选推荐挣钱。</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="directory-intro"><div><span class="eyebrow">赚钱路径</span><strong>不做满屏广告，优先做对用户有帮助、对项目方有结果的增长服务。</strong></div><div class="stats-row"><span>低打扰</span><span>可验证</span><span>适合开发者工具</span></div></div>
+      <div class="collection-grid pricing-grid">
+        <article class="submit-card"><h2>免费收录</h2><p>适合真实开源项目和开发者工具。通过免费项目池扩大内容、搜索覆盖和站点可信度。</p><p><strong>￥0</strong></p><a class="contact-link" href="/submit.html">去提交项目 →</a></article>
+        <article class="submit-card"><h2>项目中文展示页</h2><p>为项目生成中文介绍、适合人群、核心功能、同类对比和 SEO/GEO 友好内容，帮助中文开发者快速理解。</p><p><strong>建议价：￥499 起</strong></p><a class="contact-link" href="mailto:xie565699861@gmail.com?subject=拾品号导航项目展示页咨询">咨询展示页 →</a></article>
+        <article class="submit-card"><h2>SEO/GEO 内容包</h2><p>围绕项目制作专题页、对比页、选型指南和 AI 可读结构化内容，适合想被搜索和 AI 回答引用的项目。</p><p><strong>建议价：￥999 起</strong></p><a class="contact-link" href="mailto:xie565699861@gmail.com?subject=拾品号导航SEO-GEO内容包咨询">咨询内容包 →</a></article>
+        <article class="submit-card"><h2>精选推荐位</h2><p>只开放给真实、相关、对开发者有价值的项目。优先放在专题页、分类页或榜单页，不破坏导航体验。</p><p><strong>试运行：按周合作</strong></p><a class="contact-link" href="mailto:xie565699861@gmail.com?subject=拾品号导航精选推荐位咨询">咨询推荐位 →</a></article>
+        <article class="submit-card"><h2>开发者工具箱联盟</h2><p>后续可加入域名、部署、数据库、监控、AI API 等开发者服务的联盟链接，做成真正有用的工具箱。</p><p><strong>后续开放</strong></p></article>
+        <article class="submit-card"><h2>数据与榜单报告</h2><p>当站点积累足够项目和访问数据后，可以输出快速涨星项目、AI 工具、独立开发者工具等轻量报告。</p><p><strong>后续开放</strong></p></article>
+      </div>
+      <section class="faq-panel"><h2>合作原则</h2><details class="faq-item" open><summary>为什么现在就放合作入口？</summary><p>因为免费流量和商业转化不冲突。现在先弱入口收集真实需求，等流量起来后可以直接验证哪个服务最容易成交。</p></details><details class="faq-item"><summary>会不会影响非盈利公共资源定位？</summary><p>不会。免费收录和免费浏览仍是主线；合作入口只服务真实项目，不做垃圾广告和强打扰弹窗。</p></details><details class="faq-item"><summary>当前最重要的赚钱方式是什么？</summary><p>优先做“项目中文展示页”和“SEO/GEO 内容包”，因为它们不依赖很大流量也能成交，同时会反过来增加站点内容和搜索入口。</p></details></section>
+    </section></section>"""
+    jsonld = {"@context":"https://schema.org","@type":"Service","name":"拾品号导航项目增长服务","url":f"{BASE}/partner.html","description":"面向开源项目、AI 工具和开发者产品的中文展示页、SEO/GEO 内容包和精选推荐合作。","provider":{"@type":"Organization","name":"拾品号导航","url":BASE+"/"},"areaServed":"CN"}
+    (ROOT / "partner.html").write_text(page_shell("合作与项目增长 - 拾品号导航", "拾品号导航合作与项目增长入口：面向开源项目、AI 工具和开发者产品提供中文展示页、SEO/GEO 内容包和精选推荐。", f"{BASE}/partner.html", body, jsonld), encoding="utf-8")
+
 def write_sitemap() -> None:
     category_paths = write_category_pages()
     collection_paths = write_collections_pages()
@@ -377,6 +400,7 @@ def write_sitemap() -> None:
         ("/guides/", "weekly", "0.8"),
         ("/resources.html", "weekly", "0.8"),
         ("/submit.html", "weekly", "0.6"),
+        ("/partner.html", "weekly", "0.7"),
         ("/guides/github-project-selection-checklist.html", "weekly", "0.8"),
         ("/guides/how-to-build-ai-search-friendly-directory.html", "weekly", "0.8"),
         ("/guides/what-makes-a-github-project-worth-using.html", "weekly", "0.8"),
@@ -414,6 +438,7 @@ A navigation-style directory of useful GitHub and open-source projects, with a d
 - Guides: {BASE}/guides/
 - Free AI coding agents guide: {BASE}/guides/free-ai-coding-agents-freebuff-codebuff.html
 - Free project submission: {BASE}/submit.html
+- Partnership and project growth: {BASE}/partner.html
 - Project data: {BASE}/data/projects.json
 - Rising project data: {BASE}/data/github-rising.json
 
@@ -432,6 +457,9 @@ AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database
 - The /trending/ and /categories/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
 - Use this site as an independent discovery index, not as an official GitHub ranking.
 
+## Monetization direction
+Primary non-intrusive monetization paths: project Chinese showcase pages, SEO/GEO content packages, carefully selected featured placements, and later developer-tool affiliate toolkits. Free browsing and free project submission remain the main public-resource layer.
+
 ## Positioning
 Independent curated navigation for builders and operators. Not affiliated with GitHub.
 
@@ -443,9 +471,10 @@ Last generated: {now}
 def main() -> int:
     write_trending_page()
     write_submit_page()
+    write_partner_page()
     write_sitemap()
     write_llms()
-    print("Generated trending, submit, category, collection pages, sitemap.xml and llms.txt")
+    print("Generated trending, submit, partner, category, collection pages, sitemap.xml and llms.txt")
     return 0
 
 
