@@ -1,5 +1,152 @@
 [
   {
+    "name": "e2b-dev/E2B",
+    "category": "AI Agents",
+    "url": "https://github.com/e2b-dev/E2B",
+    "desc": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+    "tags": [
+      "agent-runtime",
+      "sandbox",
+      "tool-use",
+      "python",
+      "infrastructure"
+    ],
+    "badge": "Agent Runtime",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "E2",
+    "desc_cn": "为企业级 AI 智能体提供开源安全运行环境和真实工具沙箱，适合需要执行代码、文件操作、外部工具调用的 Agent 应用。",
+    "stars": 12454,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "name": "vm0-ai/vm0",
+    "category": "AI Agents",
+    "url": "https://github.com/vm0-ai/vm0",
+    "desc": "Zero, your trustworthy AI teammate for real work.",
+    "tags": [
+      "ai-teammate",
+      "agent-workflow",
+      "typescript",
+      "productivity",
+      "automation"
+    ],
+    "badge": "AI Teammate",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "V0",
+    "desc_cn": "面向真实工作任务的 AI teammate 项目，强调可信协作和任务执行体验，适合参考智能体产品形态、工作台交互和自动化流程。",
+    "stars": 1116,
+    "forks": 0,
+    "language": "TypeScript"
+  },
+  {
+    "name": "LiuMengxuan04/MiniCode",
+    "category": "AI Agents",
+    "url": "https://github.com/LiuMengxuan04/MiniCode",
+    "desc": "A lightweight terminal coding assistant with Claude Code-like workflow, tool loop, and TUI architecture.",
+    "tags": [
+      "coding-agent",
+      "terminal",
+      "tui",
+      "tool-loop",
+      "typescript"
+    ],
+    "badge": "Coding Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "MC",
+    "desc_cn": "轻量级终端编码助手，提供类似 Claude Code 的工具循环、TUI 和任务执行体验，适合研究本地 coding agent 架构与命令行交互。",
+    "stars": 748,
+    "forks": 0,
+    "language": "TypeScript"
+  },
+  {
+    "name": "LazyAGI/LazyLLM",
+    "category": "AI Agents",
+    "url": "https://github.com/LazyAGI/LazyLLM",
+    "desc": "Easiest and laziest way for building multi-agent LLMs applications.",
+    "tags": [
+      "multi-agent",
+      "llm-framework",
+      "rag",
+      "python",
+      "workflow"
+    ],
+    "badge": "Multi-Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "LL",
+    "desc_cn": "面向多智能体与 LLM 应用的 Python 框架，覆盖工具调用、RAG 和 Agent 编排，适合快速搭建原型和教学型多 Agent 工作流。",
+    "stars": 3839,
+    "forks": 0,
+    "language": "Python"
+  },
+  {
+    "name": "steel-dev/steel-browser",
+    "category": "AI Agents",
+    "url": "https://github.com/steel-dev/steel-browser",
+    "desc": "Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox.",
+    "tags": [
+      "browser-agent",
+      "browser-api",
+      "automation",
+      "typescript",
+      "sandbox"
+    ],
+    "badge": "Browser Agents",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "SB",
+    "desc_cn": "为 AI Agent 和应用提供开源浏览器 API 与浏览器沙箱，适合网页操作、浏览器自动化和可控环境中的 browser agent 场景。",
+    "stars": 7109,
+    "forks": 0,
+    "language": "TypeScript"
+  },
+  {
+    "name": "mksglu/context-mode",
+    "category": "AI Agents",
+    "url": "https://github.com/mksglu/context-mode",
+    "desc": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 15 platforms.",
+    "tags": [
+      "coding-agents",
+      "context-window",
+      "mcp",
+      "typescript",
+      "optimization"
+    ],
+    "badge": "Context Tools",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "CM",
+    "desc_cn": "面向 AI 编码智能体的上下文窗口优化工具，通过隔离和压缩工具输出减少噪声，适合长任务、MCP 工具链和多平台 coding agent 工作流。",
+    "stars": 16306,
+    "forks": 0,
+    "language": "TypeScript"
+  },
+  {
+    "name": "cordum-io/cordum",
+    "category": "AI Agents",
+    "url": "https://github.com/cordum-io/cordum",
+    "desc": "The open agent control plane. Govern autonomous AI agents with pre-execution policy enforcement.",
+    "tags": [
+      "agent-governance",
+      "policy",
+      "control-plane",
+      "go",
+      "automation"
+    ],
+    "badge": "Agent Control",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "CD",
+    "desc_cn": "开源智能体控制平面，聚焦 Agent 执行前策略、审批和治理，适合需要把自主智能体接入企业规则与安全边界的团队。",
+    "stars": 484,
+    "forks": 0,
+    "language": "Go"
+  },
+  {
     "name": "TanStack/ai",
     "category": "AI Agents",
     "url": "https://github.com/TanStack/ai",
