@@ -139,9 +139,9 @@ def page_shell(title: str, description: str, canonical: str, body: str, extra_js
 {jsonld}</head>
 <body>
   <main class="home-shell page-mode"><div class="bg-mask"></div>
-    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
 {body}
-    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/llms.txt">LLMS.txt</a></footer>
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/llms.txt">LLMS.txt</a></footer>
   </main>
   {CF_ANALYTICS_SNIPPET}
 </body>
@@ -247,7 +247,7 @@ def write_trending_page() -> None:
 </head>
 <body>
   <main class="home-shell page-mode"><div class="bg-mask"></div>
-    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
     <section class="search-section small trend-hero">
       <span class="eyebrow">GitHub Rising</span>
       <h1>GitHub 快速涨星项目榜</h1>
@@ -259,7 +259,7 @@ def write_trending_page() -> None:
       <div class="trend-grid">{''.join(cards)}</div>
       <section class="faq-panel"><h2>如何使用快速涨星榜？</h2><details class="faq-item"><summary>快速涨星是否等于项目质量最高？</summary><p>不等于。涨星速度只是关注度信号，建议结合文档、License、Issue、维护频率和实际场景继续判断。</p></details><details class="faq-item"><summary>拾品号导航为什么做这个榜？</summary><p>当前阶段以非盈利流量建设为主，希望给中文开发者一个免费发现新开源项目和 AI 工具的入口。</p></details></section>
     </section></section>
-    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/data/github-rising.json">JSON 数据</a></footer>
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/daily-brief/">分享快报</a><a href="/data/github-rising.json">JSON 数据</a></footer>
   </main>
   {CF_ANALYTICS_SNIPPET}
 </body>
@@ -268,6 +268,71 @@ def write_trending_page() -> None:
     out = ROOT / "trending" / "index.html"
     out.parent.mkdir(exist_ok=True)
     out.write_text(page, encoding="utf-8")
+
+
+def write_daily_brief_page() -> None:
+    """Generate a share-friendly daily Top 10 GitHub growth brief."""
+    rising_data = load_json(ROOT / "data" / "github-rising.json")
+    projects = (rising_data.get("projects") or [])[:10]
+    synced = rising_data.get("synced_at", "")
+    date_label = synced[:10] if synced else datetime.now(timezone.utc).date().isoformat()
+    item_list = []
+    rows = []
+    for idx, p in enumerate(projects, 1):
+        growth = p.get("growth") or {}
+        spd = growth.get("stars_per_day") or 0
+        stars = p.get("stars") or 0
+        forks = p.get("forks") or 0
+        category = p.get("category_cn") or CAT_CN.get(p.get("category"), p.get("category") or "开源项目")
+        language = p.get("language") or "开源"
+        desc = p.get("desc_cn") or p.get("desc") or "适合查看源码、功能定位和二次开发价值。"
+        item_list.append({
+            "@type": "ListItem",
+            "position": idx,
+            "name": p.get("name"),
+            "url": p.get("url"),
+            "description": desc,
+        })
+        rows.append(f"""
+          <article class="brief-item rank-{idx}">
+            <div class="brief-rank">#{idx}</div>
+            <div class="brief-main">
+              <h2><a href="{esc(p.get('url'))}" target="_blank" rel="noopener">{esc(p.get('name'))}</a></h2>
+              <p>{esc(desc)}</p>
+              <div class="brief-meta"><span>↗ {esc(round(float(spd), 2))} 星/天</span><span>★ {int(stars):,}</span><span>⑂ {int(forks):,} Fork</span><span>{esc(language)}</span><span>{esc(category)}</span></div>
+            </div>
+          </article>""")
+    share_text = f"拾品号导航 GitHub 每日增速 Top10 · {date_label} · daohang.bot.cd"
+    jsonld = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "GitHub 每日增速 Top10 分享快报 - 拾品号导航",
+        "url": f"{BASE}/daily-brief/",
+        "description": "面向转发分享的 GitHub 每日增速最快前十名开源项目快报。",
+        "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"},
+        "mainEntity": {"@type": "ItemList", "itemListElement": item_list},
+    }
+    body = f"""
+    <section class="daily-brief-hero">
+      <div class="brief-brand"><span>拾品号导航</span><strong>GitHub 每日增速 Top10</strong><em>{esc(date_label)} · daohang.bot.cd</em></div>
+      <h1>今天 GitHub 增速最快的 10 个开源项目</h1>
+      <p>从 GitHub 快速涨星数据中筛选前十名，保留项目用途、星标增速、累计 Star、Fork、语言和分类，适合直接截图或转发给开发者朋友。</p>
+      <div class="brief-actions">
+        <button type="button" onclick="navigator.clipboard && navigator.clipboard.writeText('{esc(share_text)}\n{BASE}/daily-brief/').then(()=>this.textContent='已复制链接')">复制分享文案</button>
+        <a href="/trending/">查看完整涨星榜 →</a>
+      </div>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="share-brief-card" id="shareBriefCard">
+        <div class="share-card-head"><span>GitHub Daily Growth Brief</span><strong>拾品号导航 · 每日快报</strong><em>数据源：GitHub Search API · 同步时间：{esc(synced)}</em></div>
+        <div class="brief-list">{''.join(rows)}</div>
+        <div class="share-card-foot"><span>每天发现值得收藏的开源项目</span><strong>daohang.bot.cd</strong></div>
+      </div>
+      <section class="faq-panel"><h2>这个快报怎么用？</h2><details class="faq-item" open><summary>适合分享出去吗？</summary><p>适合。页面是专门为截图、社群转发和导航站引流设计的，顶部有品牌、日期和网址，列表只保留前十名，信息密度比完整榜单更适合传播。</p></details><details class="faq-item"><summary>增速最快是否代表最好用？</summary><p>不代表。星标增速是关注度信号，实际使用还需要结合文档、License、Issue、维护频率和你的具体场景判断。</p></details></section>
+    </section></section>"""
+    out = ROOT / "daily-brief" / "index.html"
+    out.parent.mkdir(exist_ok=True)
+    out.write_text(page_shell("GitHub 每日增速 Top10 分享快报 - 拾品号导航", "拾品号导航每日整理 GitHub 增速最快的前十名开源项目，适合截图、转发和快速发现新工具。", f"{BASE}/daily-brief/", body, jsonld), encoding="utf-8")
 
 
 def select_collection_projects(collection: dict, curated: list[dict], rising_data: dict) -> list[dict]:
@@ -373,6 +438,7 @@ def write_sitemap() -> None:
         ("/categories/", "weekly", "0.9"),
         ("/collections/", "weekly", "0.9"),
         ("/trending/", "daily", "0.95"),
+        ("/daily-brief/", "daily", "0.94"),
         ("/projects/", "daily", "0.9"),
         ("/guides/", "weekly", "0.8"),
         ("/resources.html", "weekly", "0.8"),
@@ -408,6 +474,7 @@ A navigation-style directory of useful GitHub and open-source projects, with a d
 ## Main pages
 - Home: {BASE}/
 - Fast-rising GitHub projects: {BASE}/trending/
+- Daily share brief Top 10: {BASE}/daily-brief/
 - All tools: {BASE}/projects/
 - Categories: {BASE}/categories/
 - Collections: {BASE}/collections/
@@ -442,10 +509,11 @@ Last generated: {now}
 
 def main() -> int:
     write_trending_page()
+    write_daily_brief_page()
     write_submit_page()
     write_sitemap()
     write_llms()
-    print("Generated trending, submit, category, collection pages, sitemap.xml and llms.txt")
+    print("Generated trending, daily brief, submit, category, collection pages, sitemap.xml and llms.txt")
     return 0
 
 
