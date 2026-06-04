@@ -302,7 +302,8 @@ def write_daily_brief_page() -> None:
               <div class="brief-meta"><span>↗ {esc(round(float(spd), 2))} 星/天</span><span>★ {int(stars):,}</span><span>⑂ {int(forks):,} Fork</span><span>{esc(language)}</span><span>{esc(category)}</span></div>
             </div>
           </article>""")
-    share_text = f"拾品号导航 GitHub 每日增速 Top10 · {date_label} · daohang.bot.cd"
+    share_text = f"拾品号导航 GitHub 每日增速 Top10 · {date_label} · daohang.bot.cd\n{BASE}/daily-brief/"
+    share_text_json = json.dumps(share_text, ensure_ascii=False)
     jsonld = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
@@ -318,7 +319,7 @@ def write_daily_brief_page() -> None:
       <h1>今天 GitHub 增速最快的 10 个开源项目</h1>
       <p>从 GitHub 快速涨星数据中筛选前十名，保留项目用途、星标增速、累计 Star、Fork、语言和分类，适合直接截图或转发给开发者朋友。</p>
       <div class="brief-actions">
-        <button type="button" onclick="navigator.clipboard && navigator.clipboard.writeText('{esc(share_text)}\n{BASE}/daily-brief/').then(()=>this.textContent='已复制链接')">复制分享文案</button>
+        <button type="button" id="copyDailyBrief" data-share-text='{esc(share_text)}' aria-live="polite">复制分享文案</button>
         <a href="/trending/">查看完整涨星榜 →</a>
       </div>
     </section>
@@ -329,7 +330,46 @@ def write_daily_brief_page() -> None:
         <div class="share-card-foot"><span>每天发现值得收藏的开源项目</span><strong>daohang.bot.cd</strong></div>
       </div>
       <section class="faq-panel"><h2>这个快报怎么用？</h2><details class="faq-item" open><summary>适合分享出去吗？</summary><p>适合。页面是专门为截图、社群转发和导航站引流设计的，顶部有品牌、日期和网址，列表只保留前十名，信息密度比完整榜单更适合传播。</p></details><details class="faq-item"><summary>增速最快是否代表最好用？</summary><p>不代表。星标增速是关注度信号，实际使用还需要结合文档、License、Issue、维护频率和你的具体场景判断。</p></details></section>
-    </section></section>"""
+    </section></section>
+    <script>
+      (() => {{
+        const text = {share_text_json};
+        const btn = document.getElementById('copyDailyBrief');
+        if (!btn) return;
+        async function copyText(value) {{
+          if (navigator.clipboard && window.isSecureContext) {{
+            await navigator.clipboard.writeText(value);
+            return true;
+          }}
+          const textarea = document.createElement('textarea');
+          textarea.value = value;
+          textarea.setAttribute('readonly', '');
+          textarea.style.position = 'fixed';
+          textarea.style.left = '-9999px';
+          textarea.style.top = '0';
+          document.body.appendChild(textarea);
+          textarea.focus();
+          textarea.select();
+          const ok = document.execCommand('copy');
+          textarea.remove();
+          if (!ok) throw new Error('copy command failed');
+          return true;
+        }}
+        btn.addEventListener('click', async () => {{
+          const old = btn.textContent;
+          try {{
+            await copyText(text);
+            btn.textContent = '已复制分享文案';
+            btn.classList.add('copied');
+            setTimeout(() => {{ btn.textContent = old; btn.classList.remove('copied'); }}, 1800);
+          }} catch (err) {{
+            console.error('复制失败', err);
+            btn.textContent = '复制失败，请长按页面地址';
+            setTimeout(() => {{ btn.textContent = old; }}, 2200);
+          }}
+        }});
+      }})();
+    </script>"""
     out = ROOT / "daily-brief" / "index.html"
     out.parent.mkdir(exist_ok=True)
     out.write_text(page_shell("GitHub 每日增速 Top10 分享快报 - 拾品号导航", "拾品号导航每日整理 GitHub 增速最快的前十名开源项目，适合截图、转发和快速发现新工具。", f"{BASE}/daily-brief/", body, jsonld), encoding="utf-8")
