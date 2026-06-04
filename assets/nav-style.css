@@ -57,3 +57,18 @@ html{background:#050916}.home-shell.page-mode{background:radial-gradient(circle 
 .content-wrap.single:has(.share-brief-card){padding-top:0!important;margin-top:0!important}
 .share-brief-card{margin-top:0!important}
 @media(max-width:640px){.daily-brief-hero{margin-top:78px!important;padding:1rem .95rem .95rem!important}.daily-brief-hero h1{font-size:clamp(1.9rem,12vw,3rem)!important}.brief-actions{margin-top:.62rem!important}}
+
+/* Interactive depth effects: subtle animated aurora + starfield + card shimmer */
+@keyframes gridDrift{0%{background-position:0 0,0 0,50% 0}100%{background-position:144px 72px,72px 144px,50% 0}}
+@keyframes particleFloat{0%{background-position:0 0}100%{background-position:54px -108px}}
+@keyframes auroraBreath{0%{transform:translate3d(-2%,0,0) scale(.96);opacity:.52}100%{transform:translate3d(2%,20px,0) scale(1.06);opacity:.82}}
+@keyframes cometDrift{0%{transform:translate3d(-18vw,-8vh,0) rotate(-18deg);opacity:0}12%{opacity:.55}45%{opacity:.18}100%{transform:translate3d(90vw,64vh,0) rotate(-18deg);opacity:0}}
+@keyframes haloPulse{0%,100%{box-shadow:0 18px 48px #00000048,0 0 0 rgba(78,231,255,0)}50%{box-shadow:0 22px 62px #0000005a,0 0 34px rgba(78,231,255,.15)}}
+.home-shell{isolation:isolate}.home-shell:before{will-change:background-position}.bg-mask{overflow:hidden}.bg-mask:before{animation:particleFloat 30s linear infinite!important}.bg-mask:after{will-change:transform,opacity}.bg-mask .unused{display:none}
+.top-menu:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent,#38bdf8aa,#8b5cf6aa,transparent);opacity:.7;pointer-events:none}
+.content-wrap:before{content:"";position:fixed;left:-18vw;top:14vh;width:26vw;height:2px;z-index:-1;pointer-events:none;background:linear-gradient(90deg,transparent,#dff7ffb8,transparent);filter:drop-shadow(0 0 12px #38bdf8);animation:cometDrift 18s ease-in-out infinite}
+.link-item,.trend-card,.collection-tile,.submit-card,.daily-card,.rising-spotlight,.share-brief-card,.directory-intro,.category-sidebar,.quick-panel a{position:relative;overflow:hidden;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease,background .18s ease}.link-item:after,.trend-card:after,.collection-tile:after,.submit-card:after,.daily-card:after,.quick-panel a:after{content:"";position:absolute;inset:-2px;background:linear-gradient(115deg,transparent 0 38%,rgba(255,255,255,.16) 47%,transparent 56% 100%);transform:translateX(-120%);transition:transform .55s ease;pointer-events:none}.link-item:hover:after,.trend-card:hover:after,.collection-tile:hover:after,.submit-card:hover:after,.daily-card:hover:after,.quick-panel a:hover:after{transform:translateX(120%)}.link-item:hover,.trend-card:hover,.collection-tile:hover,.submit-card:hover,.quick-panel a:hover{animation:haloPulse 1.8s ease-in-out infinite;transform:translateY(-4px)}
+.search-box,.nav-search input{box-shadow:0 0 0 1px rgba(255,255,255,.06),0 18px 54px rgba(0,0,0,.28),0 0 48px rgba(56,189,248,.08)}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+@media(max-width:640px){.content-wrap:before{display:none}.link-item:hover,.trend-card:hover,.collection-tile:hover,.submit-card:hover,.quick-panel a:hover{transform:none}}
+
