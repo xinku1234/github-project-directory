@@ -16,9 +16,15 @@
     "category_cn": "AI 智能体",
     "icon": "E2",
     "desc_cn": "为企业级 AI 智能体提供开源安全运行环境和真实工具沙箱，适合需要执行代码、文件操作、外部工具调用的 Agent 应用。",
-    "stars": 12454,
-    "forks": 0,
-    "language": "Python"
+    "stars": 12468,
+    "forks": 929,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 10.5,
+      "created_at": "2023-03-04T13:41:18Z",
+      "pushed_at": "2026-06-03T13:55:22Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
   },
   {
     "name": "vm0-ai/vm0",
@@ -37,9 +43,15 @@
     "category_cn": "AI 智能体",
     "icon": "V0",
     "desc_cn": "面向真实工作任务的 AI teammate 项目，强调可信协作和任务执行体验，适合参考智能体产品形态、工作台交互和自动化流程。",
-    "stars": 1116,
-    "forks": 0,
-    "language": "TypeScript"
+    "stars": 1117,
+    "forks": 66,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 5.53,
+      "created_at": "2025-11-14T03:27:22Z",
+      "pushed_at": "2026-06-04T06:06:59Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
   },
   {
     "name": "LiuMengxuan04/MiniCode",
@@ -58,9 +70,15 @@
     "category_cn": "AI 智能体",
     "icon": "MC",
     "desc_cn": "轻量级终端编码助手，提供类似 Claude Code 的工具循环、TUI 和任务执行体验，适合研究本地 coding agent 架构与命令行交互。",
-    "stars": 748,
-    "forks": 0,
-    "language": "TypeScript"
+    "stars": 780,
+    "forks": 87,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 12.08,
+      "created_at": "2026-03-31T16:13:54Z",
+      "pushed_at": "2026-06-03T08:59:08Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
   },
   {
     "name": "LazyAGI/LazyLLM",
@@ -79,9 +97,15 @@
     "category_cn": "AI 智能体",
     "icon": "LL",
     "desc_cn": "面向多智能体与 LLM 应用的 Python 框架，覆盖工具调用、RAG 和 Agent 编排，适合快速搭建原型和教学型多 Agent 工作流。",
-    "stars": 3839,
-    "forks": 0,
-    "language": "Python"
+    "stars": 3838,
+    "forks": 389,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 5.26,
+      "created_at": "2024-06-04T05:01:45Z",
+      "pushed_at": "2026-06-04T05:29:11Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
   },
   {
     "name": "steel-dev/steel-browser",
@@ -100,9 +124,15 @@
     "category_cn": "AI 智能体",
     "icon": "SB",
     "desc_cn": "为 AI Agent 和应用提供开源浏览器 API 与浏览器沙箱，适合网页操作、浏览器自动化和可控环境中的 browser agent 场景。",
-    "stars": 7109,
-    "forks": 0,
-    "language": "TypeScript"
+    "stars": 7114,
+    "forks": 937,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 12.28,
+      "created_at": "2024-11-01T18:15:29Z",
+      "pushed_at": "2026-06-03T11:28:26Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
   },
   {
     "name": "mksglu/context-mode",
@@ -121,9 +151,15 @@
     "category_cn": "AI 智能体",
     "icon": "CM",
     "desc_cn": "面向 AI 编码智能体的上下文窗口优化工具，通过隔离和压缩工具输出减少噪声，适合长任务、MCP 工具链和多平台 coding agent 工作流。",
-    "stars": 16306,
-    "forks": 0,
-    "language": "TypeScript"
+    "stars": 16371,
+    "forks": 1181,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 162.08,
+      "created_at": "2026-02-23T05:56:28Z",
+      "pushed_at": "2026-06-03T13:30:54Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
   },
   {
     "name": "cordum-io/cordum",
@@ -143,8 +179,14 @@
     "icon": "CD",
     "desc_cn": "开源智能体控制平面，聚焦 Agent 执行前策略、审批和治理，适合需要把自主智能体接入企业规则与安全边界的团队。",
     "stars": 484,
-    "forks": 0,
-    "language": "Go"
+    "forks": 29,
+    "language": "Go",
+    "growth": {
+      "stars_per_day": 3.37,
+      "created_at": "2026-01-11T16:56:02Z",
+      "pushed_at": "2026-06-04T00:35:12Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
   },
   {
     "name": "TanStack/ai",
@@ -163,14 +205,14 @@
     "category_cn": "AI 智能体",
     "icon": "TA",
     "desc_cn": "TanStack 生态的类型安全 AI SDK，支持流式聊天、工具调用、智能体和多模态应用，适合前端/全栈团队构建跨模型 AI 功能。",
-    "stars": 2719,
-    "forks": 223,
+    "stars": 2736,
+    "forks": 226,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 11.45,
+      "stars_per_day": 11.47,
       "created_at": "2025-10-08T17:52:48Z",
-      "pushed_at": "2026-06-03T04:01:35Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:07:57Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -190,14 +232,14 @@
     "category_cn": "AI 智能体",
     "icon": "OR",
     "desc_cn": "面向并行编码智能体的新一代 IDE，可把多个 coding agent 作为协作队列管理，适合探索多 Agent 开发、任务分派和移动端查看流程。",
-    "stars": 4040,
-    "forks": 260,
+    "stars": 4132,
+    "forks": 269,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 51.72,
+      "stars_per_day": 52.23,
       "created_at": "2026-03-17T03:28:57Z",
-      "pushed_at": "2026-06-03T05:57:43Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:49:33Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -217,14 +259,14 @@
     "category_cn": "AI 智能体",
     "icon": "LG",
     "desc_cn": "LangChain 官方的 TypeScript 图式智能体框架，用有状态图建模多步骤 LLM 应用，适合需要可恢复、可观测工作流的 Agent 项目。",
-    "stars": 2977,
+    "stars": 2982,
     "forks": 498,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 3.4,
       "created_at": "2024-01-09T17:40:12Z",
-      "pushed_at": "2026-06-03T03:51:22Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:01:23Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -244,14 +286,14 @@
     "category_cn": "AI 智能体",
     "icon": "GA",
     "desc_cn": "用于多智能体编码工作流的编排构建 SDK，关注 agent team、任务流和开发自动化，适合观察 coding agent 协作层设计。",
-    "stars": 866,
-    "forks": 286,
+    "stars": 875,
+    "forks": 289,
     "language": "Go",
     "growth": {
       "stars_per_day": 8.56,
       "created_at": "2026-02-22T01:40:16Z",
-      "pushed_at": "2026-06-03T05:59:03Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:07:46Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -271,14 +313,14 @@
     "category_cn": "AI 智能体",
     "icon": "OO",
     "desc_cn": "用于部署和管理 OpenClaw AI agent 实例的 Kubernetes Operator，覆盖安全、可观测和生命周期管理，适合生产化 Agent 运维参考。",
-    "stars": 367,
+    "stars": 368,
     "forks": 66,
     "language": "Go",
     "growth": {
-      "stars_per_day": 3.14,
+      "stars_per_day": 3.12,
       "created_at": "2026-02-06T07:56:06Z",
-      "pushed_at": "2026-06-02T12:39:21Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T21:20:29Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -298,14 +340,14 @@
     "category_cn": "AI 智能体",
     "icon": "HH",
     "desc_cn": "7×24 桌面 AI Agent，提供可视化助手、远程访问、文件管理和内置 AI 浏览器，适合桌面端个人智能体产品参考。",
-    "stars": 1576,
+    "stars": 1579,
     "forks": 172,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 11.16,
+      "stars_per_day": 11.1,
       "created_at": "2026-01-13T01:12:25Z",
       "pushed_at": "2026-06-01T11:26:51Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -325,14 +367,14 @@
     "category_cn": "AI 智能体",
     "icon": "BF",
     "desc_cn": "桌面级 Agent runtime 与应用套件，内置 Code Agent、Cowork Agent 和 Computer Use 能力，适合研究本地桌面 Agent 运行时。",
-    "stars": 810,
-    "forks": 103,
+    "stars": 817,
+    "forks": 106,
     "language": "Rust",
     "growth": {
-      "stars_per_day": 6.7,
+      "stars_per_day": 6.71,
       "created_at": "2026-02-02T09:52:10Z",
-      "pushed_at": "2026-06-03T04:47:25Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:06:09Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -352,14 +394,14 @@
     "category_cn": "AI 智能体",
     "icon": "FA",
     "desc_cn": "Apache Flink 生态的 Agentic AI 框架，关注流式数据、事件驱动和企业级智能体编排，适合实时任务自动化探索。",
-    "stars": 376,
+    "stars": 378,
     "forks": 124,
     "language": "Java",
     "growth": {
       "stars_per_day": 1.05,
       "created_at": "2025-06-08T11:45:47Z",
-      "pushed_at": "2026-06-02T01:30:38Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T08:55:18Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -379,14 +421,14 @@
     "category_cn": "AI 智能体",
     "icon": "FL",
     "desc_cn": "Astro 团队推出的沙箱型 Agent 框架，面向安全执行、工具调用和开发者工作流实验，适合观察前沿 agent runtime 设计。",
-    "stars": 3982,
-    "forks": 210,
+    "stars": 4269,
+    "forks": 230,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 34.53,
+      "stars_per_day": 36.7,
       "created_at": "2026-02-07T22:27:04Z",
-      "pushed_at": "2026-06-03T05:20:00Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T22:48:51Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -406,14 +448,14 @@
     "category_cn": "AI 智能体",
     "icon": "HI",
     "desc_cn": "浏览器原生的 CLI 编码智能体协作层，可让 Claude Code、Codex、Gemini、OpenCode 等在同一任务中协同，适合多 Agent 开发流程。",
-    "stars": 282,
+    "stars": 283,
     "forks": 24,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 6.26,
+      "stars_per_day": 6.14,
       "created_at": "2026-04-19T04:30:45Z",
       "pushed_at": "2026-05-31T06:11:41Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -433,14 +475,14 @@
     "category_cn": "AI 智能体",
     "icon": "MC",
     "desc_cn": "面向 MCP Server 的 TypeScript 核心框架，提供声明式工具定义、认证、多传输等能力，适合构建 Agent 可调用的工具服务。",
-    "stars": 143,
+    "stars": 144,
     "forks": 25,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 0.32,
+      "stars_per_day": 0.33,
       "created_at": "2025-03-20T05:07:04Z",
       "pushed_at": "2026-06-02T09:05:02Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -464,10 +506,10 @@
     "forks": 65,
     "language": "Rust",
     "growth": {
-      "stars_per_day": 1.73,
+      "stars_per_day": 1.72,
       "created_at": "2025-01-10T11:45:03Z",
-      "pushed_at": "2026-06-02T21:56:34Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T02:47:33Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -488,13 +530,13 @@
     "icon": "MC",
     "desc_cn": "统一管理和动态编排多个 MCP servers/API 的 Hub，可拆分端点并配置路由策略，适合需要集中管理 MCP 工具链的场景。",
     "stars": 2129,
-    "forks": 260,
+    "forks": 262,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 4.96,
+      "stars_per_day": 4.95,
       "created_at": "2025-03-31T07:39:22Z",
-      "pushed_at": "2026-06-02T16:16:41Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T14:51:51Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -514,14 +556,14 @@
     "category_cn": "AI 智能体",
     "icon": "MC",
     "desc_cn": "企业级 MCP Gateway 与 Registry，集中管理 AI 开发工具、OAuth 鉴权、动态工具发现和审计式访问，适合治理多 MCP 服务。",
-    "stars": 676,
-    "forks": 180,
+    "stars": 678,
+    "forks": 181,
     "language": "Python",
     "growth": {
       "stars_per_day": 1.83,
       "created_at": "2025-05-29T18:23:37Z",
-      "pushed_at": "2026-06-03T03:36:53Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:36:24Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -541,14 +583,14 @@
     "category_cn": "AI 智能体",
     "icon": "IN",
     "desc_cn": "用于测试、评估、聊天和调试 MCP servers、MCP apps 与 ChatGPT apps 的检查平台，适合 MCP 开发调试流程。",
-    "stars": 1984,
+    "stars": 1985,
     "forks": 233,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 5.28,
+      "stars_per_day": 5.27,
       "created_at": "2025-05-23T15:56:00Z",
-      "pushed_at": "2026-06-03T06:13:46Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:54:38Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -568,14 +610,14 @@
     "category_cn": "AI 智能体",
     "icon": "BR",
     "desc_cn": "开源 Agentic Browser，面向网页浏览、任务执行和浏览器内智能体体验，适合关注 Browser Agent 与个人自动化的开发者。",
-    "stars": 11218,
-    "forks": 1139,
+    "stars": 11232,
+    "forks": 1142,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 29.48,
+      "stars_per_day": 29.44,
       "created_at": "2025-05-18T16:23:54Z",
-      "pushed_at": "2026-06-02T19:11:59Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T06:39:33Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -595,14 +637,14 @@
     "category_cn": "AI 智能体",
     "icon": "LO",
     "desc_cn": "多智能体自治 SDLC 框架，可从需求说明、GitHub issue、OpenAPI 或一句话 brief 推进到应用交付，并提供质量门禁。",
-    "stars": 957,
-    "forks": 184,
+    "stars": 958,
+    "forks": 183,
     "language": "Python",
     "growth": {
-      "stars_per_day": 6.03,
+      "stars_per_day": 6.0,
       "created_at": "2025-12-26T16:26:14Z",
-      "pushed_at": "2026-06-01T16:04:05Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:04:48Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -623,13 +665,13 @@
     "icon": "AG",
     "desc_cn": "轻量级 Java AI 应用开发框架，帮助 Java 团队构建 LLM 应用与 Agent 能力，适合后端生态集成。",
     "stars": 988,
-    "forks": 125,
+    "forks": 126,
     "language": "Java",
     "growth": {
       "stars_per_day": 1.13,
       "created_at": "2024-01-12T08:23:40Z",
-      "pushed_at": "2026-06-02T04:20:49Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T09:28:20Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -653,10 +695,10 @@
     "forks": 193,
     "language": "Go",
     "growth": {
-      "stars_per_day": 4.05,
+      "stars_per_day": 4.04,
       "created_at": "2025-09-16T13:07:11Z",
-      "pushed_at": "2026-06-03T06:07:46Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T14:10:58Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -676,14 +718,14 @@
     "category_cn": "AI 智能体",
     "icon": "HE",
     "desc_cn": "Hermes Agent 的 Web 控制台，聚合多平台 AI 对话、会话管理、定时任务和使用分析，适合需要可视化运营 Agent 的团队参考。",
-    "stars": 7096,
-    "forks": 884,
+    "stars": 7218,
+    "forks": 900,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 134.03,
+      "stars_per_day": 133.82,
       "created_at": "2026-04-11T07:38:18Z",
-      "pushed_at": "2026-06-03T05:19:06Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:08:33Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -703,14 +745,14 @@
     "category_cn": "AI 智能体",
     "icon": "DF",
     "desc_cn": "生产级 Agentic Workflow 开发平台，面向 RAG、工具调用、编排和低代码 AI 应用搭建。",
-    "stars": 143626,
-    "forks": 22597,
+    "stars": 143768,
+    "forks": 22621,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 125.12,
+      "stars_per_day": 125.13,
       "created_at": "2023-04-12T07:40:24Z",
-      "pushed_at": "2026-06-03T06:15:02Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:07:29Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -730,14 +772,14 @@
     "category_cn": "AI 智能体",
     "icon": "AR",
     "desc_cn": "为 AI Agent 提供跨 Twitter、Reddit、YouTube、GitHub、B 站、小红书等平台的读取与搜索能力，适合研究和信息收集场景。",
-    "stars": 20888,
-    "forks": 1833,
+    "stars": 21055,
+    "forks": 1843,
     "language": "Python",
     "growth": {
-      "stars_per_day": 210.63,
+      "stars_per_day": 210.2,
       "created_at": "2026-02-24T02:10:24Z",
       "pushed_at": "2026-05-18T12:39:22Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -757,14 +799,14 @@
     "category_cn": "AI 智能体",
     "icon": "BU",
     "desc_cn": "browser-use 的可视化 Web UI，让用户在浏览器中运行和调试网页自动化 AI Agent。",
-    "stars": 16021,
+    "stars": 16024,
     "forks": 2711,
     "language": "Python",
     "growth": {
-      "stars_per_day": 30.98,
+      "stars_per_day": 30.92,
       "created_at": "2025-01-02T01:29:44Z",
       "pushed_at": "2026-05-15T07:26:24Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -784,14 +826,14 @@
     "category_cn": "AI 智能体",
     "icon": "CU",
     "desc_cn": "面向 Computer-Use Agents 的开源基础设施，提供沙箱、SDK 和评测组件，用于训练与验证能操作桌面的智能体。",
-    "stars": 17510,
-    "forks": 1113,
+    "stars": 17608,
+    "forks": 1125,
     "language": "HTML",
     "growth": {
-      "stars_per_day": 35.91,
+      "stars_per_day": 36.04,
       "created_at": "2025-01-31T15:02:49Z",
-      "pushed_at": "2026-06-03T01:32:01Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:02:26Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -811,14 +853,14 @@
     "category_cn": "AI 智能体",
     "icon": "CA",
     "desc_cn": "轻量开源 AI 助手与 Agent Harness，支持任务规划、工具/技能调用、记忆和多渠道接入。",
-    "stars": 45031,
-    "forks": 10165,
+    "stars": 45050,
+    "forks": 10169,
     "language": "Python",
     "growth": {
-      "stars_per_day": 32.26,
+      "stars_per_day": 32.25,
       "created_at": "2022-08-07T08:33:41Z",
-      "pushed_at": "2026-06-03T03:26:44Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:51:09Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -838,14 +880,14 @@
     "category_cn": "AI 智能体",
     "icon": "CS",
     "desc_cn": "面向多模型对话、智能助手和自主 Agent 的桌面生产力工作台，适合本地管理常用模型、助手和工具流。",
-    "stars": 46795,
-    "forks": 4440,
+    "stars": 46837,
+    "forks": 4445,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 63.22,
+      "stars_per_day": 63.19,
       "created_at": "2024-05-24T01:56:26Z",
-      "pushed_at": "2026-06-03T05:55:49Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:55:20Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -863,14 +905,14 @@
     "category_cn": "AI 智能体",
     "icon": "OA",
     "desc_cn": "OpenAI 官方 Python 智能体 SDK，支持工具调用、任务交接和安全护栏。",
-    "stars": 26864,
-    "forks": 4146,
+    "stars": 26897,
+    "forks": 4151,
     "language": "Python",
     "growth": {
-      "stars_per_day": 59.82,
+      "stars_per_day": 59.76,
       "created_at": "2025-03-11T03:42:36Z",
       "pushed_at": "2026-05-31T05:07:49Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -888,14 +930,14 @@
     "category_cn": "AI 智能体",
     "icon": "L",
     "desc_cn": "基于图结构编排有状态、多智能体工作流，适合复杂 AI 应用。",
-    "stars": 33710,
-    "forks": 5675,
+    "stars": 33808,
+    "forks": 5694,
     "language": "Python",
     "growth": {
-      "stars_per_day": 32.78,
+      "stars_per_day": 32.84,
       "created_at": "2023-08-09T18:33:12Z",
-      "pushed_at": "2026-06-03T06:02:56Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:41:55Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -913,14 +955,14 @@
     "category_cn": "AI 智能体",
     "icon": "A",
     "desc_cn": "微软开源的多智能体应用框架，用于自动化 AI 对话和协作。",
-    "stars": 58654,
-    "forks": 8855,
+    "stars": 58677,
+    "forks": 8861,
     "language": "Python",
     "growth": {
-      "stars_per_day": 57.52,
+      "stars_per_day": 57.48,
       "created_at": "2023-08-18T11:43:45Z",
       "pushed_at": "2026-04-15T11:59:09Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -938,14 +980,14 @@
     "category_cn": "AI 智能体",
     "icon": "C",
     "desc_cn": "基于角色分工的智能体协作框架，适合自动化团队式任务流程。",
-    "stars": 52715,
-    "forks": 7351,
+    "stars": 52800,
+    "forks": 7369,
     "language": "Python",
     "growth": {
-      "stars_per_day": 55.48,
+      "stars_per_day": 55.51,
       "created_at": "2023-10-27T03:26:59Z",
-      "pushed_at": "2026-06-03T03:39:16Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:17:43Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -963,14 +1005,14 @@
     "category_cn": "AI 智能体",
     "icon": "AG",
     "desc_cn": "智能体平台框架，用于构建、运行和管理生产级 AI agent 系统。",
-    "stars": 40480,
+    "stars": 40506,
     "language": "Python",
-    "forks": 5458,
+    "forks": 5470,
     "growth": {
       "stars_per_day": 27.16,
       "created_at": "2022-05-04T15:23:02Z",
-      "pushed_at": "2026-06-03T02:44:29Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:07:16Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -988,14 +1030,14 @@
     "category_cn": "AI 智能体",
     "icon": "GA",
     "desc_cn": "Google Agent Development Kit，代码优先的智能体开发、评估和部署工具包。",
-    "stars": 19969,
+    "stars": 19978,
     "language": "Python",
-    "forks": 3496,
+    "forks": 3504,
     "growth": {
-      "stars_per_day": 46.72,
+      "stars_per_day": 46.63,
       "created_at": "2025-04-01T20:44:40Z",
-      "pushed_at": "2026-06-02T23:00:51Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:03:51Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1013,14 +1055,14 @@
     "category_cn": "AI 智能体",
     "icon": "PA",
     "desc_cn": "Pydantic 团队推出的 Python 智能体框架，强调类型安全、工具调用和模型无关设计。",
-    "stars": 17481,
+    "stars": 17506,
     "language": "Python",
-    "forks": 2163,
+    "forks": 2165,
     "growth": {
       "stars_per_day": 24.57,
       "created_at": "2024-06-21T15:55:04Z",
-      "pushed_at": "2026-06-03T02:53:19Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:07:41Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1038,14 +1080,14 @@
     "category_cn": "AI 智能体",
     "icon": "SA",
     "desc_cn": "Hugging Face 的轻量智能体库，适合代码执行型 agents 和工具调用流程。",
-    "stars": 27674,
+    "stars": 27692,
     "language": "Python",
-    "forks": 2637,
+    "forks": 2646,
     "growth": {
-      "stars_per_day": 50.8,
+      "stars_per_day": 50.74,
       "created_at": "2024-12-05T11:28:04Z",
-      "pushed_at": "2026-06-02T11:42:35Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:51:45Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1063,14 +1105,14 @@
     "category_cn": "AI 智能体",
     "icon": "CA",
     "desc_cn": "面向多智能体沟通、仿真和规模化研究的开源 agent 框架。",
-    "stars": 17110,
+    "stars": 17112,
     "language": "Python",
-    "forks": 1927,
+    "forks": 1930,
     "growth": {
-      "stars_per_day": 14.58,
+      "stars_per_day": 14.57,
       "created_at": "2023-03-17T21:41:54Z",
       "pushed_at": "2026-06-02T09:47:09Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1088,14 +1130,14 @@
     "category_cn": "AI 智能体",
     "icon": "M0",
     "desc_cn": "面向 AI agents 的通用记忆层，让智能体具备个性化和状态保持能力。",
-    "stars": 57504,
+    "stars": 57641,
     "language": "Python",
-    "forks": 6575,
+    "forks": 6584,
     "growth": {
-      "stars_per_day": 53.3,
+      "stars_per_day": 53.38,
       "created_at": "2023-06-20T08:58:36Z",
-      "pushed_at": "2026-06-02T19:25:12Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T15:27:59Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1113,14 +1155,14 @@
     "category_cn": "AI 智能体",
     "icon": "LA",
     "desc_cn": "带长期记忆和自我改进能力的状态型 agent 框架与平台。",
-    "stars": 23113,
+    "stars": 23129,
     "language": "Python",
-    "forks": 2464,
+    "forks": 2466,
     "growth": {
-      "stars_per_day": 23.93,
+      "stars_per_day": 23.92,
       "created_at": "2023-10-11T07:38:37Z",
       "pushed_at": "2026-05-14T17:14:23Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1138,14 +1180,14 @@
     "category_cn": "AI 智能体",
     "icon": "BU",
     "desc_cn": "让 AI agents 能操作网页，适合浏览器自动化和在线任务执行。",
-    "stars": 96857,
+    "stars": 97068,
     "language": "Python",
-    "forks": 10841,
+    "forks": 10862,
     "growth": {
-      "stars_per_day": 167.11,
+      "stars_per_day": 167.19,
       "created_at": "2024-10-31T16:00:56Z",
       "pushed_at": "2026-06-01T18:49:47Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1163,14 +1205,14 @@
     "category_cn": "AI 智能体",
     "icon": "MA",
     "desc_cn": "TypeScript AI 应用与智能体框架，支持工作流、工具调用和可观测性。",
-    "stars": 24686,
+    "stars": 24737,
     "language": "TypeScript",
-    "forks": 2187,
+    "forks": 2193,
     "growth": {
-      "stars_per_day": 37.1,
+      "stars_per_day": 37.12,
       "created_at": "2024-08-06T20:44:31Z",
-      "pushed_at": "2026-06-03T06:16:18Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:07:42Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1188,14 +1230,14 @@
     "category_cn": "AI 智能体",
     "icon": "SK",
     "desc_cn": "微软开源 SDK，用于把 LLM、插件、规划器和 agent 工作流集成到应用。",
-    "stars": 28037,
+    "stars": 28046,
     "language": "C#",
-    "forks": 4627,
+    "forks": 4631,
     "growth": {
-      "stars_per_day": 23.53,
+      "stars_per_day": 23.52,
       "created_at": "2023-02-27T17:39:42Z",
-      "pushed_at": "2026-05-29T22:01:52Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T23:20:40Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1213,14 +1255,14 @@
     "category_cn": "AI 智能体",
     "icon": "OD",
     "desc_cn": "开源深度研究 agent 示例，围绕搜索、综合分析和报告生成构建。",
-    "stars": 11562,
+    "stars": 11570,
     "language": "Python",
-    "forks": 1652,
+    "forks": 1656,
     "growth": {
-      "stars_per_day": 20.66,
+      "stars_per_day": 20.64,
       "created_at": "2024-11-20T17:37:22Z",
-      "pushed_at": "2026-05-26T07:49:04Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T23:44:21Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1238,14 +1280,14 @@
     "category_cn": "AI 智能体",
     "icon": "OM",
     "desc_cn": "受 Manus 类任务自动化启发的开源通用 agent 项目。",
-    "stars": 484,
+    "stars": 485,
     "language": "Python",
     "forks": 126,
     "growth": {
-      "stars_per_day": 1.4,
+      "stars_per_day": 1.39,
       "created_at": "2025-06-21T07:39:30Z",
       "pushed_at": "2025-06-21T07:39:51Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1263,14 +1305,14 @@
     "category_cn": "AI 智能体",
     "icon": "FB",
     "desc_cn": "一个通过 npm 分发的免费/广告补贴型命令行 AI 编程助手，关联 Codebuff 项目，适合代码阅读、修改和项目辅助开发。",
-    "stars": 6194,
+    "stars": 6217,
     "language": "TypeScript",
     "forks": 743,
     "growth": {
-      "stars_per_day": 8.93,
+      "stars_per_day": 8.95,
       "created_at": "2024-07-09T21:21:56Z",
-      "pushed_at": "2026-05-27T05:20:36Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:02:15Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1288,14 +1330,14 @@
     "category_cn": "AI 智能体",
     "icon": "LC",
     "desc_cn": "面向 LLM 应用与智能体工程的核心框架生态，适合编排工具调用、RAG 和复杂 AI 工作流。",
-    "stars": 138368,
+    "stars": 138456,
     "language": "Python",
-    "forks": 22921,
+    "forks": 22938,
     "growth": {
-      "stars_per_day": 104.42,
+      "stars_per_day": 104.41,
       "created_at": "2022-10-17T02:58:36Z",
-      "pushed_at": "2026-06-02T22:31:40Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:29:59Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1313,14 +1355,14 @@
     "category_cn": "AI 智能体",
     "icon": "LI",
     "desc_cn": "面向私有数据、知识库和文档智能体的数据框架，适合构建 RAG、检索和企业知识助手。",
-    "stars": 49866,
+    "stars": 49897,
     "language": "Python",
-    "forks": 7500,
+    "forks": 7503,
     "growth": {
       "stars_per_day": 38.09,
       "created_at": "2022-11-02T04:24:54Z",
-      "pushed_at": "2026-05-29T21:52:59Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:25:17Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1338,14 +1380,14 @@
     "category_cn": "AI 智能体",
     "icon": "CD",
     "desc_cn": "Chrome DevTools 官方 MCP 服务，让 AI 编程智能体能够连接浏览器调试、检查页面和分析前端问题。",
-    "stars": 42659,
+    "stars": 42760,
     "language": "TypeScript",
-    "forks": 2737,
+    "forks": 2744,
     "growth": {
-      "stars_per_day": 161.09,
+      "stars_per_day": 160.87,
       "created_at": "2025-09-11T10:39:55Z",
-      "pushed_at": "2026-06-02T16:28:05Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T17:02:42Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1363,14 +1405,14 @@
     "category_cn": "AI 智能体",
     "icon": "PM",
     "desc_cn": "微软 Playwright MCP 服务，把浏览器自动化、测试和页面操作能力开放给 AI 智能体使用。",
-    "stars": 33386,
+    "stars": 33454,
     "language": "TypeScript",
-    "forks": 2745,
+    "forks": 2751,
     "growth": {
-      "stars_per_day": 76.13,
+      "stars_per_day": 76.12,
       "created_at": "2025-03-21T17:48:36Z",
       "pushed_at": "2026-05-28T01:32:25Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1388,14 +1430,14 @@
     "category_cn": "AI 智能体",
     "icon": "GM",
     "desc_cn": "GitHub 官方 MCP 服务，让 Claude、Cursor 等智能体安全访问仓库、Issue、PR 和代码工作流。",
-    "stars": 30380,
+    "stars": 30409,
     "language": "Go",
-    "forks": 4312,
+    "forks": 4316,
     "growth": {
-      "stars_per_day": 66.69,
+      "stars_per_day": 66.6,
       "created_at": "2025-03-04T16:42:04Z",
-      "pushed_at": "2026-06-02T23:39:25Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T14:07:12Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1413,14 +1455,14 @@
     "category_cn": "AI 智能体",
     "icon": "FM",
     "desc_cn": "Python 风格的 MCP 服务端/客户端开发框架，适合快速把内部工具封装成智能体可调用能力。",
-    "stars": 25449,
+    "stars": 25472,
     "language": "Python",
-    "forks": 2048,
+    "forks": 2049,
     "growth": {
-      "stars_per_day": 46.26,
+      "stars_per_day": 46.21,
       "created_at": "2024-11-30T01:47:40Z",
-      "pushed_at": "2026-06-03T02:32:52Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T15:23:08Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1438,14 +1480,14 @@
     "category_cn": "AI 智能体",
     "icon": "SH",
     "desc_cn": "Browserbase 出品的浏览器智能体 SDK，用自然语言和代码结合的方式完成网页自动化操作。",
-    "stars": 22919,
+    "stars": 22940,
     "language": "TypeScript",
     "forks": 1549,
     "growth": {
-      "stars_per_day": 28.63,
+      "stars_per_day": 28.62,
       "created_at": "2024-03-24T19:19:44Z",
-      "pushed_at": "2026-06-03T04:07:11Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:54:01Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1463,14 +1505,14 @@
     "category_cn": "AI 智能体",
     "icon": "GR",
     "desc_cn": "自主研究智能体，可围绕主题检索资料、汇总来源并生成结构化深度研究报告。",
-    "stars": 27472,
+    "stars": 27491,
     "language": "Python",
-    "forks": 3700,
+    "forks": 3702,
     "growth": {
-      "stars_per_day": 24.58,
+      "stars_per_day": 24.57,
       "created_at": "2023-05-12T10:33:54Z",
       "pushed_at": "2026-05-28T07:41:25Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1489,14 +1531,14 @@
     "category_cn": "AI 智能体",
     "icon": "HA",
     "desc_cn": "NousResearch 开源的长期运行 AI agent，可执行本地工具、定时任务和持续自动化维护流程。",
-    "stars": 177776,
+    "stars": 179603,
     "language": "Python",
-    "forks": 30422,
+    "forks": 30769,
     "growth": {
-      "stars_per_day": 563.78,
+      "stars_per_day": 567.78,
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-06-03T06:00:16Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:02:54Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1515,14 +1557,14 @@
     "category_cn": "AI 智能体",
     "icon": "AP",
     "desc_cn": "开源 AI 工作流与自动化平台，内置 agents、MCP 集成和大量应用连接器，适合搭建业务自动化。",
-    "stars": 22526,
+    "stars": 22551,
     "language": "TypeScript",
-    "forks": 3737,
+    "forks": 3743,
     "growth": {
-      "stars_per_day": 17.62,
+      "stars_per_day": 17.63,
       "created_at": "2022-12-03T02:52:46Z",
-      "pushed_at": "2026-06-03T04:35:46Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T22:41:37Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1541,14 +1583,14 @@
     "category_cn": "AI 智能体",
     "icon": "OS",
     "desc_cn": "阿里巴巴开源的安全、快速、可扩展 sandbox runtime，用于给 AI agents 提供隔离执行环境。",
-    "stars": 10963,
+    "stars": 11214,
     "language": "Python",
-    "forks": 883,
+    "forks": 912,
     "growth": {
-      "stars_per_day": 65.29,
+      "stars_per_day": 66.4,
       "created_at": "2025-12-17T08:41:09Z",
-      "pushed_at": "2026-06-02T09:25:26Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:58:51Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1567,14 +1609,14 @@
     "category_cn": "AI 智能体",
     "icon": "MI",
     "desc_cn": "面向 MCP server、MCP 应用和 ChatGPT apps 的测试调试平台，可直接对话、检查和排查协议集成问题。",
-    "stars": 1984,
+    "stars": 1985,
     "language": "TypeScript",
     "forks": 233,
     "growth": {
-      "stars_per_day": 5.28,
+      "stars_per_day": 5.27,
       "created_at": "2025-05-23T15:56:00Z",
-      "pushed_at": "2026-06-03T06:13:46Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:54:38Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1593,14 +1635,14 @@
     "category_cn": "AI 智能体",
     "icon": "NO",
     "desc_cn": "用于构建 Web agents 并部署 serverless 浏览器自动化函数的 Python 框架，适合可靠网页任务执行。",
-    "stars": 1970,
+    "stars": 1972,
     "language": "Python",
     "forks": 184,
     "growth": {
       "stars_per_day": 3.63,
       "created_at": "2024-12-08T02:06:30Z",
-      "pushed_at": "2026-05-29T18:17:24Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:01:18Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1619,14 +1661,14 @@
     "category_cn": "AI 智能体",
     "icon": "VA",
     "desc_cn": "开源 TypeScript AI agent 工程平台，覆盖智能体编排、工具调用、可观测性和应用集成。",
-    "stars": 9326,
+    "stars": 9348,
     "language": "TypeScript",
-    "forks": 967,
+    "forks": 970,
     "growth": {
       "stars_per_day": 22.6,
       "created_at": "2025-04-16T15:41:18Z",
-      "pushed_at": "2026-05-31T18:06:16Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:46:51Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1645,14 +1687,14 @@
     "category_cn": "AI 智能体",
     "icon": "DF",
     "desc_cn": "字节跳动开源的长程 SuperAgent harness，结合沙箱、记忆、工具、skills 和子智能体处理研究与编码任务。",
-    "stars": 70330,
+    "stars": 70407,
     "language": "Python",
-    "forks": 9498,
+    "forks": 9519,
     "growth": {
-      "stars_per_day": 179.35,
+      "stars_per_day": 179.09,
       "created_at": "2025-05-07T02:50:19Z",
-      "pushed_at": "2026-06-02T14:55:59Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T23:11:00Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1671,14 +1713,14 @@
     "category_cn": "AI 智能体",
     "icon": "BC",
     "desc_cn": "开源 AI agent 编排与工作流自动化平台，在同一套流程里平衡自主执行和可控编排。",
-    "stars": 768,
+    "stars": 770,
     "language": "Java",
     "forks": 139,
     "growth": {
       "stars_per_day": 0.45,
       "created_at": "2021-09-30T03:39:20Z",
-      "pushed_at": "2026-06-03T06:03:45Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:47:19Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1698,15 +1740,15 @@
     "category_cn": "AI 智能体",
     "icon": "AB",
     "desc_cn": "面向 AI Agent 的浏览器自动化 CLI，可让智能体在网页环境中执行浏览、操作和任务自动化。",
-    "stars": 35057,
+    "stars": 35161,
     "language": "Rust",
     "growth": {
       "pushed_at": "2026-06-01T20:24:40Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z",
-      "stars_per_day": 245.11,
+      "synced_at": "2026-06-04T06:08:16.661517Z",
+      "stars_per_day": 244.14,
       "created_at": "2026-01-11T05:38:15Z"
     },
-    "forks": 2208
+    "forks": 2214
   },
   {
     "name": "agent0ai/agent-zero",
@@ -1725,15 +1767,15 @@
     "category_cn": "AI 智能体",
     "icon": "AZ",
     "desc_cn": "可自托管的 AI Agent 框架，强调长期运行、工具调用、任务执行和可扩展的自动化工作流。",
-    "stars": 17900,
+    "stars": 17911,
     "language": "Python",
     "growth": {
-      "pushed_at": "2026-06-03T01:54:20Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z",
-      "stars_per_day": 24.76,
+      "pushed_at": "2026-06-03T17:42:30Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z",
+      "stars_per_day": 24.74,
       "created_at": "2024-06-10T09:10:45Z"
     },
-    "forks": 3643
+    "forks": 3645
   },
   {
     "name": "GLips/Figma-Context-MCP",
@@ -1752,15 +1794,15 @@
     "category_cn": "AI 智能体",
     "icon": "FC",
     "desc_cn": "为 Cursor 等 AI 编程智能体提供 Figma 布局上下文的 MCP 服务，适合设计稿理解、前端还原和设计到代码流程。",
-    "stars": 14968,
+    "stars": 14986,
     "language": "TypeScript",
     "growth": {
       "pushed_at": "2026-05-27T22:18:23Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z",
-      "stars_per_day": 31.5,
+      "synced_at": "2026-06-04T06:08:16.661517Z",
+      "stars_per_day": 31.47,
       "created_at": "2025-02-13T02:55:06Z"
     },
-    "forks": 1184
+    "forks": 1185
   },
   {
     "name": "wonderwhy-er/DesktopCommanderMCP",
@@ -1779,15 +1821,15 @@
     "category_cn": "AI 智能体",
     "icon": "DC",
     "desc_cn": "为 Claude 等智能体提供终端控制、文件系统搜索和差异编辑能力的桌面 MCP 服务，适合本地自动化与开发辅助。",
-    "stars": 6102,
+    "stars": 6105,
     "language": "TypeScript",
     "growth": {
-      "pushed_at": "2026-06-02T09:00:09Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z",
-      "stars_per_day": 11.18,
+      "pushed_at": "2026-06-03T16:36:59Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z",
+      "stars_per_day": 11.16,
       "created_at": "2024-12-04T08:26:08Z"
     },
-    "forks": 727
+    "forks": 726
   },
   {
     "name": "agent-infra/sandbox",
@@ -1806,12 +1848,12 @@
     "category_cn": "AI 智能体",
     "icon": "AS",
     "desc_cn": "面向 AI Agent 的一体化沙箱，把浏览器、Shell、文件、MCP 和 VS Code Server 集成到单个 Docker 环境中。",
-    "stars": 4894,
+    "stars": 4899,
     "language": "Python",
     "growth": {
       "pushed_at": "2026-05-29T04:45:25Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z",
-      "stars_per_day": 16.28,
+      "synced_at": "2026-06-04T06:08:16.661517Z",
+      "stars_per_day": 16.24,
       "created_at": "2025-08-06T14:51:05Z"
     },
     "forks": 424
@@ -1836,9 +1878,9 @@
     "stars": 17920,
     "language": "Python",
     "growth": {
-      "pushed_at": "2026-06-02T20:00:56Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z",
-      "stars_per_day": 14.73,
+      "pushed_at": "2026-06-03T22:24:03Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z",
+      "stars_per_day": 14.72,
       "created_at": "2023-02-02T11:03:23Z"
     },
     "forks": 2060
@@ -1860,15 +1902,15 @@
     "category_cn": "AI 智能体",
     "icon": "PA",
     "desc_cn": "用于快速构建可研究、规划、编码和执行任务的 AI Agent 工作流，内置记忆、RAG 和多模型支持。",
-    "stars": 8032,
+    "stars": 8040,
     "language": "Python",
     "growth": {
-      "pushed_at": "2026-06-03T05:57:35Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z",
+      "pushed_at": "2026-06-04T04:40:44Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z",
       "stars_per_day": 9.97,
       "created_at": "2024-03-19T16:45:25Z"
     },
-    "forks": 1229
+    "forks": 1230
   },
   {
     "name": "Next.js",
@@ -1885,14 +1927,14 @@
     "category_cn": "建站框架",
     "icon": "N",
     "desc_cn": "用于构建生产级 React 应用、静态网站和全栈产品的主流框架。",
-    "stars": 139656,
-    "forks": 31198,
+    "stars": 139669,
+    "forks": 31201,
     "language": "JavaScript",
     "growth": {
       "stars_per_day": 39.59,
       "created_at": "2016-10-05T23:32:51Z",
-      "pushed_at": "2026-06-03T06:17:11Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:42:26Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1910,14 +1952,14 @@
     "category_cn": "建站框架",
     "icon": "A",
     "desc_cn": "面向内容站、文档站和目录站的高速静态网站框架。",
-    "stars": 59781,
-    "forks": 3509,
+    "stars": 59817,
+    "forks": 3511,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 31.37,
       "created_at": "2021-03-15T17:19:47Z",
-      "pushed_at": "2026-06-03T03:33:02Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T01:50:02Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1935,14 +1977,14 @@
     "category_cn": "建站框架",
     "icon": "H",
     "desc_cn": "高性能静态网站生成器，适合博客、文档和内容型网站。",
-    "stars": 88369,
-    "forks": 8267,
+    "stars": 88384,
+    "forks": 8266,
     "language": "Go",
     "growth": {
-      "stars_per_day": 18.74,
+      "stars_per_day": 18.73,
       "created_at": "2013-07-04T15:26:26Z",
       "pushed_at": "2026-06-01T18:43:56Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1960,14 +2002,14 @@
     "category_cn": "文档知识库",
     "icon": "D",
     "desc_cn": "快速搭建开源项目文档站、知识库和技术内容网站。",
-    "stars": 65085,
-    "forks": 9916,
+    "stars": 65097,
+    "forks": 9918,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 19.91,
+      "stars_per_day": 19.9,
       "created_at": "2017-06-20T16:13:53Z",
       "pushed_at": "2026-06-02T18:49:20Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -1985,14 +2027,14 @@
     "category_cn": "低代码后台",
     "icon": "N",
     "desc_cn": "开源 Airtable 替代方案，可快速管理结构化数据和后台表格。",
-    "stars": 63231,
-    "forks": 4814,
+    "stars": 63250,
+    "forks": 4815,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 20.15,
       "created_at": "2017-10-29T18:51:48Z",
-      "pushed_at": "2026-06-03T06:16:08Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:50:05Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2010,14 +2052,14 @@
     "category_cn": "低代码后台",
     "icon": "A",
     "desc_cn": "开源低代码内部工具平台，可快速搭建后台、面板和管理系统。",
-    "stars": 39952,
-    "forks": 4589,
+    "stars": 39956,
+    "forks": 4588,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 18.46,
+      "stars_per_day": 18.45,
       "created_at": "2020-06-30T04:07:36Z",
-      "pushed_at": "2026-06-03T06:04:21Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:50:54Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2035,14 +2077,14 @@
     "category_cn": "后端数据库",
     "icon": "S",
     "desc_cn": "开源 Firebase 替代方案，提供 Postgres、认证、存储和边缘函数。",
-    "stars": 103366,
-    "forks": 12619,
+    "stars": 103429,
+    "forks": 12629,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 42.61,
+      "stars_per_day": 42.62,
       "created_at": "2019-10-12T05:56:49Z",
-      "pushed_at": "2026-06-03T05:48:59Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:08:17Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2060,14 +2102,14 @@
     "category_cn": "后端数据库",
     "icon": "P",
     "desc_cn": "轻量级后端服务，内置数据库、认证、文件存储和管理后台。",
-    "stars": 58826,
-    "forks": 3435,
+    "stars": 58865,
+    "forks": 3433,
     "language": "Go",
     "growth": {
-      "stars_per_day": 41.17,
+      "stars_per_day": 41.16,
       "created_at": "2022-07-05T06:06:21Z",
-      "pushed_at": "2026-06-02T11:07:38Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T13:24:20Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2085,14 +2127,14 @@
     "category_cn": "后端数据库",
     "icon": "D",
     "desc_cn": "基于数据库的 Headless CMS，可把 SQL 数据库变成内容和 API 平台。",
-    "stars": 36077,
+    "stars": 36076,
     "forks": 4797,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 7.33,
       "created_at": "2012-12-12T01:35:36Z",
-      "pushed_at": "2026-06-02T21:40:28Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T21:03:52Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2110,14 +2152,14 @@
     "category_cn": "自动化",
     "icon": "N",
     "desc_cn": "可视化工作流自动化工具，用于连接 API、应用和 AI 任务。",
-    "stars": 190838,
-    "forks": 58223,
+    "stars": 190997,
+    "forks": 58255,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 75.2,
+      "stars_per_day": 75.23,
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-06-03T06:08:47Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:05:09Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2135,14 +2177,14 @@
     "category_cn": "自动化",
     "icon": "W",
     "desc_cn": "面向脚本、工作流和内部应用的开源自动化平台。",
-    "stars": 16637,
+    "stars": 16643,
     "forks": 978,
     "language": "HTML",
     "growth": {
       "stars_per_day": 11.16,
       "created_at": "2022-05-05T02:21:17Z",
-      "pushed_at": "2026-06-03T01:37:27Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T01:37:30Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2160,14 +2202,14 @@
     "category_cn": "数据分析",
     "icon": "M",
     "desc_cn": "商业智能与数据看板工具，适合团队探索和展示数据。",
-    "stars": 47540,
-    "forks": 6509,
+    "stars": 47554,
+    "forks": 6514,
     "language": "Clojure",
     "growth": {
       "stars_per_day": 11.49,
       "created_at": "2015-02-02T19:25:47Z",
-      "pushed_at": "2026-06-03T05:36:04Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:26:36Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2185,14 +2227,14 @@
     "category_cn": "数据分析",
     "icon": "AS",
     "desc_cn": "开源数据可视化与商业智能平台，适合构建图表和分析看板。",
-    "stars": 73138,
-    "forks": 17479,
+    "stars": 73154,
+    "forks": 17498,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 18.43,
+      "stars_per_day": 18.42,
       "created_at": "2015-07-21T18:55:34Z",
-      "pushed_at": "2026-06-03T06:01:30Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T01:25:37Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2210,14 +2252,14 @@
     "category_cn": "数据分析",
     "icon": "P",
     "desc_cn": "开源产品分析平台，支持事件分析、实验、录屏和用户洞察。",
-    "stars": 34816,
-    "forks": 2812,
+    "stars": 34845,
+    "forks": 2815,
     "language": "Python",
     "growth": {
-      "stars_per_day": 14.99,
+      "stars_per_day": 15.0,
       "created_at": "2020-01-23T22:46:58Z",
-      "pushed_at": "2026-06-03T06:16:27Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:45:22Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2235,14 +2277,14 @@
     "category_cn": "部署托管",
     "icon": "C",
     "desc_cn": "自托管部署平台，可管理应用、数据库和服务部署。",
-    "stars": 56372,
-    "forks": 4696,
+    "stars": 56419,
+    "forks": 4702,
     "language": "PHP",
     "growth": {
-      "stars_per_day": 28.84,
+      "stars_per_day": 28.85,
       "created_at": "2021-01-25T20:54:01Z",
-      "pushed_at": "2026-06-02T15:14:02Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T13:43:26Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2260,14 +2302,14 @@
     "category_cn": "部署托管",
     "icon": "D",
     "desc_cn": "开源部署平台，提供类似 PaaS 的应用部署和服务器管理体验。",
-    "stars": 34446,
-    "forks": 2566,
+    "stars": 34478,
+    "forks": 2571,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 44.45,
+      "stars_per_day": 44.43,
       "created_at": "2024-04-19T07:49:30Z",
       "pushed_at": "2026-06-02T08:39:46Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2285,14 +2327,14 @@
     "category_cn": "运维监控",
     "icon": "UK",
     "desc_cn": "自托管网站/服务监控工具，可生成漂亮的状态页。",
-    "stars": 87581,
-    "forks": 7940,
+    "stars": 87621,
+    "forks": 7947,
     "language": "JavaScript",
     "growth": {
-      "stars_per_day": 48.76,
+      "stars_per_day": 48.75,
       "created_at": "2021-07-03T01:02:42Z",
-      "pushed_at": "2026-06-03T00:34:51Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:35:21Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2310,14 +2352,14 @@
     "category_cn": "运维监控",
     "icon": "G",
     "desc_cn": "开源可观测性平台，用于指标、日志和监控看板展示。",
-    "stars": 74138,
-    "forks": 14001,
+    "stars": 74140,
+    "forks": 14010,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 16.27,
       "created_at": "2013-12-11T15:59:56Z",
-      "pushed_at": "2026-06-03T05:14:30Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:00:56Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2335,14 +2377,14 @@
     "category_cn": "内容 CMS",
     "icon": "PC",
     "desc_cn": "面向开发者的 TypeScript CMS，适合 Next.js 项目和定制内容系统。",
-    "stars": 42772,
-    "forks": 3767,
+    "stars": 42786,
+    "forks": 3768,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 21.66,
       "created_at": "2021-01-05T18:49:45Z",
-      "pushed_at": "2026-06-03T04:35:09Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:42:05Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2360,14 +2402,14 @@
     "category_cn": "内容 CMS",
     "icon": "S",
     "desc_cn": "开源 Headless CMS，适合构建内容 API 和管理后台。",
-    "stars": 72295,
+    "stars": 72306,
     "forks": 9749,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 18.54,
       "created_at": "2015-09-30T15:34:48Z",
-      "pushed_at": "2026-06-02T15:22:51Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T18:42:42Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2387,14 +2429,14 @@
     "category_cn": "AI 智能体",
     "icon": "CK",
     "desc_cn": "面向 React / Angular 的前端智能体与生成式 UI 框架，适合把 AI 助手、可交互 Copilot 和 AG-UI 协议接入产品界面。",
-    "stars": 31912,
-    "forks": 4119,
+    "stars": 31936,
+    "forks": 4121,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 29.55,
+      "stars_per_day": 29.54,
       "created_at": "2023-06-19T04:08:31Z",
-      "pushed_at": "2026-06-03T03:56:36Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:05:52Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2415,13 +2457,13 @@
     "icon": "EZ",
     "desc_cn": "开源 agentic operating system，用于构建自治聊天机器人、社交/社区代理和可扩展的多平台智能体运行时。",
     "stars": 18504,
-    "forks": 5551,
+    "forks": 5555,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 26.67,
+      "stars_per_day": 26.63,
       "created_at": "2024-07-09T07:55:40Z",
-      "pushed_at": "2026-06-03T06:03:06Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:00:11Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2441,14 +2483,14 @@
     "category_cn": "AI 智能体",
     "icon": "HS",
     "desc_cn": "面向上下文工程、RAG、多模态检索和智能体工作流的 AI 编排框架，适合需要可控管线、路由和记忆的生产级 LLM 应用。",
-    "stars": 25443,
-    "forks": 2827,
+    "stars": 25453,
+    "forks": 2828,
     "language": "MDX",
     "growth": {
       "stars_per_day": 10.63,
       "created_at": "2019-11-14T09:05:28Z",
-      "pushed_at": "2026-06-03T05:56:25Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T01:58:29Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2468,14 +2510,14 @@
     "category_cn": "AI 智能体",
     "icon": "MU",
     "desc_cn": "用于开发 MCP Apps 与 MCP Servers 的全栈框架，可把 ChatGPT、Claude、Claude Code 等智能体连接到标准化工具和服务。",
-    "stars": 10033,
-    "forks": 1310,
+    "stars": 10042,
+    "forks": 1313,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 23.23,
+      "stars_per_day": 23.2,
       "created_at": "2025-03-28T10:06:31Z",
-      "pushed_at": "2026-06-03T02:26:52Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T00:21:16Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2495,14 +2537,14 @@
     "category_cn": "AI 智能体",
     "icon": "MT",
     "desc_cn": "Google 开源的数据库 MCP 工具箱，为 AI 智能体提供受控的数据查询和数据库工具调用层，适合把 BigQuery、Postgres 等数据源接入代理工作流。",
-    "stars": 15455,
-    "forks": 1579,
+    "stars": 15469,
+    "forks": 1580,
     "language": "Go",
     "growth": {
-      "stars_per_day": 21.31,
+      "stars_per_day": 21.3,
       "created_at": "2024-06-07T20:52:54Z",
-      "pushed_at": "2026-06-03T05:35:14Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:05:09Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2522,14 +2564,14 @@
     "category_cn": "AI 智能体",
     "icon": "UT",
     "desc_cn": "字节开源的多模态 AI Agent 桌面栈，面向 GUI 操作、Computer Use、浏览器任务和 MCP 集成，适合研究桌面/浏览器代理能力。",
-    "stars": 35954,
-    "forks": 3618,
+    "stars": 36020,
+    "forks": 3625,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 71.92,
+      "stars_per_day": 71.91,
       "created_at": "2025-01-19T09:04:43Z",
       "pushed_at": "2026-05-18T02:55:49Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2549,14 +2591,14 @@
     "category_cn": "文档知识库",
     "icon": "C7",
     "desc_cn": "面向 LLM 和 AI 编程编辑器的实时文档 MCP 平台，帮助代码智能体获取最新库文档，减少过期 API 和幻觉引用。",
-    "stars": 56621,
-    "forks": 2676,
+    "stars": 56691,
+    "forks": 2678,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 130.68,
+      "stars_per_day": 130.54,
       "created_at": "2025-03-26T23:40:39Z",
-      "pushed_at": "2026-06-02T19:19:05Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T15:29:02Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2576,14 +2618,14 @@
     "category_cn": "AI 智能体",
     "icon": "AB",
     "desc_cn": "集成多个 IM 平台、LLM、插件和 AI 能力的智能体助手开发框架，适合搭建可扩展的聊天机器人与自动化助手。",
-    "stars": 33705,
-    "forks": 2307,
+    "stars": 33768,
+    "forks": 2312,
     "language": "Python",
     "growth": {
-      "stars_per_day": 26.48,
+      "stars_per_day": 26.51,
       "created_at": "2022-12-08T13:27:46Z",
-      "pushed_at": "2026-06-03T02:58:25Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T01:00:57Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2602,14 +2644,14 @@
     "category_cn": "AI 智能体",
     "icon": "MI",
     "desc_cn": "微软推出的智能体框架，用于构建、编排和部署 Python/.NET 智能体与多智能体工作流。",
-    "stars": 10976,
-    "forks": 1832,
+    "stars": 11018,
+    "forks": 1841,
     "language": "Python",
     "growth": {
-      "stars_per_day": 27.41,
+      "stars_per_day": 27.45,
       "created_at": "2025-04-28T19:40:42Z",
-      "pushed_at": "2026-06-03T01:42:29Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:50:03Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2628,14 +2670,14 @@
     "category_cn": "AI 智能体",
     "icon": "WE",
     "desc_cn": "微软开源的浏览器智能体框架，面向长程网页任务、自动化操作和 SWE 风格评测场景。",
-    "stars": 4938,
-    "forks": 286,
+    "stars": 5010,
+    "forks": 288,
     "language": "Python",
     "growth": {
-      "stars_per_day": 87.89,
+      "stars_per_day": 87.62,
       "created_at": "2026-04-08T01:48:09Z",
-      "pushed_at": "2026-05-29T23:41:31Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T22:29:25Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2654,14 +2696,14 @@
     "category_cn": "AI 智能体",
     "icon": "AR",
     "desc_cn": "面向企业 AI 的 MCP 注册表、网关与编排平台，强调工具接入、安全护栏和集中治理。",
-    "stars": 3773,
-    "forks": 949,
+    "stars": 3779,
+    "forks": 955,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 11.69,
+      "stars_per_day": 11.67,
       "created_at": "2025-07-15T12:07:55Z",
-      "pushed_at": "2026-06-03T05:16:38Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:01:45Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2681,13 +2723,13 @@
     "icon": "MC",
     "desc_cn": "集中管理并动态编排多个 MCP Server/API 的统一枢纽，可按不同端点组织工具能力。",
     "stars": 2129,
-    "forks": 260,
+    "forks": 262,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 4.96,
+      "stars_per_day": 4.95,
       "created_at": "2025-03-31T07:39:22Z",
-      "pushed_at": "2026-06-02T16:16:41Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T14:51:51Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2706,14 +2748,14 @@
     "category_cn": "AI 智能体",
     "icon": "GP",
     "desc_cn": "运行在终端里的个人 AI Agent，可调用本地工具、写代码、执行命令并浏览网页。",
-    "stars": 4313,
+    "stars": 4315,
     "forks": 389,
     "language": "Python",
     "growth": {
       "stars_per_day": 3.7,
       "created_at": "2023-03-24T16:25:01Z",
-      "pushed_at": "2026-06-03T03:10:50Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:00:53Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2732,14 +2774,14 @@
     "category_cn": "AI 智能体",
     "icon": "LA",
     "desc_cn": "用于多智能体编程的 LLM 应用框架，帮助开发者组合代理、消息流和工具调用。",
-    "stars": 4027,
+    "stars": 4029,
     "forks": 375,
     "language": "Python",
     "growth": {
       "stars_per_day": 3.52,
       "created_at": "2023-04-16T20:47:28Z",
       "pushed_at": "2026-06-02T14:44:07Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2759,14 +2801,14 @@
     "category_cn": "AI 智能体",
     "icon": "MG",
     "desc_cn": "多智能体软件开发框架，把产品经理、架构师、工程师等角色拆成协作 Agent，适合研究自然语言到软件原型的自动化流程。",
-    "stars": 68482,
-    "forks": 8736,
+    "stars": 68500,
+    "forks": 8739,
     "language": "Python",
     "growth": {
-      "stars_per_day": 64.07,
+      "stars_per_day": 64.03,
       "created_at": "2023-06-30T09:04:55Z",
       "pushed_at": "2026-01-21T10:12:33Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2786,14 +2828,14 @@
     "category_cn": "AI 智能体",
     "icon": "CD",
     "desc_cn": "用多个 LLM 角色模拟软件公司协作，从需求、设计到代码生成组织流程，适合对比多 Agent 协同开发模式。",
-    "stars": 33299,
-    "forks": 4145,
+    "stars": 33310,
+    "forks": 4147,
     "language": "Python",
     "growth": {
-      "stars_per_day": 32.96,
+      "stars_per_day": 32.94,
       "created_at": "2023-08-28T02:18:13Z",
       "pushed_at": "2026-05-27T12:41:14Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2813,14 +2855,14 @@
     "category_cn": "AI 智能体",
     "icon": "MU",
     "desc_cn": "微软实验性智能体界面，可让 Agent 在浏览器与本地文件系统之间执行任务，适合观察人机协作、浏览器自动化和安全边界设计。",
-    "stars": 9884,
-    "forks": 987,
+    "stars": 9894,
+    "forks": 988,
     "language": "Python",
     "growth": {
-      "stars_per_day": 25.12,
+      "stars_per_day": 25.09,
       "created_at": "2025-05-05T20:24:30Z",
-      "pushed_at": "2026-05-28T00:47:52Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:40:56Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2840,14 +2882,14 @@
     "category_cn": "AI 智能体",
     "icon": "DR",
     "desc_cn": "通义团队开源的 Deep Research Agent，面向长链路资料检索、分析和报告生成，适合关注研究型智能体与中文生态的开发者。",
-    "stars": 19165,
-    "forks": 1475,
+    "stars": 19209,
+    "forks": 1477,
     "language": "Python",
     "growth": {
-      "stars_per_day": 37.59,
+      "stars_per_day": 37.61,
       "created_at": "2025-01-09T11:07:35Z",
       "pushed_at": "2026-02-27T13:12:11Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2867,14 +2909,14 @@
     "category_cn": "自动化",
     "icon": "SI",
     "desc_cn": "用于构建、部署和编排 AI Agent 的工作流平台，适合把模型、工具和业务自动化流程连接成可运行的团队级 Agent 系统。",
-    "stars": 28682,
-    "forks": 3643,
+    "stars": 28696,
+    "forks": 3642,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 55.88,
+      "stars_per_day": 55.8,
       "created_at": "2025-01-05T22:47:49Z",
-      "pushed_at": "2026-06-03T05:44:19Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T02:17:09Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2894,14 +2936,14 @@
     "category_cn": "AI 智能体",
     "icon": "MC",
     "desc_cn": "基于 Chrome 扩展的 MCP Server，把浏览器标签、页面内容和操作能力暴露给支持 MCP 的 AI 助手，适合浏览器 Agent 与网页自动化场景。",
-    "stars": 11817,
+    "stars": 11830,
     "forks": 1058,
     "language": "TypeScript",
     "growth": {
-      "stars_per_day": 32.93,
+      "stars_per_day": 32.87,
       "created_at": "2025-06-09T09:07:06Z",
       "pushed_at": "2026-01-06T13:05:39Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2921,14 +2963,14 @@
     "category_cn": "AI 智能体",
     "icon": "KJ",
     "desc_cn": "可自托管的 AI 第二大脑，支持从个人文档和网页中检索问答、构建自定义 Agent 与定时自动化，适合知识管理和研究助手。",
-    "stars": 34809,
-    "forks": 2213,
+    "stars": 34822,
+    "forks": 2217,
     "language": "Python",
     "growth": {
-      "stars_per_day": 19.87,
+      "stars_per_day": 19.86,
       "created_at": "2021-08-16T01:48:44Z",
       "pushed_at": "2026-03-26T03:35:43Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2945,15 +2987,15 @@
     "category_cn": "AI 智能体",
     "icon": "OD",
     "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Self-hosted AI workspace.",
-    "stars": 35222,
-    "forks": 4187,
+    "stars": 45447,
+    "forks": 5247,
     "language": "JavaScript",
     "growth": {
       "rank": 1,
-      "stars_per_day": 13168.95,
+      "stars_per_day": 12388.94,
       "created_at": "2026-05-31T14:05:51Z",
-      "pushed_at": "2026-06-03T05:24:30Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:31:15Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2973,15 +3015,15 @@
     "category_cn": "建站框架",
     "icon": "OP",
     "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos ·…",
-    "stars": 57766,
-    "forks": 6520,
+    "stars": 58304,
+    "forks": 6588,
     "language": "TypeScript",
     "growth": {
       "rank": 2,
-      "stars_per_day": 1601.15,
+      "stars_per_day": 1572.75,
       "created_at": "2026-04-28T04:25:20Z",
-      "pushed_at": "2026-06-03T06:16:23Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T06:08:44Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -2998,15 +3040,15 @@
     "category_cn": "自动化",
     "icon": "DS",
     "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：DeepSeek 4 Flash local inference engine for Metal and CUDA.",
-    "stars": 12814,
-    "forks": 1119,
+    "stars": 12885,
+    "forks": 1123,
     "language": "C",
     "growth": {
       "rank": 3,
-      "stars_per_day": 465.26,
+      "stars_per_day": 451.54,
       "created_at": "2026-05-06T17:17:05Z",
       "pushed_at": "2026-06-02T07:46:28Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3023,15 +3065,15 @@
     "category_cn": "自动化",
     "icon": "CO",
     "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服.",
-    "stars": 11714,
-    "forks": 731,
+    "stars": 12707,
+    "forks": 800,
     "language": "Rust",
     "growth": {
       "rank": 4,
-      "stars_per_day": 420.4,
+      "stars_per_day": 440.33,
       "created_at": "2026-05-06T09:32:49Z",
-      "pushed_at": "2026-06-03T03:17:38Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T02:05:47Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3051,15 +3093,15 @@
     "category_cn": "AI 智能体",
     "icon": "DE",
     "desc_cn": "这是一个 AI 智能体 方向的 Go 开源项目，主要用于：DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-    "stars": 16932,
-    "forks": 1002,
+    "stars": 17601,
+    "forks": 1046,
     "language": "Go",
     "growth": {
       "rank": 5,
-      "stars_per_day": 394.59,
+      "stars_per_day": 400.9,
       "created_at": "2026-04-21T08:27:02Z",
-      "pushed_at": "2026-06-03T05:46:15Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:40:14Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3079,15 +3121,15 @@
     "category_cn": "自动化",
     "icon": "NA",
     "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：符合nature论文学术表达和科研绘图的Skill.",
-    "stars": 15736,
-    "forks": 939,
+    "stars": 16238,
+    "forks": 961,
     "language": "Python",
     "growth": {
       "rank": 6,
-      "stars_per_day": 392.14,
+      "stars_per_day": 394.87,
       "created_at": "2026-04-24T03:11:46Z",
       "pushed_at": "2026-06-02T14:45:49Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3107,40 +3149,15 @@
     "category_cn": "AI 智能体",
     "icon": "GU",
     "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 +…",
-    "stars": 2638,
-    "forks": 254,
+    "stars": 2782,
+    "forks": 261,
     "language": "HTML",
     "growth": {
       "rank": 7,
-      "stars_per_day": 390.32,
+      "stars_per_day": 358.87,
       "created_at": "2026-05-27T12:05:05Z",
       "pushed_at": "2026-05-27T16:58:08Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
-    }
-  },
-  {
-    "name": "alchaincyf/huashu-design",
-    "category": "AI Agents",
-    "url": "https://github.com/alchaincyf/huashu-design",
-    "desc": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.",
-    "tags": [
-      "html",
-      "rising"
-    ],
-    "badge": "Rising #8",
-    "featured": true,
-    "category_cn": "AI 智能体",
-    "icon": "HU",
-    "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.",
-    "stars": 16084,
-    "forks": 2080,
-    "language": "HTML",
-    "growth": {
-      "rank": 8,
-      "stars_per_day": 360.23,
-      "created_at": "2026-04-19T14:42:06Z",
-      "pushed_at": "2026-05-28T16:06:34Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3155,20 +3172,20 @@
       "codex",
       "rising"
     ],
-    "badge": "Rising #9",
+    "badge": "Rising #8",
     "featured": true,
     "category_cn": "建站框架",
     "icon": "GU",
     "desc_cn": "这是一个 建站框架 方向的 HTML 开源项目，主要用于：AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-    "stars": 14529,
-    "forks": 1094,
+    "stars": 14788,
+    "forks": 1109,
     "language": "HTML",
     "growth": {
-      "rank": 9,
-      "stars_per_day": 356.94,
+      "rank": 8,
+      "stars_per_day": 354.65,
       "created_at": "2026-04-23T13:23:07Z",
       "pushed_at": "2026-06-02T09:53:57Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3183,20 +3200,20 @@
       "hid",
       "rising"
     ],
-    "badge": "Rising #10",
+    "badge": "Rising #9",
     "featured": true,
     "category_cn": "建站框架",
     "icon": "OP",
     "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-    "stars": 3384,
-    "forks": 61,
+    "stars": 3693,
+    "forks": 64,
     "language": "Rust",
     "growth": {
-      "rank": 10,
-      "stars_per_day": 343.97,
+      "rank": 9,
+      "stars_per_day": 340.94,
       "created_at": "2026-05-24T10:10:36Z",
-      "pushed_at": "2026-06-03T04:13:57Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T16:15:32Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3208,20 +3225,44 @@
       "typescript",
       "rising"
     ],
-    "badge": "Rising #11",
+    "badge": "Rising #10",
     "featured": true,
     "category_cn": "部署托管",
     "icon": "WE",
     "desc_cn": "这是一个 部署托管 方向的 TypeScript 开源项目，主要用于：云微WOC，云微信，自由连接.",
-    "stars": 1645,
-    "forks": 462,
+    "stars": 1984,
+    "forks": 545,
     "language": "TypeScript",
     "growth": {
-      "rank": 11,
-      "stars_per_day": 328.86,
+      "rank": 10,
+      "stars_per_day": 330.89,
       "created_at": "2026-05-29T06:14:13Z",
       "pushed_at": "2026-06-02T17:31:41Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
+  },
+  {
+    "name": "zgwl/chinese-buy-us-stock-guide",
+    "category": "Web Frameworks",
+    "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
+    "desc": "美股指南.",
+    "tags": [
+      "rising"
+    ],
+    "badge": "Rising #11",
+    "featured": true,
+    "category_cn": "建站框架",
+    "icon": "CH",
+    "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：美股指南.",
+    "stars": 1634,
+    "forks": 254,
+    "language": null,
+    "growth": {
+      "rank": 11,
+      "stars_per_day": 322.29,
+      "created_at": "2026-05-30T04:27:25Z",
+      "pushed_at": "2026-05-31T20:27:01Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3241,15 +3282,15 @@
     "category_cn": "建站框架",
     "icon": "BU",
     "desc_cn": "这是一个 建站框架 方向的 Go 开源项目，主要用于：Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-    "stars": 4188,
-    "forks": 371,
+    "stars": 4231,
+    "forks": 373,
     "language": "Go",
     "growth": {
       "rank": 12,
-      "stars_per_day": 310.13,
+      "stars_per_day": 291.84,
       "created_at": "2026-05-20T18:11:37Z",
       "pushed_at": "2026-06-02T13:35:04Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3266,15 +3307,15 @@
     "category_cn": "自动化",
     "icon": "OR",
     "desc_cn": "这是一个 自动化 方向的 C++ 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-    "stars": 6748,
-    "forks": 5135,
+    "stars": 6775,
+    "forks": 5140,
     "language": "C++",
     "growth": {
       "rank": 13,
-      "stars_per_day": 299.61,
+      "stars_per_day": 288.1,
       "created_at": "2026-05-11T17:44:55Z",
       "pushed_at": "2026-05-12T18:58:00Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3293,40 +3334,15 @@
     "category_cn": "AI 智能体",
     "icon": "IA",
     "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill.",
-    "stars": 1769,
-    "forks": 162,
+    "stars": 2005,
+    "forks": 188,
     "language": null,
     "growth": {
       "rank": 14,
-      "stars_per_day": 280.26,
+      "stars_per_day": 274.44,
       "created_at": "2026-05-27T22:47:56Z",
-      "pushed_at": "2026-06-03T05:37:06Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
-    }
-  },
-  {
-    "name": "vercel-labs/zerolang",
-    "category": "AI Agents",
-    "url": "https://github.com/vercel-labs/zerolang",
-    "desc": "The programming language for agents.",
-    "tags": [
-      "c",
-      "rising"
-    ],
-    "badge": "Rising #15",
-    "featured": false,
-    "category_cn": "AI 智能体",
-    "icon": "ZE",
-    "desc_cn": "这是一个 AI 智能体 方向的 C 开源项目，主要用于：The programming language for agents.",
-    "stars": 4817,
-    "forks": 311,
-    "language": "C",
-    "growth": {
-      "rank": 15,
-      "stars_per_day": 259.58,
-      "created_at": "2026-05-15T16:55:16Z",
-      "pushed_at": "2026-06-03T04:42:36Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T11:35:43Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3341,20 +3357,45 @@
       "ai-agents",
       "rising"
     ],
-    "badge": "Rising #16",
+    "badge": "Rising #15",
     "featured": false,
     "category_cn": "后端数据库",
     "icon": "HT",
     "desc_cn": "这是一个 后端数据库 方向的 HTML 开源项目，主要用于：✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperfram…",
-    "stars": 5916,
-    "forks": 575,
+    "stars": 5996,
+    "forks": 581,
     "language": "HTML",
     "growth": {
-      "rank": 16,
-      "stars_per_day": 258.81,
+      "rank": 15,
+      "stars_per_day": 251.38,
       "created_at": "2026-05-11T09:40:38Z",
       "pushed_at": "2026-06-02T06:27:04Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
+  },
+  {
+    "name": "vercel-labs/zerolang",
+    "category": "AI Agents",
+    "url": "https://github.com/vercel-labs/zerolang",
+    "desc": "The programming language for agents.",
+    "tags": [
+      "c",
+      "rising"
+    ],
+    "badge": "Rising #16",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "ZE",
+    "desc_cn": "这是一个 AI 智能体 方向的 C 开源项目，主要用于：The programming language for agents.",
+    "stars": 4845,
+    "forks": 312,
+    "language": "C",
+    "growth": {
+      "rank": 16,
+      "stars_per_day": 247.82,
+      "created_at": "2026-05-15T16:55:16Z",
+      "pushed_at": "2026-06-04T04:30:10Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3371,40 +3412,15 @@
     "category_cn": "AI 智能体",
     "icon": "PI",
     "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Task-oriented AI Agent productivity platform.",
-    "stars": 2862,
-    "forks": 286,
+    "stars": 2927,
+    "forks": 298,
     "language": "TypeScript",
     "growth": {
       "rank": 17,
-      "stars_per_day": 238.96,
+      "stars_per_day": 225.66,
       "created_at": "2026-05-22T06:50:28Z",
-      "pushed_at": "2026-06-03T02:54:20Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
-    }
-  },
-  {
-    "name": "GordenSun/GordenPPTSkill",
-    "category": "Web Frameworks",
-    "url": "https://github.com/GordenSun/GordenPPTSkill",
-    "desc": "AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a rea…",
-    "tags": [
-      "python",
-      "rising"
-    ],
-    "badge": "Rising #18",
-    "featured": false,
-    "category_cn": "建站框架",
-    "icon": "GO",
-    "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a rea…",
-    "stars": 1581,
-    "forks": 144,
-    "language": "Python",
-    "growth": {
-      "rank": 18,
-      "stars_per_day": 231.57,
-      "created_at": "2026-05-27T10:25:58Z",
-      "pushed_at": "2026-06-03T02:18:53Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T10:32:43Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3416,20 +3432,45 @@
       "javascript",
       "rising"
     ],
-    "badge": "Rising #19",
+    "badge": "Rising #18",
     "featured": false,
     "category_cn": "自动化",
     "icon": "GU",
     "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-    "stars": 3306,
-    "forks": 857,
+    "stars": 3365,
+    "forks": 869,
     "language": "JavaScript",
     "growth": {
-      "rank": 19,
-      "stars_per_day": 223.88,
+      "rank": 18,
+      "stars_per_day": 213.51,
       "created_at": "2026-05-19T11:52:52Z",
-      "pushed_at": "2026-05-30T16:01:42Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:23:02Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
+  },
+  {
+    "name": "GordenSun/GordenPPTSkill",
+    "category": "Web Frameworks",
+    "url": "https://github.com/GordenSun/GordenPPTSkill",
+    "desc": "AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a rea…",
+    "tags": [
+      "python",
+      "rising"
+    ],
+    "badge": "Rising #19",
+    "featured": false,
+    "category_cn": "建站框架",
+    "icon": "GO",
+    "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a rea…",
+    "stars": 1652,
+    "forks": 149,
+    "language": "Python",
+    "growth": {
+      "rank": 19,
+      "stars_per_day": 211.22,
+      "created_at": "2026-05-27T10:25:58Z",
+      "pushed_at": "2026-06-03T07:20:07Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3449,15 +3490,15 @@
     "category_cn": "自动化",
     "icon": "GS",
     "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Git. Ship. Done - Core.",
-    "stars": 2399,
-    "forks": 150,
+    "stars": 2558,
+    "forks": 156,
     "language": "JavaScript",
     "growth": {
       "rank": 20,
-      "stars_per_day": 203.68,
+      "stars_per_day": 200.28,
       "created_at": "2026-05-22T11:36:21Z",
-      "pushed_at": "2026-06-03T04:22:50Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T04:55:12Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3474,15 +3515,40 @@
     "category_cn": "低代码后台",
     "icon": "OS",
     "desc_cn": "这是一个 低代码后台 方向的 TypeScript 开源项目，主要用于：Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative.",
-    "stars": 4253,
-    "forks": 856,
+    "stars": 4340,
+    "forks": 881,
     "language": "TypeScript",
     "growth": {
       "rank": 21,
-      "stars_per_day": 198.53,
+      "stars_per_day": 193.61,
       "created_at": "2026-05-12T20:09:25Z",
-      "pushed_at": "2026-06-02T22:39:42Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T03:27:48Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
+    }
+  },
+  {
+    "name": "unicity-astrid/sdk-js",
+    "category": "Web Frameworks",
+    "url": "https://github.com/unicity-astrid/sdk-js",
+    "desc": "JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
+    "tags": [
+      "typescript",
+      "rising"
+    ],
+    "badge": "Rising #22",
+    "featured": false,
+    "category_cn": "建站框架",
+    "icon": "SD",
+    "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
+    "stars": 3175,
+    "forks": 5,
+    "language": "TypeScript",
+    "growth": {
+      "rank": 22,
+      "stars_per_day": 188.92,
+      "created_at": "2026-05-18T10:47:45Z",
+      "pushed_at": "2026-05-27T11:45:27Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3494,45 +3560,47 @@
       "python",
       "rising"
     ],
-    "badge": "Rising #22",
+    "badge": "Rising #23",
     "featured": false,
     "category_cn": "建站框架",
     "icon": "CL",
     "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：A suite of plugins for legal workflows.",
-    "stars": 7997,
-    "forks": 1433,
+    "stars": 8027,
+    "forks": 1451,
     "language": "Python",
     "growth": {
-      "rank": 22,
-      "stars_per_day": 187.69,
+      "rank": 23,
+      "stars_per_day": 184.1,
       "created_at": "2026-04-21T15:43:42Z",
-      "pushed_at": "2026-06-03T05:05:20Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T14:50:37Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
-    "name": "thananon/9arm-skills",
-    "category": "Automation",
-    "url": "https://github.com/thananon/9arm-skills",
-    "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+    "name": "microsoft/SkillOpt",
+    "category": "AI Agents",
+    "url": "https://github.com/microsoft/SkillOpt",
+    "desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best…",
     "tags": [
-      "shell",
+      "python",
+      "agent-skills",
+      "self-evolving-agents",
       "rising"
     ],
-    "badge": "Rising #23",
+    "badge": "Rising #24",
     "featured": false,
-    "category_cn": "自动化",
-    "icon": "9A",
-    "desc_cn": "这是一个 自动化 方向的 Shell 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-    "stars": 2630,
-    "forks": 368,
-    "language": "Shell",
+    "category_cn": "AI 智能体",
+    "icon": "SK",
+    "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best…",
+    "stars": 4753,
+    "forks": 473,
+    "language": "Python",
     "growth": {
-      "rank": 23,
-      "stars_per_day": 184.85,
-      "created_at": "2026-05-20T00:49:37Z",
-      "pushed_at": "2026-05-26T11:47:15Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "rank": 24,
+      "stars_per_day": 176.19,
+      "created_at": "2026-05-08T06:41:01Z",
+      "pushed_at": "2026-06-03T16:08:10Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3544,20 +3612,20 @@
       "c",
       "rising"
     ],
-    "badge": "Rising #24",
+    "badge": "Rising #25",
     "featured": false,
     "category_cn": "AI 智能体",
     "icon": "DI",
     "desc_cn": "这是一个 AI 智能体 方向的 C 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-    "stars": 4806,
+    "stars": 4814,
     "forks": 775,
     "language": "C",
     "growth": {
-      "rank": 24,
-      "stars_per_day": 181.36,
+      "rank": 25,
+      "stars_per_day": 175.1,
       "created_at": "2026-05-07T18:18:28Z",
       "pushed_at": "2026-05-10T17:29:21Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3572,47 +3640,45 @@
       "chatgpt",
       "rising"
     ],
-    "badge": "Rising #25",
+    "badge": "Rising #26",
     "featured": false,
     "category_cn": "自动化",
     "icon": "AW",
     "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中.",
-    "stars": 6924,
-    "forks": 925,
+    "stars": 6969,
+    "forks": 927,
     "language": "JavaScript",
     "growth": {
-      "rank": 25,
-      "stars_per_day": 178.12,
+      "rank": 26,
+      "stars_per_day": 174.8,
       "created_at": "2026-04-25T09:19:13Z",
-      "pushed_at": "2026-06-02T13:41:22Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-04T05:29:53Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
-    "name": "microsoft/SkillOpt",
-    "category": "AI Agents",
-    "url": "https://github.com/microsoft/SkillOpt",
-    "desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best…",
+    "name": "thananon/9arm-skills",
+    "category": "Automation",
+    "url": "https://github.com/thananon/9arm-skills",
+    "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
     "tags": [
-      "python",
-      "agent-skills",
-      "self-evolving-agents",
+      "shell",
       "rising"
     ],
-    "badge": "Rising #26",
+    "badge": "Rising #27",
     "featured": false,
-    "category_cn": "AI 智能体",
-    "icon": "SK",
-    "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best…",
-    "stars": 4516,
-    "forks": 452,
-    "language": "Python",
+    "category_cn": "自动化",
+    "icon": "9A",
+    "desc_cn": "这是一个 自动化 方向的 Shell 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+    "stars": 2649,
+    "forks": 371,
+    "language": "Shell",
     "growth": {
-      "rank": 26,
-      "stars_per_day": 173.8,
-      "created_at": "2026-05-08T06:41:01Z",
-      "pushed_at": "2026-06-02T15:12:44Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "rank": 27,
+      "stars_per_day": 174.03,
+      "created_at": "2026-05-20T00:49:37Z",
+      "pushed_at": "2026-05-26T11:47:15Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3624,20 +3690,20 @@
       "typescript",
       "rising"
     ],
-    "badge": "Rising #27",
+    "badge": "Rising #28",
     "featured": false,
     "category_cn": "AI 智能体",
     "icon": "FR",
     "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, aut…",
-    "stars": 7209,
-    "forks": 1177,
+    "stars": 7368,
+    "forks": 1204,
     "language": "TypeScript",
     "growth": {
-      "rank": 27,
-      "stars_per_day": 168.86,
+      "rank": 28,
+      "stars_per_day": 168.65,
       "created_at": "2026-04-21T13:38:59Z",
-      "pushed_at": "2026-06-02T18:27:38Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T21:15:27Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3652,45 +3718,20 @@
       "gpt-image-2",
       "rising"
     ],
-    "badge": "Rising #28",
+    "badge": "Rising #29",
     "featured": false,
     "category_cn": "AI 智能体",
     "icon": "GA",
     "desc_cn": "这是一个 AI 智能体 方向的 CSS 开源项目，主要用于：ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-    "stars": 7140,
-    "forks": 978,
+    "stars": 7241,
+    "forks": 986,
     "language": "CSS",
     "growth": {
-      "rank": 28,
-      "stars_per_day": 166.96,
+      "rank": 29,
+      "stars_per_day": 165.48,
       "created_at": "2026-04-21T11:56:17Z",
       "pushed_at": "2026-05-27T08:01:37Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
-    }
-  },
-  {
-    "name": "vercel-labs/zero-native",
-    "category": "Web Frameworks",
-    "url": "https://github.com/vercel-labs/zero-native",
-    "desc": "Build desktop + mobile apps with Zig and web UI.",
-    "tags": [
-      "zig",
-      "rising"
-    ],
-    "badge": "Rising #29",
-    "featured": false,
-    "category_cn": "建站框架",
-    "icon": "ZE",
-    "desc_cn": "这是一个 建站框架 方向的 Zig 开源项目，主要用于：Build desktop + mobile apps with Zig and web UI.",
-    "stars": 4089,
-    "forks": 168,
-    "language": "Zig",
-    "growth": {
-      "rank": 29,
-      "stars_per_day": 160.77,
-      "created_at": "2026-05-08T19:53:41Z",
-      "pushed_at": "2026-05-13T16:47:35Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3707,15 +3748,15 @@
     "category_cn": "内容 CMS",
     "icon": "KA",
     "desc_cn": "这是一个 内容 CMS 方向的 HTML 开源项目，主要用于：👩‍🚒 Good content deserves good paper.",
-    "stars": 6944,
-    "forks": 325,
+    "stars": 7008,
+    "forks": 330,
     "language": "HTML",
     "growth": {
       "rank": 30,
-      "stars_per_day": 159.37,
+      "stars_per_day": 157.26,
       "created_at": "2026-04-20T16:35:19Z",
       "pushed_at": "2026-06-03T04:43:34Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3735,40 +3776,40 @@
     "category_cn": "建站框架",
     "icon": "WH",
     "desc_cn": "这是一个 建站框架 方向的 Swift 开源项目，主要用于：macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do.",
-    "stars": 5204,
-    "forks": 162,
+    "stars": 5329,
+    "forks": 164,
     "language": "Swift",
     "growth": {
       "rank": 31,
-      "stars_per_day": 157.99,
+      "stars_per_day": 157.05,
       "created_at": "2026-05-01T07:45:10Z",
-      "pushed_at": "2026-06-02T22:11:54Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T18:34:43Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
-    "name": "Tong89/smartNode",
-    "category": "Automation",
-    "url": "https://github.com/Tong89/smartNode",
-    "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+    "name": "vercel-labs/zero-native",
+    "category": "Web Frameworks",
+    "url": "https://github.com/vercel-labs/zero-native",
+    "desc": "Build desktop + mobile apps with Zig and web UI.",
     "tags": [
-      "python",
+      "zig",
       "rising"
     ],
     "badge": "Rising #32",
     "featured": false,
-    "category_cn": "自动化",
-    "icon": "SM",
-    "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-    "stars": 2011,
-    "forks": 177,
-    "language": "Python",
+    "category_cn": "建站框架",
+    "icon": "ZE",
+    "desc_cn": "这是一个 建站框架 方向的 Zig 开源项目，主要用于：Build desktop + mobile apps with Zig and web UI.",
+    "stars": 4096,
+    "forks": 168,
+    "language": "Zig",
     "growth": {
       "rank": 32,
-      "stars_per_day": 155.31,
-      "created_at": "2026-05-21T07:31:35Z",
-      "pushed_at": "2026-06-02T04:04:50Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "stars_per_day": 154.99,
+      "created_at": "2026-05-08T19:53:41Z",
+      "pushed_at": "2026-05-13T16:47:35Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3788,39 +3829,40 @@
     "category_cn": "AI 智能体",
     "icon": "TE",
     "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Lightweight (7MB) Terminal-first AI-native dev workspace.",
-    "stars": 6594,
-    "forks": 709,
+    "stars": 6688,
+    "forks": 720,
     "language": "TypeScript",
     "growth": {
       "rank": 33,
-      "stars_per_day": 155.19,
+      "stars_per_day": 153.81,
       "created_at": "2026-04-21T18:33:12Z",
-      "pushed_at": "2026-06-03T01:10:58Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "pushed_at": "2026-06-03T17:49:06Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
-    "name": "simonlin1212/a-stock-data",
-    "category": "Data & Analytics",
-    "url": "https://github.com/simonlin1212/a-stock-data",
-    "desc": "A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
+    "name": "Tong89/smartNode",
+    "category": "Automation",
+    "url": "https://github.com/Tong89/smartNode",
+    "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
     "tags": [
+      "python",
       "rising"
     ],
     "badge": "Rising #34",
     "featured": false,
-    "category_cn": "数据分析",
-    "icon": "AS",
-    "desc_cn": "这是一个 数据分析 方向的 开源 开源项目，主要用于：A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
-    "stars": 3271,
-    "forks": 683,
-    "language": null,
+    "category_cn": "自动化",
+    "icon": "SM",
+    "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+    "stars": 2006,
+    "forks": 176,
+    "language": "Python",
     "growth": {
       "rank": 34,
-      "stars_per_day": 140.9,
-      "created_at": "2026-05-11T01:08:15Z",
-      "pushed_at": "2026-05-30T12:40:53Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "stars_per_day": 143.88,
+      "created_at": "2026-05-21T07:31:35Z",
+      "pushed_at": "2026-06-02T04:04:50Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
@@ -3837,40 +3879,39 @@
     "category_cn": "AI 智能体",
     "icon": "AG",
     "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：AI Agent 学习路线与资料库收集.",
-    "stars": 2306,
-    "forks": 234,
+    "stars": 2543,
+    "forks": 255,
     "language": "HTML",
     "growth": {
       "rank": 35,
-      "stars_per_day": 135.78,
+      "stars_per_day": 141.46,
       "created_at": "2026-05-17T06:41:12Z",
       "pushed_at": "2026-06-02T13:46:01Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   },
   {
-    "name": "MoonshotAI/kimi-code",
-    "category": "AI Agents",
-    "url": "https://github.com/MoonshotAI/kimi-code",
-    "desc": "The Starting Point for Next-Gen Agents.",
+    "name": "simonlin1212/a-stock-data",
+    "category": "Data & Analytics",
+    "url": "https://github.com/simonlin1212/a-stock-data",
+    "desc": "A股全栈数据工具包 — 7层架构 · 27端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
     "tags": [
-      "typescript",
       "rising"
     ],
     "badge": "Rising #36",
     "featured": false,
-    "category_cn": "AI 智能体",
-    "icon": "KI",
-    "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：The Starting Point for Next-Gen Agents.",
-    "stars": 1611,
-    "forks": 156,
-    "language": "TypeScript",
+    "category_cn": "数据分析",
+    "icon": "AS",
+    "desc_cn": "这是一个 数据分析 方向的 开源 开源项目，主要用于：A股全栈数据工具包 — 7层架构 · 27端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants.",
+    "stars": 3366,
+    "forks": 698,
+    "language": null,
     "growth": {
       "rank": 36,
-      "stars_per_day": 135.07,
-      "created_at": "2026-05-22T08:02:03Z",
-      "pushed_at": "2026-06-03T06:17:23Z",
-      "synced_at": "2026-06-03T06:17:18.606596Z"
+      "stars_per_day": 139.04,
+      "created_at": "2026-05-11T01:08:15Z",
+      "pushed_at": "2026-06-03T15:36:31Z",
+      "synced_at": "2026-06-04T06:08:16.661517Z"
     }
   }
 ]
