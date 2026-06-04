@@ -120,7 +120,8 @@ def project_card(p: dict) -> str:
         </article>"""
 
 
-def page_shell(title: str, description: str, canonical: str, body: str, extra_jsonld: dict | None = None) -> str:
+def page_shell(title: str, description: str, canonical: str, body: str, extra_jsonld: dict | None = None, og_image: str | None = None) -> str:
+    og_image_url = og_image or f"{BASE}/assets/hero-github-directory.png"
     jsonld = f'  <script type="application/ld+json">{json.dumps(extra_jsonld, ensure_ascii=False)}</script>\n' if extra_jsonld else ""
     return f"""<!doctype html>
 <html lang="zh-CN">
@@ -134,7 +135,7 @@ def page_shell(title: str, description: str, canonical: str, body: str, extra_js
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{esc(canonical)}">
-  <meta property="og:image" content="{BASE}/assets/hero-github-directory.png">
+  <meta property="og:image" content="{esc(og_image_url)}">
   <link rel="stylesheet" href="/assets/nav-style.css">
 {jsonld}</head>
 <body>
@@ -320,6 +321,7 @@ def write_daily_brief_page() -> None:
       <p>从 GitHub 快速涨星数据中筛选前十名，保留项目用途、星标增速、累计 Star、Fork、语言和分类，适合直接截图或转发给开发者朋友。</p>
       <div class="brief-actions">
         <button type="button" id="copyDailyBrief" data-share-text='{esc(share_text)}' aria-live="polite">复制分享文案</button>
+        <a href="/assets/daily-brief-share.png" target="_blank" rel="noopener">分享图片/网页快照</a>
         <a href="/trending/">查看完整涨星榜 →</a>
       </div>
     </section>
@@ -372,7 +374,7 @@ def write_daily_brief_page() -> None:
     </script>"""
     out = ROOT / "daily-brief" / "index.html"
     out.parent.mkdir(exist_ok=True)
-    out.write_text(page_shell("GitHub 每日增速 Top10 分享快报 - 拾品号导航", "拾品号导航每日整理 GitHub 增速最快的前十名开源项目，适合截图、转发和快速发现新工具。", f"{BASE}/daily-brief/", body, jsonld), encoding="utf-8")
+    out.write_text(page_shell("GitHub 每日增速 Top10 分享快报 - 拾品号导航", "拾品号导航每日整理 GitHub 增速最快的前十名开源项目，适合截图、转发和快速发现新工具。", f"{BASE}/daily-brief/", body, jsonld, f"{BASE}/assets/daily-brief-share.png"), encoding="utf-8")
 
 
 def select_collection_projects(collection: dict, curated: list[dict], rising_data: dict) -> list[dict]:
