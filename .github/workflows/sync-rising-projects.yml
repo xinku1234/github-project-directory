@@ -15,24 +15,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Sync GitHub rising repositories and project stats
+      - name: Sync GitHub rising repositories, pages, and share snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RISING_WINDOW_DAYS: '45'
           RISING_MIN_STARS: '50'
           RISING_LIMIT: '36'
         run: |
+          python3 -m pip install --upgrade pillow
           python3 scripts/sync_github_rising.py
           python3 scripts/sync_project_stats.py
           python3 scripts/build_seo_geo.py
-      - name: Commit updated project data
+          python3 scripts/generate_daily_brief_snapshot.py
+      - name: Commit updated project data, pages, and share snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
-            git add data/projects.json data/github-rising.json trending/index.html categories sitemap.xml llms.txt robots.txt
-            git commit -m "Sync GitHub project growth stats"
+            git add data/projects.json data/github-rising.json trending/index.html daily-brief/index.html categories collections submit.html sitemap.xml llms.txt robots.txt assets/daily-brief-share.png scripts/generate_daily_brief_snapshot.py
+            git commit -m "Sync GitHub daily brief and share snapshot"
             git push
           else
-            echo "No rising project changes."
+            echo "No rising project or daily snapshot changes."
           fi
