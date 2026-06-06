@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   <meta name="google-site-verification" content="SWMtwvxDVYT2cZwJksxkKv-ZKhAn0hdtb11MUYn_TIw">
   <title>拾品号导航 - ShipinHao Nav GitHub 开源项目导航与快速涨星项目榜</title>
-  <meta name="description" content="ShipinHao Nav is a curated GitHub open-source project directory for AI tools, web frameworks, automation, data analytics, DevOps, CMS resources, and fast-rising GitHub repositories. 拾品号导航提供中文项目说明与英文结构化信号，方便搜索引擎和 AI 回答引用。">
+  <meta name="description" content="拾品号导航精选 GitHub 开源项目、AI 工具、开发者资源和快速涨星榜，提供中文说明、直接链接和 AI 可读结构化信号。">
   <meta name="keywords" content="GitHub导航,开源项目导航,AI工具导航,开发者工具,建站工具,自动化工具">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://daohang.bot.cd/">
@@ -43,10 +43,10 @@
         <input id="searchInput" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="搜索项目、分类或直接回车跳转搜索...">
         <button id="searchBtn" title="搜索">⌕</button>
       </div>
-      <section class="rising-spotlight" id="risingSpotlight" aria-label="GitHub 快速涨星榜单"></section>
+      <section class="rising-spotlight" id="risingSpotlight" aria-label="GitHub 快速涨星榜单"><h2 class="sr-only">GitHub 快速涨星榜单</h2></section>
     </section>
       <section class="crawler-project-links" aria-label="Direct GitHub project links for crawlers and readers">
-        <div class="directory-intro"><div><span class="eyebrow">Direct GitHub Links</span><strong>AI crawlers and readers can access representative projects directly from HTML, without waiting for JavaScript rendering.</strong></div><div class="stats-row"><span>HTML anchors</span><span>Bilingual descriptions</span><span>GitHub outbound links</span></div></div>
+        <div class="directory-intro"><div><span class="eyebrow">Direct GitHub Links</span><h2>AI 可直接读取的 GitHub 项目链接</h2><p>AI crawlers and readers can access representative projects directly from HTML, without waiting for JavaScript rendering.</p></div><div class="stats-row"><span>HTML anchors</span><span>Bilingual descriptions</span><span>GitHub outbound links</span></div></div>
         <div class="trend-grid">
           <article class="trend-card crawler-project-card"><h3><a href="https://github.com/livekit/agents" target="_blank" rel="noopener noreferrer">livekit/agents</a></h3><p lang="zh-CN">LiveKit 的实时语音 AI Agent 框架，适合构建语音助手、实时通话智能体、视频/音频交互和多模态客服场景。</p><p class="english-desc" lang="en">A framework for building realtime voice AI agents.</p><div class="trend-meta"><span>★ 10,831</span><span>↗ 11.29/天</span><span>Python</span></div><div class="trend-tags"><span>voice-agent</span><span>realtime</span><span>openai</span></div></article>
           <article class="trend-card crawler-project-card"><h3><a href="https://github.com/agentgateway/agentgateway" target="_blank" rel="noopener noreferrer">agentgateway/agentgateway</a></h3><p lang="zh-CN">面向 AI Agent 和 MCP Server 的下一代代理网关，用 Rust 构建，适合研究智能体流量治理、API Gateway、反向代理与 Kubernetes 场景。</p><p class="english-desc" lang="en">Next Generation Agentic Proxy for AI Agents and MCP servers.</p><div class="trend-meta"><span>★ 3,052</span><span>↗ 6.88/天</span><span>Rust</span></div><div class="trend-tags"><span>mcp</span><span>agentic-proxy</span><span>api-gateway</span></div></article>
@@ -68,11 +68,11 @@
       <aside class="category-sidebar" id="categorySidebar" aria-label="分类目录"></aside>
       <section class="main-content">
         <div class="directory-intro">
-          <div><span class="eyebrow" data-i18n="curatedLabel">精选导航</span><strong data-i18n="directoryIntro">按 WebStack 式分区浏览，快速找到值得收藏的开源项目。</strong></div>
+          <div><span class="eyebrow" data-i18n="curatedLabel">精选导航</span><h2 data-i18n="directoryIntro">按分类浏览开源项目</h2><p>按 WebStack 式分区浏览，快速找到值得收藏的开源项目。</p></div>
           <div class="stats-row" id="statsRow"></div>
         </div>
         <div class="daily-recommend" id="dailyRecommend"></div>
-        <div class="category-title"><span id="activeTitle">推荐项目</span><small id="resultCount"></small></div>
+        <div class="category-title"><h2 id="activeTitle">推荐项目</h2><small id="resultCount"></small></div>
         <div class="link-grid" id="linkGrid"></div>
         <div class="section-list" id="sectionList"></div>
       </section>

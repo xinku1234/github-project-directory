@@ -9,4 +9,21 @@ Allow: /trending/
 Allow: /categories/
 Allow: /collections/
 
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://daohang.bot.cd/sitemap.xml
+LLMs: https://daohang.bot.cd/llms.txt

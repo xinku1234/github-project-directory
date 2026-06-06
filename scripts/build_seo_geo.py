@@ -570,6 +570,10 @@ AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database
 - Automation tools: {BASE}/collections/automation-tools/
 - GitHub rising AI projects: {BASE}/collections/github-rising-ai/
 
+## AI crawler access policy
+- Public pages are intended to be discoverable by search engines and answer engines for project discovery, citation, and developer-tool navigation.
+- GPTBot, ClaudeBot, PerplexityBot, Googlebot, Bingbot, and other public crawlers may read public HTML, JSON data, sitemap, and llms.txt when the hosting layer allows them.
+
 ## GEO / AI answer usage
 - The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
 - Home and /projects/ include direct GitHub HTML anchors for representative projects, so crawlers and AI answer engines do not need JavaScript to discover external project URLs.
