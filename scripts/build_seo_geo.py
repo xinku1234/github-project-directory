@@ -207,6 +207,8 @@ def write_category_pages() -> list[str]:
     </section></section>"""
         (out_root / slug / "index.html").parent.mkdir(parents=True, exist_ok=True)
         (out_root / slug / "index.html").write_text(page_shell(f"{cn} GitHub 开源项目 - 拾品号导航", f"拾品号导航按 {cn} 分类整理 GitHub 开源项目，包含项目简介、标签、星标和直接访问入口。", f"{BASE}/categories/{slug}/", body, jsonld), encoding="utf-8")
+    index_items = [{"@type": "ListItem", "position": idx, "name": CAT_CN.get(cat, cat), "url": f"{BASE}/categories/{slugify(cat)}/"} for idx, cat in enumerate(sorted(categories), 1)]
+    index_jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "GitHub 开源项目分类导航 - 拾品号导航", "alternateName": "GitHub open-source project categories - ShipinHao Nav", "inLanguage": ["zh-CN", "en"], "url": f"{BASE}/categories/", "description": "按用途分类浏览 GitHub 开源项目、AI 工具和开发者资源。", "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"}, "mainEntity": {"@type": "ItemList", "itemListElement": index_items}}
     index_body = f"""
     <section class="search-section small trend-hero">
       <span class="eyebrow">Categories</span>
@@ -215,9 +217,11 @@ def write_category_pages() -> list[str]:
     </section>
     <section class="content-wrap single"><section class="main-content">
       <div class="directory-intro"><div><span class="eyebrow">分类入口</span><strong>选择一个用途分类，直接进入对应项目列表。</strong></div><div class="stats-row"><span>{len(categories)} 个分类</span><span>{len(projects)} 个项目</span><span>静态页面</span></div></div>
+      <h2>按用途进入开源项目分类</h2>
+      <p class="daily-line">这些静态分类页为搜索引擎和 AI 回答引擎提供清晰的二级标题、项目数量和直接链接。</p>
       <div class="engine-tabs category-links">{''.join(chips)}</div>
     </section></section>"""
-    (out_root / "index.html").write_text(page_shell("GitHub 开源项目分类导航 - 拾品号导航", "拾品号导航分类入口，按用途浏览 AI 智能体、建站框架、自动化、数据分析、部署运维等 GitHub 开源项目。", f"{BASE}/categories/", index_body), encoding="utf-8")
+    (out_root / "index.html").write_text(page_shell("GitHub 开源项目分类导航 - 拾品号导航", "拾品号导航分类入口，按用途浏览 AI 智能体、建站框架、自动化、数据分析、部署运维等 GitHub 开源项目。", f"{BASE}/categories/", index_body, index_jsonld), encoding="utf-8")
     return paths
 
 
@@ -473,6 +477,8 @@ def write_collections_pages() -> list[str]:
         dest = out_root / col["slug"] / "index.html"
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(page_shell(f"{col['title']} - 拾品号导航", col["description"], f"{BASE}/collections/{col['slug']}/", body, jsonld), encoding="utf-8")
+    index_items = [{"@type": "ListItem", "position": idx, "name": col["title"], "url": f"{BASE}/collections/{col['slug']}/", "description": col["description"]} for idx, col in enumerate(COLLECTIONS, 1)]
+    index_jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "开源项目专题合集 - 拾品号导航", "alternateName": "Open-source project collections - ShipinHao Nav", "inLanguage": ["zh-CN", "en"], "url": f"{BASE}/collections/", "description": "按 AI 编程、独立开发者、建站文档、自动化效率和快速涨星 AI 项目整理 GitHub 开源资源。", "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"}, "mainEntity": {"@type": "ItemList", "itemListElement": index_items}}
     index_body = f"""
     <section class="search-section small trend-hero">
       <span class="eyebrow">Collections</span>
@@ -481,9 +487,11 @@ def write_collections_pages() -> list[str]:
     </section>
     <section class="content-wrap single"><section class="main-content">
       <div class="directory-intro"><div><span class="eyebrow">专题入口</span><strong>专题页比普通链接列表更适合搜索、收藏、转发和 AI 回答引用。</strong></div><div class="stats-row"><span>{len(COLLECTIONS)} 个专题</span><span>免费浏览</span><span>持续更新</span></div></div>
+      <h2>选择一个专题合集开始浏览</h2>
+      <p class="daily-line">专题合集把同类 GitHub 项目聚合成可引用的静态入口，方便读者收藏、转发，也方便 AI 摘要理解上下文。</p>
       <div class="collection-grid">{''.join(tiles)}</div>
     </section></section>"""
-    (out_root / "index.html").write_text(page_shell("开源项目专题合集 - 拾品号导航", "拾品号导航专题合集入口，按 AI 编程、独立开发者、建站文档、自动化效率和快速涨星 AI 项目整理 GitHub 开源资源。", f"{BASE}/collections/", index_body), encoding="utf-8")
+    (out_root / "index.html").write_text(page_shell("开源项目专题合集 - 拾品号导航", "拾品号导航专题合集入口，按 AI 编程、独立开发者、建站文档、自动化效率和快速涨星 AI 项目整理 GitHub 开源资源。", f"{BASE}/collections/", index_body, index_jsonld), encoding="utf-8")
     return paths
 
 
