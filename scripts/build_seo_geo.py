@@ -17,6 +17,28 @@ def esc(s: object) -> str:
     return html.escape(str(s or ""), quote=True)
 
 
+def desc_cn(p: dict) -> str:
+    return p.get("desc_cn") or p.get("desc") or ""
+
+
+def desc_en(p: dict) -> str:
+    return p.get("desc") or p.get("desc_cn") or ""
+
+
+def item_list_entry(p: dict, idx: int) -> dict:
+    entry = {
+        "@type": "ListItem",
+        "position": idx,
+        "name": p.get("name"),
+        "url": p.get("url"),
+        "description": desc_cn(p),
+    }
+    english = desc_en(p)
+    if english and english != entry["description"]:
+        entry["alternateDescription"] = english
+    return entry
+
+
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -114,7 +136,8 @@ def project_card(p: dict) -> str:
     return f"""
         <article class="trend-card">
           <h2><a href="{esc(p.get('url'))}" target="_blank" rel="noopener">{esc(p.get('name'))}</a></h2>
-          <p>{esc(p.get('desc_cn') or p.get('desc'))}</p>
+          <p lang="zh-CN">{esc(desc_cn(p))}</p>
+          <p class="english-desc" lang="en">{esc(desc_en(p))}</p>
           <div class="trend-meta">{meta_html}</div>
           <div class="trend-tags">{tags}</div>
         </article>"""
@@ -132,6 +155,9 @@ def page_shell(title: str, description: str, canonical: str, body: str, extra_js
   <meta name="description" content="{esc(description)}">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="{esc(canonical)}">
+  <link rel="alternate" href="{esc(canonical)}" hreflang="zh-CN">
+  <link rel="alternate" href="{esc(canonical)}" hreflang="en">
+  <link rel="alternate" href="{esc(canonical)}" hreflang="x-default">
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{esc(canonical)}">
@@ -165,8 +191,8 @@ def write_category_pages() -> list[str]:
         slug = slugify(cat)
         paths.append(f"/categories/{slug}/")
         chips.append(f'<a class="admin-link" href="/categories/{slug}/">{esc(cn)} <small>{len(items)}</small></a>')
-        item_list = [{"@type": "ListItem", "position": idx, "name": p.get("name"), "url": p.get("url"), "description": p.get("desc_cn") or p.get("desc")} for idx, p in enumerate(items[:24], 1)]
-        jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{cn} GitHub 开源项目 - 拾品号导航", "url": f"{BASE}/categories/{slug}/", "description": f"按 {cn} 分类整理的 GitHub 开源项目导航。", "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"}, "mainEntity": {"@type": "ItemList", "itemListElement": item_list}}
+        item_list = [item_list_entry(p, idx) for idx, p in enumerate(items[:24], 1)]
+        jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{cn} GitHub 开源项目 - 拾品号导航", "alternateName": f"{cat} GitHub open-source projects - ShipinHao Nav", "inLanguage": ["zh-CN", "en"], "url": f"{BASE}/categories/{slug}/", "description": f"按 {cn} 分类整理的 GitHub 开源项目导航。", "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"}, "mainEntity": {"@type": "ItemList", "itemListElement": item_list}}
         cards = "".join(project_card(p) for p in items)
         body = f"""
     <section class="search-section small trend-hero">
@@ -210,14 +236,17 @@ def write_trending_page() -> None:
             "position": idx,
             "name": p.get("name"),
             "url": p.get("url"),
-            "description": p.get("desc"),
+            "description": desc_cn(p),
         })
+        if desc_en(p) != desc_cn(p):
+            item_list[-1]["alternateDescription"] = desc_en(p)
         tags = "".join(f"<span>{esc(t)}</span>" for t in (p.get("tags") or [])[:4])
         cards.append(f"""
         <article class="trend-card">
           <div class="trend-rank">#{idx}</div>
           <h2><a href="{esc(p.get('url'))}" target="_blank" rel="noopener">{esc(p.get('name'))}</a></h2>
-          <p>{esc(p.get('desc_cn') or p.get('desc'))}</p>
+          <p lang="zh-CN">{esc(desc_cn(p))}</p>
+          <p class="english-desc" lang="en">{esc(desc_en(p))}</p>
           <div class="trend-meta"><span>★ {stars:,}</span><span>↗ {esc(spd)} 星/天</span><span>{esc(p.get('category_cn') or p.get('category'))}</span></div>
           <div class="trend-tags">{tags}</div>
         </article>""")
@@ -225,6 +254,8 @@ def write_trending_page() -> None:
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "GitHub 快速涨星项目榜 - 拾品号导航",
+        "alternateName": "GitHub Fast-Rising Open Source Projects - ShipinHao Nav",
+        "inLanguage": ["zh-CN", "en"],
         "url": f"{BASE}/trending/",
         "description": "同步 GitHub 近期创建且涨星速度较快的开源项目，帮助开发者发现新工具。",
         "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"},
@@ -240,6 +271,9 @@ def write_trending_page() -> None:
   <meta name="keywords" content="GitHub涨星榜,GitHub趋势项目,开源项目推荐,AI开源项目,开发者工具导航,GEO优化">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="{BASE}/trending/">
+  <link rel="alternate" href="{BASE}/trending/" hreflang="zh-CN">
+  <link rel="alternate" href="{BASE}/trending/" hreflang="en">
+  <link rel="alternate" href="{BASE}/trending/" hreflang="x-default">
   <meta property="og:title" content="GitHub 快速涨星项目榜 - 拾品号导航">
   <meta property="og:description" content="自动同步 GitHub 近期快速涨星开源项目，帮助开发者发现新工具。">
   <meta property="og:url" content="{BASE}/trending/">
@@ -289,13 +323,7 @@ def write_daily_brief_page() -> None:
         category = p.get("category_cn") or CAT_CN.get(p.get("category"), p.get("category") or "开源项目")
         language = p.get("language") or "开源"
         desc = p.get("desc_cn") or p.get("desc") or "适合查看源码、功能定位和二次开发价值。"
-        item_list.append({
-            "@type": "ListItem",
-            "position": idx,
-            "name": p.get("name"),
-            "url": p.get("url"),
-            "description": desc,
-        })
+        item_list.append(item_list_entry({**p, "desc_cn": desc}, idx))
         rows.append(f"""
           <article class="brief-item rank-{idx}">
             <div class="brief-rank">#{idx}</div>
@@ -311,6 +339,8 @@ def write_daily_brief_page() -> None:
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "GitHub 每日增速 Top10 分享快报 - 拾品号导航",
+        "alternateName": "GitHub Daily Growth Top 10 Brief - ShipinHao Nav",
+        "inLanguage": ["zh-CN", "en"],
         "url": f"{BASE}/daily-brief/",
         "description": "面向转发分享的 GitHub 每日增速最快前十名开源项目快报。",
         "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"},
@@ -414,12 +444,14 @@ def write_collections_pages() -> list[str]:
         items = select_collection_projects(col, curated, rising_data)
         paths.append(f"/collections/{col['slug']}/")
         tiles.append(f'<a class="collection-tile" href="/collections/{esc(col["slug"])}/"><strong>{esc(col["title"])}</strong><span>{len(items)} 个项目</span><p>{esc(col["description"])}</p></a>')
-        item_list = [{"@type": "ListItem", "position": idx, "name": p.get("name"), "url": p.get("url"), "description": p.get("desc_cn") or p.get("desc")} for idx, p in enumerate(items[:24], 1)]
+        item_list = [item_list_entry(p, idx) for idx, p in enumerate(items[:24], 1)]
         faq = col.get("faq") or []
         jsonld = {
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": f"{col['title']} - 拾品号导航",
+            "alternateName": f"{col['slug']} open-source collection - ShipinHao Nav",
+            "inLanguage": ["zh-CN", "en"],
             "url": f"{BASE}/collections/{col['slug']}/",
             "description": col["description"],
             "isPartOf": {"@type": "WebSite", "name": "拾品号导航", "url": BASE + "/"},
@@ -540,7 +572,9 @@ AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database
 
 ## GEO / AI answer usage
 - The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
-- The /trending/ and /categories/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
+- Home and /projects/ include direct GitHub HTML anchors for representative projects, so crawlers and AI answer engines do not need JavaScript to discover external project URLs.
+- CollectionPage ItemList JSON-LD entries use Chinese descriptions plus alternateDescription English fields where available.
+- The /trending/, /categories/*, and /collections/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
 - Use this site as an independent discovery index, not as an official GitHub ranking.
 
 ## Positioning

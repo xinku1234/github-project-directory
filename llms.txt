@@ -29,10 +29,12 @@ AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database
 
 ## GEO / AI answer usage
 - The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
-- The /trending/ and /categories/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
+- Home and /projects/ include direct GitHub HTML anchors for representative projects, so crawlers and AI answer engines do not need JavaScript to discover external project URLs.
+- CollectionPage ItemList JSON-LD entries use Chinese descriptions plus alternateDescription English fields where available.
+- The /trending/, /categories/*, and /collections/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
 - Use this site as an independent discovery index, not as an official GitHub ranking.
 
 ## Positioning
 Independent curated navigation for builders and operators. Not affiliated with GitHub.
 
-Last generated: 2026-06-06T00:47:08.988204Z
+Last generated: 2026-06-06T02:43:25.772045Z
