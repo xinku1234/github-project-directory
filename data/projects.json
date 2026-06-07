@@ -1,5 +1,221 @@
 [
   {
+    "name": "MemPalace/mempalace",
+    "category": "AI Agents",
+    "url": "https://github.com/MemPalace/mempalace",
+    "desc": "The best-benchmarked open-source AI memory system. And it's free.",
+    "tags": [
+      "memory",
+      "mcp",
+      "rag",
+      "llm",
+      "python"
+    ],
+    "badge": "Agent Memory",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "ME",
+    "desc_cn": "开源 AI 记忆系统，面向 Agent 的长期记忆、检索和上下文管理，可作为 MCP/RAG 工作流里的记忆层参考。",
+    "stars": 54402,
+    "forks": 7118,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 860.58,
+      "created_at": "2026-04-05T01:12:07Z",
+      "pushed_at": "2026-06-06T08:58:25Z",
+      "synced_at": "2026-06-07T06:22:53.830765Z"
+    }
+  },
+  {
+    "name": "jackwener/OpenCLI",
+    "category": "Automation",
+    "url": "https://github.com/jackwener/OpenCLI",
+    "desc": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
+    "tags": [
+      "browser-automation",
+      "ai-agent",
+      "cli",
+      "web-use",
+      "javascript"
+    ],
+    "badge": "Browser CLI",
+    "featured": false,
+    "category_cn": "自动化",
+    "icon": "OP",
+    "desc_cn": "把已登录的网站浏览器会话转成可由 AI Agent 调用的 CLI/自动化入口，适合研究浏览器 Agent、网页操作自动化和登录态工具调用。",
+    "stars": 23681,
+    "forks": 2374,
+    "language": "JavaScript",
+    "growth": {
+      "stars_per_day": 280.77,
+      "created_at": "2026-03-14T22:10:23Z",
+      "pushed_at": "2026-06-06T15:54:09Z",
+      "synced_at": "2026-06-07T06:22:53.428197Z"
+    }
+  },
+  {
+    "name": "The-Pocket/PocketFlow",
+    "category": "AI Agents",
+    "url": "https://github.com/The-Pocket/PocketFlow",
+    "desc": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+    "tags": [
+      "agent-framework",
+      "llm",
+      "python",
+      "workflow",
+      "minimal"
+    ],
+    "badge": "Tiny Agent Framework",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "PO",
+    "desc_cn": "极简 LLM/Agent 工作流框架，用少量代码表达节点、流程和智能体协作，适合想快速理解 Agent 框架核心结构或搭建轻量原型的开发者。",
+    "stars": 10728,
+    "forks": 1168,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 20.24,
+      "created_at": "2024-12-24T02:43:30Z",
+      "pushed_at": "2026-03-27T18:48:41Z",
+      "synced_at": "2026-06-07T06:22:53.026018Z"
+    }
+  },
+  {
+    "name": "MiroMindAI/MiroThinker",
+    "category": "AI Agents",
+    "url": "https://github.com/MiroMindAI/MiroThinker",
+    "desc": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively.",
+    "tags": [
+      "research-agent",
+      "deep-research",
+      "multi-agent",
+      "python",
+      "benchmark"
+    ],
+    "badge": "Deep Research",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "MI",
+    "desc_cn": "面向复杂研究和预测任务的 Deep Research Agent，强调多步推理、信息检索与研究任务评估，适合关注通用研究智能体和 benchmark 的开发者。",
+    "stars": 8243,
+    "forks": 636,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 27.14,
+      "created_at": "2025-08-07T13:32:12Z",
+      "pushed_at": "2026-04-25T05:23:54Z",
+      "synced_at": "2026-06-07T06:22:52.639984Z"
+    }
+  },
+  {
+    "name": "dzhng/deep-research",
+    "category": "AI Agents",
+    "url": "https://github.com/dzhng/deep-research",
+    "desc": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic.",
+    "tags": [
+      "research-agent",
+      "deep-research",
+      "typescript",
+      "agent",
+      "web-research"
+    ],
+    "badge": "Research Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "DE",
+    "desc_cn": "开源深度研究助手，通过迭代搜索、阅读和整理信息完成主题研究，适合学习 research agent 的规划、信息收集和报告生成流程。",
+    "stars": 19066,
+    "forks": 1965,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 39.05,
+      "created_at": "2025-02-04T01:27:56Z",
+      "pushed_at": "2026-04-11T23:58:25Z",
+      "synced_at": "2026-06-07T06:22:52.218375Z"
+    }
+  },
+  {
+    "name": "modelcontextprotocol/inspector",
+    "category": "AI Agents",
+    "url": "https://github.com/modelcontextprotocol/inspector",
+    "desc": "Visual testing tool for MCP servers",
+    "tags": [
+      "mcp",
+      "debugging",
+      "testing",
+      "typescript",
+      "developer-tools"
+    ],
+    "badge": "MCP Inspector",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "IN",
+    "desc_cn": "Model Context Protocol 官方生态的 MCP Server 可视化测试工具，用于检查工具、资源、提示词和协议响应，适合开发者调试自己的 MCP 服务。",
+    "stars": 10017,
+    "forks": 1356,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 16.38,
+      "created_at": "2024-10-03T21:47:42Z",
+      "pushed_at": "2026-06-07T00:52:06Z",
+      "synced_at": "2026-06-07T06:22:51.791738Z"
+    }
+  },
+  {
+    "name": "awslabs/mcp",
+    "category": "AI Agents",
+    "url": "https://github.com/awslabs/mcp",
+    "desc": "Open source MCP Servers for AWS",
+    "tags": [
+      "mcp",
+      "aws",
+      "cloud",
+      "agents",
+      "python"
+    ],
+    "badge": "AWS MCP",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "MC",
+    "desc_cn": "AWS 官方实验室维护的 MCP Servers 集合，把 AWS 云服务能力通过 MCP 暴露给 AI Agent，适合云资源查询、运维自动化和企业 Agent 工具链集成。",
+    "stars": 9224,
+    "forks": 1567,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 20.81,
+      "created_at": "2025-03-21T00:39:00Z",
+      "pushed_at": "2026-06-07T01:49:54Z",
+      "synced_at": "2026-06-07T06:22:51.395805Z"
+    }
+  },
+  {
+    "name": "punkpeye/awesome-mcp-servers",
+    "category": "AI Agents",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "desc": "A collection of MCP servers.",
+    "tags": [
+      "mcp",
+      "awesome-list",
+      "agents",
+      "tools",
+      "servers"
+    ],
+    "badge": "MCP Directory",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "AW",
+    "desc_cn": "高活跃 MCP Server 资源合集，集中整理可接入 Claude、Cursor、ChatGPT 与各类 Agent 的工具服务器，适合快速寻找数据库、浏览器、文件、API 等外部能力。",
+    "stars": 88633,
+    "forks": 11194,
+    "language": null,
+    "growth": {
+      "stars_per_day": 159.97,
+      "created_at": "2024-11-30T04:49:10Z",
+      "pushed_at": "2026-06-07T02:28:27Z",
+      "synced_at": "2026-06-07T06:22:50.947829Z"
+    }
+  },
+  {
     "name": "livekit/agents",
     "category": "AI Agents",
     "url": "https://github.com/livekit/agents",
@@ -3360,15 +3576,15 @@
     "category_cn": "AI 智能体",
     "icon": "OD",
     "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Self-hosted AI workspace.",
-    "stars": 59509,
-    "forks": 7171,
+    "stars": 59561,
+    "forks": 7176,
     "language": "Python",
     "growth": {
       "rank": 1,
-      "stars_per_day": 8938.55,
+      "stars_per_day": 8918.22,
       "created_at": "2026-05-31T14:05:51Z",
       "pushed_at": "2026-06-07T04:09:28Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3388,15 +3604,15 @@
     "category_cn": "建站框架",
     "icon": "OP",
     "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos ·…",
-    "stars": 60370,
-    "forks": 6787,
+    "stars": 60387,
+    "forks": 6788,
     "language": "TypeScript",
     "growth": {
       "rank": 2,
-      "stars_per_day": 1506.96,
+      "stars_per_day": 1506.6,
       "created_at": "2026-04-28T04:25:20Z",
-      "pushed_at": "2026-06-07T05:46:36Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "pushed_at": "2026-06-07T06:21:05Z",
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3416,15 +3632,15 @@
     "category_cn": "建站框架",
     "icon": "SK",
     "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
-    "stars": 2113,
-    "forks": 203,
+    "stars": 2117,
+    "forks": 206,
     "language": "TypeScript",
     "growth": {
       "rank": 3,
-      "stars_per_day": 496.18,
+      "stars_per_day": 494.68,
       "created_at": "2026-06-02T23:40:28Z",
       "pushed_at": "2026-06-03T11:32:51Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3441,15 +3657,15 @@
     "category_cn": "自动化",
     "icon": "CO",
     "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服.",
-    "stars": 14828,
+    "stars": 14842,
     "forks": 911,
     "language": "Rust",
     "growth": {
       "rank": 4,
-      "stars_per_day": 465.6,
+      "stars_per_day": 465.73,
       "created_at": "2026-05-06T09:32:49Z",
       "pushed_at": "2026-06-06T09:44:44Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3466,39 +3682,15 @@
     "category_cn": "自动化",
     "icon": "GO",
     "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Goose Swift proof-of-concept README.",
-    "stars": 2173,
+    "stars": 2174,
     "forks": 509,
     "language": "Rust",
     "growth": {
       "rank": 5,
-      "stars_per_day": 459.08,
+      "stars_per_day": 457.26,
       "created_at": "2026-06-02T12:16:37Z",
       "pushed_at": "2026-06-02T12:40:14Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
-    }
-  },
-  {
-    "name": "zgwl/chinese-buy-us-stock-guide",
-    "category": "Web Frameworks",
-    "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
-    "desc": "美股指南.",
-    "tags": [
-      "rising"
-    ],
-    "badge": "Rising #6",
-    "featured": true,
-    "category_cn": "建站框架",
-    "icon": "CH",
-    "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：美股指南.",
-    "stars": 3355,
-    "forks": 525,
-    "language": null,
-    "growth": {
-      "rank": 6,
-      "stars_per_day": 416.29,
-      "created_at": "2026-05-30T04:27:25Z",
-      "pushed_at": "2026-06-04T16:54:32Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3510,7 +3702,7 @@
       "c",
       "rising"
     ],
-    "badge": "Rising #7",
+    "badge": "Rising #6",
     "featured": true,
     "category_cn": "自动化",
     "icon": "DS",
@@ -3519,11 +3711,35 @@
     "forks": 1151,
     "language": "C",
     "growth": {
-      "rank": 7,
-      "stars_per_day": 415.93,
+      "rank": 6,
+      "stars_per_day": 415.65,
       "created_at": "2026-05-06T17:17:05Z",
       "pushed_at": "2026-06-06T11:32:10Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
+    }
+  },
+  {
+    "name": "zgwl/chinese-buy-us-stock-guide",
+    "category": "Web Frameworks",
+    "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
+    "desc": "美股指南.",
+    "tags": [
+      "rising"
+    ],
+    "badge": "Rising #7",
+    "featured": true,
+    "category_cn": "建站框架",
+    "icon": "CH",
+    "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：美股指南.",
+    "stars": 3358,
+    "forks": 528,
+    "language": null,
+    "growth": {
+      "rank": 7,
+      "stars_per_day": 415.58,
+      "created_at": "2026-05-30T04:27:25Z",
+      "pushed_at": "2026-06-04T16:54:32Z",
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3543,15 +3759,15 @@
     "category_cn": "自动化",
     "icon": "NA",
     "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：符合nature论文学术表达和科研绘图的Skill.",
-    "stars": 17378,
+    "stars": 17385,
     "forks": 1028,
     "language": "Python",
     "growth": {
       "rank": 8,
-      "stars_per_day": 393.95,
+      "stars_per_day": 393.92,
       "created_at": "2026-04-24T03:11:46Z",
       "pushed_at": "2026-06-02T14:45:49Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3573,10 +3789,10 @@
     "language": "TypeScript",
     "growth": {
       "rank": 9,
-      "stars_per_day": 388.68,
+      "stars_per_day": 388.27,
       "created_at": "2026-05-18T10:47:45Z",
       "pushed_at": "2026-06-07T04:16:24Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3596,15 +3812,15 @@
     "category_cn": "建站框架",
     "icon": "GU",
     "desc_cn": "这是一个 建站框架 方向的 HTML 开源项目，主要用于：AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-    "stars": 15421,
+    "stars": 15425,
     "forks": 1144,
     "language": "HTML",
     "growth": {
       "rank": 10,
-      "stars_per_day": 345.09,
+      "stars_per_day": 345.01,
       "created_at": "2026-04-23T13:23:07Z",
       "pushed_at": "2026-06-02T09:53:57Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3623,15 +3839,15 @@
     "category_cn": "AI 智能体",
     "icon": "IA",
     "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill.",
-    "stars": 3147,
+    "stars": 3150,
     "forks": 282,
     "language": null,
     "growth": {
       "rank": 11,
-      "stars_per_day": 305.68,
+      "stars_per_day": 305.35,
       "created_at": "2026-05-27T22:47:56Z",
       "pushed_at": "2026-06-03T11:35:43Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3651,15 +3867,15 @@
     "category_cn": "建站框架",
     "icon": "OP",
     "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-    "stars": 4178,
+    "stars": 4182,
     "forks": 78,
     "language": "Rust",
     "growth": {
       "rank": 12,
-      "stars_per_day": 302.3,
+      "stars_per_day": 302.13,
       "created_at": "2026-05-24T10:10:36Z",
       "pushed_at": "2026-06-06T15:33:22Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3677,15 +3893,15 @@
     "category_cn": "运维监控",
     "icon": "DE",
     "desc_cn": "这是一个 运维监控 方向的 Python 开源项目，主要用于：Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize.",
-    "stars": 4650,
-    "forks": 300,
+    "stars": 4680,
+    "forks": 301,
     "language": "Python",
     "growth": {
       "rank": 13,
-      "stars_per_day": 298.5,
+      "stars_per_day": 300.03,
       "created_at": "2026-05-22T16:00:56Z",
       "pushed_at": "2026-06-02T20:53:33Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3705,15 +3921,15 @@
     "category_cn": "AI 智能体",
     "icon": "GU",
     "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 +…",
-    "stars": 3022,
+    "stars": 3025,
     "forks": 280,
     "language": "HTML",
     "growth": {
       "rank": 14,
-      "stars_per_day": 281.34,
+      "stars_per_day": 281.07,
       "created_at": "2026-05-27T12:05:05Z",
       "pushed_at": "2026-05-27T16:58:08Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3735,10 +3951,10 @@
     "language": "C++",
     "growth": {
       "rank": 15,
-      "stars_per_day": 256.89,
+      "stars_per_day": 256.69,
       "created_at": "2026-05-11T17:44:55Z",
       "pushed_at": "2026-05-12T18:58:00Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3763,10 +3979,10 @@
     "language": "Go",
     "growth": {
       "rank": 16,
-      "stars_per_day": 246.53,
+      "stars_per_day": 246.23,
       "created_at": "2026-05-20T18:11:37Z",
       "pushed_at": "2026-06-06T11:31:36Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3783,15 +3999,15 @@
     "category_cn": "部署托管",
     "icon": "WE",
     "desc_cn": "这是一个 部署托管 方向的 TypeScript 开源项目，主要用于：云微WOC，云微信，自由连接.",
-    "stars": 2151,
+    "stars": 2152,
     "forks": 575,
     "language": "TypeScript",
     "growth": {
       "rank": 17,
-      "stars_per_day": 239.4,
+      "stars_per_day": 238.95,
       "created_at": "2026-05-29T06:14:13Z",
       "pushed_at": "2026-06-05T18:21:55Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3813,10 +4029,10 @@
     "language": "Python",
     "growth": {
       "rank": 18,
-      "stars_per_day": 235.06,
+      "stars_per_day": 234.32,
       "created_at": "2026-05-31T14:29:52Z",
       "pushed_at": "2026-06-05T07:44:52Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3841,10 +4057,10 @@
     "language": "HTML",
     "growth": {
       "rank": 19,
-      "stars_per_day": 231.77,
+      "stars_per_day": 231.58,
       "created_at": "2026-05-11T09:40:38Z",
       "pushed_at": "2026-06-02T06:27:04Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3866,10 +4082,10 @@
     "language": "C",
     "growth": {
       "rank": 20,
-      "stars_per_day": 217.79,
+      "stars_per_day": 217.59,
       "created_at": "2026-05-15T16:55:16Z",
       "pushed_at": "2026-06-05T21:40:49Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3889,15 +4105,15 @@
     "category_cn": "AI 智能体",
     "icon": "OP",
     "desc_cn": "这是一个 AI 智能体 方向的 Go 开源项目，主要用于：Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-s…",
-    "stars": 3895,
-    "forks": 177,
+    "stars": 3933,
+    "forks": 178,
     "language": "Go",
     "growth": {
       "rank": 21,
-      "stars_per_day": 193.3,
+      "stars_per_day": 194.98,
       "created_at": "2026-05-18T02:16:36Z",
       "pushed_at": "2026-06-07T00:34:33Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3919,10 +4135,10 @@
     "language": "TypeScript",
     "growth": {
       "rank": 22,
-      "stars_per_day": 189.91,
+      "stars_per_day": 189.66,
       "created_at": "2026-05-22T06:50:28Z",
       "pushed_at": "2026-06-05T12:20:12Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3942,15 +4158,15 @@
     "category_cn": "自动化",
     "icon": "GS",
     "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Git. Ship. Done - Core.",
-    "stars": 2955,
+    "stars": 2959,
     "forks": 181,
     "language": "JavaScript",
     "growth": {
       "rank": 23,
-      "stars_per_day": 187.48,
+      "stars_per_day": 187.49,
       "created_at": "2026-05-22T11:36:21Z",
       "pushed_at": "2026-06-07T05:26:58Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3967,15 +4183,15 @@
     "category_cn": "自动化",
     "icon": "GU",
     "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-    "stars": 3469,
+    "stars": 3472,
     "forks": 891,
     "language": "JavaScript",
     "growth": {
       "rank": 24,
-      "stars_per_day": 185.01,
+      "stars_per_day": 184.97,
       "created_at": "2026-05-19T11:52:52Z",
       "pushed_at": "2026-06-04T17:16:44Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -3992,15 +4208,15 @@
     "category_cn": "低代码后台",
     "icon": "OS",
     "desc_cn": "这是一个 低代码后台 方向的 TypeScript 开源项目，主要用于：Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative.",
-    "stars": 4553,
-    "forks": 938,
+    "stars": 4554,
+    "forks": 940,
     "language": "TypeScript",
     "growth": {
       "rank": 25,
-      "stars_per_day": 179.22,
+      "stars_per_day": 179.11,
       "created_at": "2026-05-12T20:09:25Z",
       "pushed_at": "2026-06-06T15:52:00Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4020,14 +4236,14 @@
     "icon": "SK",
     "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best…",
     "stars": 5220,
-    "forks": 523,
+    "forks": 524,
     "language": "Python",
     "growth": {
       "rank": 26,
-      "stars_per_day": 174.19,
+      "stars_per_day": 174.07,
       "created_at": "2026-05-08T06:41:01Z",
       "pushed_at": "2026-06-03T16:08:10Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4052,10 +4268,10 @@
     "language": "JavaScript",
     "growth": {
       "rank": 27,
-      "stars_per_day": 164.83,
+      "stars_per_day": 164.75,
       "created_at": "2026-04-25T09:19:13Z",
       "pushed_at": "2026-06-06T16:30:52Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4075,15 +4291,15 @@
     "category_cn": "AI 智能体",
     "icon": "HT",
     "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no…",
-    "stars": 1835,
-    "forks": 195,
+    "stars": 1841,
+    "forks": 197,
     "language": "HTML",
     "growth": {
       "rank": 28,
-      "stars_per_day": 164.49,
+      "stars_per_day": 164.71,
       "created_at": "2026-05-27T02:08:11Z",
       "pushed_at": "2026-06-07T03:14:10Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4100,15 +4316,15 @@
     "category_cn": "建站框架",
     "icon": "GO",
     "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a rea…",
-    "stars": 1756,
+    "stars": 1757,
     "forks": 159,
     "language": "Python",
     "growth": {
       "rank": 29,
-      "stars_per_day": 162.44,
+      "stars_per_day": 162.22,
       "created_at": "2026-05-27T10:25:58Z",
       "pushed_at": "2026-06-03T07:20:07Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4130,10 +4346,10 @@
     "language": "C",
     "growth": {
       "rank": 30,
-      "stars_per_day": 158.13,
+      "stars_per_day": 158.02,
       "created_at": "2026-05-07T18:18:28Z",
       "pushed_at": "2026-05-10T17:29:21Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4150,15 +4366,15 @@
     "category_cn": "AI 智能体",
     "icon": "GE",
     "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file.",
-    "stars": 1528,
+    "stars": 1530,
     "forks": 379,
     "language": "Python",
     "growth": {
       "rank": 31,
-      "stars_per_day": 156.42,
+      "stars_per_day": 156.29,
       "created_at": "2026-05-28T11:25:55Z",
       "pushed_at": "2026-06-06T11:33:43Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4178,15 +4394,15 @@
     "category_cn": "建站框架",
     "icon": "WH",
     "desc_cn": "这是一个 建站框架 方向的 Swift 开源项目，主要用于：macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do.",
-    "stars": 5542,
+    "stars": 5544,
     "forks": 169,
     "language": "Swift",
     "growth": {
       "rank": 32,
-      "stars_per_day": 150.1,
+      "stars_per_day": 150.07,
       "created_at": "2026-05-01T07:45:10Z",
       "pushed_at": "2026-06-05T19:58:05Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4208,10 +4424,10 @@
     "language": "Shell",
     "growth": {
       "rank": 33,
-      "stars_per_day": 147.22,
+      "stars_per_day": 147.05,
       "created_at": "2026-05-20T00:49:37Z",
       "pushed_at": "2026-05-26T11:47:15Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4228,15 +4444,15 @@
     "category_cn": "AI 智能体",
     "icon": "AG",
     "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：AI Agent 学习路线与资料库收集.",
-    "stars": 3063,
-    "forks": 307,
+    "stars": 3065,
+    "forks": 308,
     "language": "HTML",
     "growth": {
       "rank": 34,
-      "stars_per_day": 146.09,
+      "stars_per_day": 146.04,
       "created_at": "2026-05-17T06:41:12Z",
       "pushed_at": "2026-06-05T08:28:50Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4256,15 +4472,15 @@
     "category_cn": "自动化",
     "icon": "CO",
     "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Coreutils for Windows: Installer & Packaging.",
-    "stars": 3327,
+    "stars": 3331,
     "forks": 50,
     "language": "Rust",
     "growth": {
       "rank": 35,
-      "stars_per_day": 144.61,
+      "stars_per_day": 144.65,
       "created_at": "2026-05-15T05:42:32Z",
       "pushed_at": "2026-06-05T18:17:40Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   },
   {
@@ -4286,10 +4502,10 @@
     "language": "Zig",
     "growth": {
       "rank": 36,
-      "stars_per_day": 139.82,
+      "stars_per_day": 139.72,
       "created_at": "2026-05-08T19:53:41Z",
       "pushed_at": "2026-05-13T16:47:35Z",
-      "synced_at": "2026-06-07T05:52:44.758156Z"
+      "synced_at": "2026-06-07T06:22:59.765148Z"
     }
   }
 ]
