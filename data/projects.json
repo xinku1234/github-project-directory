@@ -1,5 +1,167 @@
 [
   {
+    "name": "saltbo/agent-kanban",
+    "category": "Automation",
+    "url": "https://github.com/saltbo/agent-kanban",
+    "desc": "An agent-first task board, Mission control for your AI workforce.",
+    "tags": [
+      "agent-orchestration",
+      "task-management",
+      "claude-code",
+      "codex",
+      "typescript"
+    ],
+    "badge": "Agent Kanban",
+    "featured": false,
+    "category_cn": "自动化",
+    "icon": "AG",
+    "desc_cn": "面向 AI workforce 的 Agent-first 看板，把 Claude Code、Codex、Gemini 等编码代理任务纳入任务管理与编排视图，适合多 Agent 开发协作。",
+    "stars": 332,
+    "forks": 26,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 4.18,
+      "created_at": "2026-03-20T19:37:48Z",
+      "pushed_at": "2026-06-08T06:01:18Z",
+      "synced_at": "2026-06-08T06:23:32.059168Z"
+    }
+  },
+  {
+    "name": "sachitrafa/YourMemory",
+    "category": "AI Agents",
+    "url": "https://github.com/sachitrafa/YourMemory",
+    "desc": "Agentic AI memory with Ebbinghaus forgetting curve decay. +16pp better recall than Mem0 on LoCoMo.",
+    "tags": [
+      "llm-memory",
+      "mcp",
+      "pgvector",
+      "python",
+      "agent-memory"
+    ],
+    "badge": "Agent Memory",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "YO",
+    "desc_cn": "带艾宾浩斯遗忘曲线衰减机制的 Agent 记忆系统，结合 MCP、pgvector 与长期记忆评测，适合研究智能体记忆保留和召回策略。",
+    "stars": 242,
+    "forks": 18,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 2.47,
+      "created_at": "2026-03-02T10:20:11Z",
+      "pushed_at": "2026-06-08T06:22:25Z",
+      "synced_at": "2026-06-08T06:23:32.059168Z"
+    }
+  },
+  {
+    "name": "repowise-dev/repowise",
+    "category": "Automation",
+    "url": "https://github.com/repowise-dev/repowise",
+    "desc": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+    "tags": [
+      "mcp",
+      "code-intelligence",
+      "static-analysis",
+      "python",
+      "documentation"
+    ],
+    "badge": "MCP Code Intelligence",
+    "featured": false,
+    "category_cn": "自动化",
+    "icon": "RE",
+    "desc_cn": "面向 AI 辅助工程团队的代码库智能工具，提供代码健康评分、自动文档、Git 分析、死代码检测和 MCP 架构决策入口。",
+    "stars": 2228,
+    "forks": 287,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 28.98,
+      "created_at": "2026-03-23T09:12:28Z",
+      "pushed_at": "2026-06-08T06:23:24Z",
+      "synced_at": "2026-06-08T06:23:32.059168Z"
+    }
+  },
+  {
+    "name": "ucsandman/DashClaw",
+    "category": "AI Agents",
+    "url": "https://github.com/ucsandman/DashClaw",
+    "desc": "🛡️The governance runtime for AI agents. Intercept actions, enforce guard policies, require approvals, and produce audit-ready decision trails.",
+    "tags": [
+      "agent-governance",
+      "agent-runtime",
+      "guardrails",
+      "typescript",
+      "audit"
+    ],
+    "badge": "Agent Governance",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "DA",
+    "desc_cn": "AI Agent 治理运行时，可拦截动作、执行安全策略、加入审批并生成审计轨迹，适合需要 guardrails 和合规记录的 Agent 工作流。",
+    "stars": 273,
+    "forks": 48,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 2.27,
+      "created_at": "2026-02-08T02:34:15Z",
+      "pushed_at": "2026-06-08T04:53:38Z",
+      "synced_at": "2026-06-08T06:23:32.059168Z"
+    }
+  },
+  {
+    "name": "zamalali/DeepGit",
+    "category": "AI Agents",
+    "url": "https://github.com/zamalali/DeepGit",
+    "desc": "Deep research agent to help you find the best GitHub repositories 🕵️!",
+    "tags": [
+      "research-agent",
+      "github-search",
+      "langgraph",
+      "python",
+      "open-source"
+    ],
+    "badge": "Repo Research Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "DE",
+    "desc_cn": "面向 GitHub 仓库发现的 Deep Research Agent，结合搜索、LangGraph/LangChain 与 LLM 推理，适合做开源项目调研和技术选型线索挖掘。",
+    "stars": 879,
+    "forks": 93,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 1.63,
+      "created_at": "2024-12-16T04:43:10Z",
+      "pushed_at": "2026-06-06T20:08:48Z",
+      "synced_at": "2026-06-08T06:23:32.059168Z"
+    }
+  },
+  {
+    "name": "inkeep/agents",
+    "category": "AI Agents",
+    "url": "https://github.com/inkeep/agents",
+    "desc": "Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.",
+    "tags": [
+      "agent-framework",
+      "no-code",
+      "mcp",
+      "typescript",
+      "multi-agent"
+    ],
+    "badge": "Agent Builder",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "AG",
+    "desc_cn": "可视化 No-Code Builder 与 TypeScript SDK 双向同步的 AI Agent 构建平台，适合快速交付客服助手、多智能体工作流和可自托管 Agent 原型。",
+    "stars": 1185,
+    "forks": 143,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 4.3,
+      "created_at": "2025-09-05T12:23:24Z",
+      "pushed_at": "2026-06-08T05:59:28Z",
+      "synced_at": "2026-06-08T06:23:32.059168Z"
+    }
+  },
+  {
     "name": "MemPalace/mempalace",
     "category": "AI Agents",
     "url": "https://github.com/MemPalace/mempalace",
@@ -852,15 +1014,15 @@
     "featured": false,
     "category_cn": "AI 智能体",
     "icon": "IN",
-    "desc_cn": "用于测试、评估、聊天和调试 MCP servers、MCP apps 与 ChatGPT apps 的检查平台，适合 MCP 开发调试流程。",
+    "desc_cn": "面向 MCP server、MCP 应用和 ChatGPT apps 的测试评估与调试平台，可直接对话、检查协议调用并排查 MCP 集成问题。",
     "stars": 1996,
     "forks": 237,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 5.24,
       "created_at": "2025-05-23T15:56:00Z",
-      "pushed_at": "2026-06-08T05:56:30Z",
-      "synced_at": "2026-06-08T06:08:27.720668Z"
+      "pushed_at": "2026-06-08T06:21:32Z",
+      "synced_at": "2026-06-08T06:23:32.059168Z"
     }
   },
   {
@@ -1739,7 +1901,7 @@
     "name": "Stagehand",
     "category": "AI Agents",
     "url": "https://github.com/browserbase/stagehand",
-    "desc": "Browserbase SDK for building browser agents with AI-assisted web automation.",
+    "desc": "The SDK For Browser Agents",
     "tags": [
       "browser",
       "agents",
@@ -1749,7 +1911,7 @@
     "featured": true,
     "category_cn": "AI 智能体",
     "icon": "SH",
-    "desc_cn": "Browserbase 出品的浏览器智能体 SDK，用自然语言和代码结合的方式完成网页自动化操作。",
+    "desc_cn": "Browserbase 出品的浏览器智能体 SDK，把 Playwright/Puppeteer 自动化与自然语言指令结合，适合网页操作、测试和浏览器 Agent 原型。",
     "stars": 23013,
     "language": "TypeScript",
     "forks": 1563,
@@ -1757,7 +1919,7 @@
       "stars_per_day": 28.57,
       "created_at": "2024-03-24T19:19:44Z",
       "pushed_at": "2026-06-08T03:17:00Z",
-      "synced_at": "2026-06-08T06:08:27.720668Z"
+      "synced_at": "2026-06-08T06:23:32.059168Z"
     }
   },
   {
@@ -1860,32 +2022,6 @@
       "stars_per_day": 65.89,
       "created_at": "2025-12-17T08:41:09Z",
       "pushed_at": "2026-06-08T03:34:06Z",
-      "synced_at": "2026-06-08T06:08:27.720668Z"
-    }
-  },
-  {
-    "name": "MCPJam Inspector",
-    "category": "AI Agents",
-    "url": "https://github.com/MCPJam/inspector",
-    "desc": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-    "tags": [
-      "mcp",
-      "debugging",
-      "testing",
-      "agents"
-    ],
-    "badge": "MCP Tooling",
-    "featured": true,
-    "category_cn": "AI 智能体",
-    "icon": "MI",
-    "desc_cn": "面向 MCP server、MCP 应用和 ChatGPT apps 的测试调试平台，可直接对话、检查和排查协议集成问题。",
-    "stars": 1996,
-    "language": "TypeScript",
-    "forks": 237,
-    "growth": {
-      "stars_per_day": 5.24,
-      "created_at": "2025-05-23T15:56:00Z",
-      "pushed_at": "2026-06-08T05:56:30Z",
       "synced_at": "2026-06-08T06:08:27.720668Z"
     }
   },
@@ -3102,15 +3238,15 @@
     "featured": true,
     "category_cn": "AI 智能体",
     "icon": "MI",
-    "desc_cn": "微软开源的 AI Agent 与多智能体工作流框架，支持 Python 和 .NET，用于构建、编排与部署企业级智能体应用。",
-    "stars": 11116,
+    "desc_cn": "微软开源的 Python/.NET AI Agent 框架，用于构建、编排和部署单智能体、多智能体工作流，适合企业级 Agent 应用和官方生态选型。",
+    "stars": 11118,
     "forks": 1859,
     "language": "Python",
     "growth": {
       "stars_per_day": 27.42,
       "created_at": "2025-04-28T19:40:42Z",
       "pushed_at": "2026-06-08T03:48:01Z",
-      "synced_at": "2026-06-08T06:08:27.720668Z"
+      "synced_at": "2026-06-08T06:23:32.059168Z"
     }
   },
   {
@@ -3162,32 +3298,6 @@
       "stars_per_day": 11.63,
       "created_at": "2025-07-15T12:07:55Z",
       "pushed_at": "2026-06-08T04:43:30Z",
-      "synced_at": "2026-06-08T06:08:27.720668Z"
-    }
-  },
-  {
-    "name": "MCPHub",
-    "category": "AI Agents",
-    "url": "https://github.com/samanhappy/mcphub",
-    "desc": "A unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies.",
-    "tags": [
-      "mcp",
-      "orchestration",
-      "typescript",
-      "gateway"
-    ],
-    "badge": "MCP Hub",
-    "featured": false,
-    "category_cn": "AI 智能体",
-    "icon": "MC",
-    "desc_cn": "集中管理并动态编排多个 MCP Server/API 的统一枢纽，可按不同端点组织工具能力。",
-    "stars": 2141,
-    "forks": 261,
-    "language": "TypeScript",
-    "growth": {
-      "stars_per_day": 4.93,
-      "created_at": "2025-03-31T07:39:22Z",
-      "pushed_at": "2026-06-07T12:15:11Z",
       "synced_at": "2026-06-08T06:08:27.720668Z"
     }
   },
