@@ -171,7 +171,7 @@
     "category_cn": "AI 智能体",
     "icon": "LC",
     "desc_cn": "本地优先的 Agent 上下文控制层，决定 AI 能读取、记住和修改哪些内容，并提供 MCP 工具与审计凭据，适合降低 token 消耗和增强代码代理安全边界。",
-    "stars": 2863,
+    "stars": 2867,
     "forks": 278,
     "language": "Rust",
     "growth": {
@@ -197,8 +197,8 @@
     "category_cn": "自动化",
     "icon": "BA",
     "desc_cn": "面向 AI Agent 的浏览器自动化 CLI，支持多会话并行、遇到反爬时转人工接管，适合把网页操作、数据采集和跨平台任务交给智能体执行。",
-    "stars": 2812,
-    "forks": 125,
+    "stars": 2815,
+    "forks": 127,
     "language": "Python",
     "growth": {
       "stars_per_day": 20.56,
@@ -223,7 +223,7 @@
     "category_cn": "文档知识库",
     "icon": "OB",
     "desc_cn": "让 AI Agent 围绕 Obsidian Wiki 构建和维护个人知识库的工具，适合将项目文档、上下文和长期记忆整理成可检索的数字大脑。",
-    "stars": 2389,
+    "stars": 2390,
     "forks": 235,
     "language": "Python",
     "growth": {
@@ -327,8 +327,8 @@
     "category_cn": "AI 智能体",
     "icon": "MA",
     "desc_cn": "面向 TypeScript/Node 生态的 AI 应用与 Agent 框架，提供工作流、工具调用和 MCP 相关能力，适合构建现代 Web 技术栈上的智能体产品。",
-    "stars": 25342,
-    "forks": 2274,
+    "stars": 25344,
+    "forks": 2275,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 36.98,
@@ -353,7 +353,7 @@
     "category_cn": "AI 智能体",
     "icon": "PY",
     "desc_cn": "Pydantic 团队推出的 AI Agent 框架，用类型校验和结构化输出组织工具调用、模型交互与生产级智能体应用开发。",
-    "stars": 17918,
+    "stars": 17919,
     "forks": 2247,
     "language": "Python",
     "growth": {
@@ -379,7 +379,7 @@
     "category_cn": "AI 智能体",
     "icon": "WE",
     "desc_cn": "微软开源的浏览器 Agent 框架，面向长链路 Web 任务与 SWE 风格自动化评测，适合研究复杂网页操作、浏览器规划和任务执行能力。",
-    "stars": 5541,
+    "stars": 5543,
     "forks": 350,
     "language": "Python",
     "growth": {
@@ -405,7 +405,7 @@
     "category_cn": "自动化",
     "icon": "ST",
     "desc_cn": "浏览器 Agent SDK，基于 Playwright/Puppeteer 思路为 AI 提供可控浏览器操作层，适合构建网页自动化、表单操作和端到端浏览器任务。",
-    "stars": 23208,
+    "stars": 23211,
     "forks": 1590,
     "language": "TypeScript",
     "growth": {
@@ -482,7 +482,7 @@
     "category_cn": "AI 智能体",
     "icon": "MA",
     "desc_cn": "分布式 LLM Agent 框架，面向多智能体协作、分布式执行和智能体系统实验，适合研究与工程原型。",
-    "stars": 585,
+    "stars": 586,
     "forks": 19,
     "language": "Python",
     "growth": {
@@ -561,7 +561,7 @@
     "category_cn": "AI 智能体",
     "icon": "IM",
     "desc_cn": "面向 AI Agent 的即时协作与共享上下文工具，支持记忆、监督执行和跨提供商审计，适合多 Agent/多 CLI 协同。",
-    "stars": 507,
+    "stars": 508,
     "forks": 66,
     "language": "TypeScript",
     "growth": {
@@ -613,7 +613,7 @@
     "category_cn": "AI 智能体",
     "icon": "EC",
     "desc_cn": "面向私有部署的 Agent 操作系统，由 planner、coder、researcher、operator 等角色组成，支持认知记忆、安全审批、A2A 与 MCP。",
-    "stars": 529,
+    "stars": 530,
     "forks": 19,
     "language": "Python",
     "growth": {
@@ -694,7 +694,7 @@
     "category_cn": "自动化",
     "icon": "RE",
     "desc_cn": "面向 AI 辅助工程团队的代码库智能工具，提供代码健康评分、自动文档、Git 分析、死代码检测和 MCP 架构决策入口。",
-    "stars": 2488,
+    "stars": 2489,
     "forks": 320,
     "language": "Python",
     "growth": {
@@ -6999,7 +6999,8 @@
     "stargazers_count": 1385,
     "language": "Rust",
     "html_url": "https://github.com/ratatui/ratzilla",
-    "created_at": "2025-01-01T23:56:29Z"
+    "created_at": "2025-01-01T23:56:29Z",
+    "url": "https://github.com/ratatui/ratzilla"
   },
   {
     "name": "rari-build/rari",
@@ -7015,7 +7016,8 @@
     "stargazers_count": 1141,
     "language": "Rust",
     "html_url": "https://github.com/rari-build/rari",
-    "created_at": "2025-07-26T01:44:57Z"
+    "created_at": "2025-07-26T01:44:57Z",
+    "url": "https://github.com/rari-build/rari"
   },
   {
     "name": "tuono-labs/tuono",
@@ -7031,7 +7033,8 @@
     "stargazers_count": 1129,
     "language": "Rust",
     "html_url": "https://github.com/tuono-labs/tuono",
-    "created_at": "2024-04-28T08:52:07Z"
+    "created_at": "2024-04-28T08:52:07Z",
+    "url": "https://github.com/tuono-labs/tuono"
   },
   {
     "name": "BersisSe/feather",
@@ -7047,7 +7050,8 @@
     "stargazers_count": 760,
     "language": "Rust",
     "html_url": "https://github.com/BersisSe/feather",
-    "created_at": "2025-01-21T17:40:06Z"
+    "created_at": "2025-01-21T17:40:06Z",
+    "url": "https://github.com/BersisSe/feather"
   },
   {
     "name": "justrach/merjs",
@@ -7063,7 +7067,8 @@
     "stargazers_count": 349,
     "language": "C",
     "html_url": "https://github.com/justrach/merjs",
-    "created_at": "2026-03-03T19:25:23Z"
+    "created_at": "2026-03-03T19:25:23Z",
+    "url": "https://github.com/justrach/merjs"
   },
   {
     "name": "aiscriptdev/aiscript",
@@ -7078,7 +7083,8 @@
     "stargazers_count": 322,
     "language": "Rust",
     "html_url": "https://github.com/aiscriptdev/aiscript",
-    "created_at": "2024-10-19T07:36:28Z"
+    "created_at": "2024-10-19T07:36:28Z",
+    "url": "https://github.com/aiscriptdev/aiscript"
   },
   {
     "name": "ziex-dev/ziex",
@@ -7094,7 +7100,8 @@
     "stargazers_count": 271,
     "language": "Zig",
     "html_url": "https://github.com/ziex-dev/ziex",
-    "created_at": "2025-10-29T09:08:27Z"
+    "created_at": "2025-10-29T09:08:27Z",
+    "url": "https://github.com/ziex-dev/ziex"
   },
   {
     "name": "ecewo/ecewo",
@@ -7110,7 +7117,8 @@
     "stargazers_count": 248,
     "language": "C",
     "html_url": "https://github.com/ecewo/ecewo",
-    "created_at": "2025-04-16T16:16:01Z"
+    "created_at": "2025-04-16T16:16:01Z",
+    "url": "https://github.com/ecewo/ecewo"
   },
   {
     "name": "fullsoak/fullsoak",
@@ -7125,7 +7133,8 @@
     "stargazers_count": 234,
     "language": "TypeScript",
     "html_url": "https://github.com/fullsoak/fullsoak",
-    "created_at": "2025-01-06T02:17:04Z"
+    "created_at": "2025-01-06T02:17:04Z",
+    "url": "https://github.com/fullsoak/fullsoak"
   },
   {
     "name": "googleapis/mcp-toolbox",
@@ -7141,7 +7150,8 @@
     "stargazers_count": 15684,
     "language": "Go",
     "html_url": "https://github.com/googleapis/mcp-toolbox",
-    "created_at": "2024-06-07T20:52:54Z"
+    "created_at": "2024-06-07T20:52:54Z",
+    "url": "https://github.com/googleapis/mcp-toolbox"
   },
   {
     "name": "HelixDB/helix-db",
@@ -7157,7 +7167,8 @@
     "stargazers_count": 5452,
     "language": "Rust",
     "html_url": "https://github.com/HelixDB/helix-db",
-    "created_at": "2024-11-23T11:02:14Z"
+    "created_at": "2024-11-23T11:02:14Z",
+    "url": "https://github.com/HelixDB/helix-db"
   },
   {
     "name": "trailbaseio/trailbase",
@@ -7172,7 +7183,8 @@
     "stargazers_count": 5347,
     "language": "Rust",
     "html_url": "https://github.com/trailbaseio/trailbase",
-    "created_at": "2024-10-29T09:39:33Z"
+    "created_at": "2024-10-29T09:39:33Z",
+    "url": "https://github.com/trailbaseio/trailbase"
   },
   {
     "name": "nalgeon/redka",
@@ -7188,7 +7200,8 @@
     "stargazers_count": 4557,
     "language": "Go",
     "html_url": "https://github.com/nalgeon/redka",
-    "created_at": "2024-04-06T19:10:02Z"
+    "created_at": "2024-04-06T19:10:02Z",
+    "url": "https://github.com/nalgeon/redka"
   },
   {
     "name": "TableProApp/TablePro",
@@ -7204,7 +7217,8 @@
     "stargazers_count": 4507,
     "language": "Swift",
     "html_url": "https://github.com/TableProApp/TablePro",
-    "created_at": "2025-12-17T01:01:38Z"
+    "created_at": "2025-12-17T01:01:38Z",
+    "url": "https://github.com/TableProApp/TablePro"
   },
   {
     "name": "ruc-datalab/DeepAnalyze",
@@ -7220,7 +7234,8 @@
     "stargazers_count": 4276,
     "language": "Python",
     "html_url": "https://github.com/ruc-datalab/DeepAnalyze",
-    "created_at": "2025-10-11T11:19:21Z"
+    "created_at": "2025-10-11T11:19:21Z",
+    "url": "https://github.com/ruc-datalab/DeepAnalyze"
   },
   {
     "name": "harry0703/MoneyPrinterTurbo",
@@ -7236,7 +7251,8 @@
     "stargazers_count": 91348,
     "language": "Python",
     "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
-    "created_at": "2024-03-11T02:57:34Z"
+    "created_at": "2024-03-11T02:57:34Z",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo"
   },
   {
     "name": "D4Vinci/Scrapling",
@@ -7252,7 +7268,8 @@
     "stargazers_count": 65634,
     "language": "Python",
     "html_url": "https://github.com/D4Vinci/Scrapling",
-    "created_at": "2024-10-13T20:29:53Z"
+    "created_at": "2024-10-13T20:29:53Z",
+    "url": "https://github.com/D4Vinci/Scrapling"
   },
   {
     "name": "wshobson/agents",
@@ -7268,7 +7285,8 @@
     "stargazers_count": 37059,
     "language": "Python",
     "html_url": "https://github.com/wshobson/agents",
-    "created_at": "2025-07-24T23:28:14Z"
+    "created_at": "2025-07-24T23:28:14Z",
+    "url": "https://github.com/wshobson/agents"
   },
   {
     "name": "Yeachan-Heo/oh-my-claudecode",
@@ -7284,7 +7302,8 @@
     "stargazers_count": 36788,
     "language": "TypeScript",
     "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-    "created_at": "2026-01-09T03:36:29Z"
+    "created_at": "2026-01-09T03:36:29Z",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode"
   },
   {
     "name": "FujiwaraChoki/MoneyPrinterV2",
@@ -7300,7 +7319,8 @@
     "stargazers_count": 31014,
     "language": "Python",
     "html_url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
-    "created_at": "2024-02-12T11:20:42Z"
+    "created_at": "2024-02-12T11:20:42Z",
+    "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2"
   },
   {
     "name": "googleworkspace/cli",
@@ -7316,7 +7336,8 @@
     "stargazers_count": 27216,
     "language": "Rust",
     "html_url": "https://github.com/googleworkspace/cli",
-    "created_at": "2026-03-02T19:46:06Z"
+    "created_at": "2026-03-02T19:46:06Z",
+    "url": "https://github.com/googleworkspace/cli"
   },
   {
     "name": "coleam00/Archon",
@@ -7332,7 +7353,8 @@
     "stargazers_count": 22521,
     "language": "TypeScript",
     "html_url": "https://github.com/coleam00/Archon",
-    "created_at": "2025-02-07T21:04:12Z"
+    "created_at": "2025-02-07T21:04:12Z",
+    "url": "https://github.com/coleam00/Archon"
   },
   {
     "name": "Dokploy/dokploy",
@@ -7348,7 +7370,8 @@
     "stargazers_count": 35051,
     "language": "TypeScript",
     "html_url": "https://github.com/Dokploy/dokploy",
-    "created_at": "2024-04-19T07:49:30Z"
+    "created_at": "2024-04-19T07:49:30Z",
+    "url": "https://github.com/Dokploy/dokploy"
   },
   {
     "name": "dockur/macos",
@@ -7364,7 +7387,8 @@
     "stargazers_count": 20331,
     "language": "Shell",
     "html_url": "https://github.com/dockur/macos",
-    "created_at": "2024-06-02T19:42:37Z"
+    "created_at": "2024-06-02T19:42:37Z",
+    "url": "https://github.com/dockur/macos"
   },
   {
     "name": "DrewThomasson/ebook2audiobook",
@@ -7380,7 +7404,8 @@
     "stargazers_count": 19325,
     "language": "Python",
     "html_url": "https://github.com/DrewThomasson/ebook2audiobook",
-    "created_at": "2024-01-22T23:49:55Z"
+    "created_at": "2024-01-22T23:49:55Z",
+    "url": "https://github.com/DrewThomasson/ebook2audiobook"
   },
   {
     "name": "alam00000/bentopdf",
@@ -7396,7 +7421,8 @@
     "stargazers_count": 13839,
     "language": "JavaScript",
     "html_url": "https://github.com/alam00000/bentopdf",
-    "created_at": "2025-10-12T13:30:08Z"
+    "created_at": "2025-10-12T13:30:08Z",
+    "url": "https://github.com/alam00000/bentopdf"
   },
   {
     "name": "Termix-SSH/Termix",
@@ -7412,7 +7438,8 @@
     "stargazers_count": 13703,
     "language": "TypeScript",
     "html_url": "https://github.com/Termix-SSH/Termix",
-    "created_at": "2024-11-25T02:46:36Z"
+    "created_at": "2024-11-25T02:46:36Z",
+    "url": "https://github.com/Termix-SSH/Termix"
   },
   {
     "name": "dongyubin/DockerHub",
@@ -7428,7 +7455,8 @@
     "stargazers_count": 8965,
     "language": null,
     "html_url": "https://github.com/dongyubin/DockerHub",
-    "created_at": "2024-07-24T09:00:29Z"
+    "created_at": "2024-07-24T09:00:29Z",
+    "url": "https://github.com/dongyubin/DockerHub"
   },
   {
     "name": "Pumpkin-MC/Pumpkin",
@@ -7444,7 +7472,8 @@
     "stargazers_count": 7824,
     "language": "Rust",
     "html_url": "https://github.com/Pumpkin-MC/Pumpkin",
-    "created_at": "2024-07-28T21:07:38Z"
+    "created_at": "2024-07-28T21:07:38Z",
+    "url": "https://github.com/Pumpkin-MC/Pumpkin"
   },
   {
     "name": "superradcompany/microsandbox",
@@ -7460,7 +7489,8 @@
     "stargazers_count": 6647,
     "language": "Rust",
     "html_url": "https://github.com/superradcompany/microsandbox",
-    "created_at": "2024-10-03T15:57:38Z"
+    "created_at": "2024-10-03T15:57:38Z",
+    "url": "https://github.com/superradcompany/microsandbox"
   },
   {
     "name": "koala73/worldmonitor",
@@ -7476,7 +7506,8 @@
     "stargazers_count": 58629,
     "language": "TypeScript",
     "html_url": "https://github.com/koala73/worldmonitor",
-    "created_at": "2026-01-08T17:26:06Z"
+    "created_at": "2026-01-08T17:26:06Z",
+    "url": "https://github.com/koala73/worldmonitor"
   },
   {
     "name": "henrygd/beszel",
@@ -7490,7 +7521,8 @@
     "stargazers_count": 22995,
     "language": "Go",
     "html_url": "https://github.com/henrygd/beszel",
-    "created_at": "2024-07-07T21:36:28Z"
+    "created_at": "2024-07-07T21:36:28Z",
+    "url": "https://github.com/henrygd/beszel"
   },
   {
     "name": "Abdenasser/neohtop",
@@ -7506,7 +7538,8 @@
     "stargazers_count": 9037,
     "language": "Svelte",
     "html_url": "https://github.com/Abdenasser/neohtop",
-    "created_at": "2024-10-30T20:44:11Z"
+    "created_at": "2024-10-30T20:44:11Z",
+    "url": "https://github.com/Abdenasser/neohtop"
   },
   {
     "name": "coze-dev/coze-loop",
@@ -7522,7 +7555,8 @@
     "stargazers_count": 5536,
     "language": "Go",
     "html_url": "https://github.com/coze-dev/coze-loop",
-    "created_at": "2025-06-24T00:26:28Z"
+    "created_at": "2025-06-24T00:26:28Z",
+    "url": "https://github.com/coze-dev/coze-loop"
   },
   {
     "name": "komari-monitor/komari",
@@ -7536,7 +7570,8 @@
     "stargazers_count": 5091,
     "language": "Go",
     "html_url": "https://github.com/komari-monitor/komari",
-    "created_at": "2025-04-19T16:34:16Z"
+    "created_at": "2025-04-19T16:34:16Z",
+    "url": "https://github.com/komari-monitor/komari"
   },
   {
     "name": "grafana/alloy",
@@ -7552,7 +7587,8 @@
     "stargazers_count": 3271,
     "language": "Go",
     "html_url": "https://github.com/grafana/alloy",
-    "created_at": "2024-02-28T14:00:15Z"
+    "created_at": "2024-02-28T14:00:15Z",
+    "url": "https://github.com/grafana/alloy"
   },
   {
     "name": "lmnr-ai/lmnr",
@@ -7568,7 +7604,8 @@
     "stargazers_count": 3027,
     "language": "TypeScript",
     "html_url": "https://github.com/lmnr-ai/lmnr",
-    "created_at": "2024-08-29T03:45:28Z"
+    "created_at": "2024-08-29T03:45:28Z",
+    "url": "https://github.com/lmnr-ai/lmnr"
   },
   {
     "name": "kite-org/kite",
@@ -7584,7 +7621,8 @@
     "stargazers_count": 2821,
     "language": "TypeScript",
     "html_url": "https://github.com/kite-org/kite",
-    "created_at": "2025-06-17T12:12:15Z"
+    "created_at": "2025-06-17T12:12:15Z",
+    "url": "https://github.com/kite-org/kite"
   },
   {
     "name": "subtrace/subtrace",
@@ -7599,7 +7637,8 @@
     "stargazers_count": 2807,
     "language": "Go",
     "html_url": "https://github.com/subtrace/subtrace",
-    "created_at": "2024-05-14T17:44:49Z"
+    "created_at": "2024-05-14T17:44:49Z",
+    "url": "https://github.com/subtrace/subtrace"
   },
   {
     "name": "operacle/checkcle",
@@ -7615,7 +7654,8 @@
     "stargazers_count": 2755,
     "language": "Go",
     "html_url": "https://github.com/operacle/checkcle",
-    "created_at": "2025-05-09T14:19:36Z"
+    "created_at": "2025-05-09T14:19:36Z",
+    "url": "https://github.com/operacle/checkcle"
   },
   {
     "name": "speedyapply/2026-AI-College-Jobs",
@@ -7631,7 +7671,8 @@
     "stargazers_count": 5504,
     "language": null,
     "html_url": "https://github.com/speedyapply/2026-AI-College-Jobs",
-    "created_at": "2024-09-11T00:39:39Z"
+    "created_at": "2024-09-11T00:39:39Z",
+    "url": "https://github.com/speedyapply/2026-AI-College-Jobs"
   },
   {
     "name": "business-science/ai-data-science-team",
@@ -7647,7 +7688,8 @@
     "stargazers_count": 5300,
     "language": "Python",
     "html_url": "https://github.com/business-science/ai-data-science-team",
-    "created_at": "2024-12-11T16:07:45Z"
+    "created_at": "2024-12-11T16:07:45Z",
+    "url": "https://github.com/business-science/ai-data-science-team"
   },
   {
     "name": "OpenDCAI/DataFlow",
@@ -7663,7 +7705,8 @@
     "stargazers_count": 5244,
     "language": "Python",
     "html_url": "https://github.com/OpenDCAI/DataFlow",
-    "created_at": "2024-10-13T14:45:45Z"
+    "created_at": "2024-10-13T14:45:45Z",
+    "url": "https://github.com/OpenDCAI/DataFlow"
   },
   {
     "name": "Netflix/maestro",
@@ -7679,7 +7722,8 @@
     "stargazers_count": 3793,
     "language": "Java",
     "html_url": "https://github.com/Netflix/maestro",
-    "created_at": "2024-04-17T01:15:56Z"
+    "created_at": "2024-04-17T01:15:56Z",
+    "url": "https://github.com/Netflix/maestro"
   },
   {
     "name": "aadi1011/AI-ML-Roadmap-from-scratch",
@@ -7695,7 +7739,8 @@
     "stargazers_count": 3777,
     "language": null,
     "html_url": "https://github.com/aadi1011/AI-ML-Roadmap-from-scratch",
-    "created_at": "2024-05-26T05:26:18Z"
+    "created_at": "2024-05-26T05:26:18Z",
+    "url": "https://github.com/aadi1011/AI-ML-Roadmap-from-scratch"
   },
   {
     "name": "Jon-Becker/prediction-market-analysis",
@@ -7711,7 +7756,8 @@
     "stargazers_count": 3543,
     "language": "Python",
     "html_url": "https://github.com/Jon-Becker/prediction-market-analysis",
-    "created_at": "2025-11-22T16:59:25Z"
+    "created_at": "2025-11-22T16:59:25Z",
+    "url": "https://github.com/Jon-Becker/prediction-market-analysis"
   },
   {
     "name": "rio-labs/rio",
@@ -7727,7 +7773,8 @@
     "stargazers_count": 3409,
     "language": "Python",
     "html_url": "https://github.com/rio-labs/rio",
-    "created_at": "2024-04-13T17:24:38Z"
+    "created_at": "2024-04-13T17:24:38Z",
+    "url": "https://github.com/rio-labs/rio"
   },
   {
     "name": "deepnote/deepnote",
@@ -7743,7 +7790,8 @@
     "stargazers_count": 2934,
     "language": "TypeScript",
     "html_url": "https://github.com/deepnote/deepnote",
-    "created_at": "2025-09-29T15:24:25Z"
+    "created_at": "2025-09-29T15:24:25Z",
+    "url": "https://github.com/deepnote/deepnote"
   },
   {
     "name": "tkarim45/Beginner-Data-Science-Projects",
@@ -7759,7 +7807,8 @@
     "stargazers_count": 2539,
     "language": "Jupyter Notebook",
     "html_url": "https://github.com/tkarim45/Beginner-Data-Science-Projects",
-    "created_at": "2024-03-10T16:46:46Z"
+    "created_at": "2024-03-10T16:46:46Z",
+    "url": "https://github.com/tkarim45/Beginner-Data-Science-Projects"
   },
   {
     "name": "hesamsheikh/ml-retreat",
@@ -7775,7 +7824,8 @@
     "stargazers_count": 2355,
     "language": "Jupyter Notebook",
     "html_url": "https://github.com/hesamsheikh/ml-retreat",
-    "created_at": "2024-09-18T19:34:16Z"
+    "created_at": "2024-09-18T19:34:16Z",
+    "url": "https://github.com/hesamsheikh/ml-retreat"
   },
   {
     "name": "Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
@@ -7791,7 +7841,8 @@
     "stargazers_count": 2333,
     "language": "Jupyter Notebook",
     "html_url": "https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
-    "created_at": "2025-03-05T15:59:02Z"
+    "created_at": "2025-03-05T15:59:02Z",
+    "url": "https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization"
   },
   {
     "name": "zasper-io/zasper",
@@ -7807,7 +7858,8 @@
     "stargazers_count": 2324,
     "language": "TypeScript",
     "html_url": "https://github.com/zasper-io/zasper",
-    "created_at": "2024-08-22T21:07:26Z"
+    "created_at": "2024-08-22T21:07:26Z",
+    "url": "https://github.com/zasper-io/zasper"
   },
   {
     "name": "pretzelai/pretzelai",
@@ -7823,7 +7875,8 @@
     "stargazers_count": 2187,
     "language": "TypeScript",
     "html_url": "https://github.com/pretzelai/pretzelai",
-    "created_at": "2024-03-12T19:51:02Z"
+    "created_at": "2024-03-12T19:51:02Z",
+    "url": "https://github.com/pretzelai/pretzelai"
   },
   {
     "name": "LiuYuYang01/ThriveX-Blog",
@@ -7839,7 +7892,8 @@
     "stargazers_count": 812,
     "language": "TypeScript",
     "html_url": "https://github.com/LiuYuYang01/ThriveX-Blog",
-    "created_at": "2024-08-22T08:20:17Z"
+    "created_at": "2024-08-22T08:20:17Z",
+    "url": "https://github.com/LiuYuYang01/ThriveX-Blog"
   },
   {
     "name": "withstudiocms/studiocms",
@@ -7855,7 +7909,8 @@
     "stargazers_count": 791,
     "language": "TypeScript",
     "html_url": "https://github.com/withstudiocms/studiocms",
-    "created_at": "2024-03-16T08:34:16Z"
+    "created_at": "2024-03-16T08:34:16Z",
+    "url": "https://github.com/withstudiocms/studiocms"
   },
   {
     "name": "aymericzip/intlayer",
@@ -7871,7 +7926,8 @@
     "stargazers_count": 772,
     "language": "TypeScript",
     "html_url": "https://github.com/aymericzip/intlayer",
-    "created_at": "2024-03-24T20:14:24Z"
+    "created_at": "2024-03-24T20:14:24Z",
+    "url": "https://github.com/aymericzip/intlayer"
   },
   {
     "name": "fecommunity/reactpress",
@@ -7887,7 +7943,8 @@
     "stargazers_count": 706,
     "language": "TypeScript",
     "html_url": "https://github.com/fecommunity/reactpress",
-    "created_at": "2024-09-08T16:24:21Z"
+    "created_at": "2024-09-08T16:24:21Z",
+    "url": "https://github.com/fecommunity/reactpress"
   },
   {
     "name": "waynesutton/markdown-site",
@@ -7903,7 +7960,8 @@
     "stargazers_count": 621,
     "language": "TypeScript",
     "html_url": "https://github.com/waynesutton/markdown-site",
-    "created_at": "2025-12-14T17:54:14Z"
+    "created_at": "2025-12-14T17:54:14Z",
+    "url": "https://github.com/waynesutton/markdown-site"
   },
   {
     "name": "fastschema/fastschema",
@@ -7919,7 +7977,8 @@
     "stargazers_count": 556,
     "language": "Go",
     "html_url": "https://github.com/fastschema/fastschema",
-    "created_at": "2024-04-02T04:58:55Z"
+    "created_at": "2024-04-02T04:58:55Z",
+    "url": "https://github.com/fastschema/fastschema"
   },
   {
     "name": "PacktPublishing/Django-5-By-Example",
@@ -7935,7 +7994,8 @@
     "stargazers_count": 527,
     "language": "CSS",
     "html_url": "https://github.com/PacktPublishing/Django-5-By-Example",
-    "created_at": "2024-03-18T14:04:49Z"
+    "created_at": "2024-03-18T14:04:49Z",
+    "url": "https://github.com/PacktPublishing/Django-5-By-Example"
   },
   {
     "name": "tinykit-studio/tinykit",
@@ -7951,7 +8011,8 @@
     "stargazers_count": 501,
     "language": "Svelte",
     "html_url": "https://github.com/tinykit-studio/tinykit",
-    "created_at": "2025-12-10T07:22:56Z"
+    "created_at": "2025-12-10T07:22:56Z",
+    "url": "https://github.com/tinykit-studio/tinykit"
   },
   {
     "name": "rhinobase/honohub",
@@ -7967,7 +8028,8 @@
     "stargazers_count": 464,
     "language": "TypeScript",
     "html_url": "https://github.com/rhinobase/honohub",
-    "created_at": "2024-07-02T10:22:36Z"
+    "created_at": "2024-07-02T10:22:36Z",
+    "url": "https://github.com/rhinobase/honohub"
   },
   {
     "name": "bloom42/markdown-ninja",
@@ -7983,7 +8045,8 @@
     "stargazers_count": 407,
     "language": "Go",
     "html_url": "https://github.com/bloom42/markdown-ninja",
-    "created_at": "2025-05-20T06:36:06Z"
+    "created_at": "2025-05-20T06:36:06Z",
+    "url": "https://github.com/bloom42/markdown-ninja"
   },
   {
     "name": "kottster/kottster",
@@ -7999,7 +8062,8 @@
     "stargazers_count": 1157,
     "language": "TypeScript",
     "html_url": "https://github.com/kottster/kottster",
-    "created_at": "2024-07-22T03:52:01Z"
+    "created_at": "2024-07-22T03:52:01Z",
+    "url": "https://github.com/kottster/kottster"
   },
   {
     "name": "GreatStackDev/gocart",
@@ -8015,7 +8079,8 @@
     "stargazers_count": 853,
     "language": "JavaScript",
     "html_url": "https://github.com/GreatStackDev/gocart",
-    "created_at": "2025-08-26T07:05:49Z"
+    "created_at": "2025-08-26T07:05:49Z",
+    "url": "https://github.com/GreatStackDev/gocart"
   },
   {
     "name": "shadcnstore/shadcn-dashboard-landing-template",
@@ -8031,7 +8096,8 @@
     "stargazers_count": 814,
     "language": "TypeScript",
     "html_url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template",
-    "created_at": "2025-09-16T10:42:53Z"
+    "created_at": "2025-09-16T10:42:53Z",
+    "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template"
   },
   {
     "name": "SkyCascade/SkyLearn",
@@ -8047,7 +8113,8 @@
     "stargazers_count": 635,
     "language": "Python",
     "html_url": "https://github.com/SkyCascade/SkyLearn",
-    "created_at": "2024-10-01T12:41:21Z"
+    "created_at": "2024-10-01T12:41:21Z",
+    "url": "https://github.com/SkyCascade/SkyLearn"
   },
   {
     "name": "benavlabs/crudadmin",
@@ -8063,7 +8130,8 @@
     "stargazers_count": 446,
     "language": "Python",
     "html_url": "https://github.com/benavlabs/crudadmin",
-    "created_at": "2024-05-12T21:24:43Z"
+    "created_at": "2024-05-12T21:24:43Z",
+    "url": "https://github.com/benavlabs/crudadmin"
   },
   {
     "name": "Ivy-Interactive/Ivy-Framework",
@@ -8079,7 +8147,8 @@
     "stargazers_count": 426,
     "language": "C#",
     "html_url": "https://github.com/Ivy-Interactive/Ivy-Framework",
-    "created_at": "2025-04-28T07:23:35Z"
+    "created_at": "2025-04-28T07:23:35Z",
+    "url": "https://github.com/Ivy-Interactive/Ivy-Framework"
   },
   {
     "name": "relaticle/flowforge",
@@ -8095,7 +8164,8 @@
     "stargazers_count": 412,
     "language": "PHP",
     "html_url": "https://github.com/relaticle/flowforge",
-    "created_at": "2025-03-20T09:51:44Z"
+    "created_at": "2025-03-20T09:51:44Z",
+    "url": "https://github.com/relaticle/flowforge"
   },
   {
     "name": "devforth/adminforth",
@@ -8111,7 +8181,8 @@
     "stargazers_count": 410,
     "language": "TypeScript",
     "html_url": "https://github.com/devforth/adminforth",
-    "created_at": "2024-05-20T10:01:22Z"
+    "created_at": "2024-05-20T10:01:22Z",
+    "url": "https://github.com/devforth/adminforth"
   },
   {
     "name": "riodwanto/superduper-filament-starter-kit",
@@ -8127,7 +8198,8 @@
     "stargazers_count": 280,
     "language": "PHP",
     "html_url": "https://github.com/riodwanto/superduper-filament-starter-kit",
-    "created_at": "2024-02-25T20:32:42Z"
+    "created_at": "2024-02-25T20:32:42Z",
+    "url": "https://github.com/riodwanto/superduper-filament-starter-kit"
   },
   {
     "name": "Hunterdii/Smart-AI-Resume-Analyzer",
@@ -8143,7 +8215,8 @@
     "stargazers_count": 225,
     "language": "C",
     "html_url": "https://github.com/Hunterdii/Smart-AI-Resume-Analyzer",
-    "created_at": "2025-01-08T03:32:46Z"
+    "created_at": "2025-01-08T03:32:46Z",
+    "url": "https://github.com/Hunterdii/Smart-AI-Resume-Analyzer"
   },
   {
     "name": "LocoreMind/locoagent",
@@ -9248,5 +9321,176 @@
       "pushed_at": "2026-06-22T15:51:02Z",
       "synced_at": "2026-06-23T05:14:47.937575Z"
     }
+  },
+  {
+    "name": "zeroclaw-labs/zeroclaw",
+    "category": "AI Agents",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "desc": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any device.",
+    "tags": [
+      "autonomous-agent",
+      "personal-assistant",
+      "infrastructure",
+      "rust"
+    ],
+    "badge": "AI Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "ZC",
+    "desc_cn": "轻量级全自主 AI 个人助手基础设施，支持任意操作系统与设备，可自主执行复杂任务链。",
+    "stars": 32003,
+    "language": "Rust"
+  },
+  {
+    "name": "Fosowl/agenticSeek",
+    "category": "AI Agents",
+    "url": "https://github.com/Fosowl/agenticSeek",
+    "desc": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent experience for free.",
+    "tags": [
+      "local-ai",
+      "autonomous-agent",
+      "manus",
+      "no-api"
+    ],
+    "badge": "AI Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "AS",
+    "desc_cn": "完全本地化的自主 AI 智能体，无需 API 调用和订阅费用，可在本地运行类似 Manus 的自动化体验。",
+    "stars": 26542,
+    "language": "Python"
+  },
+  {
+    "name": "zai-org/Open-AutoGLM",
+    "category": "AI Agents",
+    "url": "https://github.com/zai-org/Open-AutoGLM",
+    "desc": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone.",
+    "tags": [
+      "phone-agent",
+      "mobile-ai",
+      "automation",
+      "autoglm"
+    ],
+    "badge": "AI Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "AG",
+    "desc_cn": "开源手机 AI Agent 模型与框架，可自动操控手机完成复杂任务，面向移动端自动化场景。",
+    "stars": 25577,
+    "language": "Python"
+  },
+  {
+    "name": "openai/swarm",
+    "category": "AI Agents",
+    "url": "https://github.com/openai/swarm",
+    "desc": "Educational framework exploring ergonomic, lightweight multi-agent orchestration.",
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "openai",
+      "educational"
+    ],
+    "badge": "AI Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "OA",
+    "desc_cn": "OpenAI 推出的轻量级多智能体编排教育框架，探索多 Agent 协作的工程化最佳实践。",
+    "stars": 21686,
+    "language": "Python"
+  },
+  {
+    "name": "h4ckf0r0day/obscura",
+    "category": "AI Agents",
+    "url": "https://github.com/h4ckf0r0day/obscura",
+    "desc": "The headless browser for AI agents and web scraping.",
+    "tags": [
+      "headless-browser",
+      "ai-agent",
+      "scraping",
+      "automation"
+    ],
+    "badge": "Browser Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "OB",
+    "desc_cn": "面向 AI Agent 的无头浏览器引擎，专为网页自动化与数据采集优化，支持代理级并发操作。",
+    "stars": 16097,
+    "language": "Rust"
+  },
+  {
+    "name": "nanobrowser/nanobrowser",
+    "category": "AI Agents",
+    "url": "https://github.com/nanobrowser/nanobrowser",
+    "desc": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows in your browser.",
+    "tags": [
+      "chrome-extension",
+      "browser-agent",
+      "web-automation",
+      "multi-agent"
+    ],
+    "badge": "Browser Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "NB",
+    "desc_cn": "开源 Chrome 浏览器扩展，内置多 Agent 工作流引擎，可在浏览器中自动完成网页操作与数据处理。",
+    "stars": 13339,
+    "language": "TypeScript"
+  },
+  {
+    "name": "idosal/git-mcp",
+    "category": "MCP & Tools",
+    "url": "https://github.com/idosal/git-mcp",
+    "desc": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub repo.",
+    "tags": [
+      "mcp",
+      "github",
+      "code-intelligence",
+      "hallucination"
+    ],
+    "badge": "MCP Tool",
+    "featured": true,
+    "category_cn": "MCP 工具",
+    "icon": "GM",
+    "desc_cn": "免费开源的远程 MCP 服务器，为任意 GitHub 仓库提供代码上下文，消除 AI 编码幻觉。",
+    "stars": 8202,
+    "language": "TypeScript"
+  },
+  {
+    "name": "zilliztech/deep-searcher",
+    "category": "AI Agents",
+    "url": "https://github.com/zilliztech/deep-searcher",
+    "desc": "Open Source Deep Research Alternative to Reason and Search on Private Data.",
+    "tags": [
+      "deep-research",
+      "rag",
+      "private-data",
+      "search"
+    ],
+    "badge": "Research Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "DS",
+    "desc_cn": "开源深度研究 Agent，支持对私有数据进行推理与检索，可作为 Deep Research 的本地替代方案。",
+    "stars": 7899,
+    "language": "Python"
+  },
+  {
+    "name": "SkyworkAI/DeepResearchAgent",
+    "category": "AI Agents",
+    "url": "https://github.com/SkyworkAI/DeepResearchAgent",
+    "desc": "DeepResearchAgent is a hierarchical multi-agent system designed for deep research tasks.",
+    "tags": [
+      "deep-research",
+      "multi-agent",
+      "hierarchical",
+      "research"
+    ],
+    "badge": "Research Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "DR",
+    "desc_cn": "层级式多智能体深度研究系统，可自动拆解研究问题、多轮检索与推理，生成结构化研究报告。",
+    "stars": 3470,
+    "language": "Python"
   }
 ]
