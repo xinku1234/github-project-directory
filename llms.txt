@@ -15,6 +15,8 @@ A navigation-style directory of useful GitHub and open-source projects, with a d
 - Free project submission: https://daohang.bot.cd/submit.html
 - Project data: https://daohang.bot.cd/data/projects.json
 - Rising project data: https://daohang.bot.cd/data/github-rising.json
+- RSS feed: https://daohang.bot.cd/feed.xml
+- JSON feed: https://daohang.bot.cd/feed.json
 
 ## Individual project detail pages
 Each of the 200 projects has its own detail page with structured data (SoftwareApplication, BreadcrumbList, FAQPage), bilingual descriptions, stats, tags, and related project recommendations.
@@ -57,6 +59,14 @@ Sample:
 
 ## Categories
 AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database, Automation, Data & Analytics, Deployment, Ops & Monitoring, Content & CMS.
+
+## Topic Hub Pages (Topical Authority)
+- AI Agents hub: https://daohang.bot.cd/hubs/ai-agents/
+- AI Coding Tools hub: https://daohang.bot.cd/hubs/ai-coding-tools/
+- MCP Ecosystem hub: https://daohang.bot.cd/hubs/mcp-ecosystem/
+- Web Development hub: https://daohang.bot.cd/hubs/web-development/
+- DevOps Tools hub: https://daohang.bot.cd/hubs/devops-tools/
+- Automation hub: https://daohang.bot.cd/hubs/automation/
 
 ## Collections for traffic growth
 - AI coding tools: https://daohang.bot.cd/collections/ai-coding-tools/

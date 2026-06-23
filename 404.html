@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <title>页面未找到 - 拾品号导航</title>
+  <meta name="description" content="抱歉，您访问的页面不存在。返回拾品号导航首页，发现 GitHub 开源项目、AI 工具和开发者资源。">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://daohang.bot.cd/">
+  <link rel="stylesheet" href="/assets/nav-style.css">
+</head>
+<body>
+  <main class="home-shell page-mode"><div class="bg-mask"></div>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+    <section class="search-section">
+      <h1>404 - 页面未找到</h1>
+      <p>抱歉，您访问的页面不存在或已被移动。</p>
+      <p class="daily-line">试试以下入口，找到你需要的开源项目和工具。</p>
+      <div class="search-box">
+        <input id="searchInput" type="search" placeholder="搜索项目、分类或关键词...">
+        <button id="searchBtn" title="搜索">⌕</button>
+      </div>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <div class="directory-intro">
+        <div><span class="eyebrow">热门入口</span><strong>以下是最受欢迎的页面，或许能找到你要找的内容。</strong></div>
+      </div>
+      <div class="trend-grid">
+        <article class="trend-card"><h2><a href="/trending/">GitHub 涨星榜</a></h2><p>发现近期快速涨星的开源项目，每日自动更新。</p></article>
+        <article class="trend-card"><h2><a href="/daily-brief/">每日增速 Top10</a></h2><p>GitHub 增速最快的 10 个项目快报，适合截图分享。</p></article>
+        <article class="trend-card"><h2><a href="/projects/">全部项目</a></h2><p>浏览 200+ 个精选 GitHub 开源项目，每个都有独立详情页。</p></article>
+        <article class="trend-card"><h2><a href="/categories/">分类导航</a></h2><p>按 AI 智能体、建站框架、自动化等分类浏览项目。</p></article>
+        <article class="trend-card"><h2><a href="/collections/">专题合集</a></h2><p>AI 编程工具、独立开发者工具、建站工具等专题。</p></article>
+        <article class="trend-card"><h2><a href="/guides/">使用指南</a></h2><p>AI 工具对比评测、开源项目评估、DevOps 实践等指南。</p></article>
+      </div>
+    </section></section>
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a></footer>
+  </main>
+  <script>
+    document.getElementById('searchBtn').addEventListener('click', function() {
+      var q = document.getElementById('searchInput').value.trim();
+      if (q) window.location.href = 'https://github.com/search?q=' + encodeURIComponent(q) + '&type=repositories';
+    });
+    document.getElementById('searchInput').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') document.getElementById('searchBtn').click();
+    });
+  </script>
+</body>
+</html>
