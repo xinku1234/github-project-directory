@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>开源大模型部署指南 2026：Ollama/vLLM/Llama.cpp 选型对比</title>
+<meta name="description" content="2026 年开源大模型本地部署完全指南：对比 Ollama、vLLM、Llama.cpp 等推理引擎，硬件需求、性能基准和最佳实践。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://daohang.bot.cd/guides/open-source-llm-deployment-guide/">
+<meta property="og:title" content="开源大模型部署指南 2026：Ollama/vLLM/Llama.cpp 选型对比">
+<meta property="og:description" content="对比主流开源大模型推理引擎，从硬件选型到性能优化一站式指南。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daohang.bot.cd/guides/open-source-llm-deployment-guide/">
+<link rel="stylesheet" href="/assets/nav-style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"开源大模型部署指南 2026：Ollama/vLLM/Llama.cpp 选型对比","description":"2026 年开源大模型本地部署完全指南：对比 Ollama、vLLM、Llama.cpp 等推理引擎，硬件需求、性能基准和最佳实践。","url":"https://daohang.bot.cd/guides/open-source-llm-deployment-guide/","datePublished":"2026-06-23","author":{"@type":"Organization","name":"拾品号导航"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://daohang.bot.cd/"},{"@type":"ListItem","position":2,"name":"指南","item":"https://daohang.bot.cd/guides/"},{"@type":"ListItem","position":3,"name":"开源大模型部署指南","item":"https://daohang.bot.cd/guides/open-source-llm-deployment-guide/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"本地部署大模型需要什么硬件？","acceptedAnswer":{"@type":"Answer","text":"运行 7B 模型需要至少 8GB 显存（如 RTX 4060 Ti 16GB）；13B 模型需要 16-24GB 显存（如 RTX 4090）；70B 模型需要 48GB+ 显存（如 A100 80GB）或使用多卡/量化方案。纯 CPU 推荐 32GB+ 内存配合 llama.cpp 的 GGUF 量化格式。"}},{"@type":"Question","name":"Ollama 和 vLLM 哪个更适合生产环境？","acceptedAnswer":{"@type":"Answer","text":"Ollama 适合个人/小团队本地使用，安装简单、API 兼容 OpenAI 格式；vLLM 适合生产级部署，支持 PagedAttention 高吞吐推理、连续批处理和分布式部署。小规模用 Ollama，大规模服务化用 vLLM。"}},{"@type":"Question","name":"量化会影响模型质量吗？","acceptedAnswer":{"@type":"Answer","text":"会有一些损失但通常可接受。4-bit 量化（如 GPTQ、AWQ、GGUF Q4_K_M）在大多数任务上质量损失在 2-5% 以内，但显存占用降低 60-75%。建议先用 Q5_K_M 测试，质量满意再降到 Q4。"}},{"@type":"Question","name":"2026 年最值得部署的开源模型有哪些？","acceptedAnswer":{"@type":"Answer","text":"2026 年推荐：Llama 3.3（Meta）、Qwen 2.5（阿里）、DeepSeek V3（深度求索）、Mistral Large（Mistral）、Gemma 2（Google）。中文场景首选 Qwen 和 DeepSeek 系列。"}}]}</script>
+</head>
+<body>
+<header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/categories/">分类</a> <a href="/guides/">指南</a> <a href="/trending/">涨星榜</a></nav></header>
+<main class="container">
+<nav class="breadcrumb"><a href="/">首页</a> &gt; <a href="/guides/">指南</a> &gt; <span>开源大模型部署指南</span></nav>
+<h1>开源大模型部署指南 2026：Ollama/vLLM/Llama.cpp 选型对比</h1>
+<p class="lead">从硬件选型到推理引擎对比，一站式掌握开源大模型本地部署的全部知识。</p>
+
+<h2>为什么要本地部署大模型？</h2>
+<p>本地部署大模型（Open Source LLM Deployment）有三大优势：<strong>数据隐私</strong>（敏感数据不出内网）、<strong>成本可控</strong>（一次投入长期使用）、<strong>低延迟</strong>（无需网络往返）。2026 年开源模型质量已接近闭源模型，本地部署成为越来越多企业和开发者的首选。</p>
+
+<h2>主流推理引擎对比</h2>
+<table><thead><tr><th>引擎</th><th>定位</th><th>硬件支持</th><th>核心优势</th><th>适用场景</th></tr></thead>
+<tbody>
+<tr><td><strong>Ollama</strong></td><td>个人/小团队</td><td>CPU/GPU/Metal</td><td>一键安装、OpenAI 兼容 API</td><td>本地开发、桌面 AI</td></tr>
+<tr><td><strong>vLLM</strong></td><td>生产级服务</td><td>NVIDIA/AMD GPU</td><td>PagedAttention、高吞吐</td><td>API 服务、企业部署</td></tr>
+<tr><td><strong>Llama.cpp</strong></td><td>极致轻量</td><td>CPU/GPU/各种设备</td><td>GGUF 量化、跨平台</td><td>边缘设备、嵌入式</td></tr>
+<tr><td><strong>TGI</strong></td><td>HuggingFace 生态</td><td>NVIDIA GPU</td><td>HF 集成、流式输出</td><td>HF 模型快速部署</td></tr>
+<tr><td><strong>SGLang</strong></td><td>高性能推理</td><td>NVIDIA GPU</td><td>RadixAttention、结构化生成</td><td>复杂 Agent 推理</td></tr>
+</tbody></table>
+
+<h2>硬件需求速查</h2>
+<table><thead><tr><th>模型规模</th><th>最低显存</th><th>推荐配置</th><th>CPU 方案</th></tr></thead>
+<tbody>
+<tr><td>1-3B</td><td>4GB</td><td>RTX 3060 12GB</td><td>16GB 内存即可</td></tr>
+<tr><td>7-8B</td><td>8GB</td><td>RTX 4060 Ti 16GB</td><td>32GB 内存</td></tr>
+<tr><td>13-14B</td><td>16GB</td><td>RTX 4090 24GB</td><td>64GB 内存（较慢）</td></tr>
+<tr><td>32-34B</td><td>24GB</td><td>RTX 4090 × 2</td><td>128GB 内存（很慢）</td></tr>
+<tr><td>70B+</td><td>48GB</td><td>A100 80GB</td><td>不推荐</td></tr>
+</tbody></table>
+
+<h2>Ollama 快速上手</h2>
+<p>Ollama 是最简单的本地大模型部署方式，一条命令即可启动：</p>
+<p><code>curl -fsSL https://ollama.com/install.sh | sh && ollama run qwen2.5:7b</code></p>
+<p>Ollama 内置模型库，自动下载和管理模型。API 与 OpenAI 格式兼容，可直接替换 OpenAI endpoint。支持 macOS、Linux、Windows。</p>
+
+<h2>vLLM 生产级部署</h2>
+<p>vLLM 使用 PagedAttention 技术，吞吐量比传统推理高 2-4 倍。支持连续批处理（Continuous Batching）、张量并行和流式输出。适合搭建企业级 API 服务。</p>
+<p><code>pip install vllm && vllm serve Qwen/Qwen2.5-7B-Instruct</code></p>
+
+<h2>Llama.cpp 极致量化</h2>
+<p>Llama.cpp 专注于 GGUF 量化格式，在 CPU 上也能流畅运行。支持从 Q2_K 到 Q8_0 的多种量化精度。适合边缘设备、树莓派、Mac 等场景。</p>
+
+<h2>2026 推荐开源模型</h2>
+<ul>
+<li><strong>中文首选</strong>：Qwen 2.5 系列（阿里）、DeepSeek V3（深度求索）</li>
+<li><strong>英文通用</strong>：Llama 3.3（Meta）、Mistral Large</li>
+<li><strong>代码生成</strong>：DeepSeek Coder V2、CodeLlama</li>
+<li><strong>轻量级</strong>：Gemma 2（Google）、Phi-3（微软）</li>
+</ul>
+
+<h2>相关开源项目推荐</h2>
+<div class="project-grid">
+<article class="project-card"><h3><a href="/projects/langgenius-dify/">Dify</a></h3><p class="meta">⭐ Popular | Python</p><p>开源 LLM 应用开发平台，支持接入本地模型和云端 API，提供可视化编排。</p></article>
+<article class="project-card"><h3><a href="/projects/cherrystudio/">Cherry Studio</a></h3><p class="meta">⭐ Popular | TypeScript</p><p>桌面端 AI 客户端，支持接入 Ollama 等本地模型，多模型切换和对比。</p></article>
+<article class="project-card"><h3><a href="/projects/lazyagi-lazyllm/">LazyLLM</a></h3><p class="meta">⭐ Popular | Python</p><p>阿里开源的 LLM 应用开发框架，支持一键部署和多模型编排。</p></article>
+<article class="project-card"><h3><a href="/projects/arc53-docsgpt/">DocsGPT</a></h3><p class="meta">⭐ Popular | Python</p><p>基于私有文档的问答系统，支持接入本地部署的开源模型。</p></article>
+</div>
+<p><a href="/trending/">查看今日涨星项目 →</a> | <a href="/guides/ai-agent-framework-guide-2026/">AI Agent 框架指南 →</a></p>
+</main>
+</body></html>

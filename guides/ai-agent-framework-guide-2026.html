@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Agent 框架选择指南 2026：LangChain/CrewAI/AutoGen/DeepAgents 对比</title>
+<meta name="description" content="2026 年主流 AI Agent 框架全面对比：LangChain、CrewAI、AutoGen、Google ADK、Pydantic AI 等智能体框架的架构、适用场景和选型建议。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://daohang.bot.cd/guides/ai-agent-framework-guide-2026/">
+<meta property="og:title" content="AI Agent 框架选择指南 2026：LangChain/CrewAI/AutoGen 对比">
+<meta property="og:description" content="2026 年主流 AI Agent 框架全面对比与选型建议。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daohang.bot.cd/guides/ai-agent-framework-guide-2026/">
+<link rel="stylesheet" href="/assets/nav-style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AI Agent 框架选择指南 2026：LangChain/CrewAI/AutoGen/DeepAgents 对比","description":"2026 年主流 AI Agent 框架全面对比：LangChain、CrewAI、AutoGen、Google ADK、Pydantic AI 等智能体框架的架构、适用场景和选型建议。","url":"https://daohang.bot.cd/guides/ai-agent-framework-guide-2026/","datePublished":"2026-06-23","author":{"@type":"Organization","name":"拾品号导航"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://daohang.bot.cd/"},{"@type":"ListItem","position":2,"name":"指南","item":"https://daohang.bot.cd/guides/"},{"@type":"ListItem","position":3,"name":"AI Agent 框架选择指南","item":"https://daohang.bot.cd/guides/ai-agent-framework-guide-2026/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"2026 年最流行的 AI Agent 框架有哪些？","acceptedAnswer":{"@type":"Answer","text":"2026 年最流行的 AI Agent 框架包括 LangChain（139K+ stars）、AutoGen（58K+ stars）、CrewAI（53K+ stars）、Agno（40K+ stars）、LangGraph（34K+ stars）、Google ADK（20K+ stars）和 Pydantic AI（17K+ stars）。"}},{"@type":"Question","name":"LangChain 和 CrewAI 有什么区别？","acceptedAnswer":{"@type":"Answer","text":"LangChain 是通用 LLM 应用框架，侧重工具编排和 RAG；CrewAI 专注于角色化多智能体协作，用 Crew/Agent/Task 三层结构组织团队式任务流。如果你需要灵活的工具链选 LangChain，需要团队协作模式选 CrewAI。"}},{"@type":"Question","name":"如何选择适合自己的 AI Agent 框架？","acceptedAnswer":{"@type":"Answer","text":"根据需求选型：单 Agent 工具调用选 OpenAI Agents SDK 或 Pydantic AI；多 Agent 对话协作选 AutoGen；角色化团队任务选 CrewAI；有状态工作流选 LangGraph；数据密集型 RAG 选 LlamaIndex；轻量快速原型选 smolagents。"}},{"@type":"Question","name":"AI Agent 框架和 AI Workflow 工具有什么区别？","acceptedAnswer":{"@type":"Answer","text":"AI Agent 框架（如 LangChain、CrewAI）侧重让 LLM 自主决策和调用工具；AI Workflow 工具（如 n8n、Dify）侧重可视化编排固定流程。Agent 更灵活但不确定，Workflow 更可控但不够智能。2026 年趋势是两者融合。"}}]}</script>
+</head>
+<body>
+<header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/categories/">分类</a> <a href="/guides/">指南</a> <a href="/trending/">涨星榜</a></nav></header>
+<main class="container">
+<nav class="breadcrumb"><a href="/">首页</a> &gt; <a href="/guides/">指南</a> &gt; <span>AI Agent 框架选择指南</span></nav>
+<h1>AI Agent 框架选择指南 2026：LangChain/CrewAI/AutoGen/DeepAgents 对比</h1>
+<p class="lead">2026 年 AI Agent 框架百花齐放，本文帮你理清主流框架的架构差异、适用场景和选型策略。</p>
+
+<h2>为什么需要 AI Agent 框架？</h2>
+<p>AI Agent（智能体）让 LLM 不只是回答问题，而是能自主规划、调用工具、执行任务。2026 年超过 60% 的 AI 应用都内嵌了某种形式的 Agent 能力。一个好的框架能帮你快速搭建可靠的智能体系统，避免重复造轮子。</p>
+
+<h2>主流 AI Agent 框架对比</h2>
+<table><thead><tr><th>框架</th><th>Stars</th><th>语言</th><th>核心特点</th><th>适用场景</th></tr></thead>
+<tbody>
+<tr><td><a href="/projects/langchain/">LangChain</a></td><td>139K+</td><td>Python</td><td>工具编排 + RAG 生态</td><td>通用 LLM 应用</td></tr>
+<tr><td><a href="/projects/microsoft-autogen/">AutoGen</a></td><td>58K+</td><td>Python</td><td>多 Agent 对话协作</td><td>研究 & 复杂推理</td></tr>
+<tr><td><a href="/projects/crewai/">CrewAI</a></td><td>53K+</td><td>Python</td><td>角色化团队协作</td><td>业务流程自动化</td></tr>
+<tr><td><a href="/projects/agno-agi-agno/">Agno</a></td><td>40K+</td><td>Python</td><td>生产级 Agent 平台</td><td>企业级部署</td></tr>
+<tr><td><a href="/projects/langchain-ai-langgraph/">LangGraph</a></td><td>34K+</td><td>Python</td><td>有状态图工作流</td><td>复杂多步流程</td></tr>
+<tr><td><a href="/projects/google-adk-python/">Google ADK</a></td><td>20K+</td><td>Python</td><td>代码优先 + 评估</td><td>Google 生态集成</td></tr>
+<tr><td><a href="/projects/pydantic-pydantic-ai/">Pydantic AI</a></td><td>17K+</td><td>Python</td><td>类型安全 + 结构化</td><td>生产级 Python 应用</td></tr>
+<tr><td><a href="/projects/huggingface-smolagents/">smolagents</a></td><td>27K+</td><td>Python</td><td>轻量代码执行 Agent</td><td>快速原型 & 实验</td></tr>
+</tbody></table>
+
+<h2>架构模式解析</h2>
+<h3>1. 单 Agent + 工具调用</h3>
+<p>最简单的模式：一个 LLM 配合一组工具自主决策。适合 <strong>OpenAI Agents SDK</strong>（27K stars）和 <strong>Pydantic AI</strong>。优点是简单可控，适合 80% 的场景。</p>
+
+<h3>2. 多 Agent 对话协作</h3>
+<p>多个 Agent 互相讨论、分工协作。<strong>AutoGen</strong> 是这个方向的开创者，微软出品，支持 Agent 群聊和代码执行。适合复杂推理和需要多视角分析的任务。</p>
+
+<h3>3. 角色化团队工作流</h3>
+<p><strong>CrewAI</strong> 用 Crew → Agent → Task 三层结构，像组建一个虚拟团队：研究员、写手、审核员各司其职。适合内容生产、市场分析等业务流程。</p>
+
+<h3>4. 图结构有状态工作流</h3>
+<p><strong>LangGraph</strong> 用 DAG 图定义 Agent 决策路径，支持循环、分支和人工介入。适合需要精确控制流程的复杂应用，如客服升级、审批流等。</p>
+
+<h2>选型决策树</h2>
+<ul>
+<li><strong>快速原型 / 简单单 Agent</strong> → smolagents 或 OpenAI Agents SDK</li>
+<li><strong>生产级 Python 应用</strong> → Pydantic AI（类型安全）或 Agno（平台级）</li>
+<li><strong>多 Agent 协作</strong> → AutoGen（对话式）或 CrewAI（角色式）</li>
+<li><strong>复杂有状态流程</strong> → LangGraph（图编排）</li>
+<li><strong>数据密集型 RAG</strong> → <a href="/projects/run-llama-llama_index/">LlamaIndex</a>（50K stars）</li>
+<li><strong>TypeScript / Web 技术栈</strong> → <a href="/projects/mastra-ai-mastra/">Mastra</a>（24K stars）</li>
+<li><strong>Go 后端团队</strong> → <a href="/projects/trpc-group-trpc-agent-go/">trpc-agent-go</a></li>
+</ul>
+
+<h2>相关开源项目推荐</h2>
+<div class="project-grid">
+<article class="project-card"><h3><a href="/projects/langchain/">LangChain</a></h3><p class="meta">⭐ 139,088 | Python</p><p>面向 LLM 应用与智能体工程的核心框架生态，适合编排工具调用、RAG 和复杂 AI 工作流。</p></article>
+<article class="project-card"><h3><a href="/projects/microsoft-autogen/">AutoGen</a></h3><p class="meta">⭐ 58,890 | Python</p><p>微软开源的多智能体应用框架，用于自动化 AI 对话和协作。</p></article>
+<article class="project-card"><h3><a href="/projects/crewai/">CrewAI</a></h3><p class="meta">⭐ 53,295 | Python</p><p>基于角色分工的智能体协作框架，适合自动化团队式任务流程。</p></article>
+<article class="project-card"><h3><a href="/projects/agno-agi-agno/">Agno</a></h3><p class="meta">⭐ 40,649 | Python</p><p>智能体平台框架，用于构建、运行和管理生产级 AI agent 系统。</p></article>
+<article class="project-card"><h3><a href="/projects/langchain-ai-langgraph/">LangGraph</a></h3><p class="meta">⭐ 34,490 | Python</p><p>基于图结构编排有状态、多智能体工作流，适合复杂 AI 应用。</p></article>
+<article class="project-card"><h3><a href="/projects/huggingface-smolagents/">smolagents</a></h3><p class="meta">⭐ 27,823 | Python</p><p>Hugging Face 的轻量智能体库，适合代码执行型 agents 和工具调用流程。</p></article>
+<article class="project-card"><h3><a href="/projects/openai-agents-python/">OpenAI Agents SDK</a></h3><p class="meta">⭐ 27,092 | Python</p><p>OpenAI 官方 Python 智能体 SDK，支持工具调用、任务交接和安全护栏。</p></article>
+<article class="project-card"><h3><a href="/projects/google-adk-python/">Google ADK</a></h3><p class="meta">⭐ 20,077 | Python</p><p>Google Agent Development Kit，代码优先的智能体开发、评估和部署工具包。</p></article>
+<article class="project-card"><h3><a href="/projects/pydantic-pydantic-ai/">Pydantic AI</a></h3><p class="meta">⭐ 17,715 | Python</p><p>Pydantic 团队推出的 Python 智能体框架，强调类型安全、工具调用和模型无关设计。</p></article>
+</div>
+<p><a href="/trending/">查看今日涨星项目 →</a> | <a href="/hubs/">按主题浏览 →</a></p>
+</main>
+</body></html>
