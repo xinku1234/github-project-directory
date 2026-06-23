@@ -1,0 +1,22 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' data:; connect-src 'self' https:; frame-ancestors 'self';
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/data/*.json
+  Cache-Control: public, max-age=1800
+  Access-Control-Allow-Origin: *
+
+/llms.txt
+  Cache-Control: public, max-age=3600
+
+/ai.txt
+  Cache-Control: public, max-age=3600
+
+/assets/*
+  Cache-Control: public, max-age=604800, immutable

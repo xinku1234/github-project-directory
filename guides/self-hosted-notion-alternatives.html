@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <title>自部署 Notion 替代品：2026 年开源笔记和知识库工具 - 拾品号导航</title>
+  <meta name="description" content="不想把笔记存在别人的服务器上？这些开源工具可以自部署，功能不输 Notion，数据完全在你手里。">
+  <meta name="keywords" content="Notion替代品,自部署笔记,开源知识库,Affine,Outline,Obsidian,自部署CMS">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://daohang.bot.cd/guides/self-hosted-notion-alternatives">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/self-hosted-notion-alternatives" hreflang="zh-CN">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/self-hosted-notion-alternatives" hreflang="en">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/self-hosted-notion-alternatives" hreflang="x-default">
+  <meta property="og:title" content="自部署 Notion 替代品：2026 年开源笔记和知识库工具 - 拾品号导航">
+  <meta property="og:description" content="不想把笔记存在别人的服务器上？这些开源工具可以自部署，功能不输 Notion，数据完全在你手里。">
+  <meta property="og:url" content="https://daohang.bot.cd/guides/self-hosted-notion-alternatives">
+  <meta property="og:image" content="https://daohang.bot.cd/assets/hero-github-directory.png">
+  <link rel="stylesheet" href="/assets/nav-style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://daohang.bot.cd/"}, {"@type": "ListItem", "position": 2, "name": "使用指南", "item": "https://daohang.bot.cd/guides/"}, {"@type": "ListItem", "position": 3, "name": "自部署 Notion 替代品：2026 年开源笔记和知识库工具"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "自部署 Notion 替代品：2026 年开源笔记和知识库工具", "description": "不想把笔记存在别人的服务器上？这些开源工具可以自部署，功能不输 Notion，数据完全在你手里。", "url": "https://daohang.bot.cd/guides/self-hosted-notion-alternatives", "publisher": {"@type": "Organization", "name": "拾品号导航", "url": "https://daohang.bot.cd"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "自部署笔记工具需要什么服务器？", "acceptedAnswer": {"@type": "Answer", "text": "一台最低配置的 VPS（1核1G）就够运行大部分笔记工具。如果用户多或数据量大，建议 2核4G。"}}, {"@type": "Question", "name": "数据迁移方便吗？", "acceptedAnswer": {"@type": "Answer", "text": "大部分工具支持 Markdown 导入导出。从 Notion 迁出可以用 Notion 的导出功能，然后导入到新工具。"}}, {"@type": "Question", "name": "自部署的数据安全如何保障？", "acceptedAnswer": {"@type": "Answer", "text": "定期备份是最重要的。建议使用 Docker volumes 存储数据，配合自动备份脚本。HTTPS 和强密码也是必须的。"}}]}</script>
+</head>
+<body>
+  <main class="home-shell page-mode"><div class="bg-mask"></div>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+
+    <section class="search-section small trend-hero">
+      <span class="eyebrow">对比评测</span>
+      <h1>自部署 Notion 替代品：2026 年开源笔记和知识库工具</h1>
+      <p class="daily-line">拾品号导航 · 深度对比评测 · 帮你选到最适合的工具</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <nav class="breadcrumb-nav" aria-label="面包屑导航">
+        <a href="/">首页</a> &gt; <a href="/guides/">使用指南</a> &gt; <span>自部署 Notion 替代品：2026 年开源笔记和知识库工具</span>
+      </nav>
+      <article class="guide-article">
+        
+<p>Notion 很好用，但数据存在别人的服务器上。如果你在意数据隐私、想要更多定制能力、或者不想被 SaaS 订阅绑定，自部署的开源替代品是更好的选择。</p>
+
+<h2>最佳开源替代品</h2>
+
+<h3>Affine</h3>
+<p>最接近 Notion 体验的开源替代品。支持文档、白板和数据库，界面美观，功能丰富。可以自部署也可以用他们的云服务。</p>
+
+<h3>Outline</h3>
+<p>团队知识库工具，Markdown 原生，搜索功能强大。界面简洁现代，适合团队文档和 Wiki。自部署简单（Docker 一键部署）。</p>
+
+<h3>AppFlowy</h3>
+<p>用 Rust 和 Flutter 构建的开源 Notion 替代。性能优秀，支持离线使用。适合个人和小团队。</p>
+
+<h3>SiYuan (思源笔记)</h3>
+<p>国产开源笔记工具，支持块级引用、双向链接、所见即所得编辑。数据存储在本地，支持端到端加密同步。</p>
+
+<h3>HedgeDoc</h3>
+<p>实时协作的 Markdown 编辑器，适合团队协作写文档。自部署简单，支持实时多人编辑。</p>
+
+<h3>Wiki.js</h3>
+<p>功能丰富的 Wiki 引擎，支持多种编辑器（Markdown、所见即所得）、多语言、权限管理。适合构建企业知识库。</p>
+
+<h2>对比表</h2>
+<table>
+<tr><th>工具</th><th>Notion 相似度</th><th>自部署难度</th><th>特色功能</th></tr>
+<tr><td>Affine</td><td>⭐⭐⭐⭐⭐</td><td>中等</td><td>白板 + 数据库</td></tr>
+<tr><td>Outline</td><td>⭐⭐⭐⭐</td><td>简单</td><td>团队 Wiki</td></tr>
+<tr><td>AppFlowy</td><td>⭐⭐⭐⭐</td><td>简单</td><td>离线优先</td></tr>
+<tr><td>思源笔记</td><td>⭐⭐⭐</td><td>简单</td><td>块级引用</td></tr>
+<tr><td>HedgeDoc</td><td>⭐⭐</td><td>简单</td><td>实时协作</td></tr>
+<tr><td>Wiki.js</td><td>⭐⭐⭐</td><td>中等</td><td>企业 Wiki</td></tr>
+</table>
+
+<h2>如何选择？</h2>
+<ul>
+<li><strong>想要最像 Notion：</strong>Affine</li>
+<li><strong>团队知识库：</strong>Outline 或 Wiki.js</li>
+<li><strong>个人笔记：</strong>思源笔记或 AppFlowy</li>
+<li><strong>实时协作：</strong>HedgeDoc</li>
+</ul>
+
+      </article>
+      <section class="faq-panel"><h2>常见问题</h2><details class="faq-item" open><summary>自部署笔记工具需要什么服务器？</summary><p>一台最低配置的 VPS（1核1G）就够运行大部分笔记工具。如果用户多或数据量大，建议 2核4G。</p></details><details class="faq-item" open><summary>数据迁移方便吗？</summary><p>大部分工具支持 Markdown 导入导出。从 Notion 迁出可以用 Notion 的导出功能，然后导入到新工具。</p></details><details class="faq-item" open><summary>自部署的数据安全如何保障？</summary><p>定期备份是最重要的。建议使用 Docker volumes 存储数据，配合自动备份脚本。HTTPS 和强密码也是必须的。</p></details></section>
+      <div class="guide-links">
+        <h2>相关资源</h2>
+        <ul>
+          <li><a href="/trending/">GitHub 涨星榜</a> - 发现最新热门项目</li>
+          <li><a href="/collections/">专题合集</a> - 按主题浏览项目</li>
+          <li><a href="/guides/">更多指南</a> - 开发者使用指南</li>
+        </ul>
+      </div>
+    </section></section>
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a><a href="/llms.txt">LLMS.txt</a></footer>
+  </main>
+  <script src="/assets/fluid-bg.js" defer></script>
+</body>
+</html>
