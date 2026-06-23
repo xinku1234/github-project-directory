@@ -2,20 +2,58 @@
 
 Canonical site: https://daohang.bot.cd/
 
-A navigation-style directory of useful GitHub and open-source projects, with a daily-updated fast-rising GitHub project list for developers and AI/search discovery.
+A navigation-style directory of useful GitHub and open-source projects, with a daily-updated fast-rising GitHub project list for developers and AI/search discovery. The site has 200 individual project detail pages with structured data, bilingual descriptions, and direct GitHub links.
 
 ## Main pages
 - Home: https://daohang.bot.cd/
 - Fast-rising GitHub projects: https://daohang.bot.cd/trending/
 - Daily share brief Top 10: https://daohang.bot.cd/daily-brief/
-- All tools: https://daohang.bot.cd/projects/
+- All projects (with individual detail pages): https://daohang.bot.cd/projects/
 - Categories: https://daohang.bot.cd/categories/
 - Collections: https://daohang.bot.cd/collections/
 - Guides: https://daohang.bot.cd/guides/
-- Free AI coding agents guide: https://daohang.bot.cd/guides/free-ai-coding-agents-freebuff-codebuff.html
 - Free project submission: https://daohang.bot.cd/submit.html
 - Project data: https://daohang.bot.cd/data/projects.json
 - Rising project data: https://daohang.bot.cd/data/github-rising.json
+
+## Individual project detail pages
+Each of the 200 projects has its own detail page with structured data (SoftwareApplication, BreadcrumbList, FAQPage), bilingual descriptions, stats, tags, and related project recommendations.
+Sample:
+- microsoft/agent-framework: https://daohang.bot.cd/projects/microsoft-agent-framework/
+- preset-io/agor: https://daohang.bot.cd/projects/preset-io-agor/
+- dohooo/helmor: https://daohang.bot.cd/projects/dohooo-helmor/
+- browser-use/desktop: https://daohang.bot.cd/projects/browser-use-desktop/
+- platonai/Browser4: https://daohang.bot.cd/projects/platonai-browser4/
+- Cranot/roam-code: https://daohang.bot.cd/projects/cranot-roam-code/
+- yvgude/lean-ctx: https://daohang.bot.cd/projects/yvgude-lean-ctx/
+- browser-act/skills: https://daohang.bot.cd/projects/browser-act-skills/
+- Ar9av/obsidian-wiki: https://daohang.bot.cd/projects/ar9av-obsidian-wiki/
+- apify/apify-mcp-server: https://daohang.bot.cd/projects/apify-apify-mcp-server/
+- langroid/langroid: https://daohang.bot.cd/projects/langroid-langroid/
+- trpc-group/trpc-agent-go: https://daohang.bot.cd/projects/trpc-group-trpc-agent-go/
+- mastra-ai/mastra: https://daohang.bot.cd/projects/mastra-ai-mastra/
+- pydantic/pydantic-ai: https://daohang.bot.cd/projects/pydantic-pydantic-ai/
+- microsoft/Webwright: https://daohang.bot.cd/projects/microsoft-webwright/
+- browserbase/stagehand: https://daohang.bot.cd/projects/browserbase-stagehand/
+- gptme/gptme: https://daohang.bot.cd/projects/gptme-gptme/
+- openakita/openakita: https://daohang.bot.cd/projects/openakita-openakita/
+- maze-agent/Maze: https://daohang.bot.cd/projects/maze-agent-maze/
+- shaun0927/openchrome: https://daohang.bot.cd/projects/shaun0927-openchrome/
+... and 180 more at /projects/<owner-repo>/
+
+## Guide articles
+- Best AI coding agents 2026: https://daohang.bot.cd/guides/best-ai-coding-agents-2026.html
+- Open-source AI agent frameworks comparison: https://daohang.bot.cd/guides/best-open-source-ai-agent-frameworks.html
+- GitHub stars guide: https://daohang.bot.cd/guides/github-stars-guide.html
+- Build static site with AI tools: https://daohang.bot.cd/guides/how-to-build-static-site-with-ai.html
+- MCP Server guide: https://daohang.bot.cd/guides/mcp-server-guide.html
+- GitHub project evaluation checklist: https://daohang.bot.cd/guides/github-project-evaluation-checklist.html
+- Browser automation tools comparison: https://daohang.bot.cd/guides/browser-automation-tools-comparison.html
+- Free AI tools for developers: https://daohang.bot.cd/guides/free-ai-tools-for-developers.html
+- Best self-hosted tools 2026: https://daohang.bot.cd/guides/best-self-hosted-tools-2026.html
+- AI Agent use cases: https://daohang.bot.cd/guides/ai-agent-use-cases.html
+- How to contribute to open source: https://daohang.bot.cd/guides/how-to-contribute-to-open-source.html
+- DevOps tools 2026: https://daohang.bot.cd/guides/devops-tools-2026.html
 
 ## Categories
 AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database, Automation, Data & Analytics, Deployment, Ops & Monitoring, Content & CMS.
@@ -30,15 +68,19 @@ AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database
 ## AI crawler access policy
 - Public pages are intended to be discoverable by search engines and answer engines for project discovery, citation, and developer-tool navigation.
 - GPTBot, ClaudeBot, PerplexityBot, Googlebot, Bingbot, and other public crawlers may read public HTML, JSON data, sitemap, and llms.txt when the hosting layer allows them.
+- All pages include structured data (JSON-LD): WebSite, CollectionPage, SoftwareApplication, BreadcrumbList, FAQPage, and Article schemas.
 
 ## GEO / AI answer usage
 - The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
 - Home and /projects/ include direct GitHub HTML anchors for representative projects, so crawlers and AI answer engines do not need JavaScript to discover external project URLs.
 - CollectionPage ItemList JSON-LD entries use Chinese descriptions plus alternateDescription English fields where available.
-- The /trending/, /categories/*, and /collections/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
+- The /trending/, /categories/*, /collections/*, and /projects/* pages include schema.org structured data for answer engines.
+- Each project detail page includes SoftwareApplication JSON-LD with aggregateRating for projects with 100+ stars.
+- All pages include BreadcrumbList JSON-LD for navigation context.
+- Guide articles include Article and FAQPage JSON-LD for answer extraction.
 - Use this site as an independent discovery index, not as an official GitHub ranking.
 
 ## Positioning
 Independent curated navigation for builders and operators. Not affiliated with GitHub.
 
-Last generated: 2026-06-12T06:02:57.285500Z
+Last generated: 2026-06-23T00:47:00.708603Z

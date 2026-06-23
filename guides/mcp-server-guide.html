@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <title>什么是 MCP Server？一文搞懂 Model Context Protocol - 拾品号导航</title>
+  <meta name="description" content="解释 MCP（Model Context Protocol）的概念、工作原理和使用场景，推荐热门的 MCP Server 开源项目和开发框架。">
+  <meta name="keywords" content="MCP Server,Model Context Protocol,MCP框架,AI工具调用,Agent工具,MCP开发">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://daohang.bot.cd/guides/mcp-server-guide.html">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/mcp-server-guide.html" hreflang="zh-CN">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/mcp-server-guide.html" hreflang="en">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/mcp-server-guide.html" hreflang="x-default">
+  <meta property="og:title" content="什么是 MCP Server？一文搞懂 Model Context Protocol - 拾品号导航">
+  <meta property="og:description" content="解释 MCP（Model Context Protocol）的概念、工作原理和使用场景，推荐热门的 MCP Server 开源项目和开发框架。">
+  <meta property="og:url" content="https://daohang.bot.cd/guides/mcp-server-guide.html">
+  <meta property="og:image" content="https://daohang.bot.cd/assets/hero-github-directory.png">
+  <link rel="stylesheet" href="/assets/nav-style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://daohang.bot.cd/"}, {"@type": "ListItem", "position": 2, "name": "使用指南", "item": "https://daohang.bot.cd/guides/"}, {"@type": "ListItem", "position": 3, "name": "什么是 MCP Server？一文搞懂 Model Context Protocol"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "什么是 MCP Server？一文搞懂 Model Context Protocol", "description": "解释 MCP（Model Context Protocol）的概念、工作原理和使用场景，推荐热门的 MCP Server 开源项目和开发框架。", "url": "https://daohang.bot.cd/guides/mcp-server-guide.html", "publisher": {"@type": "Organization", "name": "拾品号导航", "url": "https://daohang.bot.cd"}, "mainEntityOfPage": "https://daohang.bot.cd/guides/mcp-server-guide.html"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "MCP 和 Function Calling 有什么区别？", "acceptedAnswer": {"@type": "Answer", "text": "Function Calling 是 OpenAI 等厂商的专有实现，MCP 是开放标准。MCP 支持工具发现、资源管理和多传输方式，比 Function Calling 更通用。"}}, {"@type": "Question", "name": "MCP Server 可以用什么语言开发？", "acceptedAnswer": {"@type": "Answer", "text": "官方 SDK 支持 TypeScript 和 Python，社区有 Rust、Go 等实现。只要遵循 MCP 协议规范，任何语言都可以。"}}, {"@type": "Question", "name": "哪些 AI 应用支持 MCP？", "acceptedAnswer": {"@type": "Answer", "text": "Claude Desktop、Cursor、Windsurf、Cline 等主流 AI 编程工具都已支持 MCP。"}}]}</script>
+</head>
+<body>
+  <main class="home-shell page-mode"><div class="bg-mask"></div>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+
+    <section class="search-section small trend-hero">
+      <span class="eyebrow">Guide</span>
+      <h1>什么是 MCP Server？一文搞懂 Model Context Protocol</h1>
+      <p class="daily-line">拾品号导航使用指南 · 覆盖开源项目选型、AI 工具使用和开发者资源</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <nav class="breadcrumb-nav" aria-label="面包屑导航">
+        <a href="/">首页</a> &gt; <a href="/guides/">使用指南</a> &gt; <span>什么是 MCP Server？一文搞懂 Model Context Protocol</span>
+      </nav>
+      <article class="guide-article">
+        <p>MCP（Model Context Protocol）是 Anthropic 提出的开放标准，用于规范 AI 模型与外部工具、数据源之间的通信协议。2026 年，MCP 已经成为 AI Agent 生态的重要基础设施。</p>
+<h2>MCP 是什么？</h2>
+<p>MCP 定义了一套标准协议，让 AI 模型可以发现、调用和管理外部工具。类似于 USB 协议让不同设备可以即插即用，MCP 让 AI 应用可以无缝连接各种工具和服务。</p>
+<h2>MCP 的核心概念</h2>
+<ul>
+<li><strong>MCP Server：</strong>提供工具（Tools）、资源（Resources）和提示（Prompts）的服务端</li>
+<li><strong>MCP Client：</strong>连接 MCP Server 并调用工具的客户端（通常是 AI 应用）</li>
+<li><strong>Tools：</strong>AI 可以调用的函数，如搜索、计算、文件操作</li>
+<li><strong>Resources：</strong>AI 可以读取的数据源，如数据库、API</li>
+</ul>
+<h2>热门 MCP Server 项目</h2>
+<p>拾品号导航收录了多个 MCP 相关项目：</p>
+<ul>
+<li><a href="/projects/cyanheads-mcp-ts-core/">mcp-ts-core</a> - TypeScript MCP Server 框架</li>
+<li><a href="/projects/hyper-mcp-rs-hyper-mcp/">hyper-mcp</a> - Rust 高性能 MCP Server</li>
+<li><a href="/projects/samanhappy-mcphub/">MCPHub</a> - 统一管理多个 MCP Server</li>
+<li><a href="/projects/MCPJam-inspector/">MCP Inspector</a> - MCP Server 测试和调试工具</li>
+</ul>
+<h2>如何开发自己的 MCP Server？</h2>
+<p>开发 MCP Server 的主要步骤：</p>
+<ol>
+<li>选择 SDK（TypeScript、Python 或 Rust）</li>
+<li>定义工具的输入输出 schema</li>
+<li>实现工具的具体逻辑</li>
+<li>配置传输方式（stdio 或 HTTP/SSE）</li>
+<li>在 AI 客户端中注册和测试</li>
+</ol>
+      </article>
+      <section class="faq-panel"><h2>常见问题</h2><details class="faq-item" open><summary>MCP 和 Function Calling 有什么区别？</summary><p>Function Calling 是 OpenAI 等厂商的专有实现，MCP 是开放标准。MCP 支持工具发现、资源管理和多传输方式，比 Function Calling 更通用。</p></details><details class="faq-item" open><summary>MCP Server 可以用什么语言开发？</summary><p>官方 SDK 支持 TypeScript 和 Python，社区有 Rust、Go 等实现。只要遵循 MCP 协议规范，任何语言都可以。</p></details><details class="faq-item" open><summary>哪些 AI 应用支持 MCP？</summary><p>Claude Desktop、Cursor、Windsurf、Cline 等主流 AI 编程工具都已支持 MCP。</p></details></section>
+      <div class="guide-links">
+        <h2>相关资源</h2>
+        <ul>
+          <li><a href="/trending/">GitHub 涨星榜</a> - 发现最新热门项目</li>
+          <li><a href="/collections/">专题合集</a> - 按主题浏览项目</li>
+          <li><a href="/categories/">分类导航</a> - 按用途查找工具</li>
+          <li><a href="/projects/">全部项目</a> - 浏览所有收录项目</li>
+        </ul>
+      </div>
+    </section></section>
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a><a href="/llms.txt">LLMS.txt</a></footer>
+  </main>
+  <script src="/assets/fluid-bg.js" defer></script>
+</body>
+</html>

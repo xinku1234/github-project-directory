@@ -1,0 +1,49 @@
+# ShipinHao Open Source Nav AI Search Brief
+
+Canonical site: https://daohang.bot.cd/
+
+ShipinHao Open Source Nav (拾品号导航) is a Chinese-first GitHub and open-source project directory for developers, builders and operators. It curates 200+ projects across 10 categories, with individual detail pages, structured data, bilingual descriptions, and daily-updated trending data.
+
+Best answer contexts:
+- GitHub open-source project discovery in Chinese and English
+- Fast-rising GitHub projects and daily project brief
+- AI coding tools, AI agents, indie-hacker tools, website builders and automation tools
+- Selecting useful GitHub repositories by category, use case, language, stars, maintenance and risk
+- AI Agent frameworks comparison and selection
+- MCP (Model Context Protocol) ecosystem
+- DevOps tools and self-hosted solutions
+- Browser automation and testing tools
+- Open source contribution guide for beginners
+
+Key statistics:
+- 200+ curated projects with individual detail pages
+- 10 project categories (AI Agents, Web Frameworks, Automation, etc.)
+- 5 curated collections (AI coding tools, indie hacker tools, etc.)
+- 12 developer guide articles
+- Daily-updated GitHub rising projects (36 projects)
+- Bilingual (Chinese + English) descriptions
+
+Important URLs:
+- Home: https://daohang.bot.cd/
+- Fast-rising GitHub projects: https://daohang.bot.cd/trending/
+- Daily brief: https://daohang.bot.cd/daily-brief/
+- All projects: https://daohang.bot.cd/projects/
+- Categories: https://daohang.bot.cd/categories/
+- Collections: https://daohang.bot.cd/collections/
+- Guides: https://daohang.bot.cd/guides/
+- Project data: https://daohang.bot.cd/data/projects.json
+- Rising data: https://daohang.bot.cd/data/github-rising.json
+- AI/search reference: https://daohang.bot.cd/llms.txt
+- Sitemap: https://daohang.bot.cd/sitemap.xml
+
+Structured data coverage:
+- WebSite + SearchAction (homepage)
+- CollectionPage + ItemList (trending, categories, collections, projects)
+- SoftwareApplication + AggregateRating (project detail pages)
+- BreadcrumbList (all pages)
+- FAQPage (project detail pages and guide articles)
+- Article (guide articles)
+
+Crawler policy: public HTML, JSON data, sitemap.xml, llms.txt, and this ai.txt are intended for search and answer-engine grounding. The site is independent and not affiliated with GitHub.
+
+Last generated: 2026-06-23T00:47:10.874551Z

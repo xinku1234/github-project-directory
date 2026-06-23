@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <title>浏览器自动化工具对比：Playwright vs Puppeteer vs Selenium - 拾品号导航</title>
+  <meta name="description" content="对比 2026 年主流浏览器自动化工具 Playwright、Puppeteer 和 Selenium 的性能、功能、易用性和适用场景。">
+  <meta name="keywords" content="浏览器自动化,Playwright,Puppeteer,Selenium,Web自动化,E2E测试,爬虫">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://daohang.bot.cd/guides/browser-automation-tools-comparison.html">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/browser-automation-tools-comparison.html" hreflang="zh-CN">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/browser-automation-tools-comparison.html" hreflang="en">
+  <link rel="alternate" href="https://daohang.bot.cd/guides/browser-automation-tools-comparison.html" hreflang="x-default">
+  <meta property="og:title" content="浏览器自动化工具对比：Playwright vs Puppeteer vs Selenium - 拾品号导航">
+  <meta property="og:description" content="对比 2026 年主流浏览器自动化工具 Playwright、Puppeteer 和 Selenium 的性能、功能、易用性和适用场景。">
+  <meta property="og:url" content="https://daohang.bot.cd/guides/browser-automation-tools-comparison.html">
+  <meta property="og:image" content="https://daohang.bot.cd/assets/hero-github-directory.png">
+  <link rel="stylesheet" href="/assets/nav-style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://daohang.bot.cd/"}, {"@type": "ListItem", "position": 2, "name": "使用指南", "item": "https://daohang.bot.cd/guides/"}, {"@type": "ListItem", "position": 3, "name": "浏览器自动化工具对比：Playwright vs Puppeteer vs Selenium"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "浏览器自动化工具对比：Playwright vs Puppeteer vs Selenium", "description": "对比 2026 年主流浏览器自动化工具 Playwright、Puppeteer 和 Selenium 的性能、功能、易用性和适用场景。", "url": "https://daohang.bot.cd/guides/browser-automation-tools-comparison.html", "publisher": {"@type": "Organization", "name": "拾品号导航", "url": "https://daohang.bot.cd"}, "mainEntityOfPage": "https://daohang.bot.cd/guides/browser-automation-tools-comparison.html"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Playwright 能替代 Selenium 吗？", "acceptedAnswer": {"@type": "Answer", "text": "对于新项目完全可以。Playwright 的 API 更现代、性能更好、支持自动等待。但如果已有大量 Selenium 测试代码，迁移成本需要评估。"}}, {"@type": "Question", "name": "浏览器自动化可以用来做什么？", "acceptedAnswer": {"@type": "Answer", "text": "E2E 测试、Web 爬虫、自动化表单填写、截图生成、性能监控、AI Agent 的浏览器操作等。"}}, {"@type": "Question", "name": "哪个工具最适合 AI Agent？", "acceptedAnswer": {"@type": "Answer", "text": "Playwright 是目前 AI Agent 浏览器自动化的首选，因为它的 API 设计更适合程序化控制，且支持多浏览器。"}}]}</script>
+</head>
+<body>
+  <main class="home-shell page-mode"><div class="bg-mask"></div>
+    <header class="top-menu"><a class="logo" href="/">拾品号导航</a><nav><a href="/projects/">全部项目</a><a href="/categories/">分类导航</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/guides/">使用指南</a></nav><div class="header-actions"><a class="admin-link" href="/submit.html">提交收录</a></div></header>
+
+    <section class="search-section small trend-hero">
+      <span class="eyebrow">Guide</span>
+      <h1>浏览器自动化工具对比：Playwright vs Puppeteer vs Selenium</h1>
+      <p class="daily-line">拾品号导航使用指南 · 覆盖开源项目选型、AI 工具使用和开发者资源</p>
+    </section>
+    <section class="content-wrap single"><section class="main-content">
+      <nav class="breadcrumb-nav" aria-label="面包屑导航">
+        <a href="/">首页</a> &gt; <a href="/guides/">使用指南</a> &gt; <span>浏览器自动化工具对比：Playwright vs Puppeteer vs Selenium</span>
+      </nav>
+      <article class="guide-article">
+        <p>浏览器自动化是 Web 开发、测试和数据采集的重要技术。2026 年主流的浏览器自动化工具包括 Playwright、Puppeteer 和 Selenium。本文从多个维度对比这三款工具。</p>
+<h2>工具概览</h2>
+<h3>Playwright (Microsoft)</h3>
+<p>微软推出的现代浏览器自动化框架，支持 Chromium、Firefox 和 WebKit。API 设计优秀，支持自动等待、网络拦截和多浏览器并行。2026 年已成为最受欢迎的选择。</p>
+<h3>Puppeteer (Google)</h3>
+<p>Google 维护的 Node.js 库，主要用于控制 Chrome/Chromium。轻量、快速，适合 Chrome 专属的自动化场景。</p>
+<h3>Selenium</h3>
+<p>老牌浏览器自动化工具，支持多语言（Java、Python、C#、Ruby）。生态最成熟，但 API 设计较旧，配置复杂。</p>
+<h2>对比总结</h2>
+<table>
+<tr><th>维度</th><th>Playwright</th><th>Puppeteer</th><th>Selenium</th></tr>
+<tr><td>浏览器支持</td><td>Chromium, Firefox, WebKit</td><td>Chrome/Chromium</td><td>所有主流浏览器</td></tr>
+<tr><td>语言支持</td><td>JS/TS, Python, Java, C#</td><td>JS/TS</td><td>Java, Python, C#, Ruby, JS</td></tr>
+<tr><td>自动等待</td><td>✅ 内置</td><td>❌ 需手动</td><td>❌ 需手动</td></tr>
+<tr><td>网络拦截</td><td>✅ 强大</td><td>✅ 支持</td><td>⚠️ 有限</td></tr>
+<tr><td>性能</td><td>优秀</td><td>优秀</td><td>一般</td></tr>
+<tr><td>学习曲线</td><td>低</td><td>低</td><td>中</td></tr>
+</table>
+<h2>选择建议</h2>
+<ul>
+<li><strong>新项目：</strong>优先选 Playwright，功能最全面</li>
+<li><strong>Chrome 专属：</strong>Puppeteer 更轻量</li>
+<li><strong>已有 Selenium 项目：</strong>继续用 Selenium，无需迁移</li>
+<li><strong>AI Agent 场景：</strong>Playwright 或专门的浏览器 Agent 框架</li>
+</ul>
+      </article>
+      <section class="faq-panel"><h2>常见问题</h2><details class="faq-item" open><summary>Playwright 能替代 Selenium 吗？</summary><p>对于新项目完全可以。Playwright 的 API 更现代、性能更好、支持自动等待。但如果已有大量 Selenium 测试代码，迁移成本需要评估。</p></details><details class="faq-item" open><summary>浏览器自动化可以用来做什么？</summary><p>E2E 测试、Web 爬虫、自动化表单填写、截图生成、性能监控、AI Agent 的浏览器操作等。</p></details><details class="faq-item" open><summary>哪个工具最适合 AI Agent？</summary><p>Playwright 是目前 AI Agent 浏览器自动化的首选，因为它的 API 设计更适合程序化控制，且支持多浏览器。</p></details></section>
+      <div class="guide-links">
+        <h2>相关资源</h2>
+        <ul>
+          <li><a href="/trending/">GitHub 涨星榜</a> - 发现最新热门项目</li>
+          <li><a href="/collections/">专题合集</a> - 按主题浏览项目</li>
+          <li><a href="/categories/">分类导航</a> - 按用途查找工具</li>
+          <li><a href="/projects/">全部项目</a> - 浏览所有收录项目</li>
+        </ul>
+      </div>
+    </section></section>
+    <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/guides/">使用指南</a><a href="/llms.txt">LLMS.txt</a></footer>
+  </main>
+  <script src="/assets/fluid-bg.js" defer></script>
+</body>
+</html>
