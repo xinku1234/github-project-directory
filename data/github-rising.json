@@ -1,7 +1,7 @@
 {
   "source": "GitHub Search API",
   "signal": "created:>=2026-05-09 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-06-23T01:01:26.367597Z",
+  "synced_at": "2026-06-23T05:14:45.502153Z",
   "count": 36,
   "projects": [
     {
@@ -21,15 +21,15 @@
       "category_cn": "AI 智能体",
       "icon": "PO",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "stars": 49810,
-      "forks": 2442,
+      "stars": 50350,
+      "forks": 2476,
       "language": "JavaScript",
       "growth": {
         "rank": 1,
-        "stars_per_day": 4525.66,
+        "stars_per_day": 4502.76,
         "created_at": "2026-06-12T00:52:37Z",
         "pushed_at": "2026-06-23T00:52:07Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -46,15 +46,15 @@
       "category_cn": "AI 智能体",
       "icon": "OD",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Self-hosted AI workspace.",
-      "stars": 76397,
-      "forks": 9940,
+      "stars": 76459,
+      "forks": 9948,
       "language": "Python",
       "growth": {
         "rank": 2,
-        "stars_per_day": 3402.19,
+        "stars_per_day": 3378.48,
         "created_at": "2026-05-31T14:05:51Z",
         "pushed_at": "2026-06-22T21:12:39Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -74,15 +74,15 @@
       "category_cn": "AI 智能体",
       "icon": "MI",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：MiMo Code: Where Models and Agents Co-Evolve.",
-      "stars": 10350,
-      "forks": 966,
+      "stars": 10378,
+      "forks": 970,
       "language": "TypeScript",
       "growth": {
         "rank": 3,
-        "stars_per_day": 824.85,
+        "stars_per_day": 815.65,
         "created_at": "2026-06-10T11:52:41Z",
-        "pushed_at": "2026-06-22T16:33:16Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "pushed_at": "2026-06-23T03:32:02Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -98,15 +98,15 @@
       "category_cn": "AI 智能体",
       "icon": "IM",
       "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "stars": 5991,
+      "stars": 6000,
       "forks": 239,
       "language": null,
       "growth": {
         "rank": 4,
-        "stars_per_day": 476.25,
+        "stars_per_day": 470.39,
         "created_at": "2026-06-10T11:06:58Z",
         "pushed_at": "2026-06-15T06:18:39Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -123,15 +123,15 @@
       "category_cn": "自动化",
       "icon": "CO",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 1971,
-      "forks": 153,
+      "stars": 2096,
+      "forks": 161,
       "language": "JavaScript",
       "growth": {
         "rank": 5,
-        "stars_per_day": 451.02,
+        "stars_per_day": 461.06,
         "created_at": "2026-06-18T16:08:30Z",
         "pushed_at": "2026-06-22T19:46:09Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -151,15 +151,15 @@
       "category_cn": "AI 智能体",
       "icon": "OM",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies a…",
-      "stars": 4466,
-      "forks": 511,
+      "stars": 4484,
+      "forks": 516,
       "language": "Python",
       "growth": {
         "rank": 6,
-        "stars_per_day": 387.34,
+        "stars_per_day": 383.05,
         "created_at": "2026-06-11T12:18:13Z",
-        "pushed_at": "2026-06-23T01:01:00Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "pushed_at": "2026-06-23T05:04:06Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -179,15 +179,15 @@
       "category_cn": "建站框架",
       "icon": "EV",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：The Framework for Building Agents.",
-      "stars": 2277,
-      "forks": 162,
+      "stars": 2309,
+      "forks": 165,
       "language": "TypeScript",
       "growth": {
         "rank": 7,
-        "stars_per_day": 345.51,
+        "stars_per_day": 341.25,
         "created_at": "2026-06-16T10:51:20Z",
-        "pushed_at": "2026-06-23T01:01:18Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "pushed_at": "2026-06-23T03:31:04Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -204,15 +204,15 @@
       "category_cn": "建站框架",
       "icon": "KA",
       "desc_cn": "这是一个 建站框架 方向的 Go 开源项目，主要用于：Shadow any website for offline viewing, with the JavaScript stripped out.",
-      "stars": 2290,
-      "forks": 76,
+      "stars": 2300,
+      "forks": 77,
       "language": "Go",
       "growth": {
         "rank": 8,
-        "stars_per_day": 267.24,
+        "stars_per_day": 263.01,
         "created_at": "2026-06-14T11:21:55Z",
         "pushed_at": "2026-06-22T10:42:55Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -229,15 +229,15 @@
       "category_cn": "自动化",
       "icon": "DE",
       "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：Turn ChatGPT into Codex and enjoy ChatGPT usage separately :).",
-      "stars": 2143,
-      "forks": 226,
+      "stars": 2174,
+      "forks": 231,
       "language": "TypeScript",
       "growth": {
         "rank": 9,
-        "stars_per_day": 257.07,
+        "stars_per_day": 255.4,
         "created_at": "2026-06-14T16:57:27Z",
         "pushed_at": "2026-06-22T13:57:32Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -257,15 +257,15 @@
       "category_cn": "AI 智能体",
       "icon": "OP",
       "desc_cn": "这是一个 AI 智能体 方向的 Go 开源项目，主要用于：Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned r…",
-      "stars": 8460,
-      "forks": 533,
+      "stars": 8505,
+      "forks": 535,
       "language": "Go",
       "growth": {
         "rank": 10,
-        "stars_per_day": 235.34,
+        "stars_per_day": 235.44,
         "created_at": "2026-05-18T02:16:36Z",
-        "pushed_at": "2026-06-22T11:52:24Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "pushed_at": "2026-06-23T03:50:35Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -287,10 +287,35 @@
       "language": "TypeScript",
       "growth": {
         "rank": 11,
-        "stars_per_day": 231.65,
+        "stars_per_day": 230.51,
         "created_at": "2026-05-18T10:47:45Z",
         "pushed_at": "2026-06-07T04:16:24Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
+      }
+    },
+    {
+      "name": "unicity-astrid/book",
+      "category": "Ops & Monitoring",
+      "url": "https://github.com/unicity-astrid/book",
+      "desc": "The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model.",
+      "tags": [
+        "perl",
+        "rising"
+      ],
+      "badge": "Rising #12",
+      "featured": true,
+      "category_cn": "运维监控",
+      "icon": "BO",
+      "desc_cn": "这是一个 运维监控 方向的 Perl 开源项目，主要用于：The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model.",
+      "stars": 3800,
+      "forks": 14,
+      "language": "Perl",
+      "growth": {
+        "rank": 12,
+        "stars_per_day": 221.92,
+        "created_at": "2026-06-06T02:16:50Z",
+        "pushed_at": "2026-06-17T12:20:30Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -304,20 +329,44 @@
         "codex-skill",
         "rising"
       ],
-      "badge": "Rising #12",
-      "featured": true,
+      "badge": "Rising #13",
+      "featured": false,
       "category_cn": "AI 智能体",
       "icon": "IA",
       "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill.",
-      "stars": 5701,
-      "forks": 672,
+      "stars": 5745,
+      "forks": 679,
       "language": null,
       "growth": {
-        "rank": 12,
-        "stars_per_day": 218.49,
+        "rank": 13,
+        "stars_per_day": 218.7,
         "created_at": "2026-05-27T22:47:56Z",
         "pushed_at": "2026-06-03T11:35:43Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
+      }
+    },
+    {
+      "name": "unicity-astrid/handbook",
+      "category": "Backend & Database",
+      "url": "https://github.com/unicity-astrid/handbook",
+      "desc": "How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process.",
+      "tags": [
+        "rising"
+      ],
+      "badge": "Rising #14",
+      "featured": false,
+      "category_cn": "后端数据库",
+      "icon": "HA",
+      "desc_cn": "这是一个 后端数据库 方向的 开源 开源项目，主要用于：How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process.",
+      "stars": 3693,
+      "forks": 18,
+      "language": null,
+      "growth": {
+        "rank": 14,
+        "stars_per_day": 215.67,
+        "created_at": "2026-06-06T02:16:56Z",
+        "pushed_at": "2026-06-06T02:46:02Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -328,20 +377,20 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #13",
+      "badge": "Rising #15",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "CH",
       "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：美股指南.",
-      "stars": 4828,
+      "stars": 4831,
       "forks": 741,
       "language": null,
       "growth": {
-        "rank": 13,
-        "stars_per_day": 202.37,
+        "rank": 15,
+        "stars_per_day": 201.02,
         "created_at": "2026-05-30T04:27:25Z",
         "pushed_at": "2026-06-20T23:00:46Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -354,20 +403,45 @@
         "skills",
         "rising"
       ],
-      "badge": "Rising #14",
+      "badge": "Rising #16",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "SK",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Skills for coding agents.",
-      "stars": 2451,
+      "stars": 2461,
       "forks": 130,
       "language": "JavaScript",
       "growth": {
-        "rank": 14,
-        "stars_per_day": 198.09,
+        "rank": 16,
+        "stars_per_day": 196.11,
         "created_at": "2026-06-10T16:04:20Z",
         "pushed_at": "2026-06-22T17:06:42Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
+      }
+    },
+    {
+      "name": "diffusionstudio/lottie",
+      "category": "Automation",
+      "url": "https://github.com/diffusionstudio/lottie",
+      "desc": "Generate production-ready Lottie animations with Claude Code or Codex.",
+      "tags": [
+        "typescript",
+        "rising"
+      ],
+      "badge": "Rising #17",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "LO",
+      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：Generate production-ready Lottie animations with Claude Code or Codex.",
+      "stars": 3641,
+      "forks": 197,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 17,
+        "stars_per_day": 195.23,
+        "created_at": "2026-06-04T13:39:32Z",
+        "pushed_at": "2026-06-20T22:16:23Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -380,45 +454,20 @@
         "security",
         "rising"
       ],
-      "badge": "Rising #15",
+      "badge": "Rising #18",
       "featured": false,
       "category_cn": "运维监控",
       "icon": "DE",
       "desc_cn": "这是一个 运维监控 方向的 Python 开源项目，主要用于：Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize.",
-      "stars": 6149,
-      "forks": 474,
+      "stars": 6152,
+      "forks": 477,
       "language": "Python",
       "growth": {
-        "rank": 15,
-        "stars_per_day": 195.98,
+        "rank": 18,
+        "stars_per_day": 194.98,
         "created_at": "2026-05-22T16:00:56Z",
         "pushed_at": "2026-06-15T17:14:59Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
-      }
-    },
-    {
-      "name": "diffusionstudio/lottie",
-      "category": "Automation",
-      "url": "https://github.com/diffusionstudio/lottie",
-      "desc": "Generate production-ready Lottie animations with Claude Code or Codex.",
-      "tags": [
-        "typescript",
-        "rising"
-      ],
-      "badge": "Rising #16",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "LO",
-      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：Generate production-ready Lottie animations with Claude Code or Codex.",
-      "stars": 3620,
-      "forks": 194,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 16,
-        "stars_per_day": 195.96,
-        "created_at": "2026-06-04T13:39:32Z",
-        "pushed_at": "2026-06-20T22:16:23Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -431,20 +480,20 @@
         "open-source",
         "rising"
       ],
-      "badge": "Rising #17",
+      "badge": "Rising #19",
       "featured": false,
       "category_cn": "自动化",
       "icon": "LO",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Lore is a next-generation, open source version control system.",
-      "stars": 5739,
-      "forks": 231,
+      "stars": 5771,
+      "forks": 232,
       "language": "Rust",
       "growth": {
-        "rank": 17,
-        "stars_per_day": 178.07,
+        "rank": 19,
+        "stars_per_day": 178.09,
         "created_at": "2026-05-21T19:32:07Z",
         "pushed_at": "2026-06-22T11:48:15Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -459,20 +508,20 @@
         "hid",
         "rising"
       ],
-      "badge": "Rising #18",
+      "badge": "Rising #20",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "OP",
       "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-      "stars": 5244,
+      "stars": 5247,
       "forks": 100,
       "language": "Rust",
       "growth": {
-        "rank": 18,
-        "stars_per_day": 177.05,
+        "rank": 20,
+        "stars_per_day": 176.11,
         "created_at": "2026-05-24T10:10:36Z",
         "pushed_at": "2026-06-22T14:25:33Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -487,20 +536,20 @@
         "ai-agents",
         "rising"
       ],
-      "badge": "Rising #19",
+      "badge": "Rising #21",
       "featured": false,
       "category_cn": "后端数据库",
       "icon": "HT",
       "desc_cn": "这是一个 后端数据库 方向的 HTML 开源项目，主要用于：✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperfram…",
-      "stars": 7115,
-      "forks": 704,
+      "stars": 7129,
+      "forks": 706,
       "language": "HTML",
       "growth": {
-        "rank": 19,
-        "stars_per_day": 166.86,
+        "rank": 21,
+        "stars_per_day": 166.51,
         "created_at": "2026-05-11T09:40:38Z",
         "pushed_at": "2026-06-16T10:22:48Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -512,7 +561,7 @@
         "c++",
         "rising"
       ],
-      "badge": "Rising #20",
+      "badge": "Rising #22",
       "featured": false,
       "category_cn": "自动化",
       "icon": "OR",
@@ -521,36 +570,11 @@
       "forks": 5198,
       "language": "C++",
       "growth": {
-        "rank": 20,
-        "stars_per_day": 164.43,
+        "rank": 22,
+        "stars_per_day": 163.75,
         "created_at": "2026-05-11T17:44:55Z",
         "pushed_at": "2026-05-12T18:58:00Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
-      }
-    },
-    {
-      "name": "unicity-astrid/book",
-      "category": "Ops & Monitoring",
-      "url": "https://github.com/unicity-astrid/book",
-      "desc": "The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model.",
-      "tags": [
-        "perl",
-        "rising"
-      ],
-      "badge": "Rising #21",
-      "featured": false,
-      "category_cn": "运维监控",
-      "icon": "BO",
-      "desc_cn": "这是一个 运维监控 方向的 Perl 开源项目，主要用于：The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model.",
-      "stars": 2779,
-      "forks": 10,
-      "language": "Perl",
-      "growth": {
-        "rank": 21,
-        "stars_per_day": 163.98,
-        "created_at": "2026-06-06T02:16:50Z",
-        "pushed_at": "2026-06-17T12:20:30Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -562,44 +586,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #22",
+      "badge": "Rising #23",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "AU",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.",
-      "stars": 1713,
+      "stars": 1716,
       "forks": 38,
       "language": "Python",
       "growth": {
-        "rank": 22,
-        "stars_per_day": 163.31,
+        "rank": 23,
+        "stars_per_day": 160.9,
         "created_at": "2026-06-12T13:17:07Z",
         "pushed_at": "2026-06-22T14:20:46Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
-      }
-    },
-    {
-      "name": "unicity-astrid/handbook",
-      "category": "Backend & Database",
-      "url": "https://github.com/unicity-astrid/handbook",
-      "desc": "How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process.",
-      "tags": [
-        "rising"
-      ],
-      "badge": "Rising #23",
-      "featured": false,
-      "category_cn": "后端数据库",
-      "icon": "HA",
-      "desc_cn": "这是一个 后端数据库 方向的 开源 开源项目，主要用于：How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process.",
-      "stars": 2720,
-      "forks": 11,
-      "language": null,
-      "growth": {
-        "rank": 23,
-        "stars_per_day": 160.49,
-        "created_at": "2026-06-06T02:16:56Z",
-        "pushed_at": "2026-06-06T02:46:02Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -619,15 +619,15 @@
       "category_cn": "自动化",
       "icon": "GS",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Git. Ship. Done - Core.",
-      "stars": 4811,
-      "forks": 294,
+      "stars": 4830,
+      "forks": 296,
       "language": "JavaScript",
       "growth": {
         "rank": 24,
-        "stars_per_day": 152.44,
+        "stars_per_day": 152.2,
         "created_at": "2026-05-22T11:36:21Z",
-        "pushed_at": "2026-06-22T23:26:28Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "pushed_at": "2026-06-23T03:43:32Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -647,15 +647,15 @@
       "category_cn": "AI 智能体",
       "icon": "GU",
       "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 +…",
-      "stars": 3893,
+      "stars": 3900,
       "forks": 338,
       "language": "HTML",
       "growth": {
         "rank": 25,
-        "stars_per_day": 146.69,
+        "stars_per_day": 145.99,
         "created_at": "2026-05-27T12:05:05Z",
         "pushed_at": "2026-05-27T16:58:08Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -672,15 +672,15 @@
       "category_cn": "低代码后台",
       "icon": "OS",
       "desc_cn": "这是一个 低代码后台 方向的 TypeScript 开源项目，主要用于：Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - We Get 0.5% on Volume Traded 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump.",
-      "stars": 5986,
-      "forks": 1224,
+      "stars": 5992,
+      "forks": 1226,
       "language": "TypeScript",
       "growth": {
         "rank": 26,
-        "stars_per_day": 145.28,
+        "stars_per_day": 144.81,
         "created_at": "2026-05-12T20:09:25Z",
         "pushed_at": "2026-06-22T20:35:56Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -697,43 +697,15 @@
       "category_cn": "AI 智能体",
       "icon": "KU",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：AI agent workspace with Code and Write modes built into your application.",
-      "stars": 4711,
-      "forks": 425,
+      "stars": 4717,
+      "forks": 429,
       "language": "TypeScript",
       "growth": {
         "rank": 27,
-        "stars_per_day": 145.02,
+        "stars_per_day": 144.42,
         "created_at": "2026-05-21T13:22:06Z",
-        "pushed_at": "2026-06-22T15:49:13Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
-      }
-    },
-    {
-      "name": "cpaczek/skylight",
-      "category": "Web Frameworks",
-      "url": "https://github.com/cpaczek/skylight",
-      "desc": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
-      "tags": [
-        "typescript",
-        "ads-b",
-        "aircraft",
-        "art-installation",
-        "rising"
-      ],
-      "badge": "Rising #28",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "SK",
-      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
-      "stars": 2841,
-      "forks": 320,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 28,
-        "stars_per_day": 141.65,
-        "created_at": "2026-06-02T23:40:28Z",
-        "pushed_at": "2026-06-11T20:14:44Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "pushed_at": "2026-06-23T05:09:56Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -748,20 +720,48 @@
         "memory",
         "rising"
       ],
-      "badge": "Rising #29",
+      "badge": "Rising #28",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "PI",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：The end of web parsing. The beginning of scalable pixel-native search.",
-      "stars": 3469,
-      "forks": 310,
+      "stars": 3558,
+      "forks": 320,
       "language": "Python",
       "growth": {
-        "rank": 29,
-        "stars_per_day": 140.26,
+        "rank": 28,
+        "stars_per_day": 142.84,
         "created_at": "2026-05-29T07:25:40Z",
-        "pushed_at": "2026-06-23T00:04:28Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "pushed_at": "2026-06-23T03:48:07Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
+      }
+    },
+    {
+      "name": "cpaczek/skylight",
+      "category": "Web Frameworks",
+      "url": "https://github.com/cpaczek/skylight",
+      "desc": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
+      "tags": [
+        "typescript",
+        "ads-b",
+        "aircraft",
+        "art-installation",
+        "rising"
+      ],
+      "badge": "Rising #29",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "SK",
+      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
+      "stars": 2844,
+      "forks": 321,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 29,
+        "stars_per_day": 140.57,
+        "created_at": "2026-06-02T23:40:28Z",
+        "pushed_at": "2026-06-11T20:14:44Z",
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -786,10 +786,10 @@
       "language": "Go",
       "growth": {
         "rank": 30,
-        "stars_per_day": 138.32,
+        "stars_per_day": 137.6,
         "created_at": "2026-05-20T18:11:37Z",
         "pushed_at": "2026-06-18T15:13:32Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -811,10 +811,10 @@
       "language": "C",
       "growth": {
         "rank": 31,
-        "stars_per_day": 133.29,
+        "stars_per_day": 132.68,
         "created_at": "2026-05-15T16:55:16Z",
         "pushed_at": "2026-06-17T06:49:26Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -834,15 +834,15 @@
       "category_cn": "AI 智能体",
       "icon": "HT",
       "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no…",
-      "stars": 3447,
-      "forks": 426,
+      "stars": 3454,
+      "forks": 427,
       "language": "HTML",
       "growth": {
         "rank": 32,
-        "stars_per_day": 127.89,
+        "stars_per_day": 127.31,
         "created_at": "2026-05-27T02:08:11Z",
         "pushed_at": "2026-06-21T16:18:31Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -859,15 +859,15 @@
       "category_cn": "AI 智能体",
       "icon": "IP",
       "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：一款用于安装 IPA 历史版本的工具，适用于获取旧版应用并自动捕获数据包。下载后，可直接通过 AirDrop 传输至 iPhone、iPad 上并安装并使用。.",
-      "stars": 1218,
-      "forks": 69,
+      "stars": 1232,
+      "forks": 70,
       "language": "Swift",
       "growth": {
         "rank": 33,
-        "stars_per_day": 125.74,
+        "stars_per_day": 124.92,
         "created_at": "2026-06-13T08:32:39Z",
         "pushed_at": "2026-06-22T01:37:09Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -884,15 +884,15 @@
       "category_cn": "部署托管",
       "icon": "WE",
       "desc_cn": "这是一个 部署托管 方向的 TypeScript 开源项目，主要用于：云微WOC，云微信，自由连接.",
-      "stars": 3068,
-      "forks": 724,
+      "stars": 3074,
+      "forks": 725,
       "language": "TypeScript",
       "growth": {
         "rank": 34,
-        "stars_per_day": 123.8,
+        "stars_per_day": 123.16,
         "created_at": "2026-05-29T06:14:13Z",
         "pushed_at": "2026-06-18T18:12:42Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -912,15 +912,15 @@
       "category_cn": "建站框架",
       "icon": "VO",
       "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：Python terminal multitool — OSINT, Discord, web & network utilities. Rich TUI, 13 themes, remote updates. Educational use only.",
-      "stars": 2832,
+      "stars": 2850,
       "forks": 34,
       "language": "Python",
       "growth": {
         "rank": 35,
-        "stars_per_day": 122.45,
+        "stars_per_day": 122.3,
         "created_at": "2026-05-30T21:57:30Z",
         "pushed_at": "2026-06-20T22:51:37Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     },
     {
@@ -937,15 +937,15 @@
       "category_cn": "部署托管",
       "icon": "NO",
       "desc_cn": "这是一个 部署托管 方向的 Swift 开源项目，主要用于：Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
-      "stars": 1874,
-      "forks": 764,
+      "stars": 1885,
+      "forks": 767,
       "language": "Swift",
       "growth": {
         "rank": 36,
-        "stars_per_day": 122.23,
+        "stars_per_day": 121.55,
         "created_at": "2026-06-07T17:03:02Z",
         "pushed_at": "2026-06-22T15:51:02Z",
-        "synced_at": "2026-06-23T01:01:26.367597Z"
+        "synced_at": "2026-06-23T05:14:45.502153Z"
       }
     }
   ]
