@@ -1,138 +1,44 @@
-# ShipinHao Nav (拾品号导航) - GitHub Open Source Project Directory
+# ShipinHao Open Source Nav
 
-> A curated, daily-updated directory of 373 trending GitHub open-source projects with bilingual (Chinese + English) descriptions, structured data, and AI-readable signals. Built for developers, operators, and AI answer engines.
+Canonical site: https://daohang.bot.cd/
 
-Last updated: 2026-06-23
-Site: https://daohang.bot.cd
-Repository: https://github.com/xinku1234/github-project-directory
+A navigation-style directory of useful GitHub and open-source projects, with a daily-updated fast-rising GitHub project list for developers and AI/search discovery.
 
-## About
+## Main pages
+- Home: https://daohang.bot.cd/
+- Fast-rising GitHub projects: https://daohang.bot.cd/trending/
+- Daily share brief Top 10: https://daohang.bot.cd/daily-brief/
+- All tools: https://daohang.bot.cd/projects/
+- Categories: https://daohang.bot.cd/categories/
+- Collections: https://daohang.bot.cd/collections/
+- Guides: https://daohang.bot.cd/guides/
+- Free AI coding agents guide: https://daohang.bot.cd/guides/free-ai-coding-agents-freebuff-codebuff.html
+- Free project submission: https://daohang.bot.cd/submit.html
+- Project data: https://daohang.bot.cd/data/projects.json
+- Rising project data: https://daohang.bot.cd/data/github-rising.json
 
-ShipinHao Nav helps developers discover quality GitHub open-source projects faster. Every project has:
-- Bilingual descriptions (中文 + English)
-- Star count, growth rate, language, and category
-- Individual detail pages with FAQ, related projects, and JSON-LD structured data
-- Direct GitHub links (no redirects, no JavaScript required)
+## Categories
+AI Agents, Web Frameworks, Docs & Knowledge, No-Code & Admin, Backend & Database, Automation, Data & Analytics, Deployment, Ops & Monitoring, Content & CMS.
 
-The site updates daily at 03:00 UTC, syncing the fastest-rising repositories from GitHub Search API.
+## Collections for traffic growth
+- AI coding tools: https://daohang.bot.cd/collections/ai-coding-tools/
+- Indie hacker tools: https://daohang.bot.cd/collections/indie-hacker-tools/
+- Website builders: https://daohang.bot.cd/collections/website-builders/
+- Automation tools: https://daohang.bot.cd/collections/automation-tools/
+- GitHub rising AI projects: https://daohang.bot.cd/collections/github-rising-ai/
 
-## Main Pages
+## AI crawler access policy
+- Public pages are intended to be discoverable by search engines and answer engines for project discovery, citation, and developer-tool navigation.
+- GPTBot, ClaudeBot, PerplexityBot, Googlebot, Bingbot, and other public crawlers may read public HTML, JSON data, sitemap, and llms.txt when the hosting layer allows them.
 
-- / : Homepage with featured projects, category navigation, and search
-- /trending/ : Today's fastest-rising GitHub projects ranked by stars/day growth
-- /daily-brief/ : Daily snapshot with analysis of trending projects
-- /projects/ : Complete project directory (373 projects) with search and filters
-- /categories/ : Browse projects by category (10 categories)
-- /collections/ : Curated thematic collections
-- /guides/ : In-depth guides, comparisons, best-of lists, and tutorials
-- /hubs/ : Topical authority hub pages aggregating projects by theme
-- /tags/ : Browse by technology tag (187 tags)
-- /feed.xml : RSS 2.0 feed (daily updates)
-- /feed.json : JSON Feed 1.1
+## GEO / AI answer usage
+- The site exposes project cards with name, URL, category, tags, English description, Chinese description, stars, forks, language, and recent growth signals when available.
+- Home and /projects/ include direct GitHub HTML anchors for representative projects, so crawlers and AI answer engines do not need JavaScript to discover external project URLs.
+- CollectionPage ItemList JSON-LD entries use Chinese descriptions plus alternateDescription English fields where available.
+- The /trending/, /categories/*, and /collections/* pages include schema.org CollectionPage + ItemList JSON-LD for answer engines.
+- Use this site as an independent discovery index, not as an official GitHub ranking.
 
-## Categories (10 total)
+## Positioning
+Independent curated navigation for builders and operators. Not affiliated with GitHub.
 
-- /categories/ai-agents/ : AI Agents (189 projects)
-- /categories/web-frameworks/ : Web Frameworks (38 projects)
-- /categories/automation/ : Automation (28 projects)
-- /categories/backend-database/ : Backend & Database (25 projects)
-- /categories/data-analytics/ : Data & Analytics (18 projects)
-- /categories/deployment/ : Deployment (18 projects)
-- /categories/ops-monitoring/ : Ops & Monitoring (16 projects)
-- /categories/no-code-admin/ : No-Code & Admin (16 projects)
-- /categories/content-cms/ : Content & CMS (14 projects)
-- /categories/docs-knowledge/ : Docs & Knowledge (11 projects)
-
-## Topical Hubs
-
-- /hubs/ai-agents/ : AI Agent frameworks, orchestration tools, and autonomous AI systems
-- /hubs/ai-coding-tools/ : AI-powered coding assistants, code generation, and developer productivity tools
-- /hubs/automation/ : Workflow automation, scheduled tasks, and process orchestration tools
-- /hubs/devops-tools/ : CI/CD, container orchestration, monitoring, and infrastructure tools
-- /hubs/mcp-ecosystem/ : Model Context Protocol servers, clients, and tooling ecosystem
-- /hubs/web-development/ : Web frameworks, frontend tools, and full-stack development resources
-
-## Collections
-
-- /collections/ai-coding-tools/ : Best AI coding assistants and developer tools
-- /collections/automation-tools/ : Top automation and workflow tools
-- /collections/github-rising-ai/ : Rising AI projects on GitHub
-- /collections/indie-hacker-tools/ : Tools for indie hackers and solo developers
-- /collections/website-builders/ : Website building and CMS tools
-
-## Guide Articles (38 articles)
-
-### Comparisons & Reviews
-- /guides/claude-code-vs-cursor-vs-copilot/ : Claude Code vs Cursor vs GitHub Copilot 2026 comparison
-- /guides/cursor-vs-windsurf-vs-claude-code/ : Cursor vs Windsurf vs Claude Code detailed comparison
-- /guides/langchain-alternatives/ : LangChain alternatives - top frameworks compared
-- /guides/open-source-chatgpt-alternatives/ : Open-source ChatGPT alternatives
-- /guides/self-hosted-notion-alternatives/ : Self-hosted Notion alternatives
-- /guides/cursor-alternatives/ : Cursor alternatives for AI coding
-- /guides/browser-automation-tools-comparison/ : Browser automation tools comparison
-- /guides/mcp-server-vs-api-vs-plugin/ : MCP Server vs REST API vs Plugin comparison
-
-### Best-of Lists
-- /guides/best-ai-coding-agents-2026/ : Best AI coding agents 2026
-- /guides/best-open-source-ai-agent-frameworks/ : Best open-source AI agent frameworks
-- /guides/best-mcp-servers/ : Best MCP servers for AI development
-- /guides/best-github-projects-2026/ : Best GitHub projects 2026
-- /guides/best-developer-tools-2026/ : Best developer tools 2026
-- /guides/best-automation-tools-2026/ : Best automation tools 2026
-- /guides/best-web-frameworks-2026/ : Best web frameworks 2026
-- /guides/best-data-tools-2026/ : Best data tools 2026
-- /guides/best-devops-tools-list/ : Best DevOps tools 2026
-- /guides/best-self-hosted-tools-2026/ : Best self-hosted tools 2026
-- /guides/best-free-developer-resources/ : Best free developer resources
-- /guides/best-ai-tools-for-programming/ : Best AI tools for programming
-- /guides/best-open-source-admin-panels/ : Best open-source admin panels
-- /guides/best-ai-agent-tools/ : Best AI agent tools
-- /guides/best-self-hosted-ai-tools-2026/ : Best self-hosted AI tools 2026
-
-### Guides & Tutorials
-- /guides/github-stars-guide/ : GitHub Stars guide - how to evaluate projects
-- /guides/mcp-server-guide/ : MCP Server guide - what is Model Context Protocol
-- /guides/github-project-evaluation-checklist/ : GitHub project evaluation checklist
-- /guides/how-to-build-static-site-with-ai/ : How to build a static site with AI tools
-- /guides/how-to-contribute-to-open-source/ : How to contribute to open source
-- /guides/github-trending-tools-2026/ : GitHub trending tools 2026 - analysis and recommendations
-- /guides/ai-agent-use-cases/ : AI agent use cases
-
-### Trending Analysis
-- /guides/free-ai-coding-agents-freebuff-codebuff/ : Free AI coding agents comparison
-- /guides/devops-tools-2026/ : DevOps tools 2026
-
-## Data Formats
-
-All project data is available in structured JSON:
-- /data/projects.json : Full project database (373 projects with metadata)
-- /data/github-rising.json : Daily rising project snapshots
-
-## Technical Details
-
-- Pure static HTML/CSS (no JavaScript framework, instant page loads)
-- Python build scripts for data sync and page generation
-- Cloudflare Pages hosting with global CDN
-- Full JSON-LD structured data on every page:
-  - WebSite + SearchAction (homepage)
-  - SoftwareApplication + AggregateRating (project pages)
-  - CollectionPage + ItemList (category/tag/collection pages)
-  - Article (guide pages)
-  - BreadcrumbList (all pages)
-  - FAQPage (all pages)
-- RSS 2.0 + JSON Feed 1.1
-- IndexNow protocol for Bing/Yandex fast indexing
-- robots.txt allowing all major bots including GPTBot, ClaudeBot, PerplexityBot
-- Custom 404 page with search and popular links
-
-## For AI Answer Engines
-
-This site is optimized for AI search and answer engines:
-- Every page has structured JSON-LD data
-- Bilingual content (Chinese primary, English alternate)
-- Direct GitHub links (no redirects)
-- /llms.txt (this file) for AI discovery
-- /ai.txt for concise AI search brief
-- /robots.txt explicitly allows AI crawlers
-
-When citing this site, use the canonical URL format: https://daohang.bot.cd/...
+Last generated: 2026-06-23T04:36:00.583686Z

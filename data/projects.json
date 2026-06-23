@@ -275,8 +275,8 @@
     "category_cn": "AI 智能体",
     "icon": "LA",
     "desc_cn": "面向多智能体编程的 Python 框架，强调 Agent 之间的消息协作、RAG 与工具调用，适合构建复杂对话流和任务分解系统。",
-    "stars": 4038,
-    "forks": 376,
+    "stars": 4043,
+    "forks": 377,
     "language": "Python",
     "growth": {
       "stars_per_day": 3.5,
@@ -301,8 +301,8 @@
     "category_cn": "AI 智能体",
     "icon": "TR",
     "desc_cn": "Go 语言生产级 Agent 框架，覆盖 graph workflows、工具、记忆、A2A、AG-UI、MCP、评测与可观测性，适合后端团队搭建可运维智能体系统。",
-    "stars": 1341,
-    "forks": 163,
+    "stars": 1391,
+    "forks": 178,
     "language": "Go",
     "growth": {
       "stars_per_day": 3.41,
@@ -327,8 +327,8 @@
     "category_cn": "AI 智能体",
     "icon": "MA",
     "desc_cn": "面向 TypeScript/Node 生态的 AI 应用与 Agent 框架，提供工作流、工具调用和 MCP 相关能力，适合构建现代 Web 技术栈上的智能体产品。",
-    "stars": 24975,
-    "forks": 2215,
+    "stars": 25342,
+    "forks": 2274,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 37.03,
@@ -856,8 +856,8 @@
     "category_cn": "AI 智能体",
     "icon": "PO",
     "desc_cn": "极简 LLM/Agent 工作流框架，用少量代码表达节点、流程和智能体协作，适合想快速理解 Agent 框架核心结构或搭建轻量原型的开发者。",
-    "stars": 10751,
-    "forks": 1170,
+    "stars": 10803,
+    "forks": 1178,
     "language": "Python",
     "growth": {
       "stars_per_day": 20.09,
@@ -883,8 +883,8 @@
     "category_cn": "AI 智能体",
     "icon": "MI",
     "desc_cn": "面向复杂研究和预测任务的 Deep Research Agent，强调多步推理、信息检索与研究任务评估，适合关注通用研究智能体和 benchmark 的开发者。",
-    "stars": 8263,
-    "forks": 637,
+    "stars": 8306,
+    "forks": 641,
     "language": "Python",
     "growth": {
       "stars_per_day": 26.77,
@@ -964,8 +964,8 @@
     "category_cn": "AI 智能体",
     "icon": "MC",
     "desc_cn": "AWS 官方实验室维护的 MCP Servers 集合，把 AWS 云服务能力通过 MCP 暴露给 AI Agent，适合云资源查询、运维自动化和企业 Agent 工具链集成。",
-    "stars": 9254,
-    "forks": 1579,
+    "stars": 9321,
+    "forks": 1593,
     "language": "Python",
     "growth": {
       "stars_per_day": 20.65,
@@ -1018,8 +1018,8 @@
     "category_cn": "AI 智能体",
     "icon": "LA",
     "desc_cn": "LiveKit 的实时语音 AI Agent 框架，适合构建语音助手、实时通话智能体、视频/音频交互和多模态客服场景。",
-    "stars": 10950,
-    "forks": 3222,
+    "stars": 11091,
+    "forks": 3244,
     "language": "Python",
     "growth": {
       "stars_per_day": 11.33,
@@ -1207,8 +1207,8 @@
     "category_cn": "AI 智能体",
     "icon": "CM",
     "desc_cn": "面向 AI 编码智能体的上下文窗口优化工具，通过隔离和压缩工具输出减少噪声，适合长任务、MCP 工具链和多平台 coding agent 工作流。",
-    "stars": 17207,
-    "forks": 1219,
+    "stars": 17969,
+    "forks": 1269,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 157.86,
@@ -1747,8 +1747,8 @@
     "category_cn": "AI 智能体",
     "icon": "MO",
     "desc_cn": "面向 Claude Code 的 SPEC-first Agentic Development Kit，内置多智能体、技能包和质量门禁，适合规范化自动开发流程。",
-    "stars": 1063,
-    "forks": 196,
+    "stars": 1094,
+    "forks": 201,
     "language": "Go",
     "growth": {
       "stars_per_day": 3.96,
@@ -1801,8 +1801,8 @@
     "category_cn": "AI 智能体",
     "icon": "DF",
     "desc_cn": "生产级 Agentic Workflow 开发平台，面向 RAG、工具调用、编排和低代码 AI 应用搭建。",
-    "stars": 144908,
-    "forks": 22806,
+    "stars": 146196,
+    "forks": 22990,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 125.25,
@@ -1855,8 +1855,8 @@
     "category_cn": "AI 智能体",
     "icon": "BU",
     "desc_cn": "browser-use 的可视化 Web UI，让用户在浏览器中运行和调试网页自动化 AI Agent。",
-    "stars": 16056,
-    "forks": 2711,
+    "stars": 16117,
+    "forks": 2717,
     "language": "Python",
     "growth": {
       "stars_per_day": 30.51,
@@ -1936,8 +1936,8 @@
     "category_cn": "AI 智能体",
     "icon": "CS",
     "desc_cn": "面向多模型对话、智能助手和自主 Agent 的桌面生产力工作台，适合本地管理常用模型、助手和工具流。",
-    "stars": 47229,
-    "forks": 4476,
+    "stars": 47680,
+    "forks": 4520,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 63.04,
@@ -2136,9 +2136,9 @@
     "category_cn": "AI 智能体",
     "icon": "SA",
     "desc_cn": "Hugging Face 的轻量智能体库，适合代码执行型 agents 和工具调用流程。",
-    "stars": 27823,
+    "stars": 27968,
     "language": "Python",
-    "forks": 2681,
+    "forks": 2704,
     "growth": {
       "stars_per_day": 50.24,
       "created_at": "2024-12-05T11:28:04Z",
@@ -3648,8 +3648,8 @@
     "category_cn": "AI 智能体",
     "icon": "CK",
     "desc_cn": "面向 React / Angular 的前端智能体与生成式 UI 框架，适合把 AI 助手、可交互 Copilot 和 AG-UI 协议接入产品界面。",
-    "stars": 34763,
-    "forks": 4335,
+    "stars": 35409,
+    "forks": 4394,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 31.92,
@@ -6089,8 +6089,8 @@
     "category_cn": "AI 智能体",
     "icon": "FI",
     "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：The API to search, scrape, and interact with the web at scale. 🔥",
-    "stars": 137292,
-    "forks": 7961,
+    "stars": 137513,
+    "forks": 7966,
     "language": "TypeScript",
     "growth": {
       "stars_per_day": 172.05,
@@ -6975,7 +6975,7 @@
     "category_cn": "AI 智能体",
     "icon": "AN",
     "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Installable GitHub library of 1,600+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, wor",
-    "stars": 41418,
+    "stars": 41427,
     "forks": 6653,
     "language": "Python",
     "growth": {
@@ -7840,8 +7840,8 @@
     "category_cn": "AI 智能体",
     "icon": "IP",
     "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：一款用于安装 IPA 历史版本的工具，适用于获取旧版应用并自动捕获数据包。下载后，可直接通过 AirDrop 传输至 iPhone、iPad 上并安装并使用。.",
-    "stars": 1218,
-    "forks": 69,
+    "stars": 1228,
+    "forks": 70,
     "language": "Swift",
     "growth": {
       "rank": 33,
@@ -9088,5 +9088,165 @@
     "language": "C",
     "html_url": "https://github.com/Hunterdii/Smart-AI-Resume-Analyzer",
     "created_at": "2025-01-08T03:32:46Z"
+  },
+  {
+    "name": "LocoreMind/locoagent",
+    "category": "AI Agents",
+    "url": "https://github.com/LocoreMind/locoagent",
+    "desc": "AI-powered social media agent with real browser automation",
+    "tags": [
+      "browser-agent",
+      "social-media",
+      "automation",
+      "typescript"
+    ],
+    "badge": "Social Media Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "LO",
+    "desc_cn": "面向社交媒体运营的 AI 浏览器智能体，可在真实浏览器环境中自动执行发帖、互动和内容管理等操作，适合社媒自动化和智能运营场景。",
+    "stars": 1015,
+    "forks": 49,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 24.76,
+      "created_at": "2026-05-13T00:00:00Z",
+      "pushed_at": "2026-06-05T00:00:00Z",
+      "synced_at": "2026-06-23T04:35:31.049485Z"
+    }
+  },
+  {
+    "name": "Purewhiter/mobilegym",
+    "category": "AI Agents",
+    "url": "https://github.com/Purewhiter/mobilegym",
+    "desc": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+    "tags": [
+      "mobile-agent",
+      "gui-agent",
+      "simulation",
+      "benchmark",
+      "typescript"
+    ],
+    "badge": "Mobile GUI Agent",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "MG",
+    "desc_cn": "面向移动端 GUI Agent 研究的高并行仿真平台，可在浏览器中运行安卓模拟器，提供可验证的评测环境，适合移动智能体训练、评测和 sim-to-real 迁移研究。",
+    "stars": 647,
+    "forks": 105,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 16.18,
+      "created_at": "2026-05-14T00:00:00Z",
+      "pushed_at": "2026-06-20T00:00:00Z",
+      "synced_at": "2026-06-23T04:35:31.049485Z"
+    }
+  },
+  {
+    "name": "OpenOSINT/OpenOSINT",
+    "category": "AI Agents",
+    "url": "https://github.com/OpenOSINT/OpenOSINT",
+    "desc": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 16 tools. Works with Claude, GPT-4, or local models.",
+    "tags": [
+      "osint",
+      "mcp-server",
+      "security",
+      "reconnaissance",
+      "python"
+    ],
+    "badge": "OSINT Agent",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "OO",
+    "desc_cn": "AI 驱动的开源情报（OSINT）智能体，内置交互式 REPL、MCP Server 和 CLI，集成 16 种情报工具，支持 Claude、GPT-4 和本地模型，适合安全研究和威胁情报分析。",
+    "stars": 744,
+    "forks": 115,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 15.5,
+      "created_at": "2026-05-06T00:00:00Z",
+      "pushed_at": "2026-06-21T00:00:00Z",
+      "synced_at": "2026-06-23T04:35:31.049485Z"
+    }
+  },
+  {
+    "name": "sandiiarov/skill-creator",
+    "category": "AI Agents",
+    "url": "https://github.com/sandiiarov/skill-creator",
+    "desc": "Turn any MCP server, OpenAPI spec, or GraphQL endpoint into a CLI at runtime.",
+    "tags": [
+      "mcp",
+      "cli",
+      "openapi",
+      "typescript",
+      "tool-creation"
+    ],
+    "badge": "MCP Tool Creator",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "SK",
+    "desc_cn": "运行时工具生成器，可将任意 MCP Server、OpenAPI 规范或 GraphQL 端点即时转化为可用 CLI，适合快速扩展 Agent 工具链和协议适配。",
+    "stars": 664,
+    "forks": 74,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 20.12,
+      "created_at": "2026-05-21T00:00:00Z",
+      "pushed_at": "2026-06-03T00:00:00Z",
+      "synced_at": "2026-06-23T04:35:31.049485Z"
+    }
+  },
+  {
+    "name": "chubbyguan/chubbyskills",
+    "category": "AI Agents",
+    "url": "https://github.com/chubbyguan/chubbyskills",
+    "desc": "13 AI Skills for ingesting Chinese content from Douyin, Bilibili, Xiaohongshu, WeChat, X, and podcasts into personal knowledge base with MCP server.",
+    "tags": [
+      "agent-skills",
+      "mcp",
+      "knowledge-base",
+      "chinese",
+      "python"
+    ],
+    "badge": "Content Skills",
+    "featured": true,
+    "category_cn": "AI 智能体",
+    "icon": "CS",
+    "desc_cn": "面向中文全渠道内容采集的 13 个 AI Skill，支持抖音、B站、小红书、公众号、X 和播客等内容源，可将图文、视频、字幕采集进个人知识库，附带 MCP Server。",
+    "stars": 444,
+    "forks": 69,
+    "language": "Python",
+    "growth": {
+      "stars_per_day": 29.6,
+      "created_at": "2026-06-08T00:00:00Z",
+      "pushed_at": "2026-06-16T00:00:00Z",
+      "synced_at": "2026-06-23T04:35:31.049485Z"
+    }
+  },
+  {
+    "name": "ruvnet/agent-harness-generator",
+    "category": "AI Agents",
+    "url": "https://github.com/ruvnet/agent-harness-generator",
+    "desc": "Meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness layer.",
+    "tags": [
+      "agent-harness",
+      "scaffolding",
+      "mcp-server",
+      "typescript"
+    ],
+    "badge": "Harness Generator",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "AH",
+    "desc_cn": "AI Agent 的元脚手架工具，可通过 npx 快速生成带独立 CLI、MCP Server、记忆层和学习循环的专属 Agent Harness，适合快速搭建定制化智能体框架。",
+    "stars": 289,
+    "forks": 29,
+    "language": "TypeScript",
+    "growth": {
+      "stars_per_day": 28.9,
+      "created_at": "2026-06-13T00:00:00Z",
+      "pushed_at": "2026-06-23T00:00:00Z",
+      "synced_at": "2026-06-23T04:35:31.049485Z"
+    }
   }
 ]
