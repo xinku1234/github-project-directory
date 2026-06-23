@@ -1,29 +1,43 @@
-# GitHub Project Directory
+# 🚀 ShipinHao Nav (拾品号导航) — GitHub Open Source Project Directory
 
-A lightweight static MVP for a curated GitHub/open-source project directory.
+**Live site: [https://daohang.bot.cd](https://daohang.bot.cd)**
 
-## What is included
+A curated directory of 300+ trending GitHub open-source projects with daily updates, Chinese/English descriptions, and AI-readable structured data.
 
-- Homepage with GEO-inspired positioning
-- Project directory with client-side search/filter
-- Structured project data: `data/projects.json`
-- Guide hub and 5 answer-ready guide pages
-- Resources and submit placeholder pages
-- SEO basics: `robots.txt`, `sitemap.xml`, `llms.txt`, meta descriptions, OG image
-- Hero image asset: `assets/hero-github-directory.png`
+## What's Inside
 
-## Local preview
+- **300+ project detail pages** with stars, forks, language, growth metrics
+- **6 topical hubs**: AI Agents, AI Coding Tools, MCP Ecosystem, Web Development, DevOps, Automation
+- **35 guide articles**: comparisons, best-of lists, how-to guides
+- **50 tag pages** for technology-specific browsing
+- **Daily rising projects** synced from GitHub Search API
+- **RSS + JSON feeds** for readers and aggregators
+- **Full SEO/GEO**: JSON-LD structured data, sitemap, llms.txt, IndexNow
 
-```bash
-cd /home/admin/github-project-directory
-python3 -m http.server 4173
-# open http://127.0.0.1:4173/
-```
+## Browse
 
-## Next steps before public launch
+| Section | URL |
+|---------|-----|
+| 🔥 Trending | [daohang.bot.cd/trending](https://daohang.bot.cd/trending) |
+| 📰 Daily Brief | [daohang.bot.cd/daily-brief](https://daohang.bot.cd/daily-brief) |
+| 🤖 AI Agents Hub | [daohang.bot.cd/hubs/ai-agents](https://daohang.bot.cd/hubs/ai-agents) |
+| 💻 AI Coding Tools | [daohang.bot.cd/hubs/ai-coding-tools](https://daohang.bot.cd/hubs/ai-coding-tools) |
+| 🔌 MCP Ecosystem | [daohang.bot.cd/hubs/mcp-ecosystem](https://daohang.bot.cd/hubs/mcp-ecosystem) |
+| 📖 Guides | [daohang.bot.cd/guides](https://daohang.bot.cd/guides) |
+| 🏷️ Tags | [daohang.bot.cd/tags](https://daohang.bot.cd/tags) |
 
-1. Use `https://daohang.bot.cd/` as the canonical public domain for SEO, sitemap, robots, and sharing links.
-2. Replace placeholder GitHub topic links with hand-reviewed real repositories.
-3. Connect `submit.html` to Airtable, Notion, Formspree, or a serverless function.
-4. Keep category landing pages under `categories/` regenerated via `python3 scripts/build_seo_geo.py` after data updates.
-5. Deploy to Cloudflare Pages, GitHub Pages, or Netlify.
+## Tech Stack
+
+- Static HTML/CSS (no JS framework, pure server-rendered)
+- Python build scripts for data sync and page generation
+- Cloudflare Pages hosting with auto-deploy from `main`
+- GitHub Actions for daily rising data sync
+
+## Data
+
+- `data/projects.json` — 300 curated projects with metadata
+- `data/github-rising.json` — Daily rising repository snapshots
+
+## License
+
+MIT
