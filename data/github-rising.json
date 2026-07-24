@@ -1,7 +1,7 @@
 {
   "source": "GitHub Search API",
-  "signal": "created:>=2026-06-08 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-07-23T04:35:57.710414Z",
+  "signal": "created:>=2026-06-09 stars:>=50 fork:false archived:false sorted by stars_per_day",
+  "synced_at": "2026-07-24T04:34:15.492424Z",
   "count": 36,
   "projects": [
     {
@@ -18,15 +18,15 @@
       "category_cn": "AI 智能体",
       "icon": "GR",
       "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "stars": 21873,
-      "forks": 4108,
+      "stars": 22148,
+      "forks": 4178,
       "language": "Rust",
       "growth": {
         "rank": 1,
-        "stars_per_day": 2617.87,
+        "stars_per_day": 2367.74,
         "created_at": "2026-07-14T20:04:23Z",
-        "pushed_at": "2026-07-22T18:26:43Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-23T17:12:39Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -46,15 +46,15 @@
       "category_cn": "AI 智能体",
       "icon": "PO",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "stars": 87976,
-      "forks": 4813,
+      "stars": 88523,
+      "forks": 4843,
       "language": "JavaScript",
       "growth": {
         "rank": 2,
-        "stars_per_day": 2137.67,
+        "stars_per_day": 2099.99,
         "created_at": "2026-06-12T00:52:37Z",
         "pushed_at": "2026-07-15T21:32:15Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -71,15 +71,15 @@
       "category_cn": "自动化",
       "icon": "CO",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Codex Dream Skin.",
-      "stars": 11891,
-      "forks": 1193,
+      "stars": 12108,
+      "forks": 1214,
       "language": "JavaScript",
       "growth": {
         "rank": 3,
-        "stars_per_day": 1550.84,
+        "stars_per_day": 1397.14,
         "created_at": "2026-07-15T12:34:51Z",
-        "pushed_at": "2026-07-22T22:48:35Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-23T17:53:06Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -96,15 +96,15 @@
       "category_cn": "AI 智能体",
       "icon": "CO",
       "desc_cn": "这是一个 AI 智能体 方向的 C 开源项目，主要用于：Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦.",
-      "stars": 18019,
-      "forks": 1729,
+      "stars": 18353,
+      "forks": 1780,
       "language": "C",
       "growth": {
         "rank": 4,
-        "stars_per_day": 831.43,
+        "stars_per_day": 809.53,
         "created_at": "2026-07-01T12:27:49Z",
-        "pushed_at": "2026-07-23T01:15:56Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-23T18:54:38Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -121,40 +121,15 @@
       "category_cn": "AI 智能体",
       "icon": "AO",
       "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：AOS Community Edition: the open agent operating system.",
-      "stars": 6684,
-      "forks": 8,
+      "stars": 6930,
+      "forks": 9,
       "language": "Rust",
       "growth": {
         "rank": 5,
-        "stars_per_day": 654.93,
+        "stars_per_day": 618.5,
         "created_at": "2026-07-12T23:39:52Z",
-        "pushed_at": "2026-07-23T04:35:31Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "lopopolo/harness-engineering",
-      "category": "Web Frameworks",
-      "url": "https://github.com/lopopolo/harness-engineering",
-      "desc": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #6",
-      "featured": true,
-      "category_cn": "建站框架",
-      "icon": "HA",
-      "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering.",
-      "stars": 2203,
-      "forks": 221,
-      "language": "Python",
-      "growth": {
-        "rank": 6,
-        "stars_per_day": 513.86,
-        "created_at": "2026-07-18T21:42:28Z",
-        "pushed_at": "2026-07-18T21:55:49Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-24T04:16:06Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -166,20 +141,70 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #7",
+      "badge": "Rising #6",
       "featured": true,
       "category_cn": "自动化",
       "icon": "UN",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "stars": 17592,
-      "forks": 1648,
+      "stars": 18257,
+      "forks": 1731,
+      "language": "Python",
+      "growth": {
+        "rank": 6,
+        "stars_per_day": 509.56,
+        "created_at": "2026-06-18T08:40:15Z",
+        "pushed_at": "2026-07-23T09:15:36Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "lopopolo/harness-engineering",
+      "category": "Web Frameworks",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "desc": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #7",
+      "featured": true,
+      "category_cn": "建站框架",
+      "icon": "HA",
+      "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering.",
+      "stars": 2284,
+      "forks": 229,
       "language": "Python",
       "growth": {
         "rank": 7,
-        "stars_per_day": 505.08,
-        "created_at": "2026-06-18T08:40:15Z",
-        "pushed_at": "2026-07-21T10:41:38Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "stars_per_day": 432.09,
+        "created_at": "2026-07-18T21:42:28Z",
+        "pushed_at": "2026-07-18T21:55:49Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "andrewyng/openworker",
+      "category": "Automation",
+      "url": "https://github.com/andrewyng/openworker",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #8",
+      "featured": true,
+      "category_cn": "自动化",
+      "icon": "OP",
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 1740,
+      "forks": 256,
+      "language": "Python",
+      "growth": {
+        "rank": 8,
+        "stars_per_day": 423.12,
+        "created_at": "2026-07-20T01:52:32Z",
+        "pushed_at": "2026-07-23T19:29:20Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -191,98 +216,20 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #8",
+      "badge": "Rising #9",
       "featured": true,
       "category_cn": "文档知识库",
       "icon": "OP",
       "desc_cn": "这是一个 文档知识库 方向的 TypeScript 开源项目，主要用于：OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
-      "stars": 12946,
-      "forks": 893,
+      "stars": 13065,
+      "forks": 901,
       "language": "TypeScript",
-      "growth": {
-        "rank": 8,
-        "stars_per_day": 428.68,
-        "created_at": "2026-06-22T23:48:26Z",
-        "pushed_at": "2026-07-23T00:40:01Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "x4gKing/X4G",
-      "category": "Automation",
-      "url": "https://github.com/x4gKing/X4G",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #9",
-      "featured": true,
-      "category_cn": "自动化",
-      "icon": "X4",
-      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 6425,
-      "forks": 11767,
-      "language": "Python",
       "growth": {
         "rank": 9,
-        "stars_per_day": 339.75,
-        "created_at": "2026-07-04T06:43:51Z",
-        "pushed_at": "2026-07-21T12:47:04Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "oso95/scroll-world",
-      "category": "Automation",
-      "url": "https://github.com/oso95/scroll-world",
-      "desc": "A skill that turn any brand into a scrollable 3D world.",
-      "tags": [
-        "javascript",
-        "rising"
-      ],
-      "badge": "Rising #10",
-      "featured": true,
-      "category_cn": "自动化",
-      "icon": "SC",
-      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：A skill that turn any brand into a scrollable 3D world.",
-      "stars": 4863,
-      "forks": 561,
-      "language": "JavaScript",
-      "growth": {
-        "rank": 10,
-        "stars_per_day": 298.41,
-        "created_at": "2026-07-06T21:28:58Z",
-        "pushed_at": "2026-07-16T01:23:39Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "XiaomiMiMo/MiMo-Code",
-      "category": "AI Agents",
-      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
-      "desc": "MiMo Code: Where Models and Agents Co-Evolve.",
-      "tags": [
-        "typescript",
-        "ai",
-        "ai-agents",
-        "cli",
-        "rising"
-      ],
-      "badge": "Rising #11",
-      "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "MI",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：MiMo Code: Where Models and Agents Co-Evolve.",
-      "stars": 12347,
-      "forks": 1250,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 11,
-        "stars_per_day": 289.18,
-        "created_at": "2026-06-10T11:52:41Z",
-        "pushed_at": "2026-07-23T04:30:33Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "stars_per_day": 418.77,
+        "created_at": "2026-06-22T23:48:26Z",
+        "pushed_at": "2026-07-24T04:06:57Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -297,20 +244,98 @@
         "claude-code",
         "rising"
       ],
-      "badge": "Rising #12",
+      "badge": "Rising #10",
       "featured": true,
       "category_cn": "AI 智能体",
       "icon": "IM",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-      "stars": 2129,
-      "forks": 170,
+      "stars": 3236,
+      "forks": 249,
       "language": "Python",
       "growth": {
-        "rank": 12,
-        "stars_per_day": 263.9,
+        "rank": 10,
+        "stars_per_day": 356.92,
         "created_at": "2026-07-15T02:58:39Z",
-        "pushed_at": "2026-07-22T00:58:59Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-24T02:04:57Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "x4gKing/X4G",
+      "category": "Automation",
+      "url": "https://github.com/x4gKing/X4G",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #11",
+      "featured": true,
+      "category_cn": "自动化",
+      "icon": "X4",
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 6520,
+      "forks": 11975,
+      "language": "Python",
+      "growth": {
+        "rank": 11,
+        "stars_per_day": 327.47,
+        "created_at": "2026-07-04T06:43:51Z",
+        "pushed_at": "2026-07-21T12:47:04Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "oso95/scroll-world",
+      "category": "Automation",
+      "url": "https://github.com/oso95/scroll-world",
+      "desc": "A skill that turn any brand into a scrollable 3D world.",
+      "tags": [
+        "javascript",
+        "rising"
+      ],
+      "badge": "Rising #12",
+      "featured": true,
+      "category_cn": "自动化",
+      "icon": "SC",
+      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：A skill that turn any brand into a scrollable 3D world.",
+      "stars": 5013,
+      "forks": 579,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 12,
+        "stars_per_day": 289.85,
+        "created_at": "2026-07-06T21:28:58Z",
+        "pushed_at": "2026-07-16T01:23:39Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "XiaomiMiMo/MiMo-Code",
+      "category": "AI Agents",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "desc": "MiMo Code: Where Models and Agents Co-Evolve.",
+      "tags": [
+        "typescript",
+        "ai",
+        "ai-agents",
+        "cli",
+        "rising"
+      ],
+      "badge": "Rising #13",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "MI",
+      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：MiMo Code: Where Models and Agents Co-Evolve.",
+      "stars": 12382,
+      "forks": 1259,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 13,
+        "stars_per_day": 283.37,
+        "created_at": "2026-06-10T11:52:41Z",
+        "pushed_at": "2026-07-24T02:43:54Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -322,20 +347,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #13",
+      "badge": "Rising #14",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "DE",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms.",
-      "stars": 6741,
-      "forks": 624,
+      "stars": 6754,
+      "forks": 626,
       "language": "Python",
       "growth": {
-        "rank": 13,
-        "stars_per_day": 252.79,
+        "rank": 14,
+        "stars_per_day": 244.13,
         "created_at": "2026-06-26T12:36:05Z",
         "pushed_at": "2026-07-09T04:37:14Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -350,20 +375,20 @@
         "multi-agent",
         "rising"
       ],
-      "badge": "Rising #14",
+      "badge": "Rising #15",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "T3",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：autonomous red teaming platform; multi-agent offensive-security meta-harness.",
-      "stars": 5106,
-      "forks": 1058,
+      "stars": 5132,
+      "forks": 1061,
       "language": "TypeScript",
       "growth": {
-        "rank": 14,
-        "stars_per_day": 249.73,
+        "rank": 15,
+        "stars_per_day": 239.31,
         "created_at": "2026-07-02T17:53:55Z",
         "pushed_at": "2026-07-20T22:15:06Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -375,20 +400,20 @@
         "javascript",
         "rising"
       ],
-      "badge": "Rising #15",
+      "badge": "Rising #16",
       "featured": false,
       "category_cn": "自动化",
       "icon": "OS",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 3595,
-      "forks": 616,
+      "stars": 3627,
+      "forks": 625,
       "language": "JavaScript",
       "growth": {
-        "rank": 15,
-        "stars_per_day": 242.95,
+        "rank": 16,
+        "stars_per_day": 229.61,
         "created_at": "2026-07-08T09:27:48Z",
         "pushed_at": "2026-07-08T14:18:23Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -400,20 +425,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #16",
+      "badge": "Rising #17",
       "featured": false,
       "category_cn": "自动化",
       "icon": "GP",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。.",
-      "stars": 2625,
-      "forks": 464,
+      "stars": 2772,
+      "forks": 484,
       "language": "Python",
       "growth": {
-        "rank": 16,
-        "stars_per_day": 222.73,
+        "rank": 17,
+        "stars_per_day": 216.82,
         "created_at": "2026-07-11T09:44:24Z",
-        "pushed_at": "2026-07-23T03:16:44Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-24T00:46:50Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -425,20 +450,20 @@
         "javascript",
         "rising"
       ],
-      "badge": "Rising #17",
+      "badge": "Rising #18",
       "featured": false,
       "category_cn": "自动化",
       "icon": "WL",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位.",
-      "stars": 6143,
-      "forks": 1207,
+      "stars": 6198,
+      "forks": 1226,
       "language": "JavaScript",
       "growth": {
-        "rank": 17,
-        "stars_per_day": 212.33,
+        "rank": 18,
+        "stars_per_day": 207.09,
         "created_at": "2026-06-24T06:15:30Z",
         "pushed_at": "2026-06-27T23:50:57Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -453,20 +478,20 @@
         "ai-coding",
         "rising"
       ],
-      "badge": "Rising #18",
+      "badge": "Rising #19",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "LO",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). I…",
-      "stars": 9174,
-      "forks": 1251,
+      "stars": 9272,
+      "forks": 1269,
       "language": "JavaScript",
       "growth": {
-        "rank": 18,
-        "stars_per_day": 208.87,
+        "rank": 19,
+        "stars_per_day": 206.41,
         "created_at": "2026-06-09T06:28:20Z",
-        "pushed_at": "2026-07-23T03:25:22Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-24T03:25:04Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -477,45 +502,45 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #19",
+      "badge": "Rising #20",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "IM",
       "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "stars": 8585,
-      "forks": 369,
+      "stars": 8615,
+      "forks": 373,
       "language": null,
       "growth": {
-        "rank": 19,
-        "stars_per_day": 200.92,
+        "rank": 20,
+        "stars_per_day": 197.02,
         "created_at": "2026-06-10T11:06:58Z",
         "pushed_at": "2026-06-15T06:18:39Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
-      "name": "tandpfun/wardrobe",
+      "name": "nyblnet/bento",
       "category": "Automation",
-      "url": "https://github.com/tandpfun/wardrobe",
-      "desc": "Your clothes, extracted and organized with gpt-image.",
+      "url": "https://github.com/nyblnet/bento",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
       "tags": [
-        "javascript",
+        "typescript",
         "rising"
       ],
-      "badge": "Rising #20",
+      "badge": "Rising #21",
       "featured": false,
       "category_cn": "自动化",
-      "icon": "WA",
-      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Your clothes, extracted and organized with gpt-image.",
-      "stars": 1362,
-      "forks": 196,
-      "language": "JavaScript",
+      "icon": "BE",
+      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 1178,
+      "forks": 66,
+      "language": "TypeScript",
       "growth": {
-        "rank": 20,
-        "stars_per_day": 196.54,
-        "created_at": "2026-07-16T06:17:00Z",
-        "pushed_at": "2026-07-16T06:35:44Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "rank": 21,
+        "stars_per_day": 181.64,
+        "created_at": "2026-07-17T16:55:09Z",
+        "pushed_at": "2026-07-24T00:00:39Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -530,20 +555,73 @@
         "agent-orchestration",
         "rising"
       ],
-      "badge": "Rising #21",
+      "badge": "Rising #22",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "OM",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies a…",
-      "stars": 7646,
-      "forks": 1096,
+      "stars": 7691,
+      "forks": 1106,
       "language": "Python",
       "growth": {
-        "rank": 21,
-        "stars_per_day": 183.45,
+        "rank": 22,
+        "stars_per_day": 180.21,
         "created_at": "2026-06-11T12:18:13Z",
-        "pushed_at": "2026-07-23T03:49:26Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-24T04:21:36Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "tandpfun/wardrobe",
+      "category": "Automation",
+      "url": "https://github.com/tandpfun/wardrobe",
+      "desc": "Your clothes, extracted and organized with gpt-image.",
+      "tags": [
+        "javascript",
+        "rising"
+      ],
+      "badge": "Rising #23",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "WA",
+      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Your clothes, extracted and organized with gpt-image.",
+      "stars": 1411,
+      "forks": 206,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 23,
+        "stars_per_day": 177.96,
+        "created_at": "2026-07-16T06:17:00Z",
+        "pushed_at": "2026-07-16T06:35:44Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "MIgHTy-alIeN/MEV-Arbitrage-Bot",
+      "category": "Automation",
+      "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot",
+      "desc": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "tags": [
+        "solidity",
+        "ai",
+        "aitradingbot",
+        "bot",
+        "rising"
+      ],
+      "badge": "Rising #24",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "ME",
+      "desc_cn": "这是一个 自动化 方向的 Solidity 开源项目，主要用于：An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "stars": 1195,
+      "forks": 854,
+      "language": "Solidity",
+      "growth": {
+        "rank": 24,
+        "stars_per_day": 176.15,
+        "created_at": "2026-07-17T09:45:22Z",
+        "pushed_at": "2026-07-24T04:33:36Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -555,45 +633,20 @@
         "rust",
         "rising"
       ],
-      "badge": "Rising #22",
+      "badge": "Rising #25",
       "featured": false,
       "category_cn": "自动化",
       "icon": "AE",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 1469,
-      "forks": 93,
+      "stars": 1486,
+      "forks": 94,
       "language": "Rust",
       "growth": {
-        "rank": 22,
-        "stars_per_day": 170.94,
+        "rank": 25,
+        "stars_per_day": 154.91,
         "created_at": "2026-07-14T14:20:44Z",
-        "pushed_at": "2026-07-19T19:39:35Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "littledivy/mimic",
-      "category": "Automation",
-      "url": "https://github.com/littledivy/mimic",
-      "desc": "Intercept any app, then call it from Python like a library.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #23",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "MI",
-      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Intercept any app, then call it from Python like a library.",
-      "stars": 1451,
-      "forks": 90,
-      "language": "Python",
-      "growth": {
-        "rank": 23,
-        "stars_per_day": 145.47,
-        "created_at": "2026-07-13T05:13:00Z",
-        "pushed_at": "2026-07-15T04:14:38Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-23T17:04:02Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -605,20 +658,101 @@
         "javascript",
         "rising"
       ],
-      "badge": "Rising #24",
+      "badge": "Rising #26",
       "featured": false,
       "category_cn": "自动化",
       "icon": "CO",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 4943,
-      "forks": 374,
+      "stars": 4982,
+      "forks": 376,
       "language": "JavaScript",
       "growth": {
-        "rank": 24,
-        "stars_per_day": 143.2,
+        "rank": 26,
+        "stars_per_day": 140.27,
         "created_at": "2026-06-18T16:08:30Z",
         "pushed_at": "2026-07-17T05:52:22Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "penecho/penecho",
+      "category": "AI Agents",
+      "url": "https://github.com/penecho/penecho",
+      "desc": "Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning.",
+      "tags": [
+        "javascript",
+        "ai",
+        "canvas",
+        "claude",
+        "rising"
+      ],
+      "badge": "Rising #27",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "PE",
+      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning.",
+      "stars": 1335,
+      "forks": 130,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 27,
+        "stars_per_day": 139.42,
+        "created_at": "2026-07-14T14:45:23Z",
+        "pushed_at": "2026-07-23T06:07:39Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "littledivy/mimic",
+      "category": "Automation",
+      "url": "https://github.com/littledivy/mimic",
+      "desc": "Intercept any app, then call it from Python like a library.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #28",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "MI",
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Intercept any app, then call it from Python like a library.",
+      "stars": 1458,
+      "forks": 91,
+      "language": "Python",
+      "growth": {
+        "rank": 28,
+        "stars_per_day": 132.87,
+        "created_at": "2026-07-13T05:13:00Z",
+        "pushed_at": "2026-07-15T04:14:38Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "baairon/torlink",
+      "category": "Automation",
+      "url": "https://github.com/baairon/torlink",
+      "desc": "👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "tags": [
+        "typescript",
+        "crossplatform",
+        "downloader",
+        "magnet-links",
+        "rising"
+      ],
+      "badge": "Rising #29",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "TO",
+      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "stars": 3802,
+      "forks": 251,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 29,
+        "stars_per_day": 132.64,
+        "created_at": "2026-06-25T12:37:15Z",
+        "pushed_at": "2026-07-22T05:23:10Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -633,48 +767,20 @@
         "ai-agent",
         "rising"
       ],
-      "badge": "Rising #25",
+      "badge": "Rising #30",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "OP",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：The open-source AI workbench for scientific research.",
-      "stars": 2689,
+      "stars": 2710,
       "forks": 374,
       "language": "TypeScript",
       "growth": {
-        "rank": 25,
-        "stars_per_day": 137.46,
+        "rank": 30,
+        "stars_per_day": 131.8,
         "created_at": "2026-07-03T15:06:45Z",
-        "pushed_at": "2026-07-22T08:56:56Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "baairon/torlink",
-      "category": "Automation",
-      "url": "https://github.com/baairon/torlink",
-      "desc": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
-      "tags": [
-        "typescript",
-        "crossplatform",
-        "downloader",
-        "magnet-links",
-        "rising"
-      ],
-      "badge": "Rising #26",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "TO",
-      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
-      "stars": 3766,
-      "forks": 250,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 26,
-        "stars_per_day": 136.12,
-        "created_at": "2026-06-25T12:37:15Z",
-        "pushed_at": "2026-07-22T05:23:10Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-24T04:15:50Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -686,20 +792,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #27",
+      "badge": "Rising #31",
       "featured": false,
       "category_cn": "文档知识库",
       "icon": "EX",
       "desc_cn": "这是一个 文档知识库 方向的 Python 开源项目，主要用于：A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit fo…",
-      "stars": 4016,
-      "forks": 1150,
+      "stars": 4065,
+      "forks": 1156,
       "language": "Python",
       "growth": {
-        "rank": 27,
-        "stars_per_day": 133.99,
+        "rank": 31,
+        "stars_per_day": 131.25,
         "created_at": "2026-06-23T05:14:11Z",
         "pushed_at": "2026-07-15T23:21:55Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -714,72 +820,20 @@
         "api-gateway",
         "rising"
       ],
-      "badge": "Rising #28",
+      "badge": "Rising #32",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "OP",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-      "stars": 3108,
-      "forks": 239,
+      "stars": 3143,
+      "forks": 245,
       "language": "TypeScript",
       "growth": {
-        "rank": 28,
-        "stars_per_day": 130.92,
+        "rank": 32,
+        "stars_per_day": 127.04,
         "created_at": "2026-06-29T10:49:36Z",
-        "pushed_at": "2026-07-23T02:13:49Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "pixel-point/aval",
-      "category": "Web Frameworks",
-      "url": "https://github.com/pixel-point/aval",
-      "desc": "A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
-      "tags": [
-        "typescript",
-        "rising"
-      ],
-      "badge": "Rising #29",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "AV",
-      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
-      "stars": 1285,
-      "forks": 70,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 29,
-        "stars_per_day": 130.19,
-        "created_at": "2026-07-13T07:42:51Z",
-        "pushed_at": "2026-07-22T08:21:12Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "xuchonglang/investing-for-beginners",
-      "category": "Automation",
-      "url": "https://github.com/xuchonglang/investing-for-beginners",
-      "desc": "小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架.",
-      "tags": [
-        "chinese",
-        "cryptocurrency",
-        "investing",
-        "rising"
-      ],
-      "badge": "Rising #30",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "IN",
-      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，主要用于：小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架.",
-      "stars": 2533,
-      "forks": 155,
-      "language": null,
-      "growth": {
-        "rank": 30,
-        "stars_per_day": 126.47,
-        "created_at": "2026-07-03T03:56:00Z",
-        "pushed_at": "2026-07-18T10:24:02Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "pushed_at": "2026-07-24T03:58:48Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -794,129 +848,47 @@
         "diy-electronics",
         "rising"
       ],
-      "badge": "Rising #31",
+      "badge": "Rising #33",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "OO",
       "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：Open-source vacuum robot cleaner.",
-      "stars": 5319,
-      "forks": 229,
+      "stars": 5470,
+      "forks": 234,
       "language": "Python",
       "growth": {
-        "rank": 31,
-        "stars_per_day": 123.87,
-        "created_at": "2026-06-10T06:03:33Z",
-        "pushed_at": "2026-07-22T08:21:50Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "Shpigford/knockoff",
-      "category": "Automation",
-      "url": "https://github.com/Shpigford/knockoff",
-      "desc": "Chrome extension that filters pseudo-brand junk out of Amazon. Buy from real, established brands.",
-      "tags": [
-        "javascript",
-        "amazon",
-        "browser-extension",
-        "chrome-extension",
-        "rising"
-      ],
-      "badge": "Rising #32",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "KN",
-      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Chrome extension that filters pseudo-brand junk out of Amazon. Buy from real, established brands.",
-      "stars": 1955,
-      "forks": 71,
-      "language": "JavaScript",
-      "growth": {
-        "rank": 32,
-        "stars_per_day": 118.04,
-        "created_at": "2026-07-06T15:06:06Z",
-        "pushed_at": "2026-07-17T19:12:51Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "mekos2772/ios-location-spoofer",
-      "category": "AI Agents",
-      "url": "https://github.com/mekos2772/ios-location-spoofer",
-      "desc": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
-      "tags": [
-        "javascript",
-        "rising"
-      ],
-      "badge": "Rising #33",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "IO",
-      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
-      "stars": 2583,
-      "forks": 424,
-      "language": "JavaScript",
-      "growth": {
         "rank": 33,
-        "stars_per_day": 113.69,
-        "created_at": "2026-06-30T11:20:30Z",
-        "pushed_at": "2026-07-20T14:30:04Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "stars_per_day": 124.49,
+        "created_at": "2026-06-10T06:03:33Z",
+        "pushed_at": "2026-07-24T03:49:09Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
-      "name": "isjiamu/gzh-design-skill",
-      "category": "AI Agents",
-      "url": "https://github.com/isjiamu/gzh-design-skill",
-      "desc": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+      "name": "xuchonglang/investing-for-beginners",
+      "category": "Automation",
+      "url": "https://github.com/xuchonglang/investing-for-beginners",
+      "desc": "小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架.",
       "tags": [
-        "html",
-        "agent-skill",
-        "ai-agent",
-        "claude-code",
+        "chinese",
+        "cryptocurrency",
+        "investing",
         "rising"
       ],
       "badge": "Rising #34",
       "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "GZ",
-      "desc_cn": "这是一个 AI 智能体 方向的 HTML 开源项目，主要用于：把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
-      "stars": 2431,
-      "forks": 271,
-      "language": "HTML",
+      "category_cn": "自动化",
+      "icon": "IN",
+      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，主要用于：小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架.",
+      "stars": 2612,
+      "forks": 160,
+      "language": null,
       "growth": {
         "rank": 34,
-        "stars_per_day": 110.47,
-        "created_at": "2026-07-01T04:28:03Z",
-        "pushed_at": "2026-07-08T13:32:08Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
-      }
-    },
-    {
-      "name": "Sahir619/fable-method",
-      "category": "AI Agents",
-      "url": "https://github.com/Sahir619/fable-method",
-      "desc": "The Fable Workflow: how Claude Fable 5 worked, distilled into skills any model can run, with the eval that keeps it honest. Think / act / prove.",
-      "tags": [
-        "python",
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "rising"
-      ],
-      "badge": "Rising #35",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "FA",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：The Fable Workflow: how Claude Fable 5 worked, distilled into skills any model can run, with the eval that keeps it honest. Think / act / prove.",
-      "stars": 1781,
-      "forks": 254,
-      "language": "Python",
-      "growth": {
-        "rank": 35,
-        "stars_per_day": 109.6,
-        "created_at": "2026-07-06T22:35:18Z",
-        "pushed_at": "2026-07-15T15:11:12Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "stars_per_day": 124.22,
+        "created_at": "2026-07-03T03:56:00Z",
+        "pushed_at": "2026-07-18T10:24:02Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     },
     {
@@ -931,20 +903,45 @@
         "anthropic",
         "rising"
       ],
-      "badge": "Rising #36",
+      "badge": "Rising #35",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "OP",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code.",
-      "stars": 3732,
-      "forks": 258,
+      "stars": 4236,
+      "forks": 304,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 35,
+        "stars_per_day": 120.24,
+        "created_at": "2026-06-18T23:03:18Z",
+        "pushed_at": "2026-07-24T04:27:45Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
+      }
+    },
+    {
+      "name": "pixel-point/aval",
+      "category": "Web Frameworks",
+      "url": "https://github.com/pixel-point/aval",
+      "desc": "A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
+      "tags": [
+        "typescript",
+        "rising"
+      ],
+      "badge": "Rising #36",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "AV",
+      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
+      "stars": 1292,
+      "forks": 71,
       "language": "TypeScript",
       "growth": {
         "rank": 36,
-        "stars_per_day": 109.02,
-        "created_at": "2026-06-18T23:03:18Z",
-        "pushed_at": "2026-07-22T23:36:45Z",
-        "synced_at": "2026-07-23T04:35:57.710414Z"
+        "stars_per_day": 118.87,
+        "created_at": "2026-07-13T07:42:51Z",
+        "pushed_at": "2026-07-23T13:20:06Z",
+        "synced_at": "2026-07-24T04:34:15.492424Z"
       }
     }
   ]
