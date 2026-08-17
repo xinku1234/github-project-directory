@@ -1,7 +1,7 @@
 {
   "source": "GitHub Search API",
-  "signal": "created:>=2026-07-02 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-08-16T02:34:49.168023Z",
+  "signal": "created:>=2026-07-03 stars:>=50 fork:false archived:false sorted by stars_per_day",
+  "synced_at": "2026-08-17T02:34:37.169832Z",
   "count": 36,
   "projects": [
     {
@@ -21,22 +21,22 @@
       "category_cn": "AI 智能体",
       "icon": "DE",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：DeepSeek Harness: Everything is a Plugin.",
-      "stars": 116770,
-      "forks": 11421,
+      "stars": 135123,
+      "forks": 13600,
       "language": "TypeScript",
       "growth": {
         "rank": 1,
-        "stars_per_day": 44740.82,
+        "stars_per_day": 37432.45,
         "created_at": "2026-08-13T11:56:32Z",
         "pushed_at": "2026-08-13T13:00:21Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
       "name": "anywhere-labs/deepseek-harness-desktop",
       "category": "Automation",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "desc": "为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验.",
+      "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案.",
       "tags": [
         "typescript",
         "deepseek",
@@ -48,16 +48,16 @@
       "featured": true,
       "category_cn": "自动化",
       "icon": "DE",
-      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验.",
-      "stars": 6183,
-      "forks": 266,
+      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案.",
+      "stars": 9435,
+      "forks": 398,
       "language": "TypeScript",
       "growth": {
         "rank": 2,
-        "stars_per_day": 2555.56,
+        "stars_per_day": 2759.34,
         "created_at": "2026-08-13T16:30:50Z",
-        "pushed_at": "2026-08-15T16:41:18Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "pushed_at": "2026-08-16T19:37:16Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -77,93 +77,15 @@
       "category_cn": "AI 智能体",
       "icon": "WA",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD.",
-      "stars": 9808,
-      "forks": 1013,
+      "stars": 11752,
+      "forks": 1252,
       "language": "Python",
       "growth": {
         "rank": 3,
-        "stars_per_day": 2219.92,
+        "stars_per_day": 2169.05,
         "created_at": "2026-08-11T16:32:38Z",
-        "pushed_at": "2026-08-16T00:23:21Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "yjh051108/dsh-routing-suite",
-      "category": "Web Frameworks",
-      "url": "https://github.com/yjh051108/dsh-routing-suite",
-      "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-      "tags": [
-        "powershell",
-        "rising"
-      ],
-      "badge": "Rising #4",
-      "featured": true,
-      "category_cn": "建站框架",
-      "icon": "DS",
-      "desc_cn": "这是一个 建站框架 方向的 PowerShell 开源项目，主要用于：dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-      "stars": 1816,
-      "forks": 44,
-      "language": "PowerShell",
-      "growth": {
-        "rank": 4,
-        "stars_per_day": 1490.98,
-        "created_at": "2026-08-14T21:20:55Z",
-        "pushed_at": "2026-08-15T20:29:05Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "xiaobright/dsh-anchored-standard",
-      "category": "AI Agents",
-      "url": "https://github.com/xiaobright/dsh-anchored-standard",
-      "desc": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
-      "tags": [
-        "javascript",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "rising"
-      ],
-      "badge": "Rising #5",
-      "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "DS",
-      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
-      "stars": 2257,
-      "forks": 71,
-      "language": "JavaScript",
-      "growth": {
-        "rank": 5,
-        "stars_per_day": 1485.3,
-        "created_at": "2026-08-14T14:06:39Z",
-        "pushed_at": "2026-08-15T22:55:15Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "firecrawl/anydoc",
-      "category": "Web Frameworks",
-      "url": "https://github.com/firecrawl/anydoc",
-      "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "tags": [
-        "rust",
-        "rising"
-      ],
-      "badge": "Rising #6",
-      "featured": true,
-      "category_cn": "建站框架",
-      "icon": "AN",
-      "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "stars": 16282,
-      "forks": 906,
-      "language": "Rust",
-      "growth": {
-        "rank": 6,
-        "stars_per_day": 1311.41,
-        "created_at": "2026-08-03T16:36:14Z",
-        "pushed_at": "2026-08-13T21:40:09Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "pushed_at": "2026-08-17T02:00:55Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -178,20 +100,123 @@
         "deepseek-harness",
         "rising"
       ],
-      "badge": "Rising #7",
+      "badge": "Rising #4",
       "featured": true,
       "category_cn": "自动化",
       "icon": "AW",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表.",
-      "stars": 3099,
-      "forks": 628,
+      "stars": 5583,
+      "forks": 895,
       "language": "Python",
       "growth": {
-        "rank": 7,
-        "stars_per_day": 1226.21,
+        "rank": 4,
+        "stars_per_day": 1582.86,
         "created_at": "2026-08-13T13:55:31Z",
-        "pushed_at": "2026-08-16T01:27:12Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "pushed_at": "2026-08-17T02:24:01Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "yjh051108/dsh-routing-suite",
+      "category": "Web Frameworks",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "tags": [
+        "powershell",
+        "rising"
+      ],
+      "badge": "Rising #5",
+      "featured": true,
+      "category_cn": "建站框架",
+      "icon": "DS",
+      "desc_cn": "这是一个 建站框架 方向的 PowerShell 开源项目，主要用于：dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "stars": 2952,
+      "forks": 72,
+      "language": "PowerShell",
+      "growth": {
+        "rank": 5,
+        "stars_per_day": 1331.02,
+        "created_at": "2026-08-14T21:20:55Z",
+        "pushed_at": "2026-08-15T20:29:05Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "xiaobright/dsh-anchored-standard",
+      "category": "AI Agents",
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
+      "desc": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
+      "tags": [
+        "javascript",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "rising"
+      ],
+      "badge": "Rising #6",
+      "featured": true,
+      "category_cn": "AI 智能体",
+      "icon": "DS",
+      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
+      "stars": 3118,
+      "forks": 97,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 6,
+        "stars_per_day": 1237.58,
+        "created_at": "2026-08-14T14:06:39Z",
+        "pushed_at": "2026-08-17T02:13:02Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "firecrawl/anydoc",
+      "category": "Web Frameworks",
+      "url": "https://github.com/firecrawl/anydoc",
+      "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "tags": [
+        "rust",
+        "rising"
+      ],
+      "badge": "Rising #7",
+      "featured": true,
+      "category_cn": "建站框架",
+      "icon": "AN",
+      "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "stars": 16481,
+      "forks": 931,
+      "language": "Rust",
+      "growth": {
+        "rank": 7,
+        "stars_per_day": 1228.5,
+        "created_at": "2026-08-03T16:36:14Z",
+        "pushed_at": "2026-08-13T21:40:09Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "xai-org/grok-build",
+      "category": "AI Agents",
+      "url": "https://github.com/xai-org/grok-build",
+      "desc": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "tags": [
+        "rust",
+        "rising"
+      ],
+      "badge": "Rising #8",
+      "featured": true,
+      "category_cn": "AI 智能体",
+      "icon": "GR",
+      "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "stars": 25400,
+      "forks": 4791,
+      "language": "Rust",
+      "growth": {
+        "rank": 8,
+        "stars_per_day": 763.43,
+        "created_at": "2026-07-14T20:04:23Z",
+        "pushed_at": "2026-08-16T19:01:03Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -206,45 +231,20 @@
         "harness",
         "rising"
       ],
-      "badge": "Rising #8",
+      "badge": "Rising #9",
       "featured": true,
       "category_cn": "AI 智能体",
       "icon": "QM",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Multiplayer agent harness for work.",
-      "stars": 13635,
-      "forks": 1605,
+      "stars": 13712,
+      "forks": 1620,
       "language": "TypeScript",
       "growth": {
-        "rank": 8,
-        "stars_per_day": 789.43,
-        "created_at": "2026-07-29T20:03:08Z",
-        "pushed_at": "2026-08-15T21:20:27Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "xai-org/grok-build",
-      "category": "AI Agents",
-      "url": "https://github.com/xai-org/grok-build",
-      "desc": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "tags": [
-        "rust",
-        "rising"
-      ],
-      "badge": "Rising #9",
-      "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "GR",
-      "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "stars": 25314,
-      "forks": 4788,
-      "language": "Rust",
-      "growth": {
         "rank": 9,
-        "stars_per_day": 784.42,
-        "created_at": "2026-07-14T20:04:23Z",
-        "pushed_at": "2026-08-15T20:21:35Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "stars_per_day": 750.44,
+        "created_at": "2026-07-29T20:03:08Z",
+        "pushed_at": "2026-08-16T16:11:59Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -264,64 +264,15 @@
       "category_cn": "建站框架",
       "icon": "DS",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
-      "stars": 2767,
-      "forks": 155,
+      "stars": 3548,
+      "forks": 207,
       "language": "TypeScript",
       "growth": {
         "rank": 10,
-        "stars_per_day": 711.58,
+        "stars_per_day": 725.8,
         "created_at": "2026-08-12T05:15:20Z",
-        "pushed_at": "2026-08-16T02:22:04Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
-      "category": "Automation",
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "desc": "Unlocking _everything_ on the CPU with DRAM scrambling.",
-      "tags": [
-        "c",
-        "rising"
-      ],
-      "badge": "Rising #11",
-      "featured": true,
-      "category_cn": "自动化",
-      "icon": "SK",
-      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：Unlocking _everything_ on the CPU with DRAM scrambling.",
-      "stars": 1677,
-      "forks": 136,
-      "language": "C",
-      "growth": {
-        "rank": 11,
-        "stars_per_day": 662.68,
-        "created_at": "2026-08-13T13:50:42Z",
-        "pushed_at": "2026-08-13T16:59:41Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "cordiverse/paper",
-      "category": "Data & Analytics",
-      "url": "https://github.com/cordiverse/paper",
-      "desc": "A Programming Paradigm for Spatiotemporal Composability.",
-      "tags": [
-        "rising"
-      ],
-      "badge": "Rising #12",
-      "featured": true,
-      "category_cn": "数据分析",
-      "icon": "PA",
-      "desc_cn": "这是一个 数据分析 方向的 开源 开源项目，主要用于：A Programming Paradigm for Spatiotemporal Composability.",
-      "stars": 1641,
-      "forks": 63,
-      "language": null,
-      "growth": {
-        "rank": 12,
-        "stars_per_day": 608.83,
-        "created_at": "2026-08-13T09:53:33Z",
-        "pushed_at": "2026-08-13T12:54:03Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "pushed_at": "2026-08-17T01:59:31Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -333,20 +284,20 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #13",
-      "featured": false,
+      "badge": "Rising #11",
+      "featured": true,
       "category_cn": "AI 智能体",
       "icon": "CR",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
-      "stars": 8486,
-      "forks": 1002,
+      "stars": 8521,
+      "forks": 1006,
       "language": "TypeScript",
       "growth": {
-        "rank": 13,
-        "stars_per_day": 558.09,
+        "rank": 11,
+        "stars_per_day": 525.81,
         "created_at": "2026-07-31T21:38:51Z",
         "pushed_at": "2026-08-14T00:20:49Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -358,20 +309,97 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #14",
-      "featured": false,
+      "badge": "Rising #12",
+      "featured": true,
       "category_cn": "自动化",
       "icon": "OP",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 14558,
-      "forks": 2018,
+      "stars": 14666,
+      "forks": 2035,
       "language": "Python",
       "growth": {
-        "rank": 14,
-        "stars_per_day": 538.6,
+        "rank": 12,
+        "stars_per_day": 523.24,
         "created_at": "2026-07-20T01:52:32Z",
         "pushed_at": "2026-08-08T03:37:02Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "cordiverse/paper",
+      "category": "Data & Analytics",
+      "url": "https://github.com/cordiverse/paper",
+      "desc": "A Programming Paradigm for Spatiotemporal Composability.",
+      "tags": [
+        "rising"
+      ],
+      "badge": "Rising #13",
+      "featured": false,
+      "category_cn": "数据分析",
+      "icon": "PA",
+      "desc_cn": "这是一个 数据分析 方向的 开源 开源项目，主要用于：A Programming Paradigm for Spatiotemporal Composability.",
+      "stars": 1905,
+      "forks": 76,
+      "language": null,
+      "growth": {
+        "rank": 13,
+        "stars_per_day": 515.54,
+        "created_at": "2026-08-13T09:53:33Z",
+        "pushed_at": "2026-08-13T12:54:03Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
+      "category": "Automation",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "desc": "Unlocking _everything_ on the CPU with DRAM scrambling.",
+      "tags": [
+        "c",
+        "rising"
+      ],
+      "badge": "Rising #14",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "SK",
+      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：Unlocking _everything_ on the CPU with DRAM scrambling.",
+      "stars": 1732,
+      "forks": 138,
+      "language": "C",
+      "growth": {
+        "rank": 14,
+        "stars_per_day": 490.58,
+        "created_at": "2026-08-13T13:50:42Z",
+        "pushed_at": "2026-08-13T16:59:41Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "ccch1mneyyy/dsh-TUI",
+      "category": "Web Frameworks",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "desc": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoug…",
+      "tags": [
+        "typescript",
+        "claude-code",
+        "coding-agent",
+        "deepseek",
+        "rising"
+      ],
+      "badge": "Rising #15",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "DS",
+      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoug…",
+      "stars": 1592,
+      "forks": 70,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 15,
+        "stars_per_day": 445.57,
+        "created_at": "2026-08-13T12:49:31Z",
+        "pushed_at": "2026-08-17T02:32:31Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -383,20 +411,20 @@
         "javascript",
         "rising"
       ],
-      "badge": "Rising #15",
+      "badge": "Rising #16",
       "featured": false,
       "category_cn": "自动化",
       "icon": "CO",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Codex Dream Skin.",
-      "stars": 13762,
-      "forks": 1333,
+      "stars": 13796,
+      "forks": 1334,
       "language": "JavaScript",
       "growth": {
-        "rank": 15,
-        "stars_per_day": 435.74,
+        "rank": 16,
+        "stars_per_day": 423.41,
         "created_at": "2026-07-15T12:34:51Z",
         "pushed_at": "2026-08-12T03:25:20Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -407,20 +435,48 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #16",
+      "badge": "Rising #17",
       "featured": false,
       "category_cn": "自动化",
       "icon": "KI",
       "desc_cn": "这是一个 自动化 方向的 开源 开源项目，主要用于：Open Frontier Intelligence.",
-      "stars": 8463,
-      "forks": 660,
+      "stars": 8478,
+      "forks": 665,
       "language": null,
       "growth": {
-        "rank": 16,
-        "stars_per_day": 428.01,
+        "rank": 17,
+        "stars_per_day": 408.13,
         "created_at": "2026-07-27T08:01:37Z",
         "pushed_at": "2026-08-06T10:17:28Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "dmmulroy/anti-slop",
+      "category": "AI Agents",
+      "url": "https://github.com/dmmulroy/anti-slop",
+      "desc": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns.",
+      "tags": [
+        "typescript",
+        "agent-skills",
+        "linting",
+        "oxlint",
+        "rising"
+      ],
+      "badge": "Rising #18",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "AN",
+      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns.",
+      "stars": 1687,
+      "forks": 28,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 18,
+        "stars_per_day": 372.26,
+        "created_at": "2026-08-12T13:48:50Z",
+        "pushed_at": "2026-08-14T14:23:59Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -435,45 +491,20 @@
         "cpu-inference",
         "rising"
       ],
-      "badge": "Rising #17",
+      "badge": "Rising #19",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "KI",
       "desc_cn": "这是一个 AI 智能体 方向的 C 开源项目，主要用于：A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-      "stars": 5762,
-      "forks": 936,
+      "stars": 5842,
+      "forks": 953,
       "language": "C",
       "growth": {
-        "rank": 17,
-        "stars_per_day": 391.65,
+        "rank": 19,
+        "stars_per_day": 371.82,
         "created_at": "2026-08-01T09:29:38Z",
         "pushed_at": "2026-08-07T16:39:26Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "bashalarmistalt/decimen-optical-transfer",
-      "category": "Automation",
-      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
-      "tags": [
-        "typescript",
-        "rising"
-      ],
-      "badge": "Rising #18",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "DE",
-      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 6059,
-      "forks": 733,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 18,
-        "stars_per_day": 370.69,
-        "created_at": "2026-07-30T18:17:54Z",
-        "pushed_at": "2026-08-12T22:04:02Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -488,20 +519,45 @@
         "claude-code",
         "rising"
       ],
-      "badge": "Rising #19",
+      "badge": "Rising #20",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "IM",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-      "stars": 11848,
-      "forks": 930,
+      "stars": 11957,
+      "forks": 941,
       "language": "Python",
       "growth": {
-        "rank": 19,
-        "stars_per_day": 370.44,
+        "rank": 20,
+        "stars_per_day": 362.52,
         "created_at": "2026-07-15T02:58:39Z",
         "pushed_at": "2026-08-13T15:22:56Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "bashalarmistalt/decimen-optical-transfer",
+      "category": "Automation",
+      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "typescript",
+        "rising"
+      ],
+      "badge": "Rising #21",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "DE",
+      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 6090,
+      "forks": 737,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 21,
+        "stars_per_day": 351.11,
+        "created_at": "2026-07-30T18:17:54Z",
+        "pushed_at": "2026-08-12T22:04:02Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -513,44 +569,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #20",
+      "badge": "Rising #22",
       "featured": false,
       "category_cn": "自动化",
       "icon": "MI",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 6073,
-      "forks": 363,
+      "stars": 6004,
+      "forks": 370,
       "language": "Python",
       "growth": {
-        "rank": 20,
-        "stars_per_day": 362.66,
+        "rank": 22,
+        "stars_per_day": 338.34,
         "created_at": "2026-07-30T08:41:09Z",
         "pushed_at": "2026-08-15T08:31:17Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "ZzzLc0405/photo-abstract-editorial",
-      "category": "Automation",
-      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
-      "tags": [
-        "rising"
-      ],
-      "badge": "Rising #21",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "PH",
-      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 3835,
-      "forks": 257,
-      "language": null,
-      "growth": {
-        "rank": 21,
-        "stars_per_day": 327.56,
-        "created_at": "2026-08-04T09:35:31Z",
-        "pushed_at": "2026-08-14T09:25:23Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -565,45 +597,44 @@
         "ffmpeg",
         "rising"
       ],
-      "badge": "Rising #22",
+      "badge": "Rising #23",
       "featured": false,
       "category_cn": "自动化",
       "icon": "FL",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳.",
-      "stars": 3225,
-      "forks": 283,
+      "stars": 3451,
+      "forks": 305,
       "language": "JavaScript",
       "growth": {
-        "rank": 22,
-        "stars_per_day": 324.41,
+        "rank": 23,
+        "stars_per_day": 315.42,
         "created_at": "2026-08-06T03:59:32Z",
         "pushed_at": "2026-08-15T15:25:00Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
-      "name": "SMNETSTUDIO/WeChat-AI",
-      "category": "AI Agents",
-      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "name": "ZzzLc0405/photo-abstract-editorial",
+      "category": "Automation",
+      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
       "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
       "tags": [
-        "typescript",
         "rising"
       ],
-      "badge": "Rising #23",
+      "badge": "Rising #24",
       "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "WE",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 1744,
-      "forks": 1247,
-      "language": "TypeScript",
+      "category_cn": "自动化",
+      "icon": "PH",
+      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 3932,
+      "forks": 261,
+      "language": null,
       "growth": {
-        "rank": 23,
-        "stars_per_day": 304.48,
-        "created_at": "2026-08-10T09:06:43Z",
-        "pushed_at": "2026-08-13T08:30:29Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "rank": 24,
+        "stars_per_day": 309.42,
+        "created_at": "2026-08-04T09:35:31Z",
+        "pushed_at": "2026-08-17T02:01:56Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -618,20 +649,20 @@
         "cli",
         "rising"
       ],
-      "badge": "Rising #24",
+      "badge": "Rising #25",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "CO",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security.",
-      "stars": 9862,
-      "forks": 690,
+      "stars": 9894,
+      "forks": 695,
       "language": "TypeScript",
       "growth": {
-        "rank": 24,
-        "stars_per_day": 297.13,
+        "rank": 25,
+        "stars_per_day": 289.38,
         "created_at": "2026-07-13T22:00:13Z",
-        "pushed_at": "2026-08-16T01:32:27Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "pushed_at": "2026-08-17T02:33:32Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -643,44 +674,70 @@
         "c",
         "rising"
       ],
-      "badge": "Rising #25",
+      "badge": "Rising #26",
       "featured": false,
       "category_cn": "自动化",
       "icon": "H3",
       "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：MiniMax H3 inference engine for Mac computers.",
-      "stars": 1958,
-      "forks": 126,
+      "stars": 2063,
+      "forks": 129,
       "language": "C",
       "growth": {
-        "rank": 25,
-        "stars_per_day": 291.21,
+        "rank": 26,
+        "stars_per_day": 267.11,
         "created_at": "2026-08-09T09:12:47Z",
         "pushed_at": "2026-08-11T13:53:32Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
-      "name": "Zeejay0/gathered-scenes-zine-skill",
-      "category": "Automation",
-      "url": "https://github.com/Zeejay0/gathered-scenes-zine-skill",
+      "name": "SMNETSTUDIO/WeChat-AI",
+      "category": "AI Agents",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
       "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
       "tags": [
+        "typescript",
         "rising"
       ],
-      "badge": "Rising #26",
+      "badge": "Rising #27",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "WE",
+      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 1770,
+      "forks": 1259,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 27,
+        "stars_per_day": 263.09,
+        "created_at": "2026-08-10T09:06:43Z",
+        "pushed_at": "2026-08-16T13:47:36Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "pathwaycom/arc-task-gen",
+      "category": "Automation",
+      "url": "https://github.com/pathwaycom/arc-task-gen",
+      "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #28",
       "featured": false,
       "category_cn": "自动化",
-      "icon": "GA",
-      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 3643,
-      "forks": 410,
-      "language": null,
+      "icon": "AR",
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+      "stars": 3184,
+      "forks": 17,
+      "language": "Python",
       "growth": {
-        "rank": 26,
-        "stars_per_day": 252.15,
-        "created_at": "2026-08-01T15:50:05Z",
-        "pushed_at": "2026-08-11T18:47:10Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "rank": 28,
+        "stars_per_day": 253.37,
+        "created_at": "2026-08-04T12:59:02Z",
+        "pushed_at": "2026-08-11T09:52:10Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -692,20 +749,44 @@
         "rust",
         "rising"
       ],
-      "badge": "Rising #27",
+      "badge": "Rising #29",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "AO",
       "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：AOS Community Edition: the open agent operating system.",
-      "stars": 8586,
+      "stars": 8587,
       "forks": 21,
       "language": "Rust",
       "growth": {
-        "rank": 27,
-        "stars_per_day": 251.63,
+        "rank": 29,
+        "stars_per_day": 244.5,
         "created_at": "2026-07-12T23:39:52Z",
         "pushed_at": "2026-08-11T10:29:20Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
+      }
+    },
+    {
+      "name": "Zeejay0/gathered-scenes-zine-skill",
+      "category": "Automation",
+      "url": "https://github.com/Zeejay0/gathered-scenes-zine-skill",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "rising"
+      ],
+      "badge": "Rising #30",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "GA",
+      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 3760,
+      "forks": 420,
+      "language": null,
+      "growth": {
+        "rank": 30,
+        "stars_per_day": 243.4,
+        "created_at": "2026-08-01T15:50:05Z",
+        "pushed_at": "2026-08-16T17:24:19Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -720,20 +801,20 @@
         "creative-writing",
         "rising"
       ],
-      "badge": "Rising #28",
+      "badge": "Rising #31",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "HU",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。.",
-      "stars": 2743,
-      "forks": 226,
+      "stars": 2775,
+      "forks": 230,
       "language": "Python",
       "growth": {
-        "rank": 28,
-        "stars_per_day": 248.19,
+        "rank": 31,
+        "stars_per_day": 230.25,
         "created_at": "2026-08-05T01:19:41Z",
         "pushed_at": "2026-08-11T15:07:45Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -744,20 +825,20 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #29",
+      "badge": "Rising #32",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "FD",
       "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）.",
-      "stars": 4080,
-      "forks": 484,
+      "stars": 4101,
+      "forks": 488,
       "language": null,
       "growth": {
-        "rank": 29,
-        "stars_per_day": 241.83,
+        "rank": 32,
+        "stars_per_day": 229.47,
         "created_at": "2026-07-30T05:39:38Z",
         "pushed_at": "2026-08-14T01:57:33Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -772,98 +853,20 @@
         "automation",
         "rising"
       ],
-      "badge": "Rising #30",
+      "badge": "Rising #33",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "PH",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：let your agent control your phone.",
-      "stars": 1816,
-      "forks": 166,
+      "stars": 1863,
+      "forks": 172,
       "language": "Python",
-      "growth": {
-        "rank": 30,
-        "stars_per_day": 222.26,
-        "created_at": "2026-08-07T22:28:53Z",
-        "pushed_at": "2026-08-14T17:49:28Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "pathwaycom/arc-task-gen",
-      "category": "Automation",
-      "url": "https://github.com/pathwaycom/arc-task-gen",
-      "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #31",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "AR",
-      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
-      "stars": 2449,
-      "forks": 17,
-      "language": "Python",
-      "growth": {
-        "rank": 31,
-        "stars_per_day": 211.73,
-        "created_at": "2026-08-04T12:59:02Z",
-        "pushed_at": "2026-08-11T09:52:10Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "oil-oil/oil-motion",
-      "category": "Web Frameworks",
-      "url": "https://github.com/oil-oil/oil-motion",
-      "desc": "Create smooth, responsive interactive web animations.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #32",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "OI",
-      "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：Create smooth, responsive interactive web animations.",
-      "stars": 1785,
-      "forks": 135,
-      "language": "Python",
-      "growth": {
-        "rank": 32,
-        "stars_per_day": 207.99,
-        "created_at": "2026-08-07T12:36:33Z",
-        "pushed_at": "2026-08-15T14:11:20Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
-      }
-    },
-    {
-      "name": "drumih/turbo-fieldfare",
-      "category": "AI Agents",
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook.",
-      "tags": [
-        "swift",
-        "apple-silicon",
-        "gemma",
-        "gemma4",
-        "rising"
-      ],
-      "badge": "Rising #33",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "TU",
-      "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook.",
-      "stars": 6039,
-      "forks": 359,
-      "language": "Swift",
       "growth": {
         "rank": 33,
-        "stars_per_day": 205.11,
-        "created_at": "2026-07-17T15:57:54Z",
-        "pushed_at": "2026-08-15T16:43:06Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "stars_per_day": 203.15,
+        "created_at": "2026-08-07T22:28:53Z",
+        "pushed_at": "2026-08-17T00:08:20Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
@@ -880,71 +883,68 @@
       "category_cn": "自动化",
       "icon": "SC",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：A skill that turn any brand into a scrollable 3D world landing page.",
-      "stars": 8217,
-      "forks": 933,
+      "stars": 8240,
+      "forks": 936,
       "language": "JavaScript",
       "growth": {
         "rank": 34,
-        "stars_per_day": 204.34,
+        "stars_per_day": 199.94,
         "created_at": "2026-07-06T21:28:58Z",
         "pushed_at": "2026-07-29T04:44:56Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
-      "name": "genspark-ai/genoffice",
+      "name": "drumih/turbo-fieldfare",
       "category": "AI Agents",
-      "url": "https://github.com/genspark-ai/genoffice",
-      "desc": "Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook.",
       "tags": [
-        "typescript",
-        "ai",
-        "cross-platform",
-        "docx",
+        "swift",
+        "apple-silicon",
+        "gemma",
+        "gemma4",
         "rising"
       ],
       "badge": "Rising #35",
       "featured": false,
       "category_cn": "AI 智能体",
-      "icon": "GE",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.",
-      "stars": 3113,
-      "forks": 539,
-      "language": "TypeScript",
+      "icon": "TU",
+      "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook.",
+      "stars": 6086,
+      "forks": 366,
+      "language": "Swift",
       "growth": {
         "rank": 35,
-        "stars_per_day": 198.23,
-        "created_at": "2026-07-31T09:40:58Z",
-        "pushed_at": "2026-08-15T16:03:08Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "stars_per_day": 199.92,
+        "created_at": "2026-07-17T15:57:54Z",
+        "pushed_at": "2026-08-16T16:15:41Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     },
     {
-      "name": "imsai-sh/zhuzhiliao",
+      "name": "oil-oil/oil-motion",
       "category": "Web Frameworks",
-      "url": "https://github.com/imsai-sh/zhuzhiliao",
-      "desc": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。.",
+      "url": "https://github.com/oil-oil/oil-motion",
+      "desc": "Create smooth, responsive interactive web animations.",
       "tags": [
-        "html",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
+        "python",
         "rising"
       ],
       "badge": "Rising #36",
       "featured": false,
       "category_cn": "建站框架",
-      "icon": "ZH",
-      "desc_cn": "这是一个 建站框架 方向的 HTML 开源项目，主要用于：竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。.",
-      "stars": 2810,
-      "forks": 342,
-      "language": "HTML",
+      "icon": "OI",
+      "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：Create smooth, responsive interactive web animations.",
+      "stars": 1843,
+      "forks": 139,
+      "language": "Python",
       "growth": {
         "rank": 36,
-        "stars_per_day": 195.35,
-        "created_at": "2026-08-01T17:20:54Z",
-        "pushed_at": "2026-08-14T14:31:41Z",
-        "synced_at": "2026-08-16T02:34:49.168023Z"
+        "stars_per_day": 192.34,
+        "created_at": "2026-08-07T12:36:33Z",
+        "pushed_at": "2026-08-15T14:11:20Z",
+        "synced_at": "2026-08-17T02:34:37.169832Z"
       }
     }
   ]
