@@ -1,7 +1,7 @@
 {
   "source": "GitHub Search API",
-  "signal": "created:>=2026-07-05 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-08-19T02:32:17.537266Z",
+  "signal": "created:>=2026-07-06 stars:>=50 fork:false archived:false sorted by stars_per_day",
+  "synced_at": "2026-08-20T02:30:56.567163Z",
   "count": 36,
   "projects": [
     {
@@ -21,15 +21,15 @@
       "category_cn": "AI 智能体",
       "icon": "DE",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：DeepSeek Harness: Everything is a Plugin.",
-      "stars": 161268,
-      "forks": 16929,
+      "stars": 168155,
+      "forks": 17992,
       "language": "TypeScript",
       "growth": {
         "rank": 1,
-        "stars_per_day": 28755.93,
+        "stars_per_day": 25450.16,
         "created_at": "2026-08-13T11:56:32Z",
-        "pushed_at": "2026-08-17T12:01:58Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T15:37:57Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -49,15 +49,15 @@
       "category_cn": "自动化",
       "icon": "DE",
       "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。.",
-      "stars": 13800,
-      "forks": 625,
+      "stars": 15356,
+      "forks": 733,
       "language": "TypeScript",
       "growth": {
         "rank": 2,
-        "stars_per_day": 2547.22,
+        "stars_per_day": 2393.11,
         "created_at": "2026-08-13T16:30:50Z",
-        "pushed_at": "2026-08-19T02:16:14Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T17:49:57Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -77,15 +77,15 @@
       "category_cn": "AI 智能体",
       "icon": "WA",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD.",
-      "stars": 14564,
-      "forks": 1615,
+      "stars": 15360,
+      "forks": 1727,
       "language": "Python",
       "growth": {
         "rank": 3,
-        "stars_per_day": 1963.75,
+        "stars_per_day": 1825.21,
         "created_at": "2026-08-11T16:32:38Z",
-        "pushed_at": "2026-08-19T02:21:14Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T23:21:56Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -105,15 +105,42 @@
       "category_cn": "自动化",
       "icon": "AW",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表.",
-      "stars": 9037,
-      "forks": 1320,
+      "stars": 10109,
+      "forks": 1485,
       "language": "Python",
       "growth": {
         "rank": 4,
-        "stars_per_day": 1635.5,
+        "stars_per_day": 1549.37,
         "created_at": "2026-08-13T13:55:31Z",
-        "pushed_at": "2026-08-19T01:21:09Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T18:03:57Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
+      }
+    },
+    {
+      "name": "s1dashu/ip-as-logo-skill",
+      "category": "AI Agents",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "desc": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "tags": [
+        "codex",
+        "codex-skill",
+        "image-generation",
+        "rising"
+      ],
+      "badge": "Rising #5",
+      "featured": true,
+      "category_cn": "AI 智能体",
+      "icon": "IP",
+      "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "stars": 2164,
+      "forks": 99,
+      "language": null,
+      "growth": {
+        "rank": 5,
+        "stars_per_day": 1421.89,
+        "created_at": "2026-08-18T13:59:23Z",
+        "pushed_at": "2026-08-20T02:19:35Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -125,45 +152,20 @@
         "powershell",
         "rising"
       ],
-      "badge": "Rising #5",
+      "badge": "Rising #6",
       "featured": true,
       "category_cn": "建站框架",
       "icon": "DS",
       "desc_cn": "这是一个 建站框架 方向的 PowerShell 开源项目，主要用于：dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-      "stars": 6070,
-      "forks": 105,
+      "stars": 6323,
+      "forks": 114,
       "language": "PowerShell",
       "growth": {
-        "rank": 5,
-        "stars_per_day": 1439.67,
+        "rank": 6,
+        "stars_per_day": 1212.4,
         "created_at": "2026-08-14T21:20:55Z",
         "pushed_at": "2026-08-17T16:58:53Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
-      }
-    },
-    {
-      "name": "yetone/cumora",
-      "category": "AI Agents",
-      "url": "https://github.com/yetone/cumora",
-      "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
-      "tags": [
-        "typescript",
-        "rising"
-      ],
-      "badge": "Rising #6",
-      "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "CU",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
-      "stars": 2430,
-      "forks": 267,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 6,
-        "stars_per_day": 1411.86,
-        "created_at": "2026-08-17T09:13:52Z",
-        "pushed_at": "2026-08-18T17:57:10Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -180,43 +182,40 @@
       "category_cn": "建站框架",
       "icon": "AN",
       "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "stars": 17022,
-      "forks": 974,
+      "stars": 17274,
+      "forks": 993,
       "language": "Rust",
       "growth": {
         "rank": 7,
-        "stars_per_day": 1104.33,
+        "stars_per_day": 1052.46,
         "created_at": "2026-08-03T16:36:14Z",
-        "pushed_at": "2026-08-13T21:40:09Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-20T02:24:05Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
-      "name": "xiaobright/dsh-anchored-standard",
+      "name": "yetone/cumora",
       "category": "AI Agents",
-      "url": "https://github.com/xiaobright/dsh-anchored-standard",
-      "desc": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
+      "url": "https://github.com/yetone/cumora",
+      "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
       "tags": [
-        "javascript",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
+        "typescript",
         "rising"
       ],
       "badge": "Rising #8",
       "featured": true,
       "category_cn": "AI 智能体",
-      "icon": "DS",
-      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
-      "stars": 3573,
-      "forks": 107,
-      "language": "JavaScript",
+      "icon": "CU",
+      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "stars": 2704,
+      "forks": 309,
+      "language": "TypeScript",
       "growth": {
         "rank": 8,
-        "stars_per_day": 790.87,
-        "created_at": "2026-08-14T14:06:39Z",
-        "pushed_at": "2026-08-17T06:19:58Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "stars_per_day": 994.05,
+        "created_at": "2026-08-17T09:13:52Z",
+        "pushed_at": "2026-08-20T00:13:55Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -233,15 +232,43 @@
       "category_cn": "AI 智能体",
       "icon": "GR",
       "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "stars": 25636,
-      "forks": 4824,
+      "stars": 25715,
+      "forks": 4836,
       "language": "Rust",
       "growth": {
         "rank": 9,
-        "stars_per_day": 726.86,
+        "stars_per_day": 709.02,
         "created_at": "2026-07-14T20:04:23Z",
-        "pushed_at": "2026-08-19T00:29:56Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T19:55:39Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
+      }
+    },
+    {
+      "name": "xiaobright/dsh-anchored-standard",
+      "category": "AI Agents",
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
+      "desc": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
+      "tags": [
+        "javascript",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "rising"
+      ],
+      "badge": "Rising #10",
+      "featured": true,
+      "category_cn": "AI 智能体",
+      "icon": "DS",
+      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99).",
+      "stars": 3640,
+      "forks": 109,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 10,
+        "stars_per_day": 659.79,
+        "created_at": "2026-08-14T14:06:39Z",
+        "pushed_at": "2026-08-17T06:19:58Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -256,20 +283,20 @@
         "harness",
         "rising"
       ],
-      "badge": "Rising #10",
+      "badge": "Rising #11",
       "featured": true,
       "category_cn": "AI 智能体",
       "icon": "QM",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Multiplayer agent harness for work.",
-      "stars": 13899,
-      "forks": 1648,
+      "stars": 13953,
+      "forks": 1659,
       "language": "TypeScript",
       "growth": {
-        "rank": 10,
-        "stars_per_day": 685.68,
+        "rank": 11,
+        "stars_per_day": 656.02,
         "created_at": "2026-07-29T20:03:08Z",
-        "pushed_at": "2026-08-19T02:21:44Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T23:22:40Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -284,20 +311,20 @@
         "dsh-plugin",
         "rising"
       ],
-      "badge": "Rising #11",
+      "badge": "Rising #12",
       "featured": true,
       "category_cn": "建站框架",
       "icon": "DS",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
-      "stars": 4615,
-      "forks": 276,
+      "stars": 4910,
+      "forks": 302,
       "language": "TypeScript",
       "growth": {
-        "rank": 11,
-        "stars_per_day": 670.12,
+        "rank": 12,
+        "stars_per_day": 622.64,
         "created_at": "2026-08-12T05:15:20Z",
-        "pushed_at": "2026-08-19T02:30:29Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-20T02:19:58Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -309,20 +336,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #12",
-      "featured": true,
+      "badge": "Rising #13",
+      "featured": false,
       "category_cn": "自动化",
       "icon": "OP",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 14787,
-      "forks": 2046,
+      "stars": 14839,
+      "forks": 2052,
       "language": "Python",
       "growth": {
-        "rank": 12,
-        "stars_per_day": 492.45,
+        "rank": 13,
+        "stars_per_day": 478.27,
         "created_at": "2026-07-20T01:52:32Z",
-        "pushed_at": "2026-08-08T03:37:02Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T03:49:11Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -334,20 +361,45 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #13",
+      "badge": "Rising #14",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "CR",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
-      "stars": 8612,
-      "forks": 1029,
+      "stars": 8681,
+      "forks": 1041,
       "language": "TypeScript",
       "growth": {
-        "rank": 13,
-        "stars_per_day": 473.09,
+        "rank": 14,
+        "stars_per_day": 452.07,
         "created_at": "2026-07-31T21:38:51Z",
         "pushed_at": "2026-08-18T16:56:32Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
+      }
+    },
+    {
+      "name": "Fei-Away/Codex-Dream-Skin",
+      "category": "Automation",
+      "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "desc": "Codex Dream Skin.",
+      "tags": [
+        "javascript",
+        "rising"
+      ],
+      "badge": "Rising #15",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "CO",
+      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Codex Dream Skin.",
+      "stars": 13962,
+      "forks": 1346,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 15,
+        "stars_per_day": 392.4,
+        "created_at": "2026-07-15T12:34:51Z",
+        "pushed_at": "2026-08-12T03:25:20Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -362,20 +414,20 @@
         "oxlint",
         "rising"
       ],
-      "badge": "Rising #14",
+      "badge": "Rising #16",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "AN",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns.",
-      "stars": 2650,
-      "forks": 47,
+      "stars": 2806,
+      "forks": 50,
       "language": "TypeScript",
       "growth": {
-        "rank": 14,
-        "stars_per_day": 405.81,
+        "rank": 16,
+        "stars_per_day": 372.68,
         "created_at": "2026-08-12T13:48:50Z",
         "pushed_at": "2026-08-18T13:21:06Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -386,45 +438,20 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #15",
+      "badge": "Rising #17",
       "featured": false,
       "category_cn": "数据分析",
       "icon": "PA",
       "desc_cn": "这是一个 数据分析 方向的 开源 开源项目，主要用于：A Programming Paradigm for Spatiotemporal Composability.",
-      "stars": 2306,
-      "forks": 97,
+      "stars": 2407,
+      "forks": 102,
       "language": null,
       "growth": {
-        "rank": 15,
-        "stars_per_day": 405.02,
+        "rank": 17,
+        "stars_per_day": 359.65,
         "created_at": "2026-08-13T09:53:33Z",
         "pushed_at": "2026-08-13T12:54:03Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
-      }
-    },
-    {
-      "name": "Fei-Away/Codex-Dream-Skin",
-      "category": "Automation",
-      "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
-      "desc": "Codex Dream Skin.",
-      "tags": [
-        "javascript",
-        "rising"
-      ],
-      "badge": "Rising #16",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "CO",
-      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Codex Dream Skin.",
-      "stars": 13912,
-      "forks": 1343,
-      "language": "JavaScript",
-      "growth": {
-        "rank": 16,
-        "stars_per_day": 402.3,
-        "created_at": "2026-07-15T12:34:51Z",
-        "pushed_at": "2026-08-12T03:25:20Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -435,48 +462,20 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #17",
+      "badge": "Rising #18",
       "featured": false,
       "category_cn": "自动化",
       "icon": "KI",
       "desc_cn": "这是一个 自动化 方向的 开源 开源项目，主要用于：Open Frontier Intelligence.",
-      "stars": 8510,
-      "forks": 671,
+      "stars": 8535,
+      "forks": 675,
       "language": null,
       "growth": {
-        "rank": 17,
-        "stars_per_day": 373.72,
+        "rank": 18,
+        "stars_per_day": 359.06,
         "created_at": "2026-07-27T08:01:37Z",
         "pushed_at": "2026-08-06T10:17:28Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
-      }
-    },
-    {
-      "name": "ccch1mneyyy/dsh-TUI",
-      "category": "Web Frameworks",
-      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-      "desc": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoug…",
-      "tags": [
-        "typescript",
-        "claude-code",
-        "coding-agent",
-        "deepseek",
-        "rising"
-      ],
-      "badge": "Rising #18",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "DS",
-      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoug…",
-      "stars": 1986,
-      "forks": 88,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 18,
-        "stars_per_day": 356.47,
-        "created_at": "2026-08-13T12:49:31Z",
-        "pushed_at": "2026-08-19T02:26:10Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -496,15 +495,15 @@
       "category_cn": "AI 智能体",
       "icon": "IM",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-      "stars": 12173,
-      "forks": 970,
+      "stars": 12265,
+      "forks": 974,
       "language": "Python",
       "growth": {
         "rank": 19,
-        "stars_per_day": 347.98,
+        "stars_per_day": 340.88,
         "created_at": "2026-07-15T02:58:39Z",
-        "pushed_at": "2026-08-13T15:22:56Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T04:02:33Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -524,40 +523,43 @@
       "category_cn": "AI 智能体",
       "icon": "KI",
       "desc_cn": "这是一个 AI 智能体 方向的 C 开源项目，主要用于：A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-      "stars": 6026,
-      "forks": 990,
+      "stars": 6108,
+      "forks": 1004,
       "language": "C",
       "growth": {
         "rank": 20,
-        "stars_per_day": 340.26,
+        "stars_per_day": 326.47,
         "created_at": "2026-08-01T09:29:38Z",
         "pushed_at": "2026-08-07T16:39:26Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
-      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
-      "category": "Automation",
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "desc": "Unlocking _everything_ on the CPU with DRAM scrambling.",
+      "name": "ccch1mneyyy/dsh-TUI",
+      "category": "Web Frameworks",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "desc": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoug…",
       "tags": [
-        "c",
+        "typescript",
+        "claude-code",
+        "coding-agent",
+        "deepseek",
         "rising"
       ],
       "badge": "Rising #21",
       "featured": false,
-      "category_cn": "自动化",
-      "icon": "SK",
-      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：Unlocking _everything_ on the CPU with DRAM scrambling.",
-      "stars": 1826,
-      "forks": 147,
-      "language": "C",
+      "category_cn": "建站框架",
+      "icon": "DS",
+      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoug…",
+      "stars": 2091,
+      "forks": 93,
+      "language": "TypeScript",
       "growth": {
         "rank": 21,
-        "stars_per_day": 330.27,
-        "created_at": "2026-08-13T13:50:42Z",
-        "pushed_at": "2026-08-13T16:59:41Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "stars_per_day": 318.24,
+        "created_at": "2026-08-13T12:49:31Z",
+        "pushed_at": "2026-08-20T02:27:44Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -574,15 +576,15 @@
       "category_cn": "自动化",
       "icon": "MI",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 6290,
-      "forks": 385,
+      "stars": 6397,
+      "forks": 391,
       "language": "Python",
       "growth": {
         "rank": 22,
-        "stars_per_day": 318.58,
+        "stars_per_day": 308.39,
         "created_at": "2026-07-30T08:41:09Z",
         "pushed_at": "2026-08-15T08:31:17Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -599,43 +601,40 @@
       "category_cn": "自动化",
       "icon": "DE",
       "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 6149,
-      "forks": 745,
+      "stars": 6174,
+      "forks": 751,
       "language": "TypeScript",
       "growth": {
         "rank": 23,
-        "stars_per_day": 317.89,
+        "stars_per_day": 303.5,
         "created_at": "2026-07-30T18:17:54Z",
-        "pushed_at": "2026-08-12T22:04:02Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-20T01:22:51Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
-      "name": "LaoFeng-mouse/flyingmouse-format",
+      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
       "category": "Automation",
-      "url": "https://github.com/LaoFeng-mouse/flyingmouse-format",
-      "desc": "飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳.",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "desc": "Unlocking _everything_ on the CPU with DRAM scrambling.",
       "tags": [
-        "javascript",
-        "desktop-app",
-        "electron",
-        "ffmpeg",
+        "c",
         "rising"
       ],
       "badge": "Rising #24",
       "featured": false,
       "category_cn": "自动化",
-      "icon": "FL",
-      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳.",
-      "stars": 3751,
-      "forks": 336,
-      "language": "JavaScript",
+      "icon": "SK",
+      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：Unlocking _everything_ on the CPU with DRAM scrambling.",
+      "stars": 1853,
+      "forks": 148,
+      "language": "C",
       "growth": {
         "rank": 24,
-        "stars_per_day": 289.89,
-        "created_at": "2026-08-06T03:59:32Z",
-        "pushed_at": "2026-08-17T03:40:42Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "stars_per_day": 283.86,
+        "created_at": "2026-08-13T13:50:42Z",
+        "pushed_at": "2026-08-13T16:59:41Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -651,15 +650,43 @@
       "category_cn": "自动化",
       "icon": "PH",
       "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 4213,
-      "forks": 275,
+      "stars": 4396,
+      "forks": 283,
       "language": null,
       "growth": {
         "rank": 25,
-        "stars_per_day": 286.48,
+        "stars_per_day": 279.91,
         "created_at": "2026-08-04T09:35:31Z",
-        "pushed_at": "2026-08-17T02:01:56Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-19T03:31:31Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
+      }
+    },
+    {
+      "name": "LaoFeng-mouse/flyingmouse-format",
+      "category": "Automation",
+      "url": "https://github.com/LaoFeng-mouse/flyingmouse-format",
+      "desc": "飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳.",
+      "tags": [
+        "javascript",
+        "desktop-app",
+        "electron",
+        "ffmpeg",
+        "rising"
+      ],
+      "badge": "Rising #26",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "FL",
+      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳.",
+      "stars": 3884,
+      "forks": 347,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 26,
+        "stars_per_day": 278.65,
+        "created_at": "2026-08-06T03:59:32Z",
+        "pushed_at": "2026-08-17T03:40:42Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -674,20 +701,20 @@
         "cli",
         "rising"
       ],
-      "badge": "Rising #26",
+      "badge": "Rising #27",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "CO",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security.",
-      "stars": 9960,
-      "forks": 703,
+      "stars": 9985,
+      "forks": 705,
       "language": "TypeScript",
       "growth": {
-        "rank": 26,
-        "stars_per_day": 275.22,
+        "rank": 27,
+        "stars_per_day": 268.5,
         "created_at": "2026-07-13T22:00:13Z",
-        "pushed_at": "2026-08-18T23:57:29Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "pushed_at": "2026-08-20T00:16:08Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -699,20 +726,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #27",
+      "badge": "Rising #28",
       "featured": false,
       "category_cn": "自动化",
       "icon": "AR",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
-      "stars": 3483,
+      "stars": 3698,
       "forks": 21,
       "language": "Python",
       "growth": {
-        "rank": 27,
-        "stars_per_day": 239.14,
+        "rank": 28,
+        "stars_per_day": 237.6,
         "created_at": "2026-08-04T12:59:02Z",
         "pushed_at": "2026-08-11T09:52:10Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -724,7 +751,7 @@
         "rust",
         "rising"
       ],
-      "badge": "Rising #28",
+      "badge": "Rising #29",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "AO",
@@ -733,11 +760,38 @@
       "forks": 22,
       "language": "Rust",
       "growth": {
-        "rank": 28,
-        "stars_per_day": 230.74,
+        "rank": 29,
+        "stars_per_day": 224.69,
         "created_at": "2026-07-12T23:39:52Z",
         "pushed_at": "2026-08-11T10:29:20Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
+      }
+    },
+    {
+      "name": "Small-tailqwq/dsh-deep-whale",
+      "category": "Automation",
+      "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+      "desc": "Whale Girl skin series for DeepSeek Harness. 适用于 DeepSeek Harness 的，鲸鱼娘系列皮肤。.",
+      "tags": [
+        "typescript",
+        "dsh",
+        "dsh-plugin",
+        "rising"
+      ],
+      "badge": "Rising #30",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "DS",
+      "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：Whale Girl skin series for DeepSeek Harness. 适用于 DeepSeek Harness 的，鲸鱼娘系列皮肤。.",
+      "stars": 1462,
+      "forks": 49,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 30,
+        "stars_per_day": 222.81,
+        "created_at": "2026-08-13T13:02:14Z",
+        "pushed_at": "2026-08-19T15:30:56Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -748,20 +802,20 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #29",
+      "badge": "Rising #31",
       "featured": false,
       "category_cn": "自动化",
       "icon": "GA",
       "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 4002,
-      "forks": 430,
+      "stars": 4083,
+      "forks": 429,
       "language": null,
       "growth": {
-        "rank": 29,
-        "stars_per_day": 229.39,
+        "rank": 31,
+        "stars_per_day": 221.36,
         "created_at": "2026-08-01T15:50:05Z",
         "pushed_at": "2026-08-16T17:24:19Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -773,20 +827,20 @@
         "c",
         "rising"
       ],
-      "badge": "Rising #30",
+      "badge": "Rising #32",
       "featured": false,
       "category_cn": "自动化",
       "icon": "H3",
       "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：MiniMax H3 inference engine for Mac computers.",
-      "stars": 2224,
+      "stars": 2261,
       "forks": 148,
       "language": "C",
       "growth": {
-        "rank": 30,
-        "stars_per_day": 228.76,
+        "rank": 32,
+        "stars_per_day": 210.9,
         "created_at": "2026-08-09T09:12:47Z",
         "pushed_at": "2026-08-11T13:53:32Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -797,45 +851,45 @@
       "tags": [
         "rising"
       ],
-      "badge": "Rising #31",
+      "badge": "Rising #33",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "FD",
       "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）.",
-      "stars": 4189,
-      "forks": 498,
+      "stars": 4217,
+      "forks": 501,
       "language": null,
       "growth": {
-        "rank": 31,
-        "stars_per_day": 210.82,
+        "rank": 33,
+        "stars_per_day": 202.07,
         "created_at": "2026-07-30T05:39:38Z",
         "pushed_at": "2026-08-14T01:57:33Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
-      "name": "SMNETSTUDIO/WeChat-AI",
-      "category": "AI Agents",
-      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "name": "Hisn00w/ASu-skills",
+      "category": "Automation",
+      "url": "https://github.com/Hisn00w/ASu-skills",
+      "desc": "简历包装.",
       "tags": [
-        "typescript",
+        "html",
         "rising"
       ],
-      "badge": "Rising #32",
+      "badge": "Rising #34",
       "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "WE",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 1787,
-      "forks": 1266,
-      "language": "TypeScript",
+      "category_cn": "自动化",
+      "icon": "AS",
+      "desc_cn": "这是一个 自动化 方向的 HTML 开源项目，主要用于：简历包装.",
+      "stars": 1535,
+      "forks": 112,
+      "language": "HTML",
       "growth": {
-        "rank": 32,
-        "stars_per_day": 204.79,
-        "created_at": "2026-08-10T09:06:43Z",
-        "pushed_at": "2026-08-18T04:52:31Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "rank": 34,
+        "stars_per_day": 196.67,
+        "created_at": "2026-08-12T07:12:05Z",
+        "pushed_at": "2026-08-19T15:23:31Z",
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -850,20 +904,20 @@
         "creative-writing",
         "rising"
       ],
-      "badge": "Rising #33",
+      "badge": "Rising #35",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "HU",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。.",
-      "stars": 2854,
+      "stars": 2882,
       "forks": 234,
       "language": "Python",
       "growth": {
-        "rank": 33,
-        "stars_per_day": 203.13,
+        "rank": 35,
+        "stars_per_day": 191.5,
         "created_at": "2026-08-05T01:19:41Z",
         "pushed_at": "2026-08-11T15:07:45Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     },
     {
@@ -875,76 +929,20 @@
         "javascript",
         "rising"
       ],
-      "badge": "Rising #34",
+      "badge": "Rising #36",
       "featured": false,
       "category_cn": "自动化",
       "icon": "SC",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：A skill that turn any brand into a scrollable 3D world landing page.",
-      "stars": 8305,
-      "forks": 944,
+      "stars": 8348,
+      "forks": 948,
       "language": "JavaScript",
       "growth": {
-        "rank": 34,
-        "stars_per_day": 192.2,
+        "rank": 36,
+        "stars_per_day": 188.83,
         "created_at": "2026-07-06T21:28:58Z",
         "pushed_at": "2026-07-29T04:44:56Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
-      }
-    },
-    {
-      "name": "omdsh-dev/DSH-better-sidebar",
-      "category": "Web Frameworks",
-      "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
-      "desc": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理页面 ｜ Open sidebar foundation, supports third-party extensions to register new sidebar pages. Built-in file rendering/editing, terminal, G…",
-      "tags": [
-        "typescript",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "rising"
-      ],
-      "badge": "Rising #35",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "DS",
-      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理页面 ｜ Open sidebar foundation, supports third-party extensions to register new sidebar pages. Built-in file rendering/editing, terminal, G…",
-      "stars": 2190,
-      "forks": 139,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 35,
-        "stars_per_day": 191.5,
-        "created_at": "2026-08-07T16:04:00Z",
-        "pushed_at": "2026-08-18T17:15:13Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
-      }
-    },
-    {
-      "name": "drumih/turbo-fieldfare",
-      "category": "AI Agents",
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook.",
-      "tags": [
-        "swift",
-        "apple-silicon",
-        "gemma",
-        "gemma4",
-        "rising"
-      ],
-      "badge": "Rising #36",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "TU",
-      "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook.",
-      "stars": 6162,
-      "forks": 371,
-      "language": "Swift",
-      "growth": {
-        "rank": 36,
-        "stars_per_day": 189.95,
-        "created_at": "2026-07-17T15:57:54Z",
-        "pushed_at": "2026-08-18T06:21:54Z",
-        "synced_at": "2026-08-19T02:32:17.537266Z"
+        "synced_at": "2026-08-20T02:30:56.567163Z"
       }
     }
   ]
