@@ -77,6 +77,7 @@ def page_shell(title: str, description: str, canonical: str, body: str,
     <footer class="footer"><a href="/">返回首页</a><a href="/projects/">全部项目</a><a href="/trending/">涨星榜</a><a href="/daily-brief/">分享快报</a><a href="/llms.txt">LLMS.txt</a></footer>
   </main>
   <script src="/assets/fluid-bg.js" defer></script>
+  <script>(function(){{try{{var s="daohang.bot.cd",p=location.pathname,r=document.referrer;var i=new Image();i.src="/api/track?s="+encodeURIComponent(s)+"&p="+encodeURIComponent(p)+"&r="+encodeURIComponent(r)+"&_t="+Date.now();}}catch(e){{}}}})();</script>
 </body>
 </html>
 """

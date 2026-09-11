@@ -85,3 +85,12 @@
   }
   resize(); seed(); frame();
 })();
+
+// --- Telemetry Pixel Probe (AI & Multi-source Visitor Analytics) ---
+(function(){
+  try {
+    var s = "daohang.bot.cd", p = location.pathname, r = document.referrer;
+    var i = new Image();
+    i.src = "/api/track?s=" + encodeURIComponent(s) + "&p=" + encodeURIComponent(p) + "&r=" + encodeURIComponent(r) + "&_t=" + Date.now();
+  } catch(e) {}
+})();
