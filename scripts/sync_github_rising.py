@@ -58,14 +58,27 @@ def api(path: str) -> dict:
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = Request(BASE + path, headers=headers)
-    try:
-        with urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except HTTPError as e:
-        detail = e.read().decode("utf-8", "ignore")[:500]
-        raise RuntimeError(f"GitHub API HTTP {e.code}: {detail}") from e
-    except URLError as e:
-        raise RuntimeError(f"GitHub API network error: {e}") from e
+    delays = [10, 20, 40]
+    for attempt in range(len(delays) + 1):
+        try:
+            with urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except HTTPError as e:
+            detail = e.read().decode("utf-8", "ignore")[:500]
+            if (500 <= e.code < 600 or e.code == 429) and attempt < len(delays):
+                delay = delays[attempt]
+                print(f"[WARN] GitHub API HTTP {e.code}, retrying in {delay}s (attempt {attempt + 1}/{len(delays)})...", file=sys.stderr)
+                time.sleep(delay)
+                continue
+            raise RuntimeError(f"GitHub API HTTP {e.code}: {detail}") from e
+        except (URLError, TimeoutError) as e:
+            if attempt < len(delays):
+                delay = delays[attempt]
+                print(f"[WARN] GitHub API network error ({e}), retrying in {delay}s (attempt {attempt + 1}/{len(delays)})...", file=sys.stderr)
+                time.sleep(delay)
+                continue
+            raise RuntimeError(f"GitHub API network error: {e}") from e
+    raise RuntimeError(f"GitHub API request failed after retries: {path}")
 
 def clean_desc(text: str | None) -> str:
     text = (text or "").strip()
