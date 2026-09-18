@@ -1,7 +1,7 @@
 {
   "source": "GitHub Search API",
-  "signal": "created:>=2026-08-03 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-09-17T23:05:24.469996Z",
+  "signal": "created:>=2026-08-04 stars:>=50 fork:false archived:false sorted by stars_per_day",
+  "synced_at": "2026-09-18T05:57:57.320160Z",
   "count": 36,
   "projects": [
     {
@@ -21,22 +21,22 @@
       "category_cn": "AI 智能体",
       "icon": "DE",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：DeepSeek Harness: Everything is a Plugin.",
-      "stars": 227893,
-      "forks": 27193,
+      "stars": 228296,
+      "forks": 27277,
       "language": "TypeScript",
       "growth": {
         "rank": 1,
-        "stars_per_day": 6425.95,
+        "stars_per_day": 6385.73,
         "created_at": "2026-08-13T11:56:32Z",
         "pushed_at": "2026-09-17T13:30:15Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
       "name": "browser-use/jev-ultrafast",
       "category": "Automation",
       "url": "https://github.com/browser-use/jev-ultrafast",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "desc": "i. am. speed.",
       "tags": [
         "python",
         "rising"
@@ -45,16 +45,16 @@
       "featured": true,
       "category_cn": "自动化",
       "icon": "JE",
-      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 1875,
-      "forks": 103,
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：i. am. speed.",
+      "stars": 2987,
+      "forks": 168,
       "language": "Python",
       "growth": {
         "rank": 2,
-        "stars_per_day": 1758.72,
+        "stars_per_day": 2208.33,
         "created_at": "2026-09-16T21:30:12Z",
-        "pushed_at": "2026-09-17T21:54:00Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T01:17:37Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -74,15 +74,15 @@
       "category_cn": "自动化",
       "icon": "DS",
       "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。.",
-      "stars": 27341,
-      "forks": 1301,
+      "stars": 27419,
+      "forks": 1302,
       "language": "TypeScript",
       "growth": {
         "rank": 3,
-        "stars_per_day": 775.1,
+        "stars_per_day": 771.05,
         "created_at": "2026-08-13T16:30:50Z",
-        "pushed_at": "2026-09-17T16:29:58Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T01:10:56Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -102,40 +102,15 @@
       "category_cn": "AI 智能体",
       "icon": "WA",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：A privacy-first app that strips AI watermarks from content you own.",
-      "stars": 22245,
-      "forks": 2565,
+      "stars": 22259,
+      "forks": 2568,
       "language": "Python",
       "growth": {
         "rank": 4,
-        "stars_per_day": 596.82,
+        "stars_per_day": 592.64,
         "created_at": "2026-08-11T16:32:38Z",
         "pushed_at": "2026-09-16T17:14:52Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "firecrawl/anydoc",
-      "category": "Web Frameworks",
-      "url": "https://github.com/firecrawl/anydoc",
-      "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "tags": [
-        "rust",
-        "rising"
-      ],
-      "badge": "Rising #5",
-      "featured": true,
-      "category_cn": "建站框架",
-      "icon": "AN",
-      "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "stars": 21689,
-      "forks": 1339,
-      "language": "Rust",
-      "growth": {
-        "rank": 5,
-        "stars_per_day": 479.1,
-        "created_at": "2026-08-03T16:36:14Z",
-        "pushed_at": "2026-08-28T02:13:16Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -150,20 +125,20 @@
         "material-design",
         "rising"
       ],
-      "badge": "Rising #6",
+      "badge": "Rising #5",
       "featured": true,
       "category_cn": "建站框架",
       "icon": "M3",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-      "stars": 7306,
-      "forks": 759,
+      "stars": 7348,
+      "forks": 764,
       "language": "TypeScript",
       "growth": {
-        "rank": 6,
-        "stars_per_day": 463.28,
+        "rank": 5,
+        "stars_per_day": 457.63,
         "created_at": "2026-09-02T04:36:34Z",
         "pushed_at": "2026-09-16T10:57:11Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -178,20 +153,45 @@
         "deepseek-harness",
         "rising"
       ],
-      "badge": "Rising #7",
+      "badge": "Rising #6",
       "featured": true,
       "category_cn": "自动化",
       "icon": "AW",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表.",
-      "stars": 16058,
-      "forks": 3011,
+      "stars": 16093,
+      "forks": 3023,
       "language": "Python",
       "growth": {
-        "rank": 7,
-        "stars_per_day": 453.85,
+        "rank": 6,
+        "stars_per_day": 451.18,
         "created_at": "2026-08-13T13:55:31Z",
-        "pushed_at": "2026-09-16T17:18:23Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T03:31:12Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "eternity4719/HowToLiveBetter",
+      "category": "Automation",
+      "url": "https://github.com/eternity4719/HowToLiveBetter",
+      "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。.",
+      "tags": [
+        "html",
+        "rising"
+      ],
+      "badge": "Rising #7",
+      "featured": true,
+      "category_cn": "自动化",
+      "icon": "HO",
+      "desc_cn": "这是一个 自动化 方向的 HTML 开源项目，主要用于：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。.",
+      "stars": 4148,
+      "forks": 326,
+      "language": "HTML",
+      "growth": {
+        "rank": 7,
+        "stars_per_day": 371.36,
+        "created_at": "2026-09-07T01:53:36Z",
+        "pushed_at": "2026-09-18T05:56:03Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -207,40 +207,15 @@
       "category_cn": "自动化",
       "icon": "DL",
       "desc_cn": "这是一个 自动化 方向的 开源 开源项目，主要用于：Here is a dlssg for RTX30 Series GPU.",
-      "stars": 3293,
-      "forks": 197,
+      "stars": 3335,
+      "forks": 198,
       "language": null,
       "growth": {
         "rank": 8,
-        "stars_per_day": 320.21,
+        "stars_per_day": 315.51,
         "created_at": "2026-09-07T16:16:48Z",
         "pushed_at": "2026-09-17T18:57:39Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "eternity4719/HowToLiveBetter",
-      "category": "Automation",
-      "url": "https://github.com/eternity4719/HowToLiveBetter",
-      "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。.",
-      "tags": [
-        "html",
-        "rising"
-      ],
-      "badge": "Rising #9",
-      "featured": true,
-      "category_cn": "自动化",
-      "icon": "HO",
-      "desc_cn": "这是一个 自动化 方向的 HTML 开源项目，主要用于：按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。.",
-      "stars": 3256,
-      "forks": 257,
-      "language": "HTML",
-      "growth": {
-        "rank": 9,
-        "stars_per_day": 299.18,
-        "created_at": "2026-09-07T01:53:36Z",
-        "pushed_at": "2026-09-11T05:26:13Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -252,20 +227,20 @@
         "javascript",
         "rising"
       ],
-      "badge": "Rising #10",
+      "badge": "Rising #9",
       "featured": true,
       "category_cn": "自动化",
       "icon": "DL",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenG…",
-      "stars": 5545,
+      "stars": 5616,
       "forks": 297,
       "language": "JavaScript",
       "growth": {
-        "rank": 10,
-        "stars_per_day": 292.33,
+        "rank": 9,
+        "stars_per_day": 291.67,
         "created_at": "2026-08-29T23:51:32Z",
         "pushed_at": "2026-09-13T02:02:21Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -277,20 +252,20 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #11",
+      "badge": "Rising #10",
       "featured": true,
       "category_cn": "文档知识库",
       "icon": "HU",
       "desc_cn": "这是一个 文档知识库 方向的 TypeScript 开源项目，主要用于：Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
-      "stars": 3604,
-      "forks": 870,
+      "stars": 3618,
+      "forks": 877,
       "language": "TypeScript",
       "growth": {
-        "rank": 11,
-        "stars_per_day": 278.41,
+        "rank": 10,
+        "stars_per_day": 273.44,
         "created_at": "2026-09-05T00:24:43Z",
         "pushed_at": "2026-09-06T23:35:06Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -302,20 +277,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #12",
+      "badge": "Rising #11",
       "featured": true,
       "category_cn": "文档知识库",
       "icon": "PR",
       "desc_cn": "这是一个 文档知识库 方向的 Python 开源项目，主要用于：Autonomous research system for measurable, computer-executable research.",
-      "stars": 5718,
+      "stars": 5725,
       "forks": 647,
       "language": "Python",
       "growth": {
-        "rank": 12,
-        "stars_per_day": 267.64,
+        "rank": 11,
+        "stars_per_day": 264.43,
         "created_at": "2026-08-27T14:20:58Z",
         "pushed_at": "2026-09-17T00:14:20Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -330,20 +305,20 @@
         "codex",
         "rising"
       ],
-      "badge": "Rising #13",
-      "featured": false,
+      "badge": "Rising #12",
+      "featured": true,
       "category_cn": "AI 智能体",
       "icon": "CO",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-      "stars": 5192,
-      "forks": 508,
+      "stars": 5302,
+      "forks": 516,
       "language": "TypeScript",
       "growth": {
-        "rank": 13,
-        "stars_per_day": 254.23,
+        "rank": 12,
+        "stars_per_day": 256.03,
         "created_at": "2026-08-28T12:57:24Z",
         "pushed_at": "2026-09-13T03:22:46Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -355,20 +330,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #14",
+      "badge": "Rising #13",
       "featured": false,
       "category_cn": "自动化",
       "icon": "AR",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
-      "stars": 11189,
+      "stars": 11188,
       "forks": 72,
       "language": "Python",
       "growth": {
-        "rank": 14,
-        "stars_per_day": 251.88,
+        "rank": 13,
+        "stars_per_day": 250.25,
         "created_at": "2026-08-04T12:59:02Z",
         "pushed_at": "2026-08-11T09:52:10Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -383,20 +358,48 @@
         "threejs",
         "rising"
       ],
-      "badge": "Rising #15",
+      "badge": "Rising #14",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "TH",
       "desc_cn": "这是一个 建站框架 方向的 HTML 开源项目，主要用于：Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
-      "stars": 5907,
-      "forks": 562,
+      "stars": 5914,
+      "forks": 564,
       "language": "HTML",
       "growth": {
-        "rank": 15,
-        "stars_per_day": 215.08,
+        "rank": 14,
+        "stars_per_day": 213.11,
         "created_at": "2026-08-21T11:56:39Z",
         "pushed_at": "2026-09-03T05:36:26Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "google/artemis",
+      "category": "Automation",
+      "url": "https://github.com/google/artemis",
+      "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants…",
+      "tags": [
+        "python",
+        "ai-agents",
+        "android",
+        "google",
+        "rising"
+      ],
+      "badge": "Rising #15",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "AR",
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants…",
+      "stars": 7489,
+      "forks": 695,
+      "language": "Python",
+      "growth": {
+        "rank": 15,
+        "stars_per_day": 210.96,
+        "created_at": "2026-08-13T17:59:37Z",
+        "pushed_at": "2026-09-12T03:00:58Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -416,15 +419,15 @@
       "category_cn": "AI 智能体",
       "icon": "DS",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-      "stars": 7193,
-      "forks": 173,
+      "stars": 7195,
+      "forks": 174,
       "language": "JavaScript",
       "growth": {
         "rank": 16,
-        "stars_per_day": 211.11,
+        "stars_per_day": 209.41,
         "created_at": "2026-08-14T21:20:55Z",
         "pushed_at": "2026-09-04T13:51:03Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -444,43 +447,43 @@
       "category_cn": "建站框架",
       "icon": "DS",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：DeepSeek Harness (DSH) Web 插件聚合生态 · 万物皆插件，通过创意工坊分发｜｜DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop.",
-      "stars": 7692,
+      "stars": 7707,
       "forks": 520,
       "language": "TypeScript",
       "growth": {
         "rank": 17,
-        "stars_per_day": 209.35,
+        "stars_per_day": 208.13,
         "created_at": "2026-08-12T05:15:20Z",
-        "pushed_at": "2026-09-17T16:43:49Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T01:31:02Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
-      "name": "google/artemis",
-      "category": "Automation",
-      "url": "https://github.com/google/artemis",
-      "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants…",
+      "name": "dataelement/dsh-desktop",
+      "category": "AI Agents",
+      "url": "https://github.com/dataelement/dsh-desktop",
+      "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版.",
       "tags": [
-        "python",
-        "ai-agents",
-        "android",
-        "google",
+        "typescript",
+        "agent",
+        "apps",
+        "deepseek",
         "rising"
       ],
       "badge": "Rising #18",
       "featured": false,
-      "category_cn": "自动化",
-      "icon": "AR",
-      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants…",
-      "stars": 7239,
-      "forks": 660,
-      "language": "Python",
+      "category_cn": "AI 智能体",
+      "icon": "DS",
+      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版.",
+      "stars": 7290,
+      "forks": 318,
+      "language": "TypeScript",
       "growth": {
         "rank": 18,
-        "stars_per_day": 205.58,
-        "created_at": "2026-08-13T17:59:37Z",
-        "pushed_at": "2026-09-12T03:00:58Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "stars_per_day": 204.34,
+        "created_at": "2026-08-13T13:45:50Z",
+        "pushed_at": "2026-09-18T03:07:41Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -497,68 +500,15 @@
       "category_cn": "自动化",
       "icon": "ED",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 1920,
-      "forks": 161,
+      "stars": 1939,
+      "forks": 162,
       "language": "Python",
       "growth": {
         "rank": 19,
-        "stars_per_day": 204.44,
+        "stars_per_day": 200.35,
         "created_at": "2026-09-08T13:41:47Z",
         "pushed_at": "2026-09-17T04:29:50Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "openai/NavierStokesAndEuler",
-      "category": "Automation",
-      "url": "https://github.com/openai/NavierStokesAndEuler",
-      "desc": "Lean certificates accompanying Navier-Stokes and Euler results.",
-      "tags": [
-        "lean",
-        "rising"
-      ],
-      "badge": "Rising #20",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "NA",
-      "desc_cn": "这是一个 自动化 方向的 Lean 开源项目，主要用于：Lean certificates accompanying Navier-Stokes and Euler results.",
-      "stars": 1938,
-      "forks": 200,
-      "language": "Lean",
-      "growth": {
-        "rank": 20,
-        "stars_per_day": 203.82,
-        "created_at": "2026-09-08T10:53:38Z",
-        "pushed_at": "2026-09-10T15:14:13Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "dataelement/dsh-desktop",
-      "category": "AI Agents",
-      "url": "https://github.com/dataelement/dsh-desktop",
-      "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版.",
-      "tags": [
-        "typescript",
-        "agent",
-        "apps",
-        "deepseek",
-        "rising"
-      ],
-      "badge": "Rising #21",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "DS",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版.",
-      "stars": 7208,
-      "forks": 316,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 21,
-        "stars_per_day": 203.68,
-        "created_at": "2026-08-13T13:45:50Z",
-        "pushed_at": "2026-09-17T14:01:47Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -573,20 +523,45 @@
         "desktop-app",
         "rising"
       ],
-      "badge": "Rising #22",
+      "badge": "Rising #20",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "SP",
       "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
-      "stars": 4334,
+      "stars": 4339,
       "forks": 195,
       "language": "Rust",
       "growth": {
-        "rank": 22,
-        "stars_per_day": 202.24,
+        "rank": 20,
+        "stars_per_day": 199.8,
         "created_at": "2026-08-27T12:46:32Z",
         "pushed_at": "2026-09-17T16:10:51Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "openai/NavierStokesAndEuler",
+      "category": "Automation",
+      "url": "https://github.com/openai/NavierStokesAndEuler",
+      "desc": "Lean certificates accompanying Navier-Stokes and Euler results.",
+      "tags": [
+        "lean",
+        "rising"
+      ],
+      "badge": "Rising #21",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "NA",
+      "desc_cn": "这是一个 自动化 方向的 Lean 开源项目，主要用于：Lean certificates accompanying Navier-Stokes and Euler results.",
+      "stars": 1943,
+      "forks": 199,
+      "language": "Lean",
+      "growth": {
+        "rank": 21,
+        "stars_per_day": 198.37,
+        "created_at": "2026-09-08T10:53:38Z",
+        "pushed_at": "2026-09-10T15:14:13Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -598,20 +573,20 @@
         "tex",
         "rising"
       ],
-      "badge": "Rising #23",
+      "badge": "Rising #22",
       "featured": false,
       "category_cn": "自动化",
       "icon": "MY",
       "desc_cn": "这是一个 自动化 方向的 TeX 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 4210,
+      "stars": 4211,
       "forks": 640,
       "language": "TeX",
       "growth": {
-        "rank": 23,
-        "stars_per_day": 195.96,
+        "rank": 22,
+        "stars_per_day": 193.43,
         "created_at": "2026-08-27T11:28:44Z",
         "pushed_at": "2026-08-27T12:23:45Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -626,120 +601,20 @@
         "graphrag",
         "rising"
       ],
-      "badge": "Rising #24",
+      "badge": "Rising #23",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "UT",
       "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：World's first open-source enterprise world model.",
-      "stars": 7978,
+      "stars": 7984,
       "forks": 1025,
       "language": "Rust",
       "growth": {
-        "rank": 24,
-        "stars_per_day": 193.89,
+        "rank": 23,
+        "stars_per_day": 192.69,
         "created_at": "2026-08-07T19:33:17Z",
-        "pushed_at": "2026-09-17T20:57:39Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "Rion-Wu-tech/wechat-intelligence-hub",
-      "category": "Docs & Knowledge",
-      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-      "desc": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #25",
-      "featured": false,
-      "category_cn": "文档知识库",
-      "icon": "WE",
-      "desc_cn": "这是一个 文档知识库 方向的 Python 开源项目，主要用于：Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
-      "stars": 2400,
-      "forks": 2690,
-      "language": "Python",
-      "growth": {
-        "rank": 25,
-        "stars_per_day": 179.96,
-        "created_at": "2026-09-04T15:00:53Z",
-        "pushed_at": "2026-09-11T18:44:51Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "anthropics/commerce-agents",
-      "category": "AI Agents",
-      "url": "https://github.com/anthropics/commerce-agents",
-      "desc": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #26",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "CO",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
-      "stars": 2951,
-      "forks": 574,
-      "language": "Python",
-      "growth": {
-        "rank": 26,
-        "stars_per_day": 179.49,
-        "created_at": "2026-09-01T12:30:12Z",
-        "pushed_at": "2026-09-11T07:03:32Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "amagine-ai/Amagine3D",
-      "category": "Web Frameworks",
-      "url": "https://github.com/amagine-ai/Amagine3D",
-      "desc": "Amagine3D: From hardware requirements to editable 3D designs.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #27",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "AM",
-      "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：Amagine3D: From hardware requirements to editable 3D designs.",
-      "stars": 5220,
-      "forks": 253,
-      "language": "Python",
-      "growth": {
-        "rank": 27,
-        "stars_per_day": 178.06,
-        "created_at": "2026-08-19T15:31:34Z",
-        "pushed_at": "2026-09-16T08:59:22Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "Albert-Weasker/niubigeo",
-      "category": "Web Frameworks",
-      "url": "https://github.com/Albert-Weasker/niubigeo",
-      "desc": "Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niu…",
-      "tags": [
-        "typescript",
-        "rising"
-      ],
-      "badge": "Rising #28",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "NI",
-      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niu…",
-      "stars": 2511,
-      "forks": 99,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 28,
-        "stars_per_day": 175.62,
-        "created_at": "2026-09-03T15:55:54Z",
-        "pushed_at": "2026-09-16T19:11:03Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T05:37:01Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -754,20 +629,120 @@
         "continual-learning",
         "rising"
       ],
-      "badge": "Rising #29",
+      "badge": "Rising #24",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "RE",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Continual learning infra for self-improving agents.",
-      "stars": 3129,
-      "forks": 243,
+      "stars": 3445,
+      "forks": 272,
       "language": "Python",
       "growth": {
-        "rank": 29,
-        "stars_per_day": 174.87,
+        "rank": 24,
+        "stars_per_day": 189.5,
         "created_at": "2026-08-31T01:39:18Z",
-        "pushed_at": "2026-09-17T22:52:44Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T03:33:16Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "yang0/handraw-style",
+      "category": "Automation",
+      "url": "https://github.com/yang0/handraw-style",
+      "desc": "手绘风格编号画廊与双语提示词 Skill.",
+      "tags": [
+        "html",
+        "rising"
+      ],
+      "badge": "Rising #25",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "HA",
+      "desc_cn": "这是一个 自动化 方向的 HTML 开源项目，主要用于：手绘风格编号画廊与双语提示词 Skill.",
+      "stars": 2233,
+      "forks": 293,
+      "language": "HTML",
+      "growth": {
+        "rank": 25,
+        "stars_per_day": 181.05,
+        "created_at": "2026-09-05T21:57:22Z",
+        "pushed_at": "2026-09-18T05:08:59Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "amagine-ai/Amagine3D",
+      "category": "Web Frameworks",
+      "url": "https://github.com/amagine-ai/Amagine3D",
+      "desc": "Amagine3D: From hardware requirements to editable 3D designs.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #26",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "AM",
+      "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：Amagine3D: From hardware requirements to editable 3D designs.",
+      "stars": 5254,
+      "forks": 255,
+      "language": "Python",
+      "growth": {
+        "rank": 26,
+        "stars_per_day": 177.49,
+        "created_at": "2026-08-19T15:31:34Z",
+        "pushed_at": "2026-09-16T08:59:22Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "anthropics/commerce-agents",
+      "category": "AI Agents",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "desc": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #27",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "CO",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "stars": 2958,
+      "forks": 574,
+      "language": "Python",
+      "growth": {
+        "rank": 27,
+        "stars_per_day": 176.83,
+        "created_at": "2026-09-01T12:30:12Z",
+        "pushed_at": "2026-09-11T07:03:32Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "Rion-Wu-tech/wechat-intelligence-hub",
+      "category": "Docs & Knowledge",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "desc": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #28",
+      "featured": false,
+      "category_cn": "文档知识库",
+      "icon": "WE",
+      "desc_cn": "这是一个 文档知识库 方向的 Python 开源项目，主要用于：Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+      "stars": 2406,
+      "forks": 2692,
+      "language": "Python",
+      "growth": {
+        "rank": 28,
+        "stars_per_day": 176.61,
+        "created_at": "2026-09-04T15:00:53Z",
+        "pushed_at": "2026-09-11T18:44:51Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -781,45 +756,73 @@
         "image-generation",
         "rising"
       ],
-      "badge": "Rising #30",
+      "badge": "Rising #29",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "IP",
       "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
-      "stars": 5310,
+      "stars": 5320,
       "forks": 268,
       "language": null,
       "growth": {
-        "rank": 30,
-        "stars_per_day": 174.79,
+        "rank": 29,
+        "stars_per_day": 173.48,
         "created_at": "2026-08-18T13:59:23Z",
         "pushed_at": "2026-08-22T16:48:59Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
-      "name": "yang0/handraw-style",
-      "category": "Automation",
-      "url": "https://github.com/yang0/handraw-style",
-      "desc": "手绘风格编号画廊与双语提示词 Skill.",
+      "name": "Albert-Weasker/niubigeo",
+      "category": "Web Frameworks",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "desc": "Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niu…",
       "tags": [
-        "html",
+        "typescript",
+        "rising"
+      ],
+      "badge": "Rising #30",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "NI",
+      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niu…",
+      "stars": 2515,
+      "forks": 99,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 30,
+        "stars_per_day": 172.44,
+        "created_at": "2026-09-03T15:55:54Z",
+        "pushed_at": "2026-09-16T19:11:03Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "bojieli/ai-infra-book",
+      "category": "AI Agents",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "desc": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验.",
+      "tags": [
+        "python",
+        "accelerator",
+        "ai-infra",
+        "ai-infrastructure",
         "rising"
       ],
       "badge": "Rising #31",
       "featured": false,
-      "category_cn": "自动化",
-      "icon": "HA",
-      "desc_cn": "这是一个 自动化 方向的 HTML 开源项目，主要用于：手绘风格编号画廊与双语提示词 Skill.",
-      "stars": 2097,
-      "forks": 270,
-      "language": "HTML",
+      "category_cn": "AI 智能体",
+      "icon": "AI",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验.",
+      "stars": 4225,
+      "forks": 301,
+      "language": "Python",
       "growth": {
         "rank": 31,
-        "stars_per_day": 174.06,
-        "created_at": "2026-09-05T21:57:22Z",
-        "pushed_at": "2026-09-17T14:15:56Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "stars_per_day": 158.82,
+        "created_at": "2026-08-22T15:30:41Z",
+        "pushed_at": "2026-09-18T03:02:35Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -839,43 +842,15 @@
       "category_cn": "AI 智能体",
       "icon": "OP",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "stars": 5086,
-      "forks": 644,
+      "stars": 5101,
+      "forks": 648,
       "language": "TypeScript",
       "growth": {
         "rank": 32,
-        "stars_per_day": 159.28,
+        "stars_per_day": 158.33,
         "created_at": "2026-08-17T00:44:59Z",
-        "pushed_at": "2026-09-17T02:55:10Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
-      }
-    },
-    {
-      "name": "bojieli/ai-infra-book",
-      "category": "AI Agents",
-      "url": "https://github.com/bojieli/ai-infra-book",
-      "desc": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验.",
-      "tags": [
-        "python",
-        "accelerator",
-        "ai-infra",
-        "ai-infrastructure",
-        "rising"
-      ],
-      "badge": "Rising #33",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "AI",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验.",
-      "stars": 4125,
-      "forks": 290,
-      "language": "Python",
-      "growth": {
-        "rank": 33,
-        "stars_per_day": 156.75,
-        "created_at": "2026-08-22T15:30:41Z",
-        "pushed_at": "2026-09-17T03:18:53Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T00:14:54Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -887,45 +862,45 @@
         "swift",
         "rising"
       ],
-      "badge": "Rising #34",
+      "badge": "Rising #33",
       "featured": false,
       "category_cn": "自动化",
       "icon": "CO",
       "desc_cn": "这是一个 自动化 方向的 Swift 开源项目，主要用于：A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
-      "stars": 1915,
-      "forks": 290,
+      "stars": 1937,
+      "forks": 294,
       "language": "Swift",
       "growth": {
-        "rank": 34,
-        "stars_per_day": 155.18,
+        "rank": 33,
+        "stars_per_day": 153.41,
         "created_at": "2026-09-05T14:55:35Z",
-        "pushed_at": "2026-09-17T08:17:19Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T05:51:36Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
-      "name": "arvids-unavailable/openGym",
-      "category": "Automation",
-      "url": "https://github.com/arvids-unavailable/openGym",
-      "desc": "https://github.com/DuarteSantos8/openGym.",
+      "name": "EverettFish/holo-card-studio",
+      "category": "AI Agents",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "desc": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and des…",
       "tags": [
-        "javascript",
+        "python",
         "rising"
       ],
-      "badge": "Rising #35",
+      "badge": "Rising #34",
       "featured": false,
-      "category_cn": "自动化",
-      "icon": "OP",
-      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：https://github.com/DuarteSantos8/openGym.",
-      "stars": 6874,
-      "forks": 1151,
-      "language": "JavaScript",
+      "category_cn": "AI 智能体",
+      "icon": "HO",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and des…",
+      "stars": 1626,
+      "forks": 227,
+      "language": "Python",
       "growth": {
-        "rank": 35,
-        "stars_per_day": 152.08,
-        "created_at": "2026-08-03T18:16:58Z",
-        "pushed_at": "2026-08-03T19:19:38Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "rank": 34,
+        "stars_per_day": 144.92,
+        "created_at": "2026-09-07T00:41:18Z",
+        "pushed_at": "2026-09-12T04:56:38Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     },
     {
@@ -937,20 +912,48 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #36",
+      "badge": "Rising #35",
       "featured": false,
       "category_cn": "文档知识库",
       "icon": "SO",
       "desc_cn": "这是一个 文档知识库 方向的 TypeScript 开源项目，主要用于：SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses.",
-      "stars": 2178,
-      "forks": 170,
+      "stars": 2202,
+      "forks": 174,
       "language": "TypeScript",
       "growth": {
-        "rank": 36,
-        "stars_per_day": 141.94,
+        "rank": 35,
+        "stars_per_day": 140.87,
         "created_at": "2026-09-02T14:48:47Z",
-        "pushed_at": "2026-09-17T22:24:37Z",
-        "synced_at": "2026-09-17T23:05:24.469996Z"
+        "pushed_at": "2026-09-18T05:26:53Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
+      }
+    },
+    {
+      "name": "LaoFeng-mouse/flyingmouse-format",
+      "category": "Automation",
+      "url": "https://github.com/LaoFeng-mouse/flyingmouse-format",
+      "desc": "飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳.",
+      "tags": [
+        "javascript",
+        "desktop-app",
+        "electron",
+        "ffmpeg",
+        "rising"
+      ],
+      "badge": "Rising #36",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "FL",
+      "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳.",
+      "stars": 5978,
+      "forks": 505,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 36,
+        "stars_per_day": 138.76,
+        "created_at": "2026-08-06T03:59:32Z",
+        "pushed_at": "2026-09-16T13:28:52Z",
+        "synced_at": "2026-09-18T05:57:57.320160Z"
       }
     }
   ]
