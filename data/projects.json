@@ -104,6 +104,28 @@
     }
   },
   {
+    "name": "hypit-ai/hypit",
+    "category": "AI Agents",
+    "url": "https://github.com/hypit-ai/hypit",
+    "desc": "An agent-first video authoring system for coding agents. Turn a reference clip or prompt into editable, rerunnable video workflows with footage, captions, B-roll and effects.",
+    "tags": [
+      "ai-agents",
+      "video-generation",
+      "video-editing",
+      "typescript",
+      "agent-skill"
+    ],
+    "badge": "Agentic Video",
+    "featured": false,
+    "category_cn": "AI 智能体",
+    "icon": "HY",
+    "desc_cn": "为 Claude Code、Codex 等支持 Skills 的编程 Agent 提供视频创作流程：从参考片或文字创意出发，组织素材、字幕、B-roll 与效果，生成可编辑、可重跑的工作流。Hypit 框架不收席位或渲染费；模型、Agent 与云资源可能另计。",
+    "stars": 15078,
+    "forks": 1776,
+    "language": "TypeScript",
+    "license": "Hypit Open Source License (modified Apache 2.0)"
+  },
+  {
     "name": "platonai/Browser4",
     "category": "Automation",
     "url": "https://github.com/platonai/Browser4",
