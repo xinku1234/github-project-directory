@@ -119,9 +119,9 @@
     "featured": false,
     "category_cn": "AI 智能体",
     "icon": "HY",
-    "desc_cn": "为 Claude Code、Codex 等支持 Skills 的编程 Agent 提供视频创作流程：从参考片或文字创意出发，组织素材、字幕、B-roll 与效果，生成可编辑、可重跑的工作流。Hypit 框架不收席位或渲染费；模型、Agent 与云资源可能另计。",
-    "stars": 15078,
-    "forks": 1776,
+    "desc_cn": "为支持 Skills 的 AI 编程 Agent 提供可编辑、可重跑的视频创作工作流。框架本身不收席位或渲染费；Agent、模型与云资源可能另计。",
+    "stars": 15102,
+    "forks": 1781,
     "language": "TypeScript",
     "license": "Hypit Open Source License (modified Apache 2.0)"
   },
