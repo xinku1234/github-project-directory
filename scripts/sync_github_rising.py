@@ -14,6 +14,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
@@ -22,6 +23,22 @@ ROOT = Path(__file__).resolve().parents[1]
 PROJECTS_PATH = ROOT / "data" / "projects.json"
 TRENDING_PATH = ROOT / "data" / "github-rising.json"
 BASE = "https://api.github.com"
+CN_TZ = ZoneInfo("Asia/Shanghai")
+
+
+def local_token() -> str | None:
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if token:
+        return token
+    env_path = Path.home() / ".hermes" / ".env"
+    if env_path.exists():
+        for raw in env_path.read_text(encoding="utf-8", errors="ignore").splitlines():
+            line = raw.strip()
+            if line.startswith("GITHUB_TOKEN=") or line.startswith("GH_TOKEN="):
+                candidate = line.split("=", 1)[1].strip().strip('"').strip("'")
+                if candidate:
+                    return candidate
+    return None
 
 CATEGORY_RULES = [
     ("AI Agents", ["ai", "agent", "llm", "rag", "chatbot", "openai", "mcp", "model", "ollama", "transformer"]),
@@ -54,7 +71,7 @@ def api(path: str) -> dict:
         "User-Agent": "daohang-bot-cd-rising-sync",
         "X-GitHub-Api-Version": "2022-11-28",
     }
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    token = local_token()
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = Request(BASE + path, headers=headers)
@@ -79,6 +96,45 @@ def api(path: str) -> dict:
                 continue
             raise RuntimeError(f"GitHub API network error: {e}") from e
     raise RuntimeError(f"GitHub API request failed after retries: {path}")
+
+
+def html_search_repo_names(since: str, min_stars: int, limit: int) -> list[str]:
+    """Return public repository names from GitHub's HTML search page.
+
+    GitHub's REST search endpoint has a separate, much smaller quota than the
+    normal repository endpoint. When the shared server IP exhausts that search
+    quota, the web search page remains usable; metadata is fetched separately
+    through /repos/<owner>/<repo> so the normal schema and ranking stay intact.
+    """
+    query = quote(f"created:>={since} stars:>={min_stars} fork:false archived:false")
+    url = "https://github.com/search?q=%s&type=repositories&s=stars&o=desc" % query
+    req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; daohang-rising-sync/1.0)", "Accept": "text/html"})
+    with urlopen(req, timeout=45) as resp:
+        page = resp.read().decode("utf-8", "replace")
+    names = []
+    skip_prefixes = ('topics/', 'search/', 'login/', 'settings/')
+    for name in re.findall(r'href="/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)"', page):
+        if name.lower().startswith(skip_prefixes):
+            continue
+        if name not in names:
+            names.append(name)
+        if len(names) >= limit:
+            break
+    if not names:
+        raise RuntimeError("GitHub HTML search fallback returned no repository names")
+    return names
+
+
+def fetch_repos_from_html_search(since: str, min_stars: int, limit: int) -> list[dict]:
+    repos = []
+    for name in html_search_repo_names(since, min_stars, limit):
+        try:
+            repos.append(api("/repos/" + quote(name, safe="/")))
+        except RuntimeError as exc:
+            print("[WARN] metadata fetch failed for %s: %s" % (name, exc), file=sys.stderr)
+    if not repos:
+        raise RuntimeError("GitHub HTML search fallback found names but no repository metadata")
+    return repos
 
 def clean_desc(text: str | None) -> str:
     text = (text or "").strip()
@@ -157,12 +213,20 @@ def project_from_repo(repo: dict, rank: int, now: datetime) -> dict:
 
 def main() -> int:
     now = datetime.now(timezone.utc)
-    since = (now - timedelta(days=int(os.environ.get("RISING_WINDOW_DAYS", "45")))).date().isoformat()
+    since = (now.astimezone(CN_TZ) - timedelta(days=int(os.environ.get("RISING_WINDOW_DAYS", "45")))).date().isoformat()
     min_stars = int(os.environ.get("RISING_MIN_STARS", "50"))
     limit = int(os.environ.get("RISING_LIMIT", "36"))
     query = quote(f"created:>={since} stars:>={min_stars} fork:false archived:false")
-    data = api(f"/search/repositories?q={query}&sort=stars&order=desc&per_page=100")
-    repos = data.get("items", [])
+    source = "GitHub Search API"
+    try:
+        data = api(f"/search/repositories?q={query}&sort=stars&order=desc&per_page=100")
+        repos = data.get("items", [])
+    except RuntimeError as exc:
+        if "HTTP 403" not in str(exc) and "rate limit" not in str(exc).lower():
+            raise
+        print("[WARN] GitHub REST search rate-limited; using public HTML search fallback", file=sys.stderr)
+        repos = fetch_repos_from_html_search(since, min_stars, min(limit, 36))
+        source = "GitHub public HTML search fallback"
     ranked = []
     seen = set()
     for repo in repos:
@@ -184,7 +248,7 @@ def main() -> int:
     merged = existing_non_rising + rising
     PROJECTS_PATH.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     TRENDING_PATH.write_text(json.dumps({
-        "source": "GitHub Search API",
+        "source": source,
         "signal": f"created:>={since} stars:>={min_stars} fork:false archived:false sorted by stars_per_day",
         "synced_at": now.isoformat().replace("+00:00", "Z"),
         "count": len(rising),
