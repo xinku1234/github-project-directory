@@ -3,6 +3,13 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches: [main]
+  # The sync job commits with the default GITHUB_TOKEN, and such pushes do NOT
+  # trigger `on: push` workflows. Chain the deploy off the sync run so bot-made
+  # data refreshes actually reach the live site.
+  workflow_run:
+    workflows: ["Sync fast-rising GitHub projects"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
