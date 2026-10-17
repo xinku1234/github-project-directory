@@ -23,6 +23,12 @@ ROOT = Path(__file__).resolve().parents[1]
 PROJECTS_PATH = ROOT / "data" / "projects.json"
 TRENDING_PATH = ROOT / "data" / "github-rising.json"
 BASE = "https://api.github.com"
+# Repos matching these never enter the public data (site or WeChat).
+EXCLUDED_KEYWORDS = (
+    "nsfw", "porn", "xxx", "hentai", "adult", "onlyfans", "lewd", "erotic",
+    "crack", "keygen", "pirate", "nulled", "warez", "破解", "成人", "色情",
+)
+
 CN_TZ = ZoneInfo("Asia/Shanghai")
 
 
@@ -215,7 +221,7 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     since = (now.astimezone(CN_TZ) - timedelta(days=int(os.environ.get("RISING_WINDOW_DAYS", "45")))).date().isoformat()
     min_stars = int(os.environ.get("RISING_MIN_STARS", "50"))
-    limit = int(os.environ.get("RISING_LIMIT", "36"))
+    limit = int(os.environ.get("RISING_LIMIT", "100"))
     query = quote(f"created:>={since} stars:>={min_stars} fork:false archived:false")
     source = "GitHub Search API"
     try:
@@ -225,12 +231,17 @@ def main() -> int:
         if "HTTP 403" not in str(exc) and "rate limit" not in str(exc).lower():
             raise
         print("[WARN] GitHub REST search rate-limited; using public HTML search fallback", file=sys.stderr)
-        repos = fetch_repos_from_html_search(since, min_stars, min(limit, 36))
+        repos = fetch_repos_from_html_search(since, min_stars, min(limit, 100))
         source = "GitHub public HTML search fallback"
     ranked = []
     seen = set()
     for repo in repos:
         if repo.get("fork") or repo.get("archived") or repo["full_name"].lower() in seen:
+            continue
+        # Content red line: these never enter the public site data. Expanding the
+        # rising pool surfaced an "nsfw-pose-skill" repo at rank 25.
+        _blob = (repo["full_name"] + " " + (repo.get("description") or "")).lower()
+        if any(k in _blob for k in EXCLUDED_KEYWORDS):
             continue
         created = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00"))
         age_days = max((now - created).total_seconds() / 86400, 1)
