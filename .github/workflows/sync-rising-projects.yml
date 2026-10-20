@@ -20,7 +20,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RISING_WINDOW_DAYS: '45'
           RISING_MIN_STARS: '50'
-          RISING_LIMIT: '36'
+          # Keep the CI pool aligned with data/github-rising.json (99-100 entries).
+          # A pinned 36 here silently shrank the board every scheduled run.
+          RISING_LIMIT: '100'
         run: |
           python3 -m pip install --upgrade pillow
           python3 scripts/sync_github_rising.py

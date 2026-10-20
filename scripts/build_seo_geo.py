@@ -231,7 +231,10 @@ def write_trending_page() -> None:
     synced = rising_data.get("synced_at", "")
     cards = []
     item_list = []
-    for idx, p in enumerate(projects[:36], 1):
+    # Card grid stays capped for page weight, but the headline count must match
+    # what is actually rendered instead of the full JSON pool.
+    shown = min(len(projects), 36)
+    for idx, p in enumerate(projects[:shown], 1):
         growth = p.get("growth", {})
         stars = p.get("stars", 0)
         spd = growth.get("stars_per_day", "")
@@ -295,7 +298,7 @@ def write_trending_page() -> None:
       <p class="daily-line">同步时间：{esc(synced)} · 数据源：GitHub Search API · 信号：近期创建项目按 stars/day 排序</p>
     </section>
     <section class="content-wrap single"><section class="main-content">
-      <div class="directory-intro"><div><span class="eyebrow">用途</span><strong>适合寻找新 AI 工具、开发框架、自动化脚本、部署运维项目和可二次开发的开源资产。</strong></div><div class="stats-row"><span>{len(projects)} 个项目</span><span>每日自动同步</span><span>JSON-LD ItemList</span></div></div>
+      <div class="directory-intro"><div><span class="eyebrow">用途</span><strong>适合寻找新 AI 工具、开发框架、自动化脚本、部署运维项目和可二次开发的开源资产。</strong></div><div class="stats-row"><span>本页 Top {shown}</span><span>共 {len(projects)} 个在榜项目</span><span>每日自动同步</span><span>JSON-LD ItemList</span></div></div>
       <div class="trend-grid">{''.join(cards)}</div>
       <section class="faq-panel"><h2>如何使用快速涨星榜？</h2><details class="faq-item"><summary>快速涨星是否等于项目质量最高？</summary><p>不等于。涨星速度只是关注度信号，建议结合文档、License、Issue、维护频率和实际场景继续判断。</p></details><details class="faq-item"><summary>拾品号导航为什么做这个榜？</summary><p>当前阶段以非盈利流量建设为主，希望给中文开发者一个免费发现新开源项目和 AI 工具的入口。</p></details></section>
     </section></section>
