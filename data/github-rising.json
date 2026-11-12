@@ -1,34 +1,9 @@
 {
   "source": "GitHub Search API",
-  "signal": "created:>=2026-09-27 stars:>=50 fork:false archived:false sorted by stars_per_day",
-  "synced_at": "2026-11-11T07:46:10.178234Z",
+  "signal": "created:>=2026-09-28 stars:>=50 fork:false archived:false sorted by stars_per_day",
+  "synced_at": "2026-11-12T08:22:31.768686Z",
   "count": 99,
   "projects": [
-    {
-      "name": "huamidev/GestaltX",
-      "category": "Data & Analytics",
-      "url": "https://github.com/huamidev/GestaltX",
-      "desc": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "tags": [
-        "swift",
-        "rising"
-      ],
-      "badge": "Rising #1",
-      "featured": true,
-      "category_cn": "数据分析",
-      "icon": "GE",
-      "desc_cn": "这是一个 数据分析 方向的 Swift 开源项目，主要用于：An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "stars": 5508,
-      "forks": 2156,
-      "language": "Swift",
-      "growth": {
-        "rank": 1,
-        "stars_per_day": 2617.34,
-        "created_at": "2026-11-09T05:15:48Z",
-        "pushed_at": "2026-11-11T03:51:20Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
     {
       "name": "storytold/craft-anything",
       "category": "Automation",
@@ -38,20 +13,20 @@
         "rust",
         "rising"
       ],
-      "badge": "Rising #2",
+      "badge": "Rising #1",
       "featured": true,
       "category_cn": "自动化",
       "icon": "CR",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Craft Anything: understand how any software works, and craft your own.",
-      "stars": 27118,
-      "forks": 5507,
+      "stars": 28997,
+      "forks": 5897,
       "language": "Rust",
       "growth": {
-        "rank": 2,
-        "stars_per_day": 2533.05,
+        "rank": 1,
+        "stars_per_day": 2471.84,
         "created_at": "2026-10-31T14:50:00Z",
-        "pushed_at": "2026-11-11T07:36:56Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:19:30Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -66,20 +41,45 @@
         "android-tv",
         "rising"
       ],
-      "badge": "Rising #3",
+      "badge": "Rising #2",
       "featured": true,
       "category_cn": "后端数据库",
       "icon": "CL",
       "desc_cn": "这是一个 后端数据库 方向的 Python 开源项目，主要用于：Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "stars": 56156,
-      "forks": 7235,
+      "stars": 56701,
+      "forks": 7302,
       "language": "Python",
       "growth": {
-        "rank": 3,
-        "stars_per_day": 2247.89,
+        "rank": 2,
+        "stars_per_day": 2180.23,
         "created_at": "2026-10-17T08:12:35Z",
-        "pushed_at": "2026-11-10T16:10:42Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-11T13:26:26Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "huamidev/GestaltX",
+      "category": "Data & Analytics",
+      "url": "https://github.com/huamidev/GestaltX",
+      "desc": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "tags": [
+        "swift",
+        "rising"
+      ],
+      "badge": "Rising #3",
+      "featured": true,
+      "category_cn": "数据分析",
+      "icon": "GE",
+      "desc_cn": "这是一个 数据分析 方向的 Swift 开源项目，主要用于：An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "stars": 6631,
+      "forks": 2489,
+      "language": "Swift",
+      "growth": {
+        "rank": 3,
+        "stars_per_day": 2118.75,
+        "created_at": "2026-11-09T05:15:48Z",
+        "pushed_at": "2026-11-11T03:51:20Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -96,15 +96,15 @@
       "category_cn": "AI 智能体",
       "icon": "DS",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Towards a More Autonomous Agent System.",
-      "stars": 22310,
-      "forks": 2694,
+      "stars": 22617,
+      "forks": 2748,
       "language": "TypeScript",
       "growth": {
         "rank": 4,
-        "stars_per_day": 2041.92,
+        "stars_per_day": 1892.44,
         "created_at": "2026-10-31T09:32:46Z",
         "pushed_at": "2026-11-03T09:29:14Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -124,15 +124,15 @@
       "category_cn": "自动化",
       "icon": "PH",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：PhotoCraft: An open-source photo editor written from scratch in pure Rust.",
-      "stars": 78577,
-      "forks": 13895,
+      "stars": 78827,
+      "forks": 13934,
       "language": "Rust",
       "growth": {
         "rank": 5,
-        "stars_per_day": 1881.82,
+        "stars_per_day": 1842.57,
         "created_at": "2026-09-30T13:37:48Z",
-        "pushed_at": "2026-11-11T07:32:39Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:55:25Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -149,15 +149,15 @@
       "category_cn": "自动化",
       "icon": "HO",
       "desc_cn": "这是一个 自动化 方向的 C++ 开源项目，主要用于：A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake.",
-      "stars": 6890,
-      "forks": 604,
+      "stars": 8126,
+      "forks": 732,
       "language": "C++",
       "growth": {
         "rank": 6,
-        "stars_per_day": 1185.77,
+        "stars_per_day": 1188.74,
         "created_at": "2026-11-05T12:18:58Z",
-        "pushed_at": "2026-11-11T07:01:18Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:37:57Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -177,15 +177,15 @@
       "category_cn": "AI 智能体",
       "icon": "DS",
       "desc_cn": "这是一个 AI 智能体 方向的 Dart 开源项目，主要用于：dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。.",
-      "stars": 19083,
-      "forks": 840,
+      "stars": 20155,
+      "forks": 902,
       "language": "Dart",
       "growth": {
         "rank": 7,
-        "stars_per_day": 1123.62,
+        "stars_per_day": 1119.18,
         "created_at": "2026-10-25T08:09:52Z",
-        "pushed_at": "2026-11-11T07:40:03Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:54:07Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -202,15 +202,40 @@
       "category_cn": "建站框架",
       "icon": "UN",
       "desc_cn": "这是一个 建站框架 方向的 JavaScript 开源项目，主要用于：A Claude skill that turns vibecoded, AI-looking UI into a designed interface.",
-      "stars": 14035,
-      "forks": 778,
+      "stars": 14751,
+      "forks": 839,
       "language": "JavaScript",
       "growth": {
         "rank": 8,
-        "stars_per_day": 1107.73,
+        "stars_per_day": 1077.09,
         "created_at": "2026-10-29T15:41:21Z",
         "pushed_at": "2026-11-08T21:18:33Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "deepseek-ai/DeepInfer",
+      "category": "AI Agents",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #9",
+      "featured": true,
+      "category_cn": "AI 智能体",
+      "icon": "DE",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：DeepInfer: High-performance, large-scale inference framework for DeepSeek models.",
+      "stars": 25886,
+      "forks": 3175,
+      "language": "Python",
+      "growth": {
+        "rank": 9,
+        "stars_per_day": 957.87,
+        "created_at": "2026-10-16T07:47:23Z",
+        "pushed_at": "2026-11-03T07:31:59Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -224,45 +249,20 @@
         "free",
         "rising"
       ],
-      "badge": "Rising #9",
+      "badge": "Rising #10",
       "featured": true,
       "category_cn": "建站框架",
       "icon": "HG",
       "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：YellowFruit third-party client.",
-      "stars": 8218,
-      "forks": 3413,
+      "stars": 8356,
+      "forks": 4294,
       "language": null,
       "growth": {
-        "rank": 9,
-        "stars_per_day": 1062.13,
+        "rank": 10,
+        "stars_per_day": 953.6,
         "created_at": "2026-11-03T14:04:27Z",
         "pushed_at": "2026-11-10T13:42:26Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "deepseek-ai/DeepInfer",
-      "category": "AI Agents",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #10",
-      "featured": true,
-      "category_cn": "AI 智能体",
-      "icon": "DE",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：DeepInfer: High-performance, large-scale inference framework for DeepSeek models.",
-      "stars": 25835,
-      "forks": 3168,
-      "language": "Python",
-      "growth": {
-        "rank": 10,
-        "stars_per_day": 993.69,
-        "created_at": "2026-10-16T07:47:23Z",
-        "pushed_at": "2026-11-03T07:31:59Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -282,40 +282,15 @@
       "category_cn": "AI 智能体",
       "icon": "AN",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D eff…",
-      "stars": 26579,
-      "forks": 2240,
+      "stars": 26829,
+      "forks": 2252,
       "language": "JavaScript",
       "growth": {
         "rank": 11,
-        "stars_per_day": 784.08,
+        "stars_per_day": 768.22,
         "created_at": "2026-10-08T10:12:49Z",
         "pushed_at": "2026-10-18T20:20:24Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "zortos293/Lichii",
-      "category": "Automation",
-      "url": "https://github.com/zortos293/Lichii",
-      "desc": "VERY experimental Nintendo Switch 2 emulator.",
-      "tags": [
-        "c++",
-        "rising"
-      ],
-      "badge": "Rising #12",
-      "featured": true,
-      "category_cn": "自动化",
-      "icon": "LI",
-      "desc_cn": "这是一个 自动化 方向的 C++ 开源项目，主要用于：VERY experimental Nintendo Switch 2 emulator.",
-      "stars": 8288,
-      "forks": 1338,
-      "language": "C++",
-      "growth": {
-        "rank": 12,
-        "stars_per_day": 772.54,
-        "created_at": "2026-10-31T14:17:26Z",
-        "pushed_at": "2026-11-10T20:45:19Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -327,20 +302,69 @@
         "c",
         "rising"
       ],
-      "badge": "Rising #13",
-      "featured": false,
+      "badge": "Rising #12",
+      "featured": true,
       "category_cn": "AI 智能体",
       "icon": "GP",
       "desc_cn": "这是一个 AI 智能体 方向的 C 开源项目，主要用于：Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput.",
-      "stars": 18614,
-      "forks": 1907,
+      "stars": 18805,
+      "forks": 1929,
       "language": "C",
       "growth": {
-        "rank": 13,
-        "stars_per_day": 767.2,
+        "rank": 12,
+        "stars_per_day": 743.65,
         "created_at": "2026-10-18T01:28:31Z",
         "pushed_at": "2026-10-29T02:30:54Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "janestreet/agent_skills",
+      "category": "AI Agents",
+      "url": "https://github.com/janestreet/agent_skills",
+      "desc": "Agent skills.",
+      "tags": [
+        "rising"
+      ],
+      "badge": "Rising #13",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "AG",
+      "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：Agent skills.",
+      "stars": 6425,
+      "forks": 448,
+      "language": null,
+      "growth": {
+        "rank": 13,
+        "stars_per_day": 743.0,
+        "created_at": "2026-11-03T16:50:21Z",
+        "pushed_at": "2026-11-03T18:14:13Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "zortos293/Lichii",
+      "category": "Automation",
+      "url": "https://github.com/zortos293/Lichii",
+      "desc": "VERY experimental Nintendo Switch 2 emulator.",
+      "tags": [
+        "c++",
+        "rising"
+      ],
+      "badge": "Rising #14",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "LI",
+      "desc_cn": "这是一个 自动化 方向的 C++ 开源项目，主要用于：VERY experimental Nintendo Switch 2 emulator.",
+      "stars": 8621,
+      "forks": 1387,
+      "language": "C++",
+      "growth": {
+        "rank": 14,
+        "stars_per_day": 733.48,
+        "created_at": "2026-10-31T14:17:26Z",
+        "pushed_at": "2026-11-12T08:22:08Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -352,20 +376,20 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #14",
+      "badge": "Rising #15",
       "featured": false,
       "category_cn": "自动化",
       "icon": "HA",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 23433,
-      "forks": 2351,
+      "stars": 23503,
+      "forks": 2358,
       "language": "Python",
       "growth": {
-        "rank": 14,
-        "stars_per_day": 661.66,
+        "rank": 15,
+        "stars_per_day": 644.97,
         "created_at": "2026-10-06T21:48:11Z",
         "pushed_at": "2026-11-02T02:17:27Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -380,20 +404,20 @@
         "android",
         "rising"
       ],
-      "badge": "Rising #15",
+      "badge": "Rising #16",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "MI",
       "desc_cn": "这是一个 AI 智能体 方向的 Kotlin 开源项目，主要用于：An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "stars": 8134,
-      "forks": 1855,
+      "stars": 8305,
+      "forks": 1892,
       "language": "Kotlin",
       "growth": {
-        "rank": 15,
-        "stars_per_day": 639.63,
+        "rank": 16,
+        "stars_per_day": 604.35,
         "created_at": "2026-10-29T14:34:07Z",
-        "pushed_at": "2026-11-11T07:39:57Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T06:48:41Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -408,20 +432,20 @@
         "batch-conversion",
         "rising"
       ],
-      "badge": "Rising #16",
+      "badge": "Rising #17",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "FI",
       "desc_cn": "这是一个 AI 智能体 方向的 C# 开源项目，主要用于：Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Off…",
-      "stars": 25645,
-      "forks": 1470,
+      "stars": 26133,
+      "forks": 1498,
       "language": "C#",
       "growth": {
-        "rank": 16,
-        "stars_per_day": 603.6,
+        "rank": 17,
+        "stars_per_day": 600.59,
         "created_at": "2026-09-29T20:05:15Z",
-        "pushed_at": "2026-11-11T05:16:03Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:22:24Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -436,44 +460,48 @@
         "canvas",
         "rising"
       ],
-      "badge": "Rising #17",
+      "badge": "Rising #18",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "PI",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-      "stars": 6797,
-      "forks": 890,
+      "stars": 7067,
+      "forks": 914,
       "language": "JavaScript",
       "growth": {
-        "rank": 17,
-        "stars_per_day": 564.37,
+        "rank": 18,
+        "stars_per_day": 540.75,
         "created_at": "2026-10-30T06:43:25Z",
         "pushed_at": "2026-11-09T09:51:43Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
-      "name": "janestreet/agent_skills",
+      "name": "JuneYaooo/rea-video",
       "category": "AI Agents",
-      "url": "https://github.com/janestreet/agent_skills",
-      "desc": "Agent skills.",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 V…",
       "tags": [
+        "python",
+        "agent-skills",
+        "ai-video",
+        "aigc-detection",
         "rising"
       ],
-      "badge": "Rising #18",
+      "badge": "Rising #19",
       "featured": false,
       "category_cn": "AI 智能体",
-      "icon": "AG",
-      "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：Agent skills.",
-      "stars": 4297,
-      "forks": 268,
-      "language": null,
+      "icon": "RE",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 V…",
+      "stars": 7236,
+      "forks": 1059,
+      "language": "Python",
       "growth": {
-        "rank": 18,
-        "stars_per_day": 563.76,
-        "created_at": "2026-11-03T16:50:21Z",
-        "pushed_at": "2026-11-03T18:14:13Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "rank": 19,
+        "stars_per_day": 529.26,
+        "created_at": "2026-10-29T16:15:01Z",
+        "pushed_at": "2026-11-12T06:21:24Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -488,284 +516,20 @@
         "claude-code",
         "rising"
       ],
-      "badge": "Rising #19",
+      "badge": "Rising #20",
       "featured": false,
       "category_cn": "自动化",
       "icon": "AG",
       "desc_cn": "这是一个 自动化 方向的 TypeScript 开源项目，主要用于：让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。.",
-      "stars": 4466,
-      "forks": 814,
+      "stars": 4565,
+      "forks": 836,
       "language": "TypeScript",
-      "growth": {
-        "rank": 19,
-        "stars_per_day": 559.03,
-        "created_at": "2026-11-03T08:02:11Z",
-        "pushed_at": "2026-11-10T20:06:35Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "JuneYaooo/rea-video",
-      "category": "AI Agents",
-      "url": "https://github.com/JuneYaooo/rea-video",
-      "desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。.",
-      "tags": [
-        "python",
-        "agent-skills",
-        "ai-video",
-        "aigc-detection",
-        "rising"
-      ],
-      "badge": "Rising #20",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "RE",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。.",
-      "stars": 6673,
-      "forks": 963,
-      "language": "Python",
       "growth": {
         "rank": 20,
-        "stars_per_day": 527.65,
-        "created_at": "2026-10-29T16:15:01Z",
-        "pushed_at": "2026-11-11T07:04:18Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "valentderah/totk-pc-recomp",
-      "category": "Automation",
-      "url": "https://github.com/valentderah/totk-pc-recomp",
-      "desc": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
-      "tags": [
-        "c",
-        "game",
-        "linux",
-        "port",
-        "rising"
-      ],
-      "badge": "Rising #21",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "TO",
-      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
-      "stars": 6529,
-      "forks": 540,
-      "language": "C",
-      "growth": {
-        "rank": 21,
-        "stars_per_day": 510.04,
-        "created_at": "2026-10-29T12:32:46Z",
-        "pushed_at": "2026-11-10T16:35:34Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "pengchujin/aerial-tv",
-      "category": "Automation",
-      "url": "https://github.com/pengchujin/aerial-tv",
-      "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "tags": [
-        "kotlin",
-        "rising"
-      ],
-      "badge": "Rising #22",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "AE",
-      "desc_cn": "这是一个 自动化 方向的 Kotlin 开源项目，主要用于：给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "stars": 11189,
-      "forks": 958,
-      "language": "Kotlin",
-      "growth": {
-        "rank": 22,
-        "stars_per_day": 509.99,
-        "created_at": "2026-10-20T09:13:06Z",
-        "pushed_at": "2026-11-11T01:39:07Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "storytold/wordcraft",
-      "category": "Automation",
-      "url": "https://github.com/storytold/wordcraft",
-      "desc": "WordCraft: an open-source, clean-room word processor in pure Rust.",
-      "tags": [
-        "rust",
-        "rising"
-      ],
-      "badge": "Rising #23",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "WO",
-      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：WordCraft: an open-source, clean-room word processor in pure Rust.",
-      "stars": 17773,
-      "forks": 4902,
-      "language": "Rust",
-      "growth": {
-        "rank": 23,
-        "stars_per_day": 508.29,
-        "created_at": "2026-10-07T08:34:24Z",
-        "pushed_at": "2026-11-11T07:34:52Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "seedds/nxnative",
-      "category": "Automation",
-      "url": "https://github.com/seedds/nxnative",
-      "desc": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #24",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "NX",
-      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).",
-      "stars": 14623,
-      "forks": 2613,
-      "language": "Python",
-      "growth": {
-        "rank": 24,
-        "stars_per_day": 502.49,
-        "created_at": "2026-10-13T05:20:14Z",
-        "pushed_at": "2026-11-11T07:26:38Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "openai/math",
-      "category": "Automation",
-      "url": "https://github.com/openai/math",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
-      "tags": [
-        "lean",
-        "rising"
-      ],
-      "badge": "Rising #25",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "MA",
-      "desc_cn": "这是一个 自动化 方向的 Lean 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 17491,
-      "forks": 1981,
-      "language": "Lean",
-      "growth": {
-        "rank": 25,
-        "stars_per_day": 493.87,
-        "created_at": "2026-10-06T21:47:02Z",
-        "pushed_at": "2026-10-30T00:35:38Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "storytold/pdfcraft",
-      "category": "Automation",
-      "url": "https://github.com/storytold/pdfcraft",
-      "desc": "PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust.",
-      "tags": [
-        "rust",
-        "document-processing",
-        "documents",
-        "pdf",
-        "rising"
-      ],
-      "badge": "Rising #26",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "PD",
-      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust.",
-      "stars": 20328,
-      "forks": 7497,
-      "language": "Rust",
-      "growth": {
-        "rank": 26,
-        "stars_per_day": 486.85,
-        "created_at": "2026-09-30T13:39:37Z",
-        "pushed_at": "2026-11-11T07:42:04Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "unclebob/ub-mode",
-      "category": "Automation",
-      "url": "https://github.com/unclebob/ub-mode",
-      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
-      "tags": [
-        "rising"
-      ],
-      "badge": "Rising #27",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "UB",
-      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 7656,
-      "forks": 439,
-      "language": null,
-      "growth": {
-        "rank": 27,
-        "stars_per_day": 459.7,
-        "created_at": "2026-10-25T16:04:09Z",
-        "pushed_at": "2026-11-02T15:08:31Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "anhao/ai-pose-gallery-zh",
-      "category": "Deployment",
-      "url": "https://github.com/anhao/ai-pose-gallery-zh",
-      "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊.",
-      "tags": [
-        "typescript",
-        "ai-art",
-        "chinese",
-        "cloudflare-pages",
-        "rising"
-      ],
-      "badge": "Rising #28",
-      "featured": false,
-      "category_cn": "部署托管",
-      "icon": "AI",
-      "desc_cn": "这是一个 部署托管 方向的 TypeScript 开源项目，主要用于：中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊.",
-      "stars": 6700,
-      "forks": 1697,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 28,
-        "stars_per_day": 452.5,
-        "created_at": "2026-10-27T12:24:37Z",
-        "pushed_at": "2026-11-04T08:09:10Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "tangency-labs/solidcraft",
-      "category": "Web Frameworks",
-      "url": "https://github.com/tangency-labs/solidcraft",
-      "desc": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-      "tags": [
-        "rust",
-        "3d-modeling",
-        "brep",
-        "cad",
-        "rising"
-      ],
-      "badge": "Rising #29",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "SO",
-      "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-      "stars": 15581,
-      "forks": 2113,
-      "language": "Rust",
-      "growth": {
-        "rank": 29,
-        "stars_per_day": 451.18,
-        "created_at": "2026-10-07T18:57:48Z",
-        "pushed_at": "2026-11-11T07:37:22Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 506.43,
+        "created_at": "2026-11-03T08:02:11Z",
+        "pushed_at": "2026-11-12T07:20:56Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -780,45 +544,256 @@
         "download-accelerator",
         "rising"
       ],
-      "badge": "Rising #30",
+      "badge": "Rising #21",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "MI",
       "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux.",
-      "stars": 5979,
-      "forks": 443,
+      "stars": 7183,
+      "forks": 558,
       "language": "Rust",
       "growth": {
-        "rank": 30,
-        "stars_per_day": 450.75,
+        "rank": 21,
+        "stars_per_day": 502.67,
         "created_at": "2026-10-29T01:25:19Z",
-        "pushed_at": "2026-11-11T07:45:57Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:01:58Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
-      "name": "Eglantine-Community/Eglantine",
+      "name": "storytold/wordcraft",
       "category": "Automation",
-      "url": "https://github.com/Eglantine-Community/Eglantine",
-      "desc": "VERY experimental Nintendo Switch 2 emulator.",
+      "url": "https://github.com/storytold/wordcraft",
+      "desc": "WordCraft: an open-source, clean-room word processor in pure Rust.",
       "tags": [
-        "c++",
+        "rust",
         "rising"
       ],
-      "badge": "Rising #31",
+      "badge": "Rising #22",
       "featured": false,
       "category_cn": "自动化",
-      "icon": "EG",
-      "desc_cn": "这是一个 自动化 方向的 C++ 开源项目，主要用于：VERY experimental Nintendo Switch 2 emulator.",
-      "stars": 5798,
-      "forks": 626,
-      "language": "C++",
+      "icon": "WO",
+      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：WordCraft: an open-source, clean-room word processor in pure Rust.",
+      "stars": 17845,
+      "forks": 4923,
+      "language": "Rust",
       "growth": {
-        "rank": 31,
-        "stars_per_day": 435.74,
-        "created_at": "2026-10-29T00:25:18Z",
-        "pushed_at": "2026-11-11T03:56:32Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "rank": 22,
+        "stars_per_day": 495.81,
+        "created_at": "2026-10-07T08:34:24Z",
+        "pushed_at": "2026-11-12T00:04:46Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "seedds/nxnative",
+      "category": "Automation",
+      "url": "https://github.com/seedds/nxnative",
+      "desc": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #23",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "NX",
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).",
+      "stars": 14910,
+      "forks": 2664,
+      "language": "Python",
+      "growth": {
+        "rank": 23,
+        "stars_per_day": 494.91,
+        "created_at": "2026-10-13T05:20:14Z",
+        "pushed_at": "2026-11-12T08:15:38Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "pengchujin/aerial-tv",
+      "category": "Automation",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "tags": [
+        "kotlin",
+        "rising"
+      ],
+      "badge": "Rising #24",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "AE",
+      "desc_cn": "这是一个 自动化 方向的 Kotlin 开源项目，主要用于：给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "stars": 11353,
+      "forks": 976,
+      "language": "Kotlin",
+      "growth": {
+        "rank": 24,
+        "stars_per_day": 494.36,
+        "created_at": "2026-10-20T09:13:06Z",
+        "pushed_at": "2026-11-12T02:11:57Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "valentderah/totk-pc-recomp",
+      "category": "Automation",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "desc": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "tags": [
+        "c",
+        "game",
+        "linux",
+        "port",
+        "rising"
+      ],
+      "badge": "Rising #25",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "TO",
+      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "stars": 6808,
+      "forks": 557,
+      "language": "C",
+      "growth": {
+        "rank": 25,
+        "stars_per_day": 492.4,
+        "created_at": "2026-10-29T12:32:46Z",
+        "pushed_at": "2026-11-12T06:29:53Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "openai/math",
+      "category": "Automation",
+      "url": "https://github.com/openai/math",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "lean",
+        "rising"
+      ],
+      "badge": "Rising #26",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "MA",
+      "desc_cn": "这是一个 自动化 方向的 Lean 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 17515,
+      "forks": 1986,
+      "language": "Lean",
+      "growth": {
+        "rank": 26,
+        "stars_per_day": 480.64,
+        "created_at": "2026-10-06T21:47:02Z",
+        "pushed_at": "2026-10-30T00:35:38Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "storytold/pdfcraft",
+      "category": "Automation",
+      "url": "https://github.com/storytold/pdfcraft",
+      "desc": "PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust.",
+      "tags": [
+        "rust",
+        "document-processing",
+        "documents",
+        "pdf",
+        "rising"
+      ],
+      "badge": "Rising #27",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "PD",
+      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust.",
+      "stars": 20447,
+      "forks": 7521,
+      "language": "Rust",
+      "growth": {
+        "rank": 27,
+        "stars_per_day": 477.96,
+        "created_at": "2026-09-30T13:39:37Z",
+        "pushed_at": "2026-11-12T05:28:19Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "tangency-labs/solidcraft",
+      "category": "Web Frameworks",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "desc": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "tags": [
+        "rust",
+        "3d-modeling",
+        "brep",
+        "cad",
+        "rising"
+      ],
+      "badge": "Rising #28",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "SO",
+      "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "stars": 15868,
+      "forks": 2167,
+      "language": "Rust",
+      "growth": {
+        "rank": 28,
+        "stars_per_day": 446.25,
+        "created_at": "2026-10-07T18:57:48Z",
+        "pushed_at": "2026-11-12T08:10:03Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "unclebob/ub-mode",
+      "category": "Automation",
+      "url": "https://github.com/unclebob/ub-mode",
+      "desc": "Fast-rising open-source project discovered from recent GitHub activity.",
+      "tags": [
+        "rising"
+      ],
+      "badge": "Rising #29",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "UB",
+      "desc_cn": "这是一个 自动化 方向的 开源 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
+      "stars": 7793,
+      "forks": 446,
+      "language": null,
+      "growth": {
+        "rank": 29,
+        "stars_per_day": 440.79,
+        "created_at": "2026-10-25T16:04:09Z",
+        "pushed_at": "2026-11-02T15:08:31Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "anhao/ai-pose-gallery-zh",
+      "category": "Deployment",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊.",
+      "tags": [
+        "typescript",
+        "ai-art",
+        "chinese",
+        "cloudflare-pages",
+        "rising"
+      ],
+      "badge": "Rising #30",
+      "featured": false,
+      "category_cn": "部署托管",
+      "icon": "AI",
+      "desc_cn": "这是一个 部署托管 方向的 TypeScript 开源项目，主要用于：中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊.",
+      "stars": 6785,
+      "forks": 1721,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 30,
+        "stars_per_day": 428.57,
+        "created_at": "2026-10-27T12:24:37Z",
+        "pushed_at": "2026-11-04T08:09:10Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -832,20 +807,45 @@
         "video",
         "rising"
       ],
-      "badge": "Rising #32",
+      "badge": "Rising #31",
       "featured": false,
       "category_cn": "自动化",
       "icon": "FI",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：FilmCraft: An open-source, nonlinear video editor written from scratch in pure Rust.",
-      "stars": 18024,
-      "forks": 7365,
+      "stars": 18097,
+      "forks": 7381,
       "language": "Rust",
       "growth": {
-        "rank": 32,
-        "stars_per_day": 431.68,
+        "rank": 31,
+        "stars_per_day": 423.04,
         "created_at": "2026-09-30T13:41:20Z",
-        "pushed_at": "2026-11-11T06:30:14Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T05:48:01Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "Eglantine-Community/Eglantine",
+      "category": "Automation",
+      "url": "https://github.com/Eglantine-Community/Eglantine",
+      "desc": "VERY experimental Nintendo Switch 2 emulator.",
+      "tags": [
+        "c++",
+        "rising"
+      ],
+      "badge": "Rising #32",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "EG",
+      "desc_cn": "这是一个 自动化 方向的 C++ 开源项目，主要用于：VERY experimental Nintendo Switch 2 emulator.",
+      "stars": 5862,
+      "forks": 632,
+      "language": "C++",
+      "growth": {
+        "rank": 32,
+        "stars_per_day": 409.03,
+        "created_at": "2026-10-29T00:25:18Z",
+        "pushed_at": "2026-11-12T06:46:36Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -865,15 +865,15 @@
       "category_cn": "AI 智能体",
       "icon": "AN",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。.",
-      "stars": 7437,
-      "forks": 660,
+      "stars": 7653,
+      "forks": 680,
       "language": "Python",
       "growth": {
         "rank": 33,
-        "stars_per_day": 411.1,
+        "stars_per_day": 400.35,
         "created_at": "2026-10-24T05:35:47Z",
-        "pushed_at": "2026-11-11T02:51:52Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:21:32Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -893,15 +893,15 @@
       "category_cn": "建站框架",
       "icon": "OP",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and…",
-      "stars": 8462,
-      "forks": 745,
+      "stars": 8658,
+      "forks": 771,
       "language": "TypeScript",
       "growth": {
         "rank": 34,
-        "stars_per_day": 406.68,
+        "stars_per_day": 396.56,
         "created_at": "2026-10-21T12:23:14Z",
-        "pushed_at": "2026-11-11T07:41:35Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:14:01Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -921,15 +921,40 @@
       "category_cn": "自动化",
       "icon": "LI",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：LightCraft: An open-source non-destructive photo editor written from scratch in pure Rust.",
-      "stars": 15829,
-      "forks": 6045,
+      "stars": 15870,
+      "forks": 6059,
       "language": "Rust",
       "growth": {
         "rank": 35,
-        "stars_per_day": 379.28,
+        "stars_per_day": 371.15,
         "created_at": "2026-09-30T14:09:27Z",
-        "pushed_at": "2026-11-11T07:02:06Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T05:43:55Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "Lee-xeo/Claude-Cage",
+      "category": "Automation",
+      "url": "https://github.com/Lee-xeo/Claude-Cage",
+      "desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。.",
+      "tags": [
+        "go",
+        "rising"
+      ],
+      "badge": "Rising #36",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "CL",
+      "desc_cn": "这是一个 自动化 方向的 Go 开源项目，主要用于：Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。.",
+      "stars": 4088,
+      "forks": 460,
+      "language": "Go",
+      "growth": {
+        "rank": 36,
+        "stars_per_day": 348.83,
+        "created_at": "2026-10-31T15:07:08Z",
+        "pushed_at": "2026-11-12T08:16:36Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -944,20 +969,20 @@
         "digital-nomad",
         "rising"
       ],
-      "badge": "Rising #36",
+      "badge": "Rising #37",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "RU",
       "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。.",
-      "stars": 4466,
-      "forks": 320,
+      "stars": 4668,
+      "forks": 324,
       "language": "Python",
       "growth": {
-        "rank": 36,
-        "stars_per_day": 347.67,
+        "rank": 37,
+        "stars_per_day": 336.54,
         "created_at": "2026-10-29T11:28:43Z",
         "pushed_at": "2026-11-07T08:57:32Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -969,47 +994,20 @@
         "typescript",
         "rising"
       ],
-      "badge": "Rising #37",
+      "badge": "Rising #38",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "LE",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Agent harness for learning difficult things.",
-      "stars": 8427,
-      "forks": 1141,
+      "stars": 8838,
+      "forks": 1186,
       "language": "TypeScript",
       "growth": {
-        "rank": 37,
-        "stars_per_day": 330.38,
-        "created_at": "2026-10-16T19:35:33Z",
-        "pushed_at": "2026-11-11T00:21:42Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "yihui-dev/awesome-opus5-5-videos",
-      "category": "AI Agents",
-      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-      "desc": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
-      "tags": [
-        "ai-video",
-        "awesome",
-        "awesome-list",
-        "rising"
-      ],
-      "badge": "Rising #38",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "AW",
-      "desc_cn": "这是一个 AI 智能体 方向的 开源 开源项目，主要用于：A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
-      "stars": 14781,
-      "forks": 1555,
-      "language": null,
-      "growth": {
         "rank": 38,
-        "stars_per_day": 328.03,
-        "created_at": "2026-09-27T06:19:36Z",
-        "pushed_at": "2026-10-13T14:46:44Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 333.1,
+        "created_at": "2026-10-16T19:35:33Z",
+        "pushed_at": "2026-11-12T01:49:30Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1026,43 +1024,15 @@
       "category_cn": "建站框架",
       "icon": "RU",
       "desc_cn": "这是一个 建站框架 方向的 Rust 开源项目，主要用于：Rune: Native UI framework.",
-      "stars": 6414,
-      "forks": 224,
+      "stars": 6745,
+      "forks": 241,
       "language": "Rust",
       "growth": {
         "rank": 39,
-        "stars_per_day": 319.43,
+        "stars_per_day": 319.6,
         "created_at": "2026-10-22T05:51:40Z",
-        "pushed_at": "2026-11-11T07:44:21Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "xiaoyang111222/cn-math-taxonomy",
-      "category": "Docs & Knowledge",
-      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
-      "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。.",
-      "tags": [
-        "python",
-        "chinese",
-        "curriculum",
-        "diagnostic",
-        "rising"
-      ],
-      "badge": "Rising #40",
-      "featured": false,
-      "category_cn": "文档知识库",
-      "icon": "CN",
-      "desc_cn": "这是一个 文档知识库 方向的 Python 开源项目，主要用于：数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。.",
-      "stars": 7550,
-      "forks": 1997,
-      "language": "Python",
-      "growth": {
-        "rank": 40,
-        "stars_per_day": 315.3,
-        "created_at": "2026-10-18T09:04:43Z",
-        "pushed_at": "2026-11-11T07:44:52Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:22:09Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1077,20 +1047,48 @@
         "claude-skills",
         "rising"
       ],
-      "badge": "Rising #41",
+      "badge": "Rising #40",
       "featured": false,
       "category_cn": "数据分析",
       "icon": "DA",
       "desc_cn": "这是一个 数据分析 方向的 Python 开源项目，主要用于：11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-      "stars": 6772,
-      "forks": 1652,
+      "stars": 7202,
+      "forks": 1731,
+      "language": "Python",
+      "growth": {
+        "rank": 40,
+        "stars_per_day": 316.53,
+        "created_at": "2026-10-20T14:17:54Z",
+        "pushed_at": "2026-10-20T14:18:00Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "xiaoyang111222/cn-math-taxonomy",
+      "category": "Docs & Knowledge",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。.",
+      "tags": [
+        "python",
+        "chinese",
+        "curriculum",
+        "diagnostic",
+        "rising"
+      ],
+      "badge": "Rising #41",
+      "featured": false,
+      "category_cn": "文档知识库",
+      "icon": "CN",
+      "desc_cn": "这是一个 文档知识库 方向的 Python 开源项目，主要用于：数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。.",
+      "stars": 7780,
+      "forks": 2076,
       "language": "Python",
       "growth": {
         "rank": 41,
-        "stars_per_day": 311.67,
-        "created_at": "2026-10-20T14:17:54Z",
-        "pushed_at": "2026-10-20T14:18:00Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 311.57,
+        "created_at": "2026-10-18T09:04:43Z",
+        "pushed_at": "2026-11-12T06:08:22Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1110,15 +1108,15 @@
       "category_cn": "建站框架",
       "icon": "MA",
       "desc_cn": "这是一个 建站框架 方向的 C 开源项目，主要用于：Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal…",
-      "stars": 7506,
-      "forks": 1133,
+      "stars": 7603,
+      "forks": 1139,
       "language": "C",
       "growth": {
         "rank": 42,
-        "stars_per_day": 306.42,
+        "stars_per_day": 297.91,
         "created_at": "2026-10-17T19:52:00Z",
-        "pushed_at": "2026-11-11T07:00:24Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:52:10Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1138,43 +1136,15 @@
       "category_cn": "AI 智能体",
       "icon": "BL",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Po…",
-      "stars": 5140,
-      "forks": 617,
+      "stars": 5373,
+      "forks": 647,
       "language": "TypeScript",
       "growth": {
         "rank": 43,
-        "stars_per_day": 300.63,
+        "stars_per_day": 296.48,
         "created_at": "2026-10-25T05:25:45Z",
-        "pushed_at": "2026-11-11T05:58:26Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "HeyPuter/everything",
-      "category": "Web Frameworks",
-      "url": "https://github.com/HeyPuter/everything",
-      "desc": "We're rebuilding and open-sourcing the world’s software from scratch.",
-      "tags": [
-        "javascript",
-        "adobe",
-        "cad",
-        "microsoft",
-        "rising"
-      ],
-      "badge": "Rising #44",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "EV",
-      "desc_cn": "这是一个 建站框架 方向的 JavaScript 开源项目，主要用于：We're rebuilding and open-sourcing the world’s software from scratch.",
-      "stars": 8065,
-      "forks": 862,
-      "language": "JavaScript",
-      "growth": {
-        "rank": 44,
-        "stars_per_day": 281.56,
-        "created_at": "2026-10-13T16:18:22Z",
-        "pushed_at": "2026-11-11T00:50:09Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:15:16Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1189,45 +1159,48 @@
         "homebrew",
         "rising"
       ],
-      "badge": "Rising #45",
+      "badge": "Rising #44",
       "featured": false,
       "category_cn": "自动化",
       "icon": "NX",
       "desc_cn": "这是一个 自动化 方向的 Swift 开源项目，主要用于：Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
-      "stars": 6041,
-      "forks": 759,
+      "stars": 6254,
+      "forks": 787,
       "language": "Swift",
       "growth": {
-        "rank": 45,
-        "stars_per_day": 280.16,
+        "rank": 44,
+        "stars_per_day": 276.88,
         "created_at": "2026-10-20T18:16:07Z",
-        "pushed_at": "2026-11-11T06:56:06Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T00:39:07Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
-      "name": "interplains/Zero-Breach-Toolkit",
-      "category": "Automation",
-      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
-      "desc": "Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windo…",
+      "name": "HeyPuter/everything",
+      "category": "Web Frameworks",
+      "url": "https://github.com/HeyPuter/everything",
+      "desc": "We're rebuilding and open-sourcing the world’s software from scratch.",
       "tags": [
-        "python",
+        "javascript",
+        "adobe",
+        "cad",
+        "microsoft",
         "rising"
       ],
-      "badge": "Rising #46",
+      "badge": "Rising #45",
       "featured": false,
-      "category_cn": "自动化",
-      "icon": "ZE",
-      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windo…",
-      "stars": 4653,
-      "forks": 486,
-      "language": "Python",
+      "category_cn": "建站框架",
+      "icon": "EV",
+      "desc_cn": "这是一个 建站框架 方向的 JavaScript 开源项目，主要用于：We're rebuilding and open-sourcing the world’s software from scratch.",
+      "stars": 8169,
+      "forks": 882,
+      "language": "JavaScript",
       "growth": {
-        "rank": 46,
-        "stars_per_day": 278.43,
-        "created_at": "2026-10-25T14:41:34Z",
-        "pushed_at": "2026-11-05T14:13:44Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "rank": 45,
+        "stars_per_day": 275.33,
+        "created_at": "2026-10-13T16:18:22Z",
+        "pushed_at": "2026-11-12T06:33:54Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1241,20 +1214,20 @@
         "rust-lang",
         "rising"
       ],
-      "badge": "Rising #47",
+      "badge": "Rising #46",
       "featured": false,
       "category_cn": "自动化",
       "icon": "VE",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：VectorCraft: An open-source vector art tool written from scratch in pure Rust.",
-      "stars": 11609,
-      "forks": 5598,
+      "stars": 11653,
+      "forks": 5613,
       "language": "Rust",
       "growth": {
-        "rank": 47,
-        "stars_per_day": 278.05,
+        "rank": 46,
+        "stars_per_day": 272.41,
         "created_at": "2026-09-30T13:43:03Z",
-        "pushed_at": "2026-11-11T07:39:41Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:14:19Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1269,73 +1242,20 @@
         "google-tv",
         "rising"
       ],
-      "badge": "Rising #48",
+      "badge": "Rising #47",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "FR",
       "desc_cn": "这是一个 建站框架 方向的 Java 开源项目，主要用于：A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
-      "stars": 6258,
-      "forks": 1092,
+      "stars": 6286,
+      "forks": 1099,
       "language": "Java",
       "growth": {
-        "rank": 48,
-        "stars_per_day": 277.99,
+        "rank": 47,
+        "stars_per_day": 267.07,
         "created_at": "2026-10-19T19:29:01Z",
         "pushed_at": "2026-11-11T04:38:41Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "designfuchen/word-atlas",
-      "category": "Web Frameworks",
-      "url": "https://github.com/designfuchen/word-atlas",
-      "desc": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
-      "tags": [
-        "typescript",
-        "chinese",
-        "dataset",
-        "english-learning",
-        "rising"
-      ],
-      "badge": "Rising #49",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "WO",
-      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
-      "stars": 4671,
-      "forks": 991,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 49,
-        "stars_per_day": 275.23,
-        "created_at": "2026-10-25T08:27:22Z",
-        "pushed_at": "2026-11-08T16:06:50Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "JustAResearcher/gpu-unlock-ada",
-      "category": "Automation",
-      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
-      "desc": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally.",
-      "tags": [
-        "c",
-        "rising"
-      ],
-      "badge": "Rising #50",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "GP",
-      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally.",
-      "stars": 4866,
-      "forks": 631,
-      "language": "C",
-      "growth": {
-        "rank": 50,
-        "stars_per_day": 263.77,
-        "created_at": "2026-10-23T21:00:53Z",
-        "pushed_at": "2026-10-26T04:24:46Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1350,20 +1270,98 @@
         "deepseek",
         "rising"
       ],
-      "badge": "Rising #51",
+      "badge": "Rising #48",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "DS",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。.",
-      "stars": 6727,
-      "forks": 3060,
+      "stars": 7203,
+      "forks": 3236,
       "language": "JavaScript",
       "growth": {
-        "rank": 51,
-        "stars_per_day": 258.72,
+        "rank": 48,
+        "stars_per_day": 266.52,
         "created_at": "2026-10-16T07:44:27Z",
-        "pushed_at": "2026-11-10T16:37:21Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-11T16:26:24Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "interplains/Zero-Breach-Toolkit",
+      "category": "Automation",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "desc": "Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windo…",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #49",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "ZE",
+      "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windo…",
+      "stars": 4685,
+      "forks": 488,
+      "language": "Python",
+      "growth": {
+        "rank": 49,
+        "stars_per_day": 264.14,
+        "created_at": "2026-10-25T14:41:34Z",
+        "pushed_at": "2026-11-11T20:27:54Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "designfuchen/word-atlas",
+      "category": "Web Frameworks",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "desc": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "tags": [
+        "typescript",
+        "chinese",
+        "dataset",
+        "english-learning",
+        "rising"
+      ],
+      "badge": "Rising #50",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "WO",
+      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "stars": 4734,
+      "forks": 1005,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 50,
+        "stars_per_day": 263.05,
+        "created_at": "2026-10-25T08:27:22Z",
+        "pushed_at": "2026-11-08T16:06:50Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "JustAResearcher/gpu-unlock-ada",
+      "category": "Automation",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "desc": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally.",
+      "tags": [
+        "c",
+        "rising"
+      ],
+      "badge": "Rising #51",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "GP",
+      "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally.",
+      "stars": 4876,
+      "forks": 637,
+      "language": "C",
+      "growth": {
+        "rank": 51,
+        "stars_per_day": 250.39,
+        "created_at": "2026-10-23T21:00:53Z",
+        "pushed_at": "2026-10-26T04:24:46Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1383,15 +1381,15 @@
       "category_cn": "AI 智能体",
       "icon": "AI",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。.",
-      "stars": 10329,
-      "forks": 2405,
+      "stars": 10425,
+      "forks": 2426,
       "language": "TypeScript",
       "growth": {
         "rank": 52,
-        "stars_per_day": 238.34,
+        "stars_per_day": 234.99,
         "created_at": "2026-09-28T23:40:05Z",
-        "pushed_at": "2026-11-11T02:44:47Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:51:48Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1411,43 +1409,15 @@
       "category_cn": "AI 智能体",
       "icon": "FL",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
-      "stars": 3467,
-      "forks": 274,
+      "stars": 3721,
+      "forks": 304,
       "language": "JavaScript",
       "growth": {
         "rank": 53,
-        "stars_per_day": 233.91,
+        "stars_per_day": 234.81,
         "created_at": "2026-10-27T12:03:01Z",
         "pushed_at": "2026-11-11T03:49:40Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "rehan-remade/universal-modder",
-      "category": "AI Agents",
-      "url": "https://github.com/rehan-remade/universal-modder",
-      "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing…",
-      "tags": [
-        "python",
-        "age-of-empires",
-        "claude-code",
-        "claude-code-plugin",
-        "rising"
-      ],
-      "badge": "Rising #54",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "UN",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing…",
-      "stars": 9599,
-      "forks": 1067,
-      "language": "Python",
-      "growth": {
-        "rank": 54,
-        "stars_per_day": 227.92,
-        "created_at": "2026-09-30T05:00:35Z",
-        "pushed_at": "2026-11-11T06:27:34Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1462,45 +1432,20 @@
         "app-clone",
         "rising"
       ],
-      "badge": "Rising #55",
+      "badge": "Rising #54",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "RE",
       "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
-      "stars": 8841,
-      "forks": 1591,
+      "stars": 9016,
+      "forks": 1622,
       "language": "Python",
       "growth": {
-        "rank": 55,
-        "stars_per_day": 227.75,
+        "rank": 54,
+        "stars_per_day": 226.29,
         "created_at": "2026-10-03T12:07:49Z",
         "pushed_at": "2026-10-03T12:07:53Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "storytold/cadcraft",
-      "category": "AI Agents",
-      "url": "https://github.com/storytold/cadcraft",
-      "desc": "CADCraft: computer-aided design and drafting — an open-source, clean-room CAD application in pure Rust.",
-      "tags": [
-        "rust",
-        "rising"
-      ],
-      "badge": "Rising #56",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "CA",
-      "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：CADCraft: computer-aided design and drafting — an open-source, clean-room CAD application in pure Rust.",
-      "stars": 7931,
-      "forks": 3360,
-      "language": "Rust",
-      "growth": {
-        "rank": 56,
-        "stars_per_day": 225.96,
-        "created_at": "2026-10-07T05:22:31Z",
-        "pushed_at": "2026-11-11T04:37:23Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1515,20 +1460,73 @@
         "gamedev",
         "rising"
       ],
-      "badge": "Rising #57",
+      "badge": "Rising #55",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "HO",
       "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
-      "stars": 8663,
-      "forks": 1388,
+      "stars": 8854,
+      "forks": 1451,
+      "language": "Rust",
+      "growth": {
+        "rank": 55,
+        "stars_per_day": 223.39,
+        "created_at": "2026-10-03T17:08:48Z",
+        "pushed_at": "2026-11-12T08:20:16Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "rehan-remade/universal-modder",
+      "category": "AI Agents",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing…",
+      "tags": [
+        "python",
+        "age-of-empires",
+        "claude-code",
+        "claude-code-plugin",
+        "rising"
+      ],
+      "badge": "Rising #56",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "UN",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing…",
+      "stars": 9634,
+      "forks": 1073,
+      "language": "Python",
+      "growth": {
+        "rank": 56,
+        "stars_per_day": 223.32,
+        "created_at": "2026-09-30T05:00:35Z",
+        "pushed_at": "2026-11-12T06:28:12Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "storytold/cadcraft",
+      "category": "AI Agents",
+      "url": "https://github.com/storytold/cadcraft",
+      "desc": "CADCraft: computer-aided design and drafting — an open-source, clean-room CAD application in pure Rust.",
+      "tags": [
+        "rust",
+        "rising"
+      ],
+      "badge": "Rising #57",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "CA",
+      "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：CADCraft: computer-aided design and drafting — an open-source, clean-room CAD application in pure Rust.",
+      "stars": 7990,
+      "forks": 3373,
       "language": "Rust",
       "growth": {
         "rank": 57,
-        "stars_per_day": 224.38,
-        "created_at": "2026-10-03T17:08:48Z",
-        "pushed_at": "2026-11-11T02:39:22Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 221.18,
+        "created_at": "2026-10-07T05:22:31Z",
+        "pushed_at": "2026-11-12T04:19:16Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1548,15 +1546,15 @@
       "category_cn": "自动化",
       "icon": "EF",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：EffectCraft: An open-source motion graphics and compositing tool written from scratch in pure Rust.",
-      "stars": 8634,
-      "forks": 4557,
+      "stars": 8667,
+      "forks": 4574,
       "language": "Rust",
       "growth": {
         "rank": 58,
-        "stars_per_day": 212.02,
+        "stars_per_day": 207.6,
         "created_at": "2026-10-01T14:24:46Z",
-        "pushed_at": "2026-11-11T05:44:32Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:10:56Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1573,15 +1571,15 @@
       "category_cn": "自动化",
       "icon": "GR",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：GridCraft: an open-source, clean-room spreadsheet in pure Rust. By ArtCraft.",
-      "stars": 7418,
-      "forks": 3425,
+      "stars": 7460,
+      "forks": 3441,
       "language": "Rust",
       "growth": {
         "rank": 59,
-        "stars_per_day": 211.32,
+        "stars_per_day": 206.49,
         "created_at": "2026-10-07T05:18:16Z",
-        "pushed_at": "2026-11-11T07:12:56Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T06:43:23Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1601,15 +1599,15 @@
       "category_cn": "AI 智能体",
       "icon": "DS",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
-      "stars": 6917,
-      "forks": 644,
+      "stars": 7083,
+      "forks": 663,
       "language": "JavaScript",
       "growth": {
         "rank": 60,
-        "stars_per_day": 199.49,
+        "stars_per_day": 198.42,
         "created_at": "2026-10-07T15:37:36Z",
-        "pushed_at": "2026-11-11T07:25:11Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:22:22Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1629,40 +1627,15 @@
       "category_cn": "AI 智能体",
       "icon": "TO",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Experience-Driven Black-Box Cost Control for Coding Agents.",
-      "stars": 5672,
-      "forks": 353,
+      "stars": 5759,
+      "forks": 365,
       "language": "Python",
       "growth": {
         "rank": 61,
-        "stars_per_day": 194.61,
+        "stars_per_day": 190.88,
         "created_at": "2026-10-13T04:16:50Z",
-        "pushed_at": "2026-11-10T19:09:48Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "t3dotgg/tstack",
-      "category": "AI Agents",
-      "url": "https://github.com/t3dotgg/tstack",
-      "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #62",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "TS",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：The agent skills I use every day. Works with Claude Code and Codex.",
-      "stars": 3460,
-      "forks": 260,
-      "language": "Python",
-      "growth": {
-        "rank": 62,
-        "stars_per_day": 191.0,
-        "created_at": "2026-10-24T05:00:20Z",
-        "pushed_at": "2026-10-28T02:38:03Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T00:30:28Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1677,20 +1650,45 @@
         "file-search",
         "rising"
       ],
-      "badge": "Rising #63",
+      "badge": "Rising #62",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "DI",
       "desc_cn": "这是一个 建站框架 方向的 Swift 开源项目，主要用于：Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2…",
-      "stars": 6366,
-      "forks": 504,
+      "stars": 6384,
+      "forks": 506,
       "language": "Swift",
       "growth": {
-        "rank": 63,
-        "stars_per_day": 190.23,
+        "rank": 62,
+        "stars_per_day": 185.1,
         "created_at": "2026-10-08T20:37:51Z",
         "pushed_at": "2026-10-26T20:44:04Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "t3dotgg/tstack",
+      "category": "AI Agents",
+      "url": "https://github.com/t3dotgg/tstack",
+      "desc": "The agent skills I use every day. Works with Claude Code and Codex.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #63",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "TS",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：The agent skills I use every day. Works with Claude Code and Codex.",
+      "stars": 3497,
+      "forks": 263,
+      "language": "Python",
+      "growth": {
+        "rank": 63,
+        "stars_per_day": 182.7,
+        "created_at": "2026-10-24T05:00:20Z",
+        "pushed_at": "2026-11-11T11:33:03Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1710,15 +1708,15 @@
       "category_cn": "AI 智能体",
       "icon": "HU",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。.",
-      "stars": 6710,
-      "forks": 664,
+      "stars": 6776,
+      "forks": 668,
       "language": "JavaScript",
       "growth": {
         "rank": 64,
-        "stars_per_day": 185.76,
+        "stars_per_day": 182.41,
         "created_at": "2026-10-06T04:49:37Z",
         "pushed_at": "2026-11-10T01:40:26Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1738,15 +1736,15 @@
       "category_cn": "数据分析",
       "icon": "D2",
       "desc_cn": "这是一个 数据分析 方向的 C 开源项目，主要用于：Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS —…",
-      "stars": 5259,
-      "forks": 1329,
+      "stars": 5278,
+      "forks": 1332,
       "language": "C",
       "growth": {
         "rank": 65,
-        "stars_per_day": 175.52,
+        "stars_per_day": 170.33,
         "created_at": "2026-10-12T08:41:19Z",
         "pushed_at": "2026-11-08T20:52:41Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1766,15 +1764,15 @@
       "category_cn": "自动化",
       "icon": "RE",
       "desc_cn": "这是一个 自动化 方向的 Batchfile 开源项目，主要用于：REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program.",
-      "stars": 3911,
-      "forks": 698,
+      "stars": 3969,
+      "forks": 704,
       "language": "Batchfile",
       "growth": {
         "rank": 66,
-        "stars_per_day": 174.66,
+        "stars_per_day": 169.49,
         "created_at": "2026-10-19T22:20:47Z",
         "pushed_at": "2026-11-05T12:58:38Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1794,40 +1792,15 @@
       "category_cn": "自动化",
       "icon": "DS",
       "desc_cn": "这是一个 自动化 方向的 JavaScript 开源项目，主要用于：A toolkit for low-level operations in DSH, designed to reduce token usage and task execution time / DSH 底层操作工具插件，旨在减少 Token 消耗与任务耗时.",
-      "stars": 5688,
+      "stars": 5742,
       "forks": 200,
       "language": "JavaScript",
       "growth": {
         "rank": 67,
-        "stars_per_day": 167.17,
+        "stars_per_day": 163.82,
         "created_at": "2026-10-08T07:09:25Z",
-        "pushed_at": "2026-11-11T07:39:38Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "aicodeking/leanrea",
-      "category": "AI Agents",
-      "url": "https://github.com/aicodeking/leanrea",
-      "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
-      "tags": [
-        "python",
-        "rising"
-      ],
-      "badge": "Rising #68",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "LE",
-      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
-      "stars": 4195,
-      "forks": 640,
-      "language": "Python",
-      "growth": {
-        "rank": 68,
-        "stars_per_day": 166.45,
-        "created_at": "2026-10-17T02:53:24Z",
-        "pushed_at": "2026-10-19T11:34:21Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:43:57Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1842,20 +1815,45 @@
         "claude-code",
         "rising"
       ],
-      "badge": "Rising #69",
+      "badge": "Rising #68",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "EA",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-      "stars": 4467,
-      "forks": 288,
+      "stars": 4547,
+      "forks": 290,
+      "language": "Python",
+      "growth": {
+        "rank": 68,
+        "stars_per_day": 162.03,
+        "created_at": "2026-10-15T06:52:46Z",
+        "pushed_at": "2026-11-06T17:24:16Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "aicodeking/leanrea",
+      "category": "AI Agents",
+      "url": "https://github.com/aicodeking/leanrea",
+      "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+      "tags": [
+        "python",
+        "rising"
+      ],
+      "badge": "Rising #69",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "LE",
+      "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+      "stars": 4223,
+      "forks": 642,
       "language": "Python",
       "growth": {
         "rank": 69,
-        "stars_per_day": 165.22,
-        "created_at": "2026-10-15T06:52:46Z",
-        "pushed_at": "2026-11-06T17:24:16Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 161.01,
+        "created_at": "2026-10-17T02:53:24Z",
+        "pushed_at": "2026-10-19T11:34:21Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1872,43 +1870,15 @@
       "category_cn": "自动化",
       "icon": "CR",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：The Craft App Launcher.",
-      "stars": 5214,
-      "forks": 1486,
+      "stars": 5261,
+      "forks": 1493,
       "language": "Rust",
       "growth": {
         "rank": 70,
-        "stars_per_day": 161.17,
+        "stars_per_day": 157.63,
         "created_at": "2026-10-09T23:21:59Z",
-        "pushed_at": "2026-11-11T02:51:55Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "Louis-CFM/coucou",
-      "category": "AI Agents",
-      "url": "https://github.com/Louis-CFM/coucou",
-      "desc": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notc…",
-      "tags": [
-        "swift",
-        "ai-agents",
-        "anthropic",
-        "antigravity",
-        "rising"
-      ],
-      "badge": "Rising #71",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "CO",
-      "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notc…",
-      "stars": 7120,
-      "forks": 1172,
-      "language": "Swift",
-      "growth": {
-        "rank": 71,
-        "stars_per_day": 160.32,
-        "created_at": "2026-09-27T21:54:12Z",
-        "pushed_at": "2026-11-06T13:51:13Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T01:41:24Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1923,20 +1893,20 @@
         "automation",
         "rising"
       ],
-      "badge": "Rising #72",
+      "badge": "Rising #71",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "ES",
       "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-      "stars": 4832,
-      "forks": 659,
+      "stars": 4866,
+      "forks": 663,
       "language": "Swift",
       "growth": {
-        "rank": 72,
-        "stars_per_day": 158.3,
+        "rank": 71,
+        "stars_per_day": 154.23,
         "created_at": "2026-10-11T19:10:25Z",
-        "pushed_at": "2026-11-11T07:17:49Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-11T20:56:50Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -1951,45 +1921,20 @@
         "claude-code",
         "rising"
       ],
-      "badge": "Rising #73",
+      "badge": "Rising #72",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "AN",
       "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。.",
-      "stars": 6225,
-      "forks": 414,
+      "stars": 6253,
+      "forks": 418,
       "language": "JavaScript",
       "growth": {
-        "rank": 73,
-        "stars_per_day": 155.98,
+        "rank": 72,
+        "stars_per_day": 152.76,
         "created_at": "2026-10-02T09:57:40Z",
-        "pushed_at": "2026-11-10T10:33:12Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "CopilotKit/OpenDots",
-      "category": "AI Agents",
-      "url": "https://github.com/CopilotKit/OpenDots",
-      "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
-      "tags": [
-        "typescript",
-        "rising"
-      ],
-      "badge": "Rising #74",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "OP",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Your always-on AI coworkers that move between text, calls, and Slack.",
-      "stars": 6517,
-      "forks": 962,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 74,
-        "stars_per_day": 152.96,
-        "created_at": "2026-09-29T17:13:58Z",
-        "pushed_at": "2026-11-10T08:10:14Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-11T19:55:14Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2001,20 +1946,20 @@
         "c",
         "rising"
       ],
-      "badge": "Rising #75",
+      "badge": "Rising #73",
       "featured": false,
       "category_cn": "自动化",
       "icon": "SA",
       "desc_cn": "这是一个 自动化 方向的 C 开源项目，主要用于：Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools i…",
-      "stars": 3862,
-      "forks": 228,
+      "stars": 4008,
+      "forks": 234,
       "language": "C",
       "growth": {
-        "rank": 75,
-        "stars_per_day": 150.91,
+        "rank": 73,
+        "stars_per_day": 150.58,
         "created_at": "2026-10-16T17:34:55Z",
-        "pushed_at": "2026-11-11T03:40:58Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T04:59:06Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2029,20 +1974,73 @@
         "codex",
         "rising"
       ],
-      "badge": "Rising #76",
+      "badge": "Rising #74",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "OP",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
-      "stars": 5710,
-      "forks": 543,
+      "stars": 5849,
+      "forks": 559,
       "language": "TypeScript",
       "growth": {
-        "rank": 76,
-        "stars_per_day": 150.55,
+        "rank": 74,
+        "stars_per_day": 150.15,
         "created_at": "2026-10-04T09:29:07Z",
-        "pushed_at": "2026-11-09T19:48:33Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:13:19Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "CopilotKit/OpenDots",
+      "category": "AI Agents",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "desc": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "tags": [
+        "typescript",
+        "rising"
+      ],
+      "badge": "Rising #75",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "OP",
+      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Your always-on AI coworkers that move between text, calls, and Slack.",
+      "stars": 6548,
+      "forks": 965,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 75,
+        "stars_per_day": 150.08,
+        "created_at": "2026-09-29T17:13:58Z",
+        "pushed_at": "2026-11-12T02:09:16Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "mmparko/dsh-purge",
+      "category": "AI Agents",
+      "url": "https://github.com/mmparko/dsh-purge",
+      "desc": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。.",
+      "tags": [
+        "javascript",
+        "archive",
+        "deepseek",
+        "deepseek-harness",
+        "rising"
+      ],
+      "badge": "Rising #76",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "DS",
+      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。.",
+      "stars": 4483,
+      "forks": 4438,
+      "language": "JavaScript",
+      "growth": {
+        "rank": 76,
+        "stars_per_day": 148.79,
+        "created_at": "2026-10-13T05:14:47Z",
+        "pushed_at": "2026-10-13T05:50:46Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2061,43 +2059,15 @@
       "category_cn": "自动化",
       "icon": "FI",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust.",
-      "stars": 4811,
-      "forks": 1801,
+      "stars": 4859,
+      "forks": 1814,
       "language": "Rust",
       "growth": {
         "rank": 77,
-        "stars_per_day": 147.33,
+        "stars_per_day": 144.27,
         "created_at": "2026-10-09T16:02:13Z",
-        "pushed_at": "2026-11-11T03:05:24Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "mmparko/dsh-purge",
-      "category": "AI Agents",
-      "url": "https://github.com/mmparko/dsh-purge",
-      "desc": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。.",
-      "tags": [
-        "javascript",
-        "archive",
-        "deepseek",
-        "deepseek-harness",
-        "rising"
-      ],
-      "badge": "Rising #78",
-      "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "DS",
-      "desc_cn": "这是一个 AI 智能体 方向的 JavaScript 开源项目，主要用于：DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。.",
-      "stars": 4259,
-      "forks": 4304,
-      "language": "JavaScript",
-      "growth": {
-        "rank": 78,
-        "stars_per_day": 146.33,
-        "created_at": "2026-10-13T05:14:47Z",
-        "pushed_at": "2026-10-13T05:50:46Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:38:30Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2112,20 +2082,20 @@
         "apple-intelligence",
         "rising"
       ],
-      "badge": "Rising #79",
+      "badge": "Rising #78",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "RE",
       "desc_cn": "这是一个 AI 智能体 方向的 Swift 开源项目，主要用于：Turn off Apple Intelligence and delete its models on your Mac. Optional tweaks for analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
-      "stars": 6011,
+      "stars": 6033,
       "forks": 173,
       "language": "Swift",
       "growth": {
-        "rank": 79,
-        "stars_per_day": 140.24,
+        "rank": 78,
+        "stars_per_day": 137.46,
         "created_at": "2026-09-29T11:02:39Z",
-        "pushed_at": "2026-11-11T03:05:40Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T03:06:07Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2137,20 +2107,48 @@
         "python",
         "rising"
       ],
-      "badge": "Rising #80",
+      "badge": "Rising #79",
       "featured": false,
       "category_cn": "自动化",
       "icon": "IP",
       "desc_cn": "这是一个 自动化 方向的 Python 开源项目，主要用于：让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。.",
-      "stars": 4975,
+      "stars": 4984,
       "forks": 499,
       "language": "Python",
       "growth": {
-        "rank": 80,
-        "stars_per_day": 139.39,
+        "rank": 79,
+        "stars_per_day": 135.74,
         "created_at": "2026-10-06T15:09:33Z",
         "pushed_at": "2026-10-22T13:45:15Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "shader-effects-inc/shaders",
+      "category": "Web Frameworks",
+      "url": "https://github.com/shader-effects-inc/shaders",
+      "desc": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer.",
+      "tags": [
+        "typescript",
+        "cli",
+        "javascript",
+        "mcp",
+        "rising"
+      ],
+      "badge": "Rising #80",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "SH",
+      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：WebGPU components for React, Vue, Svelte, Solid, JS & Framer.",
+      "stars": 5911,
+      "forks": 278,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 80,
+        "stars_per_day": 135.4,
+        "created_at": "2026-09-29T16:36:26Z",
+        "pushed_at": "2026-11-11T23:14:39Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2170,43 +2168,15 @@
       "category_cn": "建站框架",
       "icon": "TW",
       "desc_cn": "这是一个 建站框架 方向的 JavaScript 开源项目，主要用于：All your computers and your phone/iPhone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux…",
-      "stars": 3913,
-      "forks": 303,
+      "stars": 3953,
+      "forks": 306,
       "language": "JavaScript",
       "growth": {
         "rank": 81,
-        "stars_per_day": 138.42,
+        "stars_per_day": 134.94,
         "created_at": "2026-10-14T01:19:02Z",
-        "pushed_at": "2026-11-11T00:03:54Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "shader-effects-inc/shaders",
-      "category": "Web Frameworks",
-      "url": "https://github.com/shader-effects-inc/shaders",
-      "desc": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer.",
-      "tags": [
-        "typescript",
-        "cli",
-        "javascript",
-        "mcp",
-        "rising"
-      ],
-      "badge": "Rising #82",
-      "featured": false,
-      "category_cn": "建站框架",
-      "icon": "SH",
-      "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：WebGPU components for React, Vue, Svelte, Solid, JS & Framer.",
-      "stars": 5899,
-      "forks": 276,
-      "language": "TypeScript",
-      "growth": {
-        "rank": 82,
-        "stars_per_day": 138.37,
-        "created_at": "2026-09-29T16:36:26Z",
-        "pushed_at": "2026-11-10T03:52:58Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T08:21:47Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2218,20 +2188,20 @@
         "rust",
         "rising"
       ],
-      "badge": "Rising #83",
+      "badge": "Rising #82",
       "featured": false,
       "category_cn": "自动化",
       "icon": "DE",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：DeckCraft: presentations and slide shows; an open-source, clean-room presentation app in pure Rust. Part of the ArtCraft Crafting Apps.",
-      "stars": 4725,
-      "forks": 2721,
+      "stars": 4747,
+      "forks": 2730,
       "language": "Rust",
       "growth": {
-        "rank": 83,
-        "stars_per_day": 134.63,
+        "rank": 82,
+        "stars_per_day": 131.42,
         "created_at": "2026-10-07T05:27:21Z",
-        "pushed_at": "2026-11-11T05:06:09Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-12T07:01:00Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2246,20 +2216,20 @@
         "docker",
         "rising"
       ],
-      "badge": "Rising #84",
+      "badge": "Rising #83",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "DO",
       "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
-      "stars": 4981,
-      "forks": 1034,
+      "stars": 5054,
+      "forks": 1044,
       "language": "TypeScript",
       "growth": {
-        "rank": 84,
-        "stars_per_day": 129.61,
+        "rank": 83,
+        "stars_per_day": 128.09,
         "created_at": "2026-10-03T21:26:15Z",
         "pushed_at": "2026-11-08T13:29:38Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2274,20 +2244,48 @@
         "print",
         "rising"
       ],
-      "badge": "Rising #85",
+      "badge": "Rising #84",
       "featured": false,
       "category_cn": "自动化",
       "icon": "DE",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：DesignCraft: An open-source page and layout design editor written from scratch in pure Rust.",
-      "stars": 5229,
-      "forks": 3578,
+      "stars": 5244,
+      "forks": 3586,
+      "language": "Rust",
+      "growth": {
+        "rank": 84,
+        "stars_per_day": 125.46,
+        "created_at": "2026-10-01T13:13:14Z",
+        "pushed_at": "2026-11-12T04:52:42Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "nullmoth/nvidia-macos-driver",
+      "category": "Automation",
+      "url": "https://github.com/nullmoth/nvidia-macos-driver",
+      "desc": "Metal driver for NVIDIA GeForce cards on macOS Sequoia.",
+      "tags": [
+        "rust",
+        "kext",
+        "macos",
+        "metal",
+        "rising"
+      ],
+      "badge": "Rising #85",
+      "featured": false,
+      "category_cn": "自动化",
+      "icon": "NV",
+      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Metal driver for NVIDIA GeForce cards on macOS Sequoia.",
+      "stars": 4336,
+      "forks": 420,
       "language": "Rust",
       "growth": {
         "rank": 85,
-        "stars_per_day": 128.25,
-        "created_at": "2026-10-01T13:13:14Z",
-        "pushed_at": "2026-11-11T06:57:58Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 120.42,
+        "created_at": "2026-10-07T08:13:12Z",
+        "pushed_at": "2026-11-11T08:49:19Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2307,43 +2305,40 @@
       "category_cn": "数据分析",
       "icon": "PE",
       "desc_cn": "这是一个 数据分析 方向的 TypeScript 开源项目，主要用于：Renders Mermaid diagrams faster than you'd run from a volcano! 🌋.",
-      "stars": 4456,
-      "forks": 136,
+      "stars": 4484,
+      "forks": 138,
       "language": "TypeScript",
       "growth": {
         "rank": 86,
-        "stars_per_day": 122.61,
+        "stars_per_day": 120.0,
         "created_at": "2026-10-05T23:32:40Z",
         "pushed_at": "2026-10-31T00:21:43Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
-      "name": "nullmoth/nvidia-macos-driver",
+      "name": "storytold/soundcraft",
       "category": "Automation",
-      "url": "https://github.com/nullmoth/nvidia-macos-driver",
-      "desc": "Metal driver for NVIDIA GeForce cards on macOS Sequoia.",
+      "url": "https://github.com/storytold/soundcraft",
+      "desc": "SoundCraft: an open-source, clean-room digital audio workstation (DAW) in pure Rust.",
       "tags": [
         "rust",
-        "kext",
-        "macos",
-        "metal",
         "rising"
       ],
       "badge": "Rising #87",
       "featured": false,
       "category_cn": "自动化",
-      "icon": "NV",
-      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Metal driver for NVIDIA GeForce cards on macOS Sequoia.",
-      "stars": 4283,
-      "forks": 415,
+      "icon": "SO",
+      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：SoundCraft: an open-source, clean-room digital audio workstation (DAW) in pure Rust.",
+      "stars": 4291,
+      "forks": 2564,
       "language": "Rust",
       "growth": {
         "rank": 87,
-        "stars_per_day": 122.44,
-        "created_at": "2026-10-07T08:13:12Z",
-        "pushed_at": "2026-11-10T10:27:58Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 119.22,
+        "created_at": "2026-10-07T08:31:31Z",
+        "pushed_at": "2026-11-12T00:57:13Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2360,40 +2355,15 @@
       "category_cn": "自动化",
       "icon": "GI",
       "desc_cn": "这是一个 自动化 方向的 HTML 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 4012,
+      "stars": 4010,
       "forks": 0,
       "language": "HTML",
       "growth": {
         "rank": 88,
-        "stars_per_day": 122.42,
+        "stars_per_day": 118.65,
         "created_at": "2026-10-09T13:13:36Z",
         "pushed_at": "2026-11-02T04:41:15Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "storytold/soundcraft",
-      "category": "Automation",
-      "url": "https://github.com/storytold/soundcraft",
-      "desc": "SoundCraft: an open-source, clean-room digital audio workstation (DAW) in pure Rust.",
-      "tags": [
-        "rust",
-        "rising"
-      ],
-      "badge": "Rising #89",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "SO",
-      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：SoundCraft: an open-source, clean-room digital audio workstation (DAW) in pure Rust.",
-      "stars": 4261,
-      "forks": 2557,
-      "language": "Rust",
-      "growth": {
-        "rank": 89,
-        "stars_per_day": 121.85,
-        "created_at": "2026-10-07T08:31:31Z",
-        "pushed_at": "2026-11-11T05:24:38Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2405,20 +2375,20 @@
         "rust",
         "rising"
       ],
-      "badge": "Rising #90",
+      "badge": "Rising #89",
       "featured": false,
       "category_cn": "自动化",
       "icon": "CC",
       "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 3514,
-      "forks": 356,
+      "stars": 3538,
+      "forks": 359,
       "language": "Rust",
       "growth": {
-        "rank": 90,
-        "stars_per_day": 112.75,
+        "rank": 89,
+        "stars_per_day": 109.91,
         "created_at": "2026-10-11T03:47:06Z",
         "pushed_at": "2026-11-08T03:33:15Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2433,20 +2403,48 @@
         "nvidia",
         "rising"
       ],
-      "badge": "Rising #91",
+      "badge": "Rising #90",
       "featured": false,
       "category_cn": "后端数据库",
       "icon": "SC",
       "desc_cn": "这是一个 后端数据库 方向的 C# 开源项目，主要用于：Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
-      "stars": 4503,
-      "forks": 132,
+      "stars": 4526,
+      "forks": 131,
       "language": "C#",
       "growth": {
-        "rank": 91,
-        "stars_per_day": 106.08,
+        "rank": 90,
+        "stars_per_day": 104.11,
         "created_at": "2026-09-29T21:01:10Z",
         "pushed_at": "2026-11-08T21:35:06Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "vAPI-Network/vapi-network",
+      "category": "AI Agents",
+      "url": "https://github.com/vAPI-Network/vapi-network",
+      "desc": "Buyer-controlled client for x402 API payments in USDC on Base.",
+      "tags": [
+        "typescript",
+        "agent-payments",
+        "ai-agents",
+        "base",
+        "rising"
+      ],
+      "badge": "Rising #91",
+      "featured": false,
+      "category_cn": "AI 智能体",
+      "icon": "VA",
+      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Buyer-controlled client for x402 API payments in USDC on Base.",
+      "stars": 4176,
+      "forks": 145,
+      "language": "TypeScript",
+      "growth": {
+        "rank": 91,
+        "stars_per_day": 102.34,
+        "created_at": "2026-10-02T13:05:19Z",
+        "pushed_at": "2026-11-10T12:02:12Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2466,43 +2464,43 @@
       "category_cn": "AI 智能体",
       "icon": "OX",
       "desc_cn": "这是一个 AI 智能体 方向的 Python 开源项目，主要用于：An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.",
-      "stars": 3765,
-      "forks": 252,
+      "stars": 3786,
+      "forks": 253,
       "language": "Python",
       "growth": {
         "rank": 92,
-        "stars_per_day": 101.38,
+        "stars_per_day": 99.21,
         "created_at": "2026-10-05T04:28:31Z",
         "pushed_at": "2026-11-06T14:20:38Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
-      "name": "vAPI-Network/vapi-network",
-      "category": "AI Agents",
-      "url": "https://github.com/vAPI-Network/vapi-network",
-      "desc": "Buyer-controlled client for x402 API payments in USDC on Base.",
+      "name": "thtbee/nectarlink",
+      "category": "Automation",
+      "url": "https://github.com/thtbee/nectarlink",
+      "desc": "Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.",
       "tags": [
-        "typescript",
-        "agent-payments",
-        "ai-agents",
-        "base",
+        "rust",
+        "android",
+        "jetpack-compose",
+        "kde-connect-features",
         "rising"
       ],
       "badge": "Rising #93",
       "featured": false,
-      "category_cn": "AI 智能体",
-      "icon": "VA",
-      "desc_cn": "这是一个 AI 智能体 方向的 TypeScript 开源项目，主要用于：Buyer-controlled client for x402 API payments in USDC on Base.",
-      "stars": 4012,
-      "forks": 138,
-      "language": "TypeScript",
+      "category_cn": "自动化",
+      "icon": "NE",
+      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.",
+      "stars": 3814,
+      "forks": 336,
+      "language": "Rust",
       "growth": {
         "rank": 93,
-        "stars_per_day": 100.86,
-        "created_at": "2026-10-02T13:05:19Z",
-        "pushed_at": "2026-11-10T12:02:12Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "stars_per_day": 99.15,
+        "created_at": "2026-10-04T21:12:31Z",
+        "pushed_at": "2026-11-12T06:48:47Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2519,43 +2517,15 @@
       "category_cn": "建站框架",
       "icon": "VI",
       "desc_cn": "这是一个 建站框架 方向的 Python 开源项目，主要用于：A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
-      "stars": 4310,
+      "stars": 4335,
       "forks": 173,
       "language": "Python",
       "growth": {
         "rank": 94,
-        "stars_per_day": 99.63,
+        "stars_per_day": 97.89,
         "created_at": "2026-09-29T01:29:57Z",
         "pushed_at": "2026-10-09T09:37:21Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
-      }
-    },
-    {
-      "name": "thtbee/nectarlink",
-      "category": "Automation",
-      "url": "https://github.com/thtbee/nectarlink",
-      "desc": "Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.",
-      "tags": [
-        "rust",
-        "android",
-        "jetpack-compose",
-        "kde-connect-features",
-        "rising"
-      ],
-      "badge": "Rising #95",
-      "featured": false,
-      "category_cn": "自动化",
-      "icon": "NE",
-      "desc_cn": "这是一个 自动化 方向的 Rust 开源项目，主要用于：Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.",
-      "stars": 3706,
-      "forks": 329,
-      "language": "Rust",
-      "growth": {
-        "rank": 95,
-        "stars_per_day": 98.98,
-        "created_at": "2026-10-04T21:12:31Z",
-        "pushed_at": "2026-11-11T07:44:31Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2567,20 +2537,20 @@
         "c++",
         "rising"
       ],
-      "badge": "Rising #96",
+      "badge": "Rising #95",
       "featured": false,
       "category_cn": "后端数据库",
       "icon": "BL",
       "desc_cn": "这是一个 后端数据库 方向的 C++ 开源项目，主要用于：Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
-      "stars": 3995,
-      "forks": 1122,
+      "stars": 4004,
+      "forks": 1124,
       "language": "C++",
       "growth": {
-        "rank": 96,
-        "stars_per_day": 97.25,
+        "rank": 95,
+        "stars_per_day": 95.09,
         "created_at": "2026-10-01T05:50:31Z",
         "pushed_at": "2026-10-28T23:56:07Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2595,20 +2565,20 @@
         "api-relay-pricing",
         "rising"
       ],
-      "badge": "Rising #97",
+      "badge": "Rising #96",
       "featured": false,
       "category_cn": "AI 智能体",
       "icon": "FO",
       "desc_cn": "这是一个 AI 智能体 方向的 Rust 开源项目，主要用于：AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex.",
-      "stars": 3762,
+      "stars": 3763,
       "forks": 18,
       "language": "Rust",
       "growth": {
-        "rank": 97,
-        "stars_per_day": 94.25,
+        "rank": 96,
+        "stars_per_day": 91.92,
         "created_at": "2026-10-02T09:50:45Z",
-        "pushed_at": "2026-11-01T12:01:43Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "pushed_at": "2026-11-11T18:28:09Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2623,20 +2593,20 @@
         "react",
         "rising"
       ],
-      "badge": "Rising #98",
+      "badge": "Rising #97",
       "featured": false,
       "category_cn": "建站框架",
       "icon": "HA",
       "desc_cn": "这是一个 建站框架 方向的 TypeScript 开源项目，主要用于：Isometric line figures that answer the pointer. For React and for anything with a DOM.",
-      "stars": 3643,
-      "forks": 226,
+      "stars": 3671,
+      "forks": 228,
       "language": "TypeScript",
       "growth": {
-        "rank": 98,
-        "stars_per_day": 89.41,
+        "rank": 97,
+        "stars_per_day": 87.88,
         "created_at": "2026-10-01T13:52:19Z",
         "pushed_at": "2026-10-14T20:33:03Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     },
     {
@@ -2648,20 +2618,47 @@
         "html",
         "rising"
       ],
-      "badge": "Rising #99",
+      "badge": "Rising #98",
       "featured": false,
       "category_cn": "自动化",
       "icon": "FL",
       "desc_cn": "这是一个 自动化 方向的 HTML 开源项目，适合查看源码、功能定位和二次开发价值；原仓库暂未提供更详细的项目简介。",
-      "stars": 3698,
-      "forks": 778,
+      "stars": 3722,
+      "forks": 780,
       "language": "HTML",
       "growth": {
-        "rank": 99,
-        "stars_per_day": 85.6,
+        "rank": 98,
+        "stars_per_day": 84.16,
         "created_at": "2026-09-29T02:57:30Z",
         "pushed_at": "2026-10-02T02:32:11Z",
-        "synced_at": "2026-11-11T07:46:10.178234Z"
+        "synced_at": "2026-11-12T08:22:31.768686Z"
+      }
+    },
+    {
+      "name": "yangbin1322/hongguo-player",
+      "category": "Web Frameworks",
+      "url": "https://github.com/yangbin1322/hongguo-player",
+      "desc": "红果短剧电脑版 · 不用安卓模拟器，直接在 Windows / macOS 上刷红果短剧 · 国内下载: hongguo.235698.xyz · 打不开用蓝奏云 (无需密码): wwalp.lanzout.com/b0rbj88ji.",
+      "tags": [
+        "desktop-app",
+        "duanju",
+        "golang",
+        "rising"
+      ],
+      "badge": "Rising #99",
+      "featured": false,
+      "category_cn": "建站框架",
+      "icon": "HO",
+      "desc_cn": "这是一个 建站框架 方向的 开源 开源项目，主要用于：红果短剧电脑版 · 不用安卓模拟器，直接在 Windows / macOS 上刷红果短剧 · 国内下载: hongguo.235698.xyz · 打不开用蓝奏云 (无需密码): wwalp.lanzout.com/b0rbj88ji.",
+      "stars": 3519,
+      "forks": 159,
+      "language": null,
+      "growth": {
+        "rank": 99,
+        "stars_per_day": 81.02,
+        "created_at": "2026-09-29T21:54:29Z",
+        "pushed_at": "2026-11-11T09:24:56Z",
+        "synced_at": "2026-11-12T08:22:31.768686Z"
       }
     }
   ]
